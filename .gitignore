@@ -1,2 +1,2 @@
-.cabal-sanbox/
+.cabal-sandbox/*
 cabal.sandbox.config
