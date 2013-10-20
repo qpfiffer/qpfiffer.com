@@ -2,6 +2,9 @@
 title: Contact
 ---
 
-<a href="https://github.com/qpfiffer">GitHub</a>
-<a href="https://twitter.com/WAallLy">Twitter</a>
-<a href="mailto:shithouse@goatse.cx">Email</a>
+<ul>
+    <li><a href="https://github.com/qpfiffer">GitHub</a></li>
+    <li><a href="https://twitter.com/WAallLy">Twitter</a></li>
+    <li><a href="mailto:shithouse@goatse.cx">Email</a></li>
+    <li><a href="http://weibo.com/u/3859727821">Sina Weibo</a></li>
+</ul>
