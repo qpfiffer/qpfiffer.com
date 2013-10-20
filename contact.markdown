@@ -2,5 +2,6 @@
 title: Contact
 ---
 
-I live in a small hut in the mountains of Kumano Kodō on Kii Hantō and would not
-like to be contacted.
+<a href="https://github.com/qpfiffer">GitHub</a>
+<a href="https://twitter.com/WAallLy">Twitter</a>
+<a href="mailto:shithouse@goatse.cx">Email</a>
