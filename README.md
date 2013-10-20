@@ -1,7 +1,7 @@
 qpfiffer.com
 ============
 
-This is the Hakyll-powered code for the qpfiffer.com blog,
+This is the Hakyll-powered code for the qpfiffer.com blog.
 
 Installation
 ------------
