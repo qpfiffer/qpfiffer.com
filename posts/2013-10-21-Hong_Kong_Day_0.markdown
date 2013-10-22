@@ -38,3 +38,9 @@ other.
 There are these huge apartment buildings everywhere.
 * After messing around for a bit (got lost in some kind of money-sieve mall at
   the end of the train station) we made it up to our apartment.
+
+Notes:
+* Everyone here is pretty stylish
+* The trains are fast
+* Huge buildsings everywhere
+* Humid
