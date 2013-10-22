@@ -44,3 +44,5 @@ Notes:
 * The trains are fast
 * Huge buildsings everywhere
 * Humid
+* No facial hair anywhere
+* When we got out of the airport, it was all people my age or so.
