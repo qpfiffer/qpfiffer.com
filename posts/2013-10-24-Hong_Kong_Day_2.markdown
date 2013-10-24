@@ -35,6 +35,15 @@ possibly be a place where more money changes hands every second.
 The plan now is to hang out and rest at the hotel for a bit, then check out some
 kind of light show at night. Maybe go to a restaurant or something.
 
+* Went to a place called Ipuudu HK for ramen. Pretty good. They'd scream out
+  japanese a la pizza schmizza everytime someone did certain things.
+* Went to see the Hong Kong nighttime skyline from the kowloon waterfront.
+  Looked glorious.
+* Rode the star ferry back over the bay to get to the Wan Chai stop. It only
+  cost 2.5 HKD.
+* I wanted to stop at the Wan Chai computer market again but pretty much
+  evertyhing was closed by 9 PM or so.
+
 Observations:
 
 * There seems to be no cultural idea of walking in a certain pattern. Walkways
