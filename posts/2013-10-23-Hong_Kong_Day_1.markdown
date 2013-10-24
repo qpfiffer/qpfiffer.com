@@ -5,6 +5,7 @@ author: Quinlan Pfiffer
 Woke up at 6 AM today, and promptly got to it. Claire wanted to go to central on
 a little walk thing we found in our guidebook, so after we got showered and
 ready and whatever we headed out to central.
+
 * First time seeing central was intense. People, cars, smog, sound. People just
   unloading stuff in the street.
 * Had some difficulty with the map, couldn't figure out how to get to statue
@@ -35,6 +36,7 @@ seemed about the same as online.
   and maybe eat or something.
 
 Observations:
+
 * People in the morning looooove their newspapers.
 * The morning rush is insane
 * There are hardly any pigeons. I think I saw one.

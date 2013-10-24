@@ -1,5 +1,5 @@
 ---
-title: Hong Kong Day Zero
+title: Hong Kong Day 0
 author: Quinlan Pfiffer
 ---
 Alright, after getting some sleep I am feeling a lot better. I am writing this
@@ -40,6 +40,7 @@ There are these huge apartment buildings everywhere.
   the end of the train station) we made it up to our apartment.
 
 Notes:
+
 * Everyone here is pretty stylish
 * The trains are fast
 * Huge buildsings everywhere
