@@ -44,6 +44,26 @@ can find a Xiaomi Mi3 out there that isn't fake or egregiously priced. I might
 pick one up. Claire also wants to stop at the little toy shops again and maybe
 pick up more trinkets.
 
+Turns out there was a close-by tech store that claimed to have Xiaomi Mi3s in
+stock. I hiked out to the 15th floor of an industrial tower and knocked on the
+door. The guy talked me out of it by explaining (I think) that the mainland
+chinese version of the phone probably wouldn't do what I want. I took the stairs
+down.
+
+Spent the rest of the after noon in the hotel room, neither Claire nor myself
+really wanted to go anywhere. We just lazed around.
+
+For dinner I ended up wandering around and found my way into another shopping
+mall, not the one that we usually pass through to get to our hostel. I ate at a
+McDonalds, because it seems to actually be legitimate here. The food
+surprisingly didn't look terrible. Still tasted like McDonald's and left me
+feeling pretty greasy.
+
+I now have an enormous amount of respect for the expats that come to live here,
+and in other asian societies without knowing the language. Wandering around in a
+huge throng of people is very sombering. It makes you feel very alone and very
+insignificant.
+
 Observations:
 
 * You cannot get black coffee anywhere. It is automatically full of milk by
@@ -53,3 +73,7 @@ Observations:
 so close together.
 * Watch shops. Watch shops everywhere. Rolex, Omega, alternate and repeat
   forever.
+* The sheer amount of human capital that is employed to keep the streets clean
+  is astonishing. They do a really good job, making the smog the only thing that
+dirties the streets.
+
