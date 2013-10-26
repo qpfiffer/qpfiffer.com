@@ -17,3 +17,21 @@ Saturday morning crowds started to show up.
 * Now back at the building.
 
 No plan for the rest of the day. I think I'm ready to go home.
+
+Edit:
+
+After that it occurred to me to look into the local street fighter scene. I did.
+I decided to head out to GameZone in Mong Kok to check out the competition. The
+arcade is love. Nothing beats the shit out of the international language barrier
+like Super Street Fighter 4 Arcade Edition v.2012. I hung out there and burned
+through about 40HKD. Met a Canadian, won some, lost some. Good times were had.
+
+After I went home, did a little 1 mile jog and took a shower. I took some Dim
+Sum Claire had bought at the place near our hotel, bought an Asahi beer and
+consumed them on the roof while reading *The Terror*. This is a beautiful city.
+I really like it here.
+
+Observations:
+
+* The elevator door close button actually does something in this country
+* You accrue spare change here like a dead-beat dad accrues debt
