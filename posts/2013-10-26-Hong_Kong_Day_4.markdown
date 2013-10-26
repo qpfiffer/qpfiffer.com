@@ -35,3 +35,5 @@ Observations:
 
 * The elevator door close button actually does something in this country
 * You accrue spare change here like a dead-beat dad accrues debt
+* You're allowed to smoke in arcades, so people were doing it around me. My
+  clothes smell terrible.
