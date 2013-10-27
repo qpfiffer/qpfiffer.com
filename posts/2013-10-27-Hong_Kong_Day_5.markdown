@@ -43,4 +43,5 @@ someone's attention. Service is usually pretty quick.
 * Food is pretty damn cheap, breakfast was something like $3.50USD.
 * My nose is always plugged up here. Air quality?
 * EVERYTHING is sweetened. The cultural war on bitterness continues.
-* Theres very little graffiti.
+* There is very little graffiti. It's actually pretty damn clean in this regard.
+  Even Sham Shui Po isn't that bad.
