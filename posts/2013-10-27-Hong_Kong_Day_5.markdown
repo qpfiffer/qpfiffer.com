@@ -29,10 +29,10 @@ So tomorrow is the day we had back. It's going to be pretty intense.
 1. Kill 5 or so hours until we should probably head to the airport to make sure
    we can get through customs/immigration alright.
 1. Wait until our flight at 7:20 PM.
-1. Fly for 15 or so hours. (yeesh...)
-1. Get to Vancouver at approximately 3:40 PM. Leave at 6:00 PM. Get to Portland
-   at 7:16 PM. 4 minutes earlier than when we left!
-1. Ride the max home.
+1. Fly for 10 hours. Not so bad!
+1. Get to Vancouver at approximately 3:40 PM. Leave at 6:300 PM. Get to Portland
+   at 7:16 PM. 4 minutes earlier than when we left Hong Kong!
+1. Get a ride home.
 1. Fall asleep for 12 hours.
 
 Observations:
