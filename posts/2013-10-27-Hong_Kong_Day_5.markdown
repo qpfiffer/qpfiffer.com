@@ -1,6 +1,7 @@
 ---
 title: Hong Kong Day 5
 author: Quinlan Pfiffer
+bg-image: ../images/10_26_2013.jpg
 ---
 
 Woke up feeling dehydrated. Went to find food.

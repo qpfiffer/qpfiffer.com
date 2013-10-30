@@ -1,6 +1,7 @@
 ---
 title: Hong Kong Day 3
 author: Quinlan Pfiffer
+bg-image: ../images/10_24_2013.jpg
 ---
 
 Pretty full day, actually bought somet things.

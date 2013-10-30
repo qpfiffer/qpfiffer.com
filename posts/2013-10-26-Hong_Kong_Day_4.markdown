@@ -1,6 +1,7 @@
 ---
 title: Hong Kong Day 4
 author: Quinlan Pfiffer
+bg-image: ../images/10_25_2013.jpg
 ---
 
 * Woke up around 7. Decided to go to the peak.

@@ -1,5 +1,6 @@
 ---
 title: Contact
+bg-image: ../images/contact.jpg
 ---
 
 <ul>

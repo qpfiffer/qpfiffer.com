@@ -1,6 +1,7 @@
 ---
 title: Hong Kong Day 0
 author: Quinlan Pfiffer
+bg-image: ../images/10_21_2013.jpg
 ---
 Alright, after getting some sleep I am feeling a lot better. I am writing this
 at 6:36 AM local time.

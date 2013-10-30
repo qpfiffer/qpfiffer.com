@@ -1,6 +1,7 @@
 ---
 title: Hong Kong Day 6
 author: Quinlan Pfiffer
+bg-image: ../images/10_28_2013.jpg
 ---
 
 Not too much to say about today. Mostly a worry-about-getting-through-customs

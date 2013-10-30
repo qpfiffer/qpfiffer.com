@@ -1,6 +1,7 @@
 ---
 title: Hong Kong Day 2
 author: Quinlan Pfiffer
+bg-image: ../images/10_23_2013.jpg
 ---
 
 This is the most capitalist country on the face of the planet. There cannot
