@@ -1,6 +1,7 @@
 ---
 title: KVM, CoreOS and LVM
 author: Quinlan Pfiffer
+bg-image: ../images/11_06_2013.jpg
 ---
 
 This is a little tutorial on how I got the official <a
