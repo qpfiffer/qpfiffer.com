@@ -1,0 +1,58 @@
+---
+title: KVM, CoreOS and LVM
+author: Quinlan Pfiffer
+---
+
+This is a little tutorial on how I got the official <a
+href="http://coreos.com/">CoreOS</a> image working with KVM.
+
+Setting up the Virtual Machine
+------------------------------
+
+1. Download the image. You can get it <a
+   href="http://storage.core-os.net/coreos/amd64-generic/dev-channel/coreos_production_qemu_image.img.bz">here.</a>
+1. You need to convert the image to it's raw data so that you can extract it to
+   your LVM.
+```
+bunzip2 coreos_production_qemu_image.img.bz2
+qemu-img convert coreos_production_qemu_image.img -O raw coreos.raw
+```
+1. Once thats done converting, take your raw data and dd it onto your LVM.
+```
+dd if=coreos.raw of=/dev/lvmgroup/lvm_name
+```
+1. Create your machine with whatever specs you want, at the time of this writing
+   the CoreOS image is about 6GB or so. I used virt-manager to get it done
+quickly.
+
+CoreOS has some funky ideas about users and ssh keys, so I had to figure out
+how to pass through the keys. Turns out with virt-manager, you can add these
+pretty easily through the interface.
+
+You'll need your known authorized_keys file  setup beforehand, which I won't
+cover. Place it somewhere your libvirt user can read and access. I threw mine in
+/var/lib/libvirt/ssh.
+
+Then just add the following XML to your KVM's definition, which should be in
+/etc/libvirt/qemu.
+
+```
+<filesystem type='mount' accessmode='passthrough'>
+    <source dir='/var/lib/libvirt/ssh'/>
+    <target dir='metadata'/>
+    <readonly/>
+    <address type='pci' domain='0x0000' bus='0x00' slot='0x06' function='0x0'/>
+</filesystem>
+```
+
+and then once thats done:
+
+```
+virsh define /etc/libvirt/machine_name.xml
+```
+
+This adds a filesystem passthrough to your virtual machine that will add a
+'metadata' tag, which can be mounted. The virt-manager interface is a little
+misleading in this regard.
+
+At the end of all this, you should be able to ssh as core into your new machine.
