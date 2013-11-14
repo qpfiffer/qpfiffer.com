@@ -1,6 +1,7 @@
 ---
 title: Contact
 bg-image: ../images/contact.jpg
+bg-img-source: http://www.flickr.com/photos/104820964@N07/10848642954/
 ---
 
 <ul>

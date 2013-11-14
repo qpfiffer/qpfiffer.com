@@ -1,6 +1,7 @@
 ---
 title: About
 bg-image: ../images/me.jpg
+bg-image-src: http://www.flickr.com/photos/104820964@N07/10565809256/
 ---
 This is the personal blog of Quinlan Pfiffer.
 
