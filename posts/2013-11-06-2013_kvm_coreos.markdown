@@ -2,7 +2,7 @@
 title: KVM, CoreOS and LVM
 author: Quinlan Pfiffer
 bg-image: ../static/img/11_06_2013.jpg
-bg-img-source: http://www.flickr.com/photos/104820964@N07/10720899484/
+bg-img-src: http://www.flickr.com/photos/104820964@N07/10720899484/
 ---
 
 This is a little tutorial on how I got the official <a

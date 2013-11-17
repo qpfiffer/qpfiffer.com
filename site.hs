@@ -21,6 +21,12 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
                 >>= relativizeUrls
 
+    match "wiki/*" $ do
+        route   $ setExtension ""
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= relativizeUrls
+
     match (fromList ["static/favicon.ico", "humans.txt", "robots.txt"]) $ do
         route   idRoute
         compile copyFileCompiler
@@ -37,7 +43,6 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    --match (fromList ["about.markdown", "contact.markdown"]) $ do
     match "pages/*" $ do
         route   $ setExtension ""
         compile $ pandocCompiler
