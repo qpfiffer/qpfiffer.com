@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Malevolent Cartography - Hong Kong Day 5</title>
+        <link rel="author" type="text/plain" href="http://qpfiffer.com/humans.txt" />
+        <link rel="shortcut icon" href="../static/favicon.ico" />
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="../static/css/simplegrid.css" />
+        <link rel="stylesheet" type="text/css" href="../static/css/default.css" />
+        <style>
+            #bg_img {
+                width: 100%;
+                height: 409px;
+                background-size: cover;
+                background-position: center;
+                padding: 2px;
+            
+                background-image: url("../static/img/10_26_2013.jpg");
+            
+            }
+        </style>
+    </head>
+    <body>
+        <div id="bg_img">
+            <div id="meta_container">
+            
+                <a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/10565746276/" title="Image Source"></a>
+            
+            </div>
+        </div>
+        <div class="grid grid-pad" id="content">
+            <div id="nav" class="col-3-12">
+                <div class="content">
+                    <ul>
+                        <li><a id="home" href="../">Malevolent Cartography</a></li>
+                        <li><a href="../pages/about">About</a></li>
+                        <li><a href="../archive">Archive</a></li>
+                        <li><a href="../pages/contact">Contact</a></li>
+                        <li><a href="../wiki/main">Wiki</a></li>
+                    </ul>
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-9-12">
+                <div id="right_col" class="content">
+                    <p class="title">Hong Kong Day 5</p>
+                    
+                    <div class="info">
+    October 27, 2013
+    
+        by Quinlan Pfiffer
+    
+</div>
+<div>
+<p>Woke up feeling dehydrated. Went to find food.</p>
+<ul>
+<li>Went to eat breakfast at a place called Tai Hing (I think). Had some kind of ramen and coffee from the breakfast set. Again no black coffee.</li>
+<li>Claire wanted to go to the Zoological and Botanical gardens. Headed out to central and killed a few hours looking at birds, monkeys and plants.</li>
+<li>On the way back we ended up in the middle of some kind of Hong Kong motorcycle show. Got a bunch of swag and got to see some cool looking bikes.</li>
+<li>We were kind of hungry so we walked to the IFC mall, looking for something that wasn’t completely swamped. For some reason there were hordes of Fillipino women eeeeeverywhere.</li>
+<li>Most restaurants were occupied so we went to a little high-class cafe called Fuel. I had an espresso and some kind of brownie-cake thing. Pretty expensive there, my stuff cost $10.00 or so USD.</li>
+<li>Headed out to Mong Kok to hit up the arcade again. Burned through maybe $50.0 HKD. Good times.</li>
+<li>Went back to the hotel to drop of our stuff, and I showed Claire the place I’d eaten for breakfast. Day over.</li>
+</ul>
+<p>So tomorrow is the day we had back. It’s going to be pretty intense.</p>
+<ol style="list-style-type: decimal">
+<li>Wake up around 8 or 9 pm. Get breakfast somewhere.</li>
+<li>Check out before noon.</li>
+<li>Kill 5 or so hours until we should probably head to the airport to make sure we can get through customs/immigration alright.</li>
+<li>Wait until our flight at 7:20 PM.</li>
+<li>Fly for 10 hours. Not so bad!</li>
+<li>Get to Vancouver at approximately 3:40 PM. Leave at 6:300 PM. Get to Portland at 7:16 PM. 4 minutes earlier than when we left Hong Kong!</li>
+<li>Get a ride home.</li>
+<li>Fall asleep for 12 hours.</li>
+</ol>
+<p>Observations:</p>
+<ul>
+<li>Ordering and paying for food is a little different here than in America. Since theres no tipping, theres usually a 10% service fee. You usually have to get someone’s attention. Service is usually pretty quick.</li>
+<li>Food is pretty damn cheap, breakfast was something like $3.50USD.</li>
+<li>My nose is always plugged up here. Air quality?</li>
+<li>EVERYTHING is sweetened. The cultural war on bitterness continues.</li>
+<li>There is very little graffiti. It’s actually pretty damn clean in this regard. Even Sham Shui Po isn’t that bad.</li>
+</ul>
+</div>
+
+                </div>
+            </div>
+        </div>
+        <!--
+        <footer class="grid grid-pad">
+            <div class="col-12-12">
+                <div class="content">
+                    Generated by <a href="http://jaspervdj.be/hakyll">Hakyll</a>
+                </div>
+            </div>
+        </footer>
+        -->
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-30510579-1']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    </body>
+</html>
