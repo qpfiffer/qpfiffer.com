@@ -22,7 +22,7 @@ main = hakyll $ do
                 >>= relativizeUrls
 
     match "wiki/*" $ do
-        let wikiContext = modificationTimeField "modified" "%B %e, %Y" `mappend` defaultContext
+        let wikiContext = modificationTimeField "modified" "%B %e, %Y %l:%M %p" `mappend` defaultContext
         route   $ setExtension ""
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" wikiContext
