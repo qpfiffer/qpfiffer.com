@@ -9,5 +9,6 @@ deemed relevant to both myself and anyone interested enough to be looking
 through my site.
 
 ### Things I'm Interested In
+* [Books](/wiki/books)
 * [People](/wiki/people)
 * [Technologies](/wiki/tech)

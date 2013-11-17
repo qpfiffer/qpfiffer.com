@@ -1,3 +1,16 @@
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+}
+pre code {
+    display: block;
+    padding: 5px;
+    background-color: #DDD;
+    border: solid 1px #AAA;
+}
+p code {
+    padding: 1px;
+    background-color: #DDD;
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -22,7 +35,7 @@ p.title {
 a:hover {
     text-decoration: underline;
 }
-ul {
+#nav ul {
     list-style-type: none;
 }
 li {

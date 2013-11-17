@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="grid grid-pad" id="content">
-            <div class="col-3-12">
+            <div id="nav" class="col-3-12">
                 <div class="content">
                     <ul>
                         <li><a id="home" href="/">Malevolent Cartography</a></li>
@@ -52,6 +52,9 @@
             <div class="col-9-12">
                 <div id="right_col" class="content">
                     <p class="title">$title$</p>
+                    $if(modified)$
+                        <div class="info">$modified$</div>
+                    $endif$
                     $body$
                 </div>
             </div>
