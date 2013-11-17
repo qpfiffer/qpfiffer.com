@@ -1,7 +1,7 @@
 ---
 title: Hong Kong Day 1
 author: Quinlan Pfiffer
-bg-image: ../images/10_22_2013.jpg
+bg-image: ../static/img/10_22_2013.jpg
 bg-img-source: http://www.flickr.com/photos/104820964@N07/10565842326/
 ---
 Woke up at 6 AM today, and promptly got to it. Claire wanted to go to central on

@@ -1,7 +1,7 @@
 ---
 title: Hong Kong Day 0
 author: Quinlan Pfiffer
-bg-image: ../images/10_21_2013.jpg
+bg-image: ../static/img/10_21_2013.jpg
 bg-img-source: http://www.flickr.com/photos/104820964@N07/10565692035/
 ---
 Alright, after getting some sleep I am feeling a lot better. I am writing this
