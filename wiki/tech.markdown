@@ -29,6 +29,7 @@ This is a collection of technologies I'm interested in, in alphabetical order.
 * [The Obnam Backup Program](http://liw.fi/obnam/)
 * [Riak](http://basho.com/riak/)
 * [sigma.js](http://sigmajs.org/)
+* [Sophia](http://sphia.org/index.html)
 * [tenyks](https://github.com/kyleterry/tenyks)
 
 ### Websites

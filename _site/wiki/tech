@@ -48,7 +48,7 @@
                 <div id="right_col" class="content">
                     <p class="title">Technologies</p>
                     
-                        <div class="info">Last modified on November 17, 2013 10:39 PM</div>
+                        <div class="info">Last modified on November 20, 2013  8:18 AM</div>
                     
                     <p>This is a collection of technologies I’m interested in, in alphabetical order.</p>
 <div class="col-6-12">
@@ -78,6 +78,7 @@
 <li><a href="http://liw.fi/obnam/">The Obnam Backup Program</a></li>
 <li><a href="http://basho.com/riak/">Riak</a></li>
 <li><a href="http://sigmajs.org/">sigma.js</a></li>
+<li><a href="http://sphia.org/index.html">Sophia</a></li>
 <li><a href="https://github.com/kyleterry/tenyks">tenyks</a></li>
 </ul>
 <h3 id="websites">Websites</h3>
