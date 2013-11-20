@@ -33,7 +33,9 @@ On 11/19/13, 20:28, qpfiffer@gmail.com wrote:
 > 
 ```
 
-* On the fragility of programming. \_why was noted saying:
+* On the fragility of programming. 
+
+\_why was noted saying:
 
 ```
 if you program and want any longevity to your work, make a game. all else

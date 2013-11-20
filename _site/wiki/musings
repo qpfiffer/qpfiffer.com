@@ -48,7 +48,7 @@
                 <div id="right_col" class="content">
                     <p class="title">Main</p>
                     
-                        <div class="info">Last modified on November 20, 2013  8:12 AM</div>
+                        <div class="info">Last modified on November 20, 2013  8:14 AM</div>
                     
                     <p>Collection of random thoughts, some acted upon, most not.</p>
 <h3 id="questions">Questions</h3>
@@ -76,8 +76,9 @@ On 11/19/13, 20:28, qpfiffer@gmail.com wrote:
 &gt; feature?
 &gt; </code></pre>
 <ul>
-<li>On the fragility of programming. _why was noted saying:</li>
+<li>On the fragility of programming.</li>
 </ul>
+<p>_why was noted saying:</p>
 <pre><code>if you program and want any longevity to your work, make a game. all else
 recycles, but people rewrite architectures to keep games alive.</code></pre>
 <p>which is very true. I think about BitRot a lot, and how much of history is lost everyday because of things like <a href="http://archiveteam.org/?title=URLTeam">url shorteners</a> or just good old fashioned maintenance. How much of code from a decade ago can still run?</p>
