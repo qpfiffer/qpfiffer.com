@@ -48,7 +48,7 @@
                 <div id="right_col" class="content">
                     <p class="title">Main</p>
                     
-                        <div class="info">Last modified on November 17, 2013 10:39 PM</div>
+                        <div class="info">Last modified on November 20, 2013  8:12 AM</div>
                     
                     <p>This is my personal wiki. You’ll find a collection of information that I’ve deemed relevant to both myself and anyone interested enough to be looking through my site.</p>
 <h3 id="things-im-interested-in">Things I’m Interested In</h3>
@@ -56,6 +56,11 @@
 <li><a href="../wiki/books">Books</a></li>
 <li><a href="../wiki/people">People</a></li>
 <li><a href="../wiki/tech">Technologies</a></li>
+</ul>
+<h3 id="notes-and-studies">Notes and Studies</h3>
+<ul>
+<li><a href="../wiki/power">Power Consumption Notes</a></li>
+<li><a href="../wiki/musings">Musings and Random Thoughts</a></li>
 </ul>
                 </div>
             </div>

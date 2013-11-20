@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Malevolent Cartography - People I Respect or Admire</title>
+        <title>Malevolent Cartography - Main</title>
         <link rel="author" type="text/plain" href="http://qpfiffer.com/humans.txt" />
         <link rel="shortcut icon" href="../static/favicon.ico" />
         <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
@@ -17,7 +17,7 @@
                 background-position: center;
                 padding: 2px;
             
-                background-image: url("../static/img/explorers.jpg");
+                background-image: url("../static/img/wiki.jpg");
             
             }
         </style>
@@ -26,7 +26,7 @@
         <div id="bg_img">
             <div id="meta_container">
             
-                <a id="bg_img_source" href="http://www.flickr.com/photos/23307493@N07/4287063307" title="Image Source"></a>
+                <a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/10685169003/" title="Image Source"></a>
             
             </div>
         </div>
@@ -46,47 +46,43 @@
             </div>
             <div class="col-9-12">
                 <div id="right_col" class="content">
-                    <p class="title">People I Respect or Admire</p>
+                    <p class="title">Main</p>
                     
-                        <div class="info">Last modified on November 19, 2013  2:43 AM</div>
+                        <div class="info">Last modified on November 20, 2013  8:12 AM</div>
                     
-                    <p>This is a collection of people that I respect and admire.</p>
-<div class="col-6-12">
-<h2 id="explorers">Explorers</h2>
+                    <p>Collection of random thoughts, some acted upon, most not.</p>
+<h3 id="questions">Questions</h3>
 <ul>
-<li><a href="http://en.wikipedia.org/wiki/Ernest_Shackleton">Ernest Shackleton</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Francis_Crozier">Francis Rawdon Moira Crozier</a></li>
-<li><a href="http://en.wikipedia.org/wiki/George_Mallory">George Mallory</a></li>
+<li>Do people still use /frames on 4chan?</li>
 </ul>
-<h2 id="polymaths">Polymaths</h2>
-<ul>
-<li><a href="http://wiki.xxiivv.com/">aliceffekt</a></li>
-<li><a href="http://gwern.net/">Gwern Branwen</a></li>
-<li><a href="http://en.wikipedia.org/wiki/John_Harrison">John Harrison</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Theodore_Roosevelt">Theodore Roosevelt</a>
-</div>
-</li>
-</ul>
-<div class="col-6-12">
-<h2 id="programmers">Programmers</h2>
-<ul>
-<li><a href="https://github.com/bos">Bryan O’Sullivan</a></li>
-<li><a href="http://en.wikipedia.org/wiki/John_Carmack">John Carmack</a></li>
-<li><a href="http://joeyh.name/">Joey Hess</a></li>
-</ul>
-<h2 id="pugilists">Pugilists</h2>
-<ul>
-<li><a href="http://en.wikipedia.org/wiki/Gabriel_Rosado">Gabriel Rosado</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Gennady_Golovkin">Gennady Golovkin</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Jack_Dempsey">Jack Dempsey</a></li>
-</ul>
-<h2 id="writers">Writers</h2>
-<ul>
-<li><a href="http://en.wikipedia.org/wiki/Ernest_Hemingway">Ernest Hemingway</a>
-</div>
+<p>Moot says no:</p>
+<pre><code>Message-ID: &lt;528C1290.9070801@4chan.org&gt;
+Date: Tue, 19 Nov 2013 20:38:24 -0500
+From: moot &lt;moot@4chan.org&gt;
+MIME-Version: 1.0
+To: &quot;qpfiffer@gmail.com&quot; &lt;qpfiffer@gmail.com&gt;
+Subject: Re: How many people still use /frames?
+References: &lt;CANVGW99b5fmaaOdmoWS=Jr0JHHtnOKRoRHTxV_CUZNBLdjEoww@mail.gmail.com&gt;
+In-Reply-To:
+&lt;CANVGW99b5fmaaOdmoWS=Jr0JHHtnOKRoRHTxV_CUZNBLdjEoww@mail.gmail.com&gt;
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
 
-</li>
+No.
+
+On 11/19/13, 20:28, qpfiffer@gmail.com wrote:
+&gt; This sprung to mind earlier, because I still use /frames every now and then
+&gt; because I find it easier to navigate. Do a lot of people still use this
+&gt; feature?
+&gt; </code></pre>
+<ul>
+<li>On the fragility of programming. _why was noted saying:</li>
 </ul>
+<pre><code>if you program and want any longevity to your work, make a game. all else
+recycles, but people rewrite architectures to keep games alive.</code></pre>
+<p>which is very true. I think about BitRot a lot, and how much of history is lost everyday because of things like <a href="http://archiveteam.org/?title=URLTeam">url shorteners</a> or just good old fashioned maintenance. How much of code from a decade ago can still run?</p>
+<p>It brings up questions about formatting. Things like ASCII only work because we’ve all agreed that a certain amount of bits represents a letter. This gets trickier when things like UTF-8 (and it’s <a href="http://en.wikipedia.org/wiki/Universal_Character_Set">derivitives</a>) are involved.</p>
+<p>Whats the best formatting for preserving literature, then? I think it’s probably a good idea to assume that the simpler it is to represent something, the longer it’ll stick around. This makes formats like HTML and Markdown pretty persistent, but who knows if they’ll last through this millenium. <a href="http://www.textfiles.com/">Textfiles certainly do.</a></p>
                 </div>
             </div>
         </div>

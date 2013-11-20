@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Malevolent Cartography - People I Respect or Admire</title>
+        <title>Malevolent Cartography - Main</title>
         <link rel="author" type="text/plain" href="http://qpfiffer.com/humans.txt" />
         <link rel="shortcut icon" href="../static/favicon.ico" />
         <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
@@ -17,7 +17,7 @@
                 background-position: center;
                 padding: 2px;
             
-                background-image: url("../static/img/explorers.jpg");
+                background-image: url("../static/img/wiki.jpg");
             
             }
         </style>
@@ -26,7 +26,7 @@
         <div id="bg_img">
             <div id="meta_container">
             
-                <a id="bg_img_source" href="http://www.flickr.com/photos/23307493@N07/4287063307" title="Image Source"></a>
+                <a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/10685169003/" title="Image Source"></a>
             
             </div>
         </div>
@@ -46,46 +46,36 @@
             </div>
             <div class="col-9-12">
                 <div id="right_col" class="content">
-                    <p class="title">People I Respect or Admire</p>
+                    <p class="title">Main</p>
                     
-                        <div class="info">Last modified on November 19, 2013  2:43 AM</div>
+                        <div class="info">Last modified on November 20, 2013  5:59 AM</div>
                     
-                    <p>This is a collection of people that I respect and admire.</p>
-<div class="col-6-12">
-<h2 id="explorers">Explorers</h2>
+                    <p>I geek out about power consumption on a lot of my computers, and this is a sparse collection of observations I’ve noticed about some of them.</p>
+<h2 id="personal-machines">Personal Machines</h2>
+<h3 id="desktop-amd-fx-8350">Desktop (AMD FX-8350)</h3>
 <ul>
-<li><a href="http://en.wikipedia.org/wiki/Ernest_Shackleton">Ernest Shackleton</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Francis_Crozier">Francis Rawdon Moira Crozier</a></li>
-<li><a href="http://en.wikipedia.org/wiki/George_Mallory">George Mallory</a></li>
+<li>Wattage (Idle): 120</li>
+<li>Wattage (Peak): ?</li>
+<li>Notes: Measurements done with a Kill-a-Watt. Wattage for <a href="http://www.overclock.net/products/yamakasi-catleap-q270-se-27-led-2560x1440-wqhd-dvi-d-dual-computer-monitor">Yamakasi Catleap Q270 Included</a></li>
 </ul>
-<h2 id="polymaths">Polymaths</h2>
+<h3 id="x1-carbon-i5-3427u">X1 Carbon (i5-3427U)</h3>
 <ul>
-<li><a href="http://wiki.xxiivv.com/">aliceffekt</a></li>
-<li><a href="http://gwern.net/">Gwern Branwen</a></li>
-<li><a href="http://en.wikipedia.org/wiki/John_Harrison">John Harrison</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Theodore_Roosevelt">Theodore Roosevelt</a>
-</div>
-</li>
+<li>Wattage (Idle): 7</li>
+<li>Wattage (Peak): 12</li>
+<li>Notes: Peak includes running two virtual machines and compiling some Haskell stuff. Idle is what I’m calling standard use with a web browser, IRC and a handful of terminals open.</li>
 </ul>
-<div class="col-6-12">
-<h2 id="programmers">Programmers</h2>
+<h3 id="thinkpad-t61p-t-9300-core2duo">Thinkpad T61p (T-9300 Core2Duo)</h3>
 <ul>
-<li><a href="https://github.com/bos">Bryan O’Sullivan</a></li>
-<li><a href="http://en.wikipedia.org/wiki/John_Carmack">John Carmack</a></li>
-<li><a href="http://joeyh.name/">Joey Hess</a></li>
+<li>Wattage (Idle): 22-24</li>
+<li>Wattage (Peak): 32</li>
+<li>Notes: This thing uses power like a desktop.</li>
 </ul>
-<h2 id="pugilists">Pugilists</h2>
+<h2 id="other">Other</h2>
+<h3 id="eee-pc-1000hab-intel-atom">Eee PC 1000HAB (Intel Atom)</h3>
 <ul>
-<li><a href="http://en.wikipedia.org/wiki/Gabriel_Rosado">Gabriel Rosado</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Gennady_Golovkin">Gennady Golovkin</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Jack_Dempsey">Jack Dempsey</a></li>
-</ul>
-<h2 id="writers">Writers</h2>
-<ul>
-<li><a href="http://en.wikipedia.org/wiki/Ernest_Hemingway">Ernest Hemingway</a>
-</div>
-
-</li>
+<li>Wattage (Idle): 7.3</li>
+<li>Wattage (Peak): 10</li>
+<li>Notes: Screen brightness is about half a watt in either direction. Battery is of a pretty good size, lasted about five hours.</li>
 </ul>
                 </div>
             </div>
