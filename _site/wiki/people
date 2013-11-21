@@ -48,9 +48,16 @@
                 <div id="right_col" class="content">
                     <p class="title">People I Respect or Admire</p>
                     
-                        <div class="info">Last modified on November 17, 2013 10:56 PM</div>
+                        <div class="info">Last modified on November 20, 2013  5:11 AM</div>
                     
-                    <p>This is a collection of people that I respect and admire.</p>
+                    <ul>
+    <li>I</li>
+    <li>AM</li>
+    <li>Extra</li>
+    <li>context</li>
+</ul>
+<div>
+    <p>This is a collection of people that I respect and admire.</p>
 <div class="col-6-12">
 <h2 id="explorers">Explorers</h2>
 <ul>
@@ -70,6 +77,7 @@
 <div class="col-6-12">
 <h2 id="programmers">Programmers</h2>
 <ul>
+<li><a href="http://www.serpentine.com/blog/">Bryan O’Sullivan</a></li>
 <li><a href="http://en.wikipedia.org/wiki/John_Carmack">John Carmack</a></li>
 <li><a href="http://joeyh.name/">Joey Hess</a></li>
 </ul>
@@ -86,6 +94,8 @@
 
 </li>
 </ul>
+</div>
+
                 </div>
             </div>
         </div>

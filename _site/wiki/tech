@@ -48,9 +48,16 @@
                 <div id="right_col" class="content">
                     <p class="title">Technologies</p>
                     
-                        <div class="info">Last modified on November 17, 2013 10:39 PM</div>
+                        <div class="info">Last modified on November 17, 2013  3:57 AM</div>
                     
-                    <p>This is a collection of technologies I’m interested in, in alphabetical order.</p>
+                    <ul>
+    <li>I</li>
+    <li>AM</li>
+    <li>Extra</li>
+    <li>context</li>
+</ul>
+<div>
+    <p>This is a collection of technologies I’m interested in, in alphabetical order.</p>
 <div class="col-6-12">
 <h3 id="analog">Analog</h3>
 <ul>
@@ -90,6 +97,8 @@
 
 </li>
 </ul>
+</div>
+
                 </div>
             </div>
         </div>
