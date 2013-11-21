@@ -21,7 +21,6 @@ This is a collection of people that I respect and admire.
 
 <div class="col-6-12">
 ## Programmers
-* [Bryan O'Sullivan](http://www.serpentine.com/blog/)
 * [John Carmack](http://en.wikipedia.org/wiki/John_Carmack)
 * [Joey Hess](http://joeyh.name/)
 
