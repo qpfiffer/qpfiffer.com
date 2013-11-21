@@ -12,3 +12,7 @@ through my site.
 * [Books](/wiki/books)
 * [People](/wiki/people)
 * [Technologies](/wiki/tech)
+
+### Notes and Studies
+* [Power Consumption Notes](/wiki/power)
+* [Musings and Random Thoughts](/wiki/musings)
