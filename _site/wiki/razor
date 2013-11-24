@@ -17,7 +17,7 @@
                 background-position: center;
                 padding: 2px;
             
-                background-image: url("../static/img/razor.jpg");
+                background-image: url("../static/img/wb.jpg");
             
             }
         </style>
@@ -26,7 +26,7 @@
         <div id="bg_img">
             <div id="meta_container">
             
-                <a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/10685169003/" title="Image Source"></a>
+                <a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11037188944/" title="Image Source"></a>
             
             </div>
         </div>
@@ -48,9 +48,11 @@
                 <div id="right_col" class="content">
                     <p class="title">Straight Razors</p>
                     
-                        <div class="info">Last modified on November 24, 2013 10:04 PM</div>
+                        <div class="info">Last modified on November 24, 2013 11:24 PM</div>
                     
-                    
+                    <p><a href="http://en.wikipedia.org/wiki/Shaving#.22Traditional.22_wet_shaving">Wet shaving</a> is a hobby of mine, and I like to collect, restore and hone straight razors.</p>
+<h2 id="wade-butcher-straight">Wade &amp; Butcher Straight</h2>
+<p><a href="http://en.wikipedia.org/wiki/Shaving#.22Traditional.22_wet_shaving">Wade &amp; Butcher</a> straight razor with barber’s notch and (probably) original scales. I bought this one at an antique show and polished/cleaned/honed it up myself.</p>
                 </div>
             </div>
         </div>
