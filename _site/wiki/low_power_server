@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Malevolent Cartography - Main</title>
+        <title>Malevolent Cartography - Low Power Server Build</title>
         <link rel="author" type="text/plain" href="http://qpfiffer.com/humans.txt" />
         <link rel="shortcut icon" href="../static/favicon.ico" />
         <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
@@ -17,7 +17,7 @@
                 background-position: center;
                 padding: 2px;
             
-                background-image: url("../static/img/wiki.jpg");
+                background-image: url("../static/img/low_power.jpg");
             
             }
         </style>
@@ -26,7 +26,7 @@
         <div id="bg_img">
             <div id="meta_container">
             
-                <a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/10685169003/" title="Image Source"></a>
+                <a id="bg_img_source" href="https://drive.google.com/file/d/0B8hltkS8-lFqSG80bVZ4SnNlQjQ/edit?usp=sharing" title="Image Source"></a>
             
             </div>
         </div>
@@ -46,29 +46,25 @@
             </div>
             <div class="col-9-12">
                 <div id="right_col" class="content">
-                    <p class="title">Main</p>
+                    <p class="title">Low Power Server Build</p>
                     
-                        <div class="info">Last modified on November 24, 2013  9:34 PM</div>
+                        <div class="info">Last modified on November 24, 2013  9:30 PM</div>
                     
-                    <p>This is my personal wiki. You’ll find a collection of information that I’ve deemed relevant to both myself and anyone interested enough to be looking through my site.</p>
-<h3 id="things-im-interested-in">Things I’m Interested In</h3>
+                    <p>My current homeserver is an ancient thing I’ve assembled out of hodgepodge parts and pieces. Inspirted by <a href="http://www.codinghorror.com/blog/2013/09/the-2013-htpc-build.html">this post</a> by <a href="http://www.codinghorror.com/blog/2004/02/about-me.html">Jeff Atwood</a> I decided to see how much my current home server costs to run.</p>
+<p>I pay for <a href="http://www.portlandgeneral.com/default.aspx">PGE</a>‘s ’clean energy’ program, which means I get energy only from renewable resources for an extra 0.03 or so cents a month. Not bad at all. Currenty kilowatt hours cost about $0.1093 USD. Knowing this we compute the power draw of the current server per day per month go get an approximate cost to run:</p>
+<pre><code>115 watts an hour (damn!)
+115 * 24 = 2760 watts a day
+2760 * 30 = 82,800 watt hours a month
+82.8 * 0.1093 = $9.05 a month</code></pre>
+<p>$9.05 is a lot to pay for a single server to run 24/7. It’s time for an upgrade. So, taking Jeff’s list I improved upon it slightly and added a new case. The current ideal parts list:</p>
 <ul>
-<li><a href="../wiki/books">Books</a></li>
-<li><a href="../wiki/people">People</a></li>
-<li><a href="../wiki/tech">Technologies</a></li>
+<li><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16811352027">Fractal Design’s Node 304 Mini-ITX Case</a></li>
+<li><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16813157374">ASRock Z87E-ITX Mini-ITX Motherboard</a></li>
+<li><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820231461">G.Skill Sniper Low Voltage Series 8GB Ram Kit</a></li>
+<li><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16819116947">Dual-Core Haswell i3-4130T</a></li>
 </ul>
-<h3 id="notes-and-studies">Notes and Studies</h3>
-<ul>
-<li><a href="../wiki/power">Power Consumption Notes</a></li>
-<li><a href="../wiki/low_power_server">Low Power Server Build</a></li>
-<li><a href="../wiki/musings">Musings and Random Thoughts</a></li>
-</ul>
-<h3 id="personal">Personal</h3>
-<ul>
-<li><a href="../wiki/boxing">Boxing</a></li>
-<li><a href="../wiki/razor">Straight Razors</a></li>
-<li><a href="../wiki/potato">Cryptoanarchist Potato Farm</a></li>
-</ul>
+<p>I’m not sure how the low voltage ram will affect performance, but I am excited to find out. Another notable addition is the upgraded motherboard, which has 6 sata ports as opposed to 4. The Node 304 has six drivebays, which is kind of ridiculous for a mini-ITX case, but I have a need for at least four drivebays (<a href="http://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_5">RAID 5</a> is awesome).</p>
+<p>All of this at full price costs around $450.96, plus shipping. That makes the ROI for power usage (assuming Jeff’s power usage is correct) pretty terrible. Luckily, black friday/cyber monday is coming up and I’m hoping I can knock $100-$200 of off the final price. We’ll see.</p>
                 </div>
             </div>
         </div>
