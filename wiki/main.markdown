@@ -16,3 +16,8 @@ through my site.
 ### Notes and Studies
 * [Power Consumption Notes](/wiki/power)
 * [Musings and Random Thoughts](/wiki/musings)
+
+### Personal
+* [Boxing](/wiki/boxing)
+* [Straight Razors](/wiki/razor)
+* [Cryptoanarchist Potato Farm](/wiki/potato)
