@@ -17,7 +17,7 @@
                 background-position: center;
                 padding: 2px;
             
-                background-image: url("../static/img/wiki.jpg");
+                background-image: url("../static/img/potato.jpg");
             
             }
         </style>
@@ -26,7 +26,7 @@
         <div id="bg_img">
             <div id="meta_container">
             
-                <a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/10685169003/" title="Image Source"></a>
+                <a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11020781375/" title="Image Source"></a>
             
             </div>
         </div>
@@ -48,7 +48,7 @@
                 <div id="right_col" class="content">
                     <p class="title">Cryptoanarchist Potato Farm</p>
                     
-                        <div class="info">Last modified on November 24, 2013  3:20 AM</div>
+                        <div class="info">Last modified on November 24, 2013  3:25 AM</div>
                     
                     <h1 id="november-23-2013">November 23 2013</h1>
 <p>Agenda:</p>

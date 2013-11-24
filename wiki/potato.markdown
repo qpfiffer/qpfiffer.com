@@ -1,7 +1,7 @@
 ---
 title: Cryptoanarchist Potato Farm
-bg-image: ../static/img/wiki.jpg
-bg-img-src: http://www.flickr.com/photos/104820964@N07/10685169003/
+bg-image: ../static/img/potato.jpg
+bg-img-src: http://www.flickr.com/photos/104820964@N07/11020781375/
 ---
 
 November 23 2013
