@@ -62,7 +62,7 @@ Q vs. Tony 1:
 
 <iframe width="560" height="315"
 src="//www.youtube.com/embed/SYJ7eKt7tw4?list=UUcme5pIuXjRdVt0TxPggzFg"
-frameborder="0" allowfullscreen></iframe>o
+frameborder="0" allowfullscreen></iframe>
 
 Q vs. Tony 2:
 
