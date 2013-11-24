@@ -16,6 +16,7 @@ Agenda:
 * nijotz wants to discuss collaborative music streaming
 * LTC &harr; BTC tenyks service
 * vhost-'s Bitcoin Treasurechest
+* Buying Land
 
 Minutes:
 
@@ -30,4 +31,6 @@ said he'll do it.
 * LTC &harr; BTC arbitrage/trading bot: Good idea. Don't want to do it right now.
 * vhost-'s harddrive (if he brought the right one) might have a header that
   doesn't match the encrypted bits. It's also dying.
+* None of us have enough money for a group land buy we'd be happy with.
+  Reconsider a few years down the road.
 
