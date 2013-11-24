@@ -33,9 +33,11 @@ current ideal parts list:
 
 I'm not sure how the low voltage ram will affect performance, but I am excited
 to find out. Another notable addition is the upgraded motherboard, which has 6
-sata ports as opposed to 4. The Node 304 has six drivebays, which is kind of
-ridiculous for a mini-ITX case, but I have a need for at least four drivebays
-([RAID 5](http://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_5) is awesome).
+sata ports as opposed to 4, and supports the low voltage ram. It also Intel's [XMP](http://www.intel.com/content/www/us/en/gaming/extreme-memory-profile-xmp.html) stuff.
+
+The Node 304 has six drivebays, which is kind of ridiculous for a mini-ITX case,
+but I have a need for at least four drivebays ([RAID 5](http://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_5)
+is awesome). We'll see if I'll be able to jam everything I want into it.
 
 All of this at full price costs around $450.96, plus shipping. That
 makes the ROI for power usage (assuming Jeff's power usage is correct) pretty
