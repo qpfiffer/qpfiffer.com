@@ -44,3 +44,7 @@ makes the ROI for power usage (assuming Jeff's power usage is correct) pretty
 terrible. Luckily, black friday/cyber monday is coming up and I'm hoping I can
 knock $100-$200 of off the final price. We'll see.
 
+The Build
+=========
+
+* Final price of the Node 304: $54.99
