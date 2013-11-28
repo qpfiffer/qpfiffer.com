@@ -48,9 +48,9 @@
                 <div id="right_col" class="content">
                     <p class="title">Low Power Server Build</p>
                     
-                        <div class="info">Last modified on November 28, 2013  1:03 AM</div>
+                        <div class="info">Last modified on November 28, 2013  1:05 AM</div>
                     
-                    <p>My current homeserver is an ancient thing I’ve assembled out of hodgepodge parts and pieces. Inspirted by <a href="http://www.codinghorror.com/blog/2013/09/the-2013-htpc-build.html">this post</a> by <a href="http://www.codinghorror.com/blog/2004/02/about-me.html">Jeff Atwood</a> I decided to see how much my current home server costs to run.</p>
+                    <p>My current homeserver is an ancient thing I’ve assembled out of hodgepodge parts and pieces. Inspired by <a href="http://www.codinghorror.com/blog/2013/09/the-2013-htpc-build.html">this post</a> by <a href="http://www.codinghorror.com/blog/2004/02/about-me.html">Jeff Atwood</a> I decided to see how much my current home server costs to run.</p>
 <p>I pay for <a href="http://www.portlandgeneral.com/default.aspx">PGE</a>‘s ’clean energy’ program, which means I get energy only from renewable resources for an extra 0.03 or so cents a month. Not bad at all. Currenty kilowatt hours cost about $0.1093 USD. Knowing this we compute the power draw of the current server per day per month go get an approximate cost to run:</p>
 <pre><code>115 watts an hour (damn!)
 115 * 24 = 2760 watts a day

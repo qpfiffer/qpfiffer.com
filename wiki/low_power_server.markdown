@@ -5,7 +5,7 @@ bg-img-src: https://drive.google.com/file/d/0B8hltkS8-lFqSG80bVZ4SnNlQjQ/edit?us
 ---
 
 My current homeserver is an ancient thing I've assembled out of hodgepodge
-parts and pieces. Inspirted by [this post](http://www.codinghorror.com/blog/2013/09/the-2013-htpc-build.html)
+parts and pieces. Inspired by [this post](http://www.codinghorror.com/blog/2013/09/the-2013-htpc-build.html)
 by [Jeff Atwood](http://www.codinghorror.com/blog/2004/02/about-me.html) I
 decided to see how much my current home server costs to run.
 
