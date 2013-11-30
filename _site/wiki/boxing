@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Malevolent Cartography - Main</title>
+        <title>Malevolent Cartography - Boxing</title>
         <link rel="author" type="text/plain" href="http://qpfiffer.com/humans.txt" />
         <link rel="shortcut icon" href="../static/favicon.ico" />
         <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
@@ -17,7 +17,7 @@
                 background-position: center;
                 padding: 2px;
             
-                background-image: url("../static/img/wiki.jpg");
+                background-image: url("../static/img/potato.jpg");
             
             }
         </style>
@@ -26,7 +26,7 @@
         <div id="bg_img">
             <div id="meta_container">
             
-                <a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/10685169003/" title="Image Source"></a>
+                <a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11020781375/" title="Image Source"></a>
             
             </div>
         </div>
@@ -46,29 +46,44 @@
             </div>
             <div class="col-9-12">
                 <div id="right_col" class="content">
-                    <p class="title">Main</p>
+                    <p class="title">Boxing</p>
                     
-                        <div class="info">Last modified on November 24, 2013  9:34 PM</div>
+                        <div class="info">Last modified on November 24, 2013 11:25 PM</div>
                     
-                    <p>This is my personal wiki. You’ll find a collection of information that I’ve deemed relevant to both myself and anyone interested enough to be looking through my site.</p>
-<h3 id="things-im-interested-in">Things I’m Interested In</h3>
-<ul>
-<li><a href="../wiki/books">Books</a></li>
-<li><a href="../wiki/people">People</a></li>
-<li><a href="../wiki/tech">Technologies</a></li>
-</ul>
-<h3 id="notes-and-studies">Notes and Studies</h3>
-<ul>
-<li><a href="../wiki/power">Power Consumption Notes</a></li>
-<li><a href="../wiki/low_power_server">Low Power Server Build</a></li>
-<li><a href="../wiki/musings">Musings and Random Thoughts</a></li>
-</ul>
-<h3 id="personal">Personal</h3>
-<ul>
-<li><a href="../wiki/boxing">Boxing</a></li>
-<li><a href="../wiki/razor">Straight Razors</a></li>
-<li><a href="../wiki/potato">Cryptoanarchist Potato Farm</a></li>
-</ul>
+                    <p>I started boxing on January 23rd, 2013. This is a collection of all of my recorded matches and other media.</p>
+<h1 id="november-23rd-2013">November 23rd 2013</h1>
+<p>Me vs. Bjorn 2:</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/x5OjugLuFZA?list=PLlTAqvm2_6PBfpSKxC1qLDjQNHWNDs7hW" frameborder="0" allowfullscreen></iframe>
+
+<p>Me vs. Danny 1:</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/WF9-A_ahRp0?list=PLlTAqvm2_6PBfpSKxC1qLDjQNHWNDs7hW" frameborder="0" allowfullscreen></iframe>
+
+<p>Me vs. Danny 2:</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/LuNYaX_EEDQ?list=PLlTAqvm2_6PBfpSKxC1qLDjQNHWNDs7hW" frameborder="0" allowfullscreen></iframe>
+
+<p>Me vs. Jason 1:</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/mdOlbGKuhU4?list=PLlTAqvm2_6PBfpSKxC1qLDjQNHWNDs7hW" frameborder="0" allowfullscreen></iframe>
+
+<p>Me vs. Jason 2 (match of the day):</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/4r7rQISAIUc?list=PLlTAqvm2_6PBfpSKxC1qLDjQNHWNDs7hW" frameborder="0" allowfullscreen></iframe>
+
+<h1 id="may-11th-2013">May 11th 2013</h1>
+<p>Me vs. Jason 1:</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/-gz_2kPC4gQ" frameborder="0" allowfullscreen></iframe>
+
+<p>Me vs. Jason 2:</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/eE8Ove5el7s" frameborder="0" allowfullscreen></iframe>
+
+<h1 id="march-24-2013">March 24 2013</h1>
+<p>Some older matches that Jason recorded of me fighting Tony.</p>
+<p>Q vs. Tony 1:</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/SYJ7eKt7tw4?list=UUcme5pIuXjRdVt0TxPggzFg" frameborder="0" allowfullscreen></iframe>
+
+<p>Q vs. Tony 2:</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/QnfM1XX8yjc?list=UUcme5pIuXjRdVt0TxPggzFg" frameborder="0" allowfullscreen></iframe>
+
+
+
                 </div>
             </div>
         </div>

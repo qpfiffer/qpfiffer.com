@@ -15,6 +15,7 @@ through my site.
 
 ### Notes and Studies
 * [Power Consumption Notes](/wiki/power)
+* [Low Power Server Build](/wiki/low_power_server)
 * [Musings and Random Thoughts](/wiki/musings)
 
 ### Personal

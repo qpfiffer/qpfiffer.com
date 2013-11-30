@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Malevolent Cartography - Main</title>
+        <title>Malevolent Cartography - Straight Razors</title>
         <link rel="author" type="text/plain" href="http://qpfiffer.com/humans.txt" />
         <link rel="shortcut icon" href="../static/favicon.ico" />
         <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
@@ -17,7 +17,7 @@
                 background-position: center;
                 padding: 2px;
             
-                background-image: url("../static/img/wiki.jpg");
+                background-image: url("../static/img/wb.jpg");
             
             }
         </style>
@@ -26,7 +26,7 @@
         <div id="bg_img">
             <div id="meta_container">
             
-                <a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/10685169003/" title="Image Source"></a>
+                <a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11037188944/" title="Image Source"></a>
             
             </div>
         </div>
@@ -46,29 +46,13 @@
             </div>
             <div class="col-9-12">
                 <div id="right_col" class="content">
-                    <p class="title">Main</p>
+                    <p class="title">Straight Razors</p>
                     
-                        <div class="info">Last modified on November 24, 2013  9:34 PM</div>
+                        <div class="info">Last modified on November 24, 2013 11:26 PM</div>
                     
-                    <p>This is my personal wiki. You’ll find a collection of information that I’ve deemed relevant to both myself and anyone interested enough to be looking through my site.</p>
-<h3 id="things-im-interested-in">Things I’m Interested In</h3>
-<ul>
-<li><a href="../wiki/books">Books</a></li>
-<li><a href="../wiki/people">People</a></li>
-<li><a href="../wiki/tech">Technologies</a></li>
-</ul>
-<h3 id="notes-and-studies">Notes and Studies</h3>
-<ul>
-<li><a href="../wiki/power">Power Consumption Notes</a></li>
-<li><a href="../wiki/low_power_server">Low Power Server Build</a></li>
-<li><a href="../wiki/musings">Musings and Random Thoughts</a></li>
-</ul>
-<h3 id="personal">Personal</h3>
-<ul>
-<li><a href="../wiki/boxing">Boxing</a></li>
-<li><a href="../wiki/razor">Straight Razors</a></li>
-<li><a href="../wiki/potato">Cryptoanarchist Potato Farm</a></li>
-</ul>
+                    <p><a href="http://en.wikipedia.org/wiki/Shaving#.22Traditional.22_wet_shaving">Wet shaving</a> is a hobby of mine, and I like to collect, restore and hone straight razors.</p>
+<h2 id="wade-butcher-straight">Wade &amp; Butcher Straight</h2>
+<p><a href="http://www.flickr.com/photos/104820964@N07/11037188944/">Wade &amp; Butcher</a> straight razor with barber’s notch and (probably) original scales. I bought this one at an antique show and polished/cleaned/honed it up myself.</p>
                 </div>
             </div>
         </div>
