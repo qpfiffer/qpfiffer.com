@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Malevolent Cartography - Home</title>
+        <title>Malevolent Cartography - Bcache and LVM non-destructive setup</title>
         <link rel="author" type="text/plain" href="http://qpfiffer.com/humans.txt" />
         <link rel="shortcut icon" href="../static/favicon.ico" />
         <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
@@ -17,7 +17,7 @@
                 background-position: center;
                 padding: 2px;
             
-                background-image: url("../static/img/bg.jpg");
+                background-image: url("../static/img/12_09_2013.jpg");
             
             }
         </style>
@@ -26,7 +26,7 @@
         <div id="bg_img">
             <div id="meta_container">
             
-                <a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/10848305864/" title="Image Source"></a>
+                <a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11296545115/" title="Image Source"></a>
             
             </div>
         </div>
@@ -46,28 +46,27 @@
             </div>
             <div class="col-9-12">
                 <div id="right_col" class="content">
-                    <p class="title">Home</p>
+                    <p class="title">Bcache and LVM non-destructive setup</p>
                     
-                    <div class="col-6-12">
-    <p>Links</p>
-    <a href="http://www.flickr.com/photos/104820964@N07/sets/72157637105420384/">Hong Kong Photos</a>
+                    <div class="info">
+    December  9, 2013
+    
+        by Quinlan Pfiffer
+    
 </div>
-<div class="col-6-12">
-    <p>Posts</p>
-    <ul>
-    
-        <li><a href="../posts/2013-12-09-Bcache_and_LVM">Bcache and LVM non-destructive setup</a></li>
-    
-        <li><a href="../posts/2013-11-16-Listserve_Postmortem">Listserve Post-mortem</a></li>
-    
-        <li><a href="../posts/2013-11-06-2013_kvm_coreos">KVM, CoreOS and LVM</a></li>
-    
-        <li><a href="../posts/2013-10-28-Hong_Kong_Day_6">Hong Kong Day 6</a></li>
-    
-        <li><a href="../posts/2013-10-27-Hong_Kong_Day_5">Hong Kong Day 5</a></li>
-    
-    </ul>
-    <p>More in the <a href="../archive">archives.</a></p>
+<div>
+<p>The filesystem-caching tool <a href="http://bcache.evilpiepirate.org/">bcache</a> was recently added to the linux kernel in 3.10. What it allows you to do is cache both reads and writes on an intermediate device for great system performance. I figured now would be a good time to play with it since I managed to pick up a <a href="http://www.ebay.com/itm/Lot-of-5-InnoDisk-FiD-4GB-2-5-SSD-SATA-100000-Serial-ATA-II-Solid-State-Drive-/321259425108?ssPageName=ADME:B:EOIBSA:US:3160">lot of 4GB SSDs on ebay.</a></p>
+<p>The <a href="http://evilpiepirate.org/git/linux-bcache.git/tree/Documentation/bcache.txt?h=bcache-dev#n40">few</a> <a href="https://wiki.archlinux.org/index.php/Bcache">tutorials</a> I’ve found suggest that the drives (mechanical and cache) need to be formatted before use. This isn’t really ideal for my setup. Into <a href="https://github.com/g2p/blocks">blocks.</a></p>
+<p>Blocks is a Python 3.3 utility to convert existing block devices and LVMs to bcache devices. It has a <a href="https://github.com/g2p/blocks/blob/master/README.md">pretty good readme</a> which I sugges you at least skim.</p>
+<h3 id="create-cache-device">Create Cache Device</h3>
+<p>First of all you’re going to need that actual caching device to be setup first.</p>
+<pre><code>make-bcache -C /dev/md1</code></pre>
+<p>My device is <code>/dev/md1</code>, because I threw two of the SSDs I recieved into a mirrored raid. This command also has the side effect of creating a new bcache set. The UUID for this set is spit out as the <code>Set UUID:</code> output. Mine happens to be <code>c4f68165-bf87-4d29-8e8e-3f3338deb3f9</code>.</p>
+<h3 id="convert-existing-device">Convert Existing Device</h3>
+<p>From here it’s a rather trivial matter. Supposedly. I downloaded and installed blocks, and then ran:</p>
+<pre><code>blocks to-bcache --join=c4f68165-bf87-4d29-8e8e-3f3338deb3f9 /dev/volumegroup/logical_volume</code></pre>
+<p>which will do some wizardry and resize and convert the device to a bcache backing device. Or it’s supposed to. <a href="https://github.com/g2p/blocks/issues/6">Doesn’t quite work yet.</a>.</p>
+<p>I’ll finish this post once I either get it working or get a response back from the blocks author.</p>
 </div>
 
                 </div>
