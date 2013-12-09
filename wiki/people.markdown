@@ -1,7 +1,7 @@
 ---
 title: People I Respect or Admire
 bg-image: ../static/img/explorers.jpg
-bg-img-src: http://www.flickr.com/photos/23307493@N07/4287063307
+bg-img-src: http://www.flickr.com/photos/104820964@N07/11296637703/
 ---
 
 This is a collection of people that I respect and admire.
