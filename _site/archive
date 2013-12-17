@@ -50,6 +50,8 @@
                     
                     <ul>
 
+    <li><a href="./posts/2013-12-16-DNSMasq_setup">Sane dnsmasq setup</a> - December 16, 2013</li>
+
     <li><a href="./posts/2013-12-09-Bcache_and_LVM">Bcache and LVM non-destructive setup</a> - December  9, 2013</li>
 
     <li><a href="./posts/2013-11-16-Listserve_Postmortem">Listserve Post-mortem</a> - November 16, 2013</li>
