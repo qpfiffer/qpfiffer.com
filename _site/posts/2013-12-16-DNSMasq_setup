@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Malevolent Cartography - Home</title>
+        <title>Malevolent Cartography - Sane dnsmasq setup</title>
         <link rel="author" type="text/plain" href="http://qpfiffer.com/humans.txt" />
         <link rel="shortcut icon" href="../static/favicon.ico" />
         <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
@@ -17,7 +17,7 @@
                 background-position: center;
                 padding: 2px;
             
-                background-image: url("../static/img/bg.jpg");
+                background-image: url("../static/img/12_16_2013.jpg");
             
             }
         </style>
@@ -26,7 +26,7 @@
         <div id="bg_img">
             <div id="meta_container">
             
-                <a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/10848305864/" title="Image Source"></a>
+                <a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/10920448963/" title="Image Source"></a>
             
             </div>
         </div>
@@ -46,28 +46,41 @@
             </div>
             <div class="col-9-12">
                 <div id="right_col" class="content">
-                    <p class="title">Home</p>
+                    <p class="title">Sane dnsmasq setup</p>
                     
-                    <div class="col-6-12">
-    <p>Links</p>
-    <a href="http://www.flickr.com/photos/104820964@N07/sets/72157637105420384/">Hong Kong Photos</a>
+                    <div class="info">
+    December 16, 2013
+    
+        by Quinlan Pfiffer
+    
 </div>
-<div class="col-6-12">
-    <p>Posts</p>
-    <ul>
-    
-        <li><a href="../posts/2013-12-16-DNSMasq_setup">Sane dnsmasq setup</a></li>
-    
-        <li><a href="../posts/2013-12-09-Bcache_and_LVM">Bcache and LVM non-destructive setup</a></li>
-    
-        <li><a href="../posts/2013-11-16-Listserve_Postmortem">Listserve Post-mortem</a></li>
-    
-        <li><a href="../posts/2013-11-06-2013_kvm_coreos">KVM, CoreOS and LVM</a></li>
-    
-        <li><a href="../posts/2013-10-28-Hong_Kong_Day_6">Hong Kong Day 6</a></li>
-    
-    </ul>
-    <p>More in the <a href="../archive">archives.</a></p>
+<div>
+<p><a href="http://www.thekelleys.org.uk/dnsmasq/doc.html">Dnsmasq</a> is a slick little piece of software that acts as both a DHCP and DNS server. However, it’s annoying to setup if you don’t know what you’re going for.</p>
+<p>My common use case is that I have an internal network behind dnsmasq and an external network of computers all using the same domain. Ideally, what I’d like to happen is that I can ping a computer and have it attempt to resolve first locally and then as a subdomain on the external network.</p>
+<p>This isn’t as hard to do as it seems, and you can actually get it working under windows as well.</p>
+<ol style="list-style-type: decimal">
+<li>First of all you need to setup your domain. I’ll be using <code>shithouse.tv</code> because thats what I actually use. You’re going to need to subdivide your physical locations into domains, I use <code>shithouse.tv</code>.</li>
+<li>Assign your domain to the network you want to use it. domain=apartment.shithouse.tv</li>
+<li>If you’re using dnsmasq for DHCP, you’ll want to set that up too dhcp-range=10.1.10.100,10.1.10.200,255.255.255.0,12h This will give 12 hour leases to people between 10.1.10.100-200.</li>
+<li>If your dnsmasq server is not your router, you’ll want to tell computers getting your leases from you that you aren’t: dhcp-option=3,10.1.10.1 10.1.10.1 is my gateway.</li>
+<li>Set expand-hosts (this sets the ‘search’ option in <code>/etc/hosts</code>): expand-hosts</li>
+<li>Set some external DNS, unless you have your own (I use google’s): server=8.8.8.8 server=8.8.4.4</li>
+<li>Tell everyone this server is the best: dhcp-authoritative</li>
+<li>Set domain-needed so that leasers know where they are: domain-needed</li>
+</ol>
+<p>For the full configuration file:</p>
+<pre><code>domain-needed
+domain=shithouse.com
+server=8.8.8.8
+server=8.8.4.4
+expand-hosts
+dhcp-range=10.1.10.100,10.1.10.200,255.255.255.0,12h
+dhcp-option=3,10.1.10.1 # Set the default gateway to the actual router, not us
+dhcp-authoritative
+cache-size=0
+</code></pre>
+<p>Dropping this into <code>/etc/dnsmasq.conf</code> will allow me to ping external servers, and to resolve local computers. I can ping test.shithouse.tv, test.apartment.shithouse.tv and test and the all resolve to the same place.</p>
+<p>I mostly figured this out while messing around, so optimizations welcome.</p>
 </div>
 
                 </div>

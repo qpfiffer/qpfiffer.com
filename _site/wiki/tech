@@ -48,25 +48,24 @@
                 <div id="right_col" class="content">
                     <p class="title">Technologies</p>
                     
-                        <div class="info">Last modified on November 21, 2013  3:41 AM</div>
+                        <div class="info">Last modified on December 17, 2013  2:09 AM</div>
                     
                     <p>This is a collection of technologies I’m interested in, in alphabetical order.</p>
 <div class="col-6-12">
-<h3 id="analog">Analog</h3>
+<h3>Analog</h3>
 <ul>
 <li><a href="http://www.bulletjournal.com/">Bullet Journal</a></li>
 <li><a href="http://www.glassian.org/Prism/Patent/GB18184222/page1.html">The Preston Patent Illuminator</a></li>
 <li><a href="http://practicaltypography.com/times-new-roman.html">Times New Roman</a></li>
 </ul>
-<h3 id="hardware">Hardware</h3>
+<h3>Hardware</h3>
 <ul>
 <li><a href="http://www.lemote.com/en/products/Notebook/2010/0310/112.html">Lemote Yeeloong</a></li>
-<li><a href="http://www.raspberrypi.org/">The Raspberry Pi</a>
-</div>
-</li>
+<li><a href="http://www.raspberrypi.org/">The Raspberry Pi</a></li>
 </ul>
+</div>
 <div class="col-6-12">
-<h3 id="software">Software</h3>
+<h3>Software</h3>
 <ul>
 <li><a href="http://www.erlang.org/">Erlang</a></li>
 <li><a href="http://flask.pocoo.org/">Flask</a></li>
@@ -81,16 +80,14 @@
 <li><a href="http://sphia.org/index.html">Sophia</a></li>
 <li><a href="https://github.com/kyleterry/tenyks">tenyks</a></li>
 </ul>
-<h3 id="websites">Websites</h3>
+<h3>Websites</h3>
 <ul>
 <li><a href="https://ipxcore.com/">IPXCore</a></li>
 <li><a href="http://getpocket.com/">Pocket</a></li>
 <li><a href="http://stream.pncks.com/">pncks</a></li>
-<li><a href="http://www.tarsnap.com/">Tarsnap</a>
-</div>
-
-</li>
+<li><a href="http://www.tarsnap.com/">Tarsnap</a></li>
 </ul>
+</div>
                 </div>
             </div>
         </div>
