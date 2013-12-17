@@ -21,23 +21,36 @@ windows as well.
    because thats what I actually use. You're going to need to subdivide your
    physical locations into domains, I use `shithouse.tv`.
 1. Assign your domain to the network you want to use it.
+````
     domain=apartment.shithouse.tv
+````
 1. If you're using dnsmasq for DHCP, you'll want to set that up too
+````
     dhcp-range=10.1.10.100,10.1.10.200,255.255.255.0,12h
+````
    This will give 12 hour leases to people between 10.1.10.100-200.
 1. If your dnsmasq server is not your router, you'll want to tell computers
    getting your leases from you that you aren't:
+````
     dhcp-option=3,10.1.10.1
+````
    10.1.10.1 is my gateway.
 1. Set expand-hosts (this sets the 'search' option in `/etc/hosts`):
+````
     expand-hosts
+````
 1. Set some external DNS, unless you have your own (I use google's):
+````
     server=8.8.8.8
     server=8.8.4.4
+````
 1. Tell everyone this server is the best:
+````
     dhcp-authoritative
 1. Set domain-needed so that leasers know where they are:
+````
     domain-needed
+````
 
 For the full configuration file:
 
