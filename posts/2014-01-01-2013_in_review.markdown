@@ -4,7 +4,8 @@ author: Quinlan Pfiffer
 bg-image: ../static/img/1_1_2014.jpg
 bg-img-src: http://www.flickr.com/photos/104820964@N07/11596298646/
 ---
-=== Accomplishments ===
+Accomplishments
+===============
 
 I started boxing and stuck with it. This is probably one of the most valuable
 things of 2013.
@@ -33,7 +34,8 @@ continues into the future.
 There were also a slew of personal projects that I haven't bothered to write-up,
 or haven't yet.
 
-=== Goals for 2014 ===
+Goals for 2014
+==============
 
 * Get a driver's license
 * Get a comfortable grasp on Mandarin
