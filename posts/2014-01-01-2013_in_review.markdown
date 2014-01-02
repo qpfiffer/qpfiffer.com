@@ -1,0 +1,44 @@
+---
+title: 2013 In Review
+author: Quinlan Pfiffer
+bg-image: ../static/img/1_1_2014.jpg
+bg-img-src: http://www.flickr.com/photos/104820964@N07/11596298646/
+---
+=== Accomplishments ===
+
+I started boxing and stuck with it. This is probably one of the most valuable
+things of 2013.
+
+I attempted and failed to learn both Japanese and Mandarin. At least with
+Mandarin I'm remedying this by going back to school.
+
+I travelled earlier in the year to New York, and in October to [Hong Kong.](/posts/2013-10-21-Hong_Kong_Day_0)
+
+I built [this site](https://github.com/qpfiffer/qpfiffer.com),
+[merveill.es](http://merveill.es/) and started [kyoto.io](http://kyoto.io/).
+
+I improved my Haskell knowledge by building projects like [whatbook
+(unfinished)](https://github.com/qpfiffer/whatbook) and [gather](https://github.com/qpfiffer/gather).
+
+I think I read good dozen or so books this year (not enough!).
+
+I went through three different phones.
+
+I got into board games a bit, best of 2013 being [Twilight Imperium Third
+Edition](http://boardgamegeek.com/boardgame/12493/twilight-imperium-third-edition).
+
+Going to Hong Kong spurred on a delightful period of photography that I hope
+continues into the future.
+
+There were also a slew of personal projects that I haven't bothered to write-up,
+or haven't yet.
+
+=== Goals for 2014 ===
+
+* Get a driver's license
+* Get a comfortable grasp on Mandarin
+* Start writing Haskell for someone, for money
+* More travelling (Singapore, Murmansk, Tokyo)
+* Keep boxing (work on footwork)
+* Start a business and make some money on the side
+* Place in [fpcomplete monthly contest](https://www.fpcomplete.com/business/resources/competition-overview/)
