@@ -44,3 +44,11 @@ yet.](https://github.com/g2p/blocks/issues/6).
 
 I'll finish this post once I either get it working or get a response back from
 the blocks author.
+
+**Update:** My specific issue was fixed as of [here.](https://github.com/g2p/blocks/issues/8)
+After updating blocks and making sure everything was working perfectly I ran:
+
+    python3.3 -m blocks to-bcache --join=c4f68165-bf87-4d29-8e8e-3f3338deb3f9 /dev/vg/lvm
+
+which successfully completed. After that I had a `/dev/bcache0` to mount. Props
+to [g2p](https://github.com/g2p).
