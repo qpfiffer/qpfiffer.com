@@ -13,7 +13,8 @@ good idea of the kind of books I want to read.
 * [The Last Place on Earth](http://www.amazon.com/dp/0375754741/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=1AUOOID3FHOQF&coliid=I3QAULXBQOM3NY)
 
 ### Reading
-* [The Case of Charles Dexter Ward](http://en.wikipedia.org/wiki/The_Case_of_Charles_Dexter_Ward)
+* [The Book of Five Rings](http://en.wikipedia.org/wiki/The_Book_of_Five_Rings)
+* [The Color out of Space](http://en.wikipedia.org/wiki/The_Color_Out_Of_Space)
 * [Longitude](http://www.amazon.com/Longitude-Dava-Sobel-ebook/dp/B003WUYE66/ref=sr_1_1?s=books&ie=UTF8&qid=1384658307&sr=1-1&keywords=Longitude)
 * [The Lost Men](http://www.thelostmen.com/)
 
@@ -23,6 +24,7 @@ finish books.
 ### Read
 * [The Abominable](http://www.amazon.com/The-Abominable-Novel-Dan-Simmons/dp/0316198838)
 * [Ajax Penumbra 1969](http://www.amazon.com/Ajax-Penumbra-1969-Kindle-Single-ebook/dp/B00EWZC8QI)
+* [The Case of Charles Dexter Ward](http://en.wikipedia.org/wiki/The_Case_of_Charles_Dexter_Ward)
 * [I Have No Mouth and I Must Scream](http://en.wikipedia.org/wiki/I_Have_No_Mouth,_and_I_Must_Scream)
 * [REAMDE](http://www.amazon.com/Reamde-A-Novel-Neal-Stephenson/dp/0062191497)
 * [The Terror](http://www.amazon.com/The-Terror-Novel-Dan-Simmons/dp/0316008079)

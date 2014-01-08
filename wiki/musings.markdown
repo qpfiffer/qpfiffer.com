@@ -7,7 +7,7 @@ bg-img-src: http://www.flickr.com/photos/104820964@N07/10685169003/
 Collection of random thoughts, some acted upon, most not.
 
 ### Questions
-* Do people still use /frames on 4chan?
+## Do people still use /frames on 4chan?
 
 Moot says no:
 
@@ -33,7 +33,7 @@ On 11/19/13, 20:28, qpfiffer@gmail.com wrote:
 > 
 ```
 
-* On the fragility of programming. 
+## On the fragility of programming. 
 
 \_why was noted saying:
 
@@ -56,3 +56,11 @@ Whats the best formatting for preserving literature, then? I think it's probably
 a good idea to assume that the simpler it is to represent something, the longer
 it'll stick around. This makes formats like HTML and Markdown pretty persistent,
 but who knows if they'll last through this millenium. [Textfiles certainly do.](http://www.textfiles.com/)
+
+## Thoughts on the Network Time Protocol
+
+[NTP](http://en.wikipedia.org/wiki/Network_Time_Protocol) is a protocol that a
+lot of computers use to set their times in a very accurate and consistent way.
+What would happen if that infrastructure collapsed? Do places like the New York
+Stock Exchange use something that could potentially be cut off? I can't imagine
+they would. Interesting to think about. Maybe.
