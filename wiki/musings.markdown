@@ -64,3 +64,6 @@ lot of computers use to set their times in a very accurate and consistent way.
 What would happen if that infrastructure collapsed? Do places like the New York
 Stock Exchange use something that could potentially be cut off? I can't imagine
 they would. Interesting to think about. Maybe.
+
+**Update:** Interestingly enough, [this article](http://arstechnica.com/security/2014/01/dos-attacks-that-took-down-big-game-sites-abused-webs-time-synch-protocol/) was posted recently concerning
+the abuse of NTP to take down several high profile websites.
