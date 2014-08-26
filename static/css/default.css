@@ -18,6 +18,10 @@ body {
     padding-bottom: 6px !important;
     font-size: 18px;
 }
+#subtitle {
+    font-size: 12px;
+    display: block;
+}
 .content {
     min-height: 512px;
 }
