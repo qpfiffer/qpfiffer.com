@@ -14,6 +14,11 @@ Jetlag. I procrastinated a bit, then decided to visit (GuangHua Digital
 Plaza)[https://en.wikipedia.org/wiki/Guang_Hua_Digital_Plaza) and the [24-hour
 bookstore.](http://www.guide.taiwan-adventures.com/2011/eslite-24-hour-bookstore/)
 
+Had lunch at a place called Watami, some kind of crazy Egg-in-a-stone-bowl meal
+that was really good and filling, although a little more pricey than the
+standard. Waitress had to mix it up for me because I didn't know wtf to do with
+the egg in the rice. Panic.
+
 They were both pretty neat places, I might go back to the bookstore to get some
 workbooks for practice, I'm not sure. I didn't go late enough in the day for the
 plaza to be of any real interest, felt like overpriced Hong Kong-style malls to
@@ -35,5 +40,5 @@ expats/white people. Don't get me wrong, I love the friendly Taiwanese but
 sometimes I just want to talk to someone without point and saying "This,
 please".
 
-Met somebody names Jacob, had a good time, then I went and bought a sandwich
+Met somebody named Jacob, had a good time, then I went and bought a sandwich
 from 7-11. Time for sleep.
