@@ -23,10 +23,12 @@ finish books.
 ### Read
 * [The Abominable](http://www.amazon.com/The-Abominable-Novel-Dan-Simmons/dp/0316198838)
 * [Ajax Penumbra 1969](http://www.amazon.com/Ajax-Penumbra-1969-Kindle-Single-ebook/dp/B00EWZC8QI)
+* [Black Man](https://en.wikipedia.org/wiki/Black_Man)
 * [The Case of Charles Dexter Ward](http://en.wikipedia.org/wiki/The_Case_of_Charles_Dexter_Ward)
 * [The Color out of Space](http://en.wikipedia.org/wiki/The_Color_Out_Of_Space)
 * [High Rise](https://en.wikipedia.org/wiki/High_Rise)
 * [Idoru](http://en.wikipedia.org/wiki/Idoru)
+* [In the Miso Soup](https://en.wikipedia.org/wiki/In_the_Miso_Soup)
 * [I Have No Mouth and I Must Scream](http://en.wikipedia.org/wiki/I_Have_No_Mouth,_and_I_Must_Scream)
 * [Lolita](https://en.wikipedia.org/wiki/Lolita)
 * [REAMDE](http://www.amazon.com/Reamde-A-Novel-Neal-Stephenson/dp/0062191497)
