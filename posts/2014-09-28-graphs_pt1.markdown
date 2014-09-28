@@ -1,0 +1,48 @@
+---
+title: Fun with Graphs part 1: Getting Started
+author: Quinlan Pfiffer
+bg-image: ../static/img/09_28_2014.jpg
+bg-img-src: https://www.flickr.com/photos/104820964@N07/15380881731/
+---
+
+_This is part one of an X part series on my explorations using graphs._
+
+As a hobby I run this [tool](http://merveill.es/) that tracks links posted in
+IRC with some extra metadata about who posted it and when. In addition to
+this, it also aggregates some of the data and [visualizes
+it](http://merveill.es/stats) using some [awesome javascript
+libraries.](http://www.highcharts.com/)
+
+One of the more important charts on the page is the 'Posts in the last 10 days'
+chart which, as you would expect, shows you chunked by-the-day numbers
+representing the number of links posted by a person in the channel. This is all
+well and good, except it doesn't track name changes. This means that if you
+change your name, you lost your stat aggregate.
+
+This has been a 'problem' I've been thinking about for quite a few months, and
+I've just now started looking at it again. I figured it would be a good time to
+explore graph databases a bit because people are starting to talk about them
+more and more. With this post I'll walk you through a tool a built called,
+creatively, the ['IRC-Nick-Graph'](https://github.com/qpfiffer/IRC-Nick-Graph)
+which does some parsing and data transformation to build a graph.
+
+So, because I like interesting challenges, I decided to implement the tool in
+C++. I've been doing a lot of C for my [database
+side-project](http://olegdb.org/) and I figured getting some experience with the
+new C++11 stuff would be fun.
+
+So a broad overview the tool is thus: It takes a single file as an argument,
+`mmap()`s it into memory, reads it iteratively and looks for lines that say
+either ` is now known as ` or ` has joined `. It then parses these into either
+`Nick -> Nick` pairs or `Nick -> Room` pairs. This can be expressed in [cypher
+syntax](http://docs.neo4j.org/chunked/stable/cypher-query-lang.html) with
+something like the following:
+
+````
+(user)-[:BECAME]->(alias)
+...
+(user)-[:JOINED]->(room)
+````
+
+Each `Node` and `Edge` object is inserted into distinct `std::unordered_set` objects, which
+keeps duplicate Nodes and Edges out.
