@@ -40,17 +40,19 @@ Accomplishments
   Played a lot this year.
 * Didn't make the '10,000 Commits by the end of the year' goal:
 
-> 2014-03-06 13:42:12     jnerula Guys if I hit 10,000 commits in a year
-> 2014-03-06 13:42:14     jnerula what happens
-> 2014-03-06 13:43:23     coalbe  nothing.
-> 2014-03-06 13:44:11     coalbe  muda bro.
-> 2014-03-06 13:46:31     vhost-  yeah, muda
-> 2014-03-06 13:47:21     vhost-  jnerula: it's on
-> 2014-03-06 13:47:33     vhost-  10,000 commits by december 31st
-> 2014-03-06 13:47:45     vhost-  IFF challenge
-> 2014-03-06 13:48:07     vhost-  winner gets a linode vps for 6 months?
-> 2014-03-06 13:48:20     vhost-  they have to be good commits too
-> 2014-03-06 13:48:27     vhost-  not just bullshit or blanks
+```
+2014-03-06 13:42:12     jnerula Guys if I hit 10,000 commits in a year
+2014-03-06 13:42:14     jnerula what happens
+2014-03-06 13:43:23     coalbe  nothing.
+2014-03-06 13:44:11     coalbe  muda bro.
+2014-03-06 13:46:31     vhost-  yeah, muda
+2014-03-06 13:47:21     vhost-  jnerula: it's on
+2014-03-06 13:47:33     vhost-  10,000 commits by december 31st
+2014-03-06 13:47:45     vhost-  IFF challenge
+2014-03-06 13:48:07     vhost-  winner gets a linode vps for 6 months?
+2014-03-06 13:48:20     vhost-  they have to be good commits too
+2014-03-06 13:48:27     vhost-  not just bullshit or blanks
+```
 
 * Shipped a laptop to Italy for a [friend.](https://github.com/hamcha)
 * Had some backup crises, didn't learn my lesson.
