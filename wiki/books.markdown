@@ -31,5 +31,6 @@ finish books.
 * [In the Miso Soup](https://en.wikipedia.org/wiki/In_the_Miso_Soup)
 * [I Have No Mouth and I Must Scream](http://en.wikipedia.org/wiki/I_Have_No_Mouth,_and_I_Must_Scream)
 * [Lolita](https://en.wikipedia.org/wiki/Lolita)
+* [Piercing](http://www.goodreads.com/book/show/14288.Piercing)
 * [REAMDE](http://www.amazon.com/Reamde-A-Novel-Neal-Stephenson/dp/0062191497)
 * [The Terror](http://www.amazon.com/The-Terror-Novel-Dan-Simmons/dp/0316008079)

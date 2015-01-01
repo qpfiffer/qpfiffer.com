@@ -9,7 +9,7 @@ _This is part one of an X part series on my explorations using graphs._
 
 As a hobby I run this [tool](http://merveill.es/) that tracks links posted in
 IRC with some extra metadata about who posted it and when. In addition to
-this, it also aggregates some of the data and [visualizes
+this, it aggregates some of the data and [visualizes
 it](http://merveill.es/stats) using some [awesome javascript
 libraries.](http://www.highcharts.com/)
 
@@ -17,32 +17,47 @@ One of the more important charts on the page is the 'Posts in the last 10 days'
 chart which, as you would expect, shows you chunked by-the-day numbers
 representing the number of links posted by a person in the channel. This is all
 well and good, except it doesn't track name changes. This means that if you
-change your name, you lost your stat aggregate.
+change your name, you lose your stats.
 
-This has been a 'problem' I've been thinking about for quite a few months, and
-I've just now started looking at it again. I figured it would be a good time to
-explore graph databases a bit because people are starting to talk about them
-more and more. With this post I'll walk you through a tool a built called,
-creatively, the ['IRC-Nick-Graph'](https://github.com/qpfiffer/IRC-Nick-Graph)
+This has been a 'problem' I've been thinking about for quite a while.
+I figured it would be a good time to explore graph databases a bit because
+people are starting to talk about them more and more. With this post I'll walk 
+you through a tool a built called, creatively, the ['IRC-Nick-Graph'](https://github.com/qpfiffer/IRC-Nick-Graph)
 which does some parsing and data transformation to build a graph.
 
-So, because I like interesting challenges, I decided to implement the tool in
-C++. I've been doing a lot of C for my [database
-side-project](http://olegdb.org/) and I figured getting some experience with the
-new C++11 stuff would be fun.
+The main idea is to parse weechat logfiles into a directed series of nodes and edges. The
+nodes being names and the edges being "changed name to". This will give us a
+nice collection of tracked changes which we will, eventually, be able to query
+and learn neat things about.
 
-So a broad overview the tool is thus: It takes a single file as an argument,
-`mmap()`s it into memory, reads it iteratively and looks for lines that say
-either ` is now known as ` or ` has joined `. It then parses these into either
-`Nick -> Nick` pairs or `Nick -> Room` pairs. This can be expressed in [cypher
-syntax](http://docs.neo4j.org/chunked/stable/cypher-query-lang.html) with
-something like the following:
+Because I like interesting challenges, I decided to implement the tool in
+C++. I've been doing a lot of C for my [database side-project](http://olegdb.org/)
+and I figured getting some experience with the new C++11 stuff would be fun.
+After a couple days of figuring out template errors and what-not, I finally have
+something useable.
 
-````
-(user)-[:BECAME]->(alias)
-...
-(user)-[:JOINED]->(room)
-````
+The tool takes two arguments: an output format (there are a handful) and a
+logfile. It parses the logfile line-by-line looking for the strings " is now
+known as" and " has joined " in order to figure out who is where. From this we
+can construct a graph containing who-joined-what-channel and
+who-changed-their-name-to-what.
 
-Each `Node` and `Edge` object is inserted into distinct `std::unordered_set` objects, which
-keeps duplicate Nodes and Edges out.
+Included in the output formats is a couple of [csv
+files](https://en.wikipedia.org/wiki/Comma-separated_values) that can be loaded
+into [Gephi](https://gephi.github.io/), an open-source graph visualization tool.
+Naturally, I loaded all of my logfiles from the last couple years into the tool,
+exported them, did some twiddling and ended up with this:
+
+<a href="https://www.flickr.com/photos/104820964@N07/15380881731/"><img style="width:100%;" src="/static/img/graph_preview.jpg" /></a>
+
+This is a collection of all of the people, rooms and aliases of the people in
+those rooms that I was in for the last 2-3 years. The logfile itself was 220MB
+or so. Not bad.
+
+The big red cluster is [#haskell](irc://irc.freenode.net/haskell), for example,
+and all of the small nodes connected to it are people in that channel. The
+secondary ring around those nodes is, I think, aliases that only those people
+have. This behavior is mirrored in other channels as well.
+
+In part 2 we'll look at porting the program to Erlang because C++ is annoying,
+and constructing more meaningful queries and questions about the data.
