@@ -10,7 +10,7 @@ Accomplishments
 * Passed Chinese 101, 102, 103 and 201 with flying colors. Helped start and
   maintain the [PCC Chinese Club.](http://chinesepcc.club/) Met a lot of cool
   people in chinese class. Good year for language learning.
-* Spent almost a month in Taiwan, alone. One of my most valuablea experiences of
+* Spent almost a month in Taiwan, alone. One of my most valuable experiences of
   2014.
 * Wrote more C this year than any other time. Ever.
 * Wrote some Erlang. Nice language, don't like the VM.
@@ -67,8 +67,8 @@ Side-Projects
 * [OlegDB](https://olegdb.org/) - I don't care what you say, best thing of 2014.
 * [waifu.xyz](https://github.com/qpfiffer/waifu.xyz) - Somehow spent enough time
   on this to have almost 300 commits. It's a webserver, templating language,
-  webm-scraping, OlegDB-testing megamachine that basically downloads porn from
-  4chan and displays them on a single-page. Hilarious. Works really well for
+  webm-scraping, OlegDB-testing megamachine that basically downloads webms from
+  4chan and does some basic analysis on them. Hilarious. Works really well for
   what it is, still needs some love. I'm really happy with this project.
 * [GRESHUNKEL](https://github.com/infoforcefeed/OlegDB-Website) - The static
   site generator that I will use for the rest of my life. Hilariously awful,
