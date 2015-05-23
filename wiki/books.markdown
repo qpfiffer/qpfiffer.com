@@ -25,6 +25,7 @@ finish books.
 * [A Deepness in the Sky](https://en.wikipedia.org/wiki/A_Deepness_in_the_Sky)
 * [Ajax Penumbra 1969](http://www.amazon.com/Ajax-Penumbra-1969-Kindle-Single-ebook/dp/B00EWZC8QI)
 * [Black Man](https://en.wikipedia.org/wiki/Black_Man)
+* [Candide](https://en.wikipedia.org/wiki/Candide)
 * [The Case of Charles Dexter Ward](http://en.wikipedia.org/wiki/The_Case_of_Charles_Dexter_Ward)
 * [The Color out of Space](http://en.wikipedia.org/wiki/The_Color_Out_Of_Space)
 * [High Rise](https://en.wikipedia.org/wiki/High_Rise)
@@ -35,3 +36,4 @@ finish books.
 * [Piercing](http://www.goodreads.com/book/show/14288.Piercing)
 * [REAMDE](http://www.amazon.com/Reamde-A-Novel-Neal-Stephenson/dp/0062191497)
 * [The Terror](http://www.amazon.com/The-Terror-Novel-Dan-Simmons/dp/0316008079)
+* [Venus in Furs](https://en.wikipedia.org/wiki/Venus_in_Furs)
