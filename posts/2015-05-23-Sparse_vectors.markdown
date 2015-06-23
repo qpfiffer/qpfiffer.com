@@ -134,6 +134,13 @@ of some sort and you'll be fine.
       group[offset].~value_type();
 ```
 
+`bmtest(i)` is important, it's how we figure out whether or not a position in
+the array is occupied. It's a pretty simple function:
+
+```
+    int bmtest(size_type i) const    { return bitmap[charbit(i)] & modbit(i); }
+```
+
 ### Deletion
 
 ### Search/Find
