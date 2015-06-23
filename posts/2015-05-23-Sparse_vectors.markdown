@@ -6,7 +6,7 @@ bg-img-src: https://www.flickr.com/photos/104820964@N07/15221633500/
 ---
 
 This is a multi-part series (probably) on my exploration of Google's
-[SparseHash](https://code.google.com/p/sparsehash/) hashtable,
+[SparseHash](https://code.google.com/p/sparsehash/) hash-table,
 and my subsequent [re-implementation in C.](https://github.com/qpfiffer/Simple-Sparsehash)
 
 Sparse Vectors
@@ -34,7 +34,7 @@ required, but being able to store a ton of items in memory is.
 
 So why are we looking at sparse vectors, if our goal is to understand
 SparseHash? Well, SparseHash is really just a bunch of sparse vectors. To
-understand the hashtable, you have to understand the underlying mechanisms
+understand the hash-table, you have to understand the underlying mechanisms
 first.
 
 How does it work?
@@ -53,7 +53,7 @@ logical ways to denote positions, each at different UX levels.
 
 In the overall hash-table, you have what is known as the **location**. In your
 standard hasht-able, you have what are called **buckets** (see the [wikipedia
-article on hashtables](https://en.wikipedia.org/wiki/Hash_table) for a better
+article on hash-tables](https://en.wikipedia.org/wiki/Hash_table) for a better
 explanation of buckets/slots). The maximum number of buckets in your hash-table
 is hereby denoted __T__. Getting back to **location**, the **location** of an
 object is it's position `1 .. T` in the hash-table. So far so good?
