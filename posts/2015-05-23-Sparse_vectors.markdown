@@ -93,8 +93,7 @@ just dive in, here is the [whole relevant method](https://code.google.com/p/spar
 ```
 
 reference set(size_type i, const_reference val) {
-    size_type offset = pos_to_offset(bitmap, i);  // where we'll find (or
-insert)
+    size_type offset = pos_to_offset(bitmap, i);  // where we'll find (or insert)
     if ( bmtest(i) ) {
       // Delete the old value, which we're replacing with the new one
       group[offset].~value_type();
@@ -105,8 +104,7 @@ insert)
            base::is_same<
                allocator_type,
                libc_allocator_with_realloc<value_type> >::value)>
-          realloc_and_memmove_ok; // we pretend mv(x,y) == "x.~T(); new(x)
-T(y)"
+          realloc_and_memmove_ok; // we pretend mv(x,y) == "x.~T(); new(x) T(y)"
       set_aux(offset, realloc_and_memmove_ok());
       ++settings.num_buckets;
       bmset(i);
@@ -121,11 +119,20 @@ T(y)"
 
 Can't read C++? Well, no one else can either. Let's break it down:
 
+```
     size_type offset = pos_to_offset(bitmap, i);  // where we'll find (or
+```
 
 This is actually pretty clear. Here we're mapping the position (__i__) to our
 offset. `size_type` here is probably a `uint16_t`. It's not super important,
-just know that it's an integer of some sort and you'll be fine.
+just know that it's an [unsigned integer](https://en.wikipedia.org/wiki/Signedness)
+of some sort and you'll be fine.
+
+```
+    if ( bmtest(i) ) {
+      // Delete the old value, which we're replacing with the new one
+      group[offset].~value_type();
+```
 
 ### Deletion
 
