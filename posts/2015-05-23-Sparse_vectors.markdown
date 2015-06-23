@@ -77,7 +77,7 @@ random things we're sticking in the array. For another poorly-illustrated exampl
     _____________________
     |   | F |   |   | V |
 
-The **position** of __F__ here is 1, and the **position** of __V__ here is 4.
+The **position** of `F` here is 1, and the **position** of `V` here is 4.
 
     _________
     | F | V |
