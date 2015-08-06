@@ -34,6 +34,7 @@ finish books.
 * [I Have No Mouth and I Must Scream](http://en.wikipedia.org/wiki/I_Have_No_Mouth,_and_I_Must_Scream)
 * [Lolita](https://en.wikipedia.org/wiki/Lolita)
 * [Piercing](http://www.goodreads.com/book/show/14288.Piercing)
+* [Rant: An Oral Biography of Buster Casey](https://en.wikipedia.org/wiki/Rant_(novel))
 * [REAMDE](http://www.amazon.com/Reamde-A-Novel-Neal-Stephenson/dp/0062191497)
 * [The Terror](http://www.amazon.com/The-Terror-Novel-Dan-Simmons/dp/0316008079)
 * [Venus in Furs](https://en.wikipedia.org/wiki/Venus_in_Furs)
