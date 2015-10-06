@@ -24,6 +24,7 @@ finish books.
 * [The Abominable](http://www.amazon.com/The-Abominable-Novel-Dan-Simmons/dp/0316198838)
 * [A Deepness in the Sky](https://en.wikipedia.org/wiki/A_Deepness_in_the_Sky)
 * [Ajax Penumbra 1969](http://www.amazon.com/Ajax-Penumbra-1969-Kindle-Single-ebook/dp/B00EWZC8QI)
+* [Black Hole](http://www.amazon.com/Black-Hole-Novel-Bucky-Sinister/dp/1593766076)
 * [Black Man](https://en.wikipedia.org/wiki/Black_Man)
 * [Candide](https://en.wikipedia.org/wiki/Candide)
 * [The Case of Charles Dexter Ward](http://en.wikipedia.org/wiki/The_Case_of_Charles_Dexter_Ward)
