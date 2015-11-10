@@ -123,7 +123,7 @@ Can't read C++? Well, no one else can either. Let's break it down:
     size_type offset = pos_to_offset(bitmap, i);  // where we'll find (or
 ```
 
-This is actually pretty clear. Here we're mapping the position (__i__) to our
+This is actually pretty clear. Here we're mapping the position, `i`, to our
 offset. `size_type` here is probably a `uint16_t`. It's not super important,
 just know that it's an [unsigned integer](https://en.wikipedia.org/wiki/Signedness)
 of some sort and you'll be fine.
@@ -141,6 +141,40 @@ the array is occupied. It's a pretty simple function:
     int bmtest(size_type i) const    { return bitmap[charbit(i)] & modbit(i); }
 ```
 
-### Deletion
+...which in turn references some not-so-immediately-understandable functions,
+`charbit(i)` and `modbit(i)`:
 
-### Search/Find
+```
+  static size_type charbit(size_type i)  { return i >> 3; }
+  static size_type modbit(size_type i)   { return 1 << (i&7); }
+```
+
+So this is where we really start to get involved in our bitmap. The bitmap in
+SparseHash is the magic sauce that makes the whole thing work, and is defined
+like this:
+
+```
+    unsigned char bitmap[(GROUP_SIZE-1)/8 + 1]; // fancy math is so we round up
+```
+
+This is the bitmap. This is how we store whether or not a position in the sparse
+vector is occupied. It is the central concept to the function of this entire thing.
+By default, `GROUP_SIZE` is defined as `48`, just because. I guess google did
+some testing to figure that number out or something. Anyway, the number is `48`
+which means that our bitmap works out to be `6` characters long. The fancy
+little computation there figures out how many bytes are needed to hold the
+amount of bits that we want.
+
+So, getting back to `charbit()` and `modbit()`, take note of the operations
+performed. Specifically `i >> 3` and `1 << (i & 7)`. These are basically inverse
+operations.
+
+`i >> 3` removes the three lower bits, which is in fact all of the bits required
+to hold the numbers `0 - 7`. So what we end up with is all of the bits in the
+number `i` that don't include the ones for `0 - 7`. This helps us understand the
+meaning of the next statement, `1 << (i & 7)`.
+
+`1 << (i & 7)` gets us all the bits that are set in `i` that are less than `7`.
+Shifting `1` left by that number of bits gets us the left-most `1` bit in the
+number. We use these two things to figure out where in the bitmap our value will
+be placed.
