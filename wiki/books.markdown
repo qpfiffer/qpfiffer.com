@@ -42,3 +42,4 @@ finish books.
 * [Survivor](https://en.wikipedia.org/wiki/Survivor_(Palahniuk_novel\))
 * [The Terror](http://www.amazon.com/The-Terror-Novel-Dan-Simmons/dp/0316008079)
 * [Venus in Furs](https://en.wikipedia.org/wiki/Venus_in_Furs)
+* [We Live Inside You](http://www.amazon.com/Live-Inside-Jeremy-Robert-Johnson/dp/1933929065)
