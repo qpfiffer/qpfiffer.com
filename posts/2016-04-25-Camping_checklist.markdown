@@ -8,8 +8,10 @@ bg-img-src: https://www.flickr.com/photos/104820964@N07/26640199665/
 Attempt at a car camping checklist. Built this up for a [Stub Stewart](http://oregonstateparks.org/index.cfm?do=parkPage.dsp_parkPage&parkId=75) trip.
 Mountain biking is fun.
 
+```
 ? = Nice to have, good little surprise if you've got it.
 ^ = Optional.
+```
 
 * Kindling
 * Lighter
