@@ -19,9 +19,9 @@ Mountain biking is fun.
 * Pocket Knife
 * Hammock(s)
 * Spare Socks (this implies non-spare socks.)
-* Bike shit
+* Bike stuff
     * Fenders
-    * Glasses (If you're going through mud and shit)
+    * Glasses (If you're going through mud and garbage)
     * Foot Retention (Huge!)
     * Water bottle cages
     * Everything you would normally bring. Bike, helmet, spare tubes, pump,
@@ -39,7 +39,7 @@ Mountain biking is fun.
     * Gloves
     * Long sleeve base layer
     * ^Leg/tight things made out of space materials
-* Parachord/Line/Rope (Always usefule)
+* Parachord/Line/Rope (Always useful)
 * Toothbrush + Paste
 * Chapstick
 * First-aid kit
@@ -63,4 +63,4 @@ v0.1
 * ?Hammock Tarp/Cover
 * ?Sterno Stoves
 * ?Paper Bag (Kindling, trash)
-* ?Milk crate (Carrying shit, stool, trap for small animals)
+* ?Milk crate (Carrying whatever, stool, trap for small animals)
