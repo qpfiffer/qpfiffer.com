@@ -24,6 +24,7 @@ finish books.
 * [The Abominable](http://www.amazon.com/The-Abominable-Novel-Dan-Simmons/dp/0316198838)
 * [A Deepness in the Sky](https://en.wikipedia.org/wiki/A_Deepness_in_the_Sky)
 * [Ajax Penumbra 1969](http://www.amazon.com/Ajax-Penumbra-1969-Kindle-Single-ebook/dp/B00EWZC8QI)
+* [Alone](https://en.wikipedia.org/wiki/Richard_E._Byrd)
 * [Black Hole](http://www.amazon.com/Black-Hole-Novel-Bucky-Sinister/dp/1593766076)
 * [Black Man](https://en.wikipedia.org/wiki/Black_Man)
 * [Candide](https://en.wikipedia.org/wiki/Candide)
