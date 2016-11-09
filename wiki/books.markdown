@@ -27,6 +27,7 @@ finish books.
 * [Alone](https://en.wikipedia.org/wiki/Richard_E._Byrd)
 * [Black Hole](http://www.amazon.com/Black-Hole-Novel-Bucky-Sinister/dp/1593766076)
 * [Black Man](https://en.wikipedia.org/wiki/Black_Man)
+* [The Calling: A Life Rocked by Mountains](http://www.patagonia.com/product/the-calling-a-life-rocked-by-mountains/BK710.html)
 * [Candide](https://en.wikipedia.org/wiki/Candide)
 * [Count Zero](https://en.wikipedia.org/wiki/Count_Zero)
 * [The Case of Charles Dexter Ward](http://en.wikipedia.org/wiki/The_Case_of_Charles_Dexter_Ward)
