@@ -30,6 +30,7 @@ finish books.
 * [The Calling: A Life Rocked by Mountains](http://www.patagonia.com/product/the-calling-a-life-rocked-by-mountains/BK710.html)
 * [Candide](https://en.wikipedia.org/wiki/Candide)
 * [Count Zero](https://en.wikipedia.org/wiki/Count_Zero)
+* [Dead Mountain: The Untold True Story of the Dyatlov Pass Incident Hardcover](https://www.amazon.com/Dead-Mountain-Untold-Dyatlov-Incident/dp/1452112746)
 * [The Case of Charles Dexter Ward](http://en.wikipedia.org/wiki/The_Case_of_Charles_Dexter_Ward)
 * [The Color out of Space](http://en.wikipedia.org/wiki/The_Color_Out_Of_Space)
 * [Dune](https://en.wikipedia.org/wiki/Dune_(novel)
