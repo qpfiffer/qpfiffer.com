@@ -43,6 +43,7 @@ finish books.
 * [Piercing](http://www.goodreads.com/book/show/14288.Piercing)
 * [Rant: An Oral Biography of Buster Casey](https://en.wikipedia.org/wiki/Rant_(novel))
 * [REAMDE](http://www.amazon.com/Reamde-A-Novel-Neal-Stephenson/dp/0062191497)
+* [S](https://en.wikipedia.org/wiki/S._(Dorst_novel))
 * [Skullcrack City](http://www.amazon.com/Skullcrack-City-Jeremy-Robert-Johnson/dp/1621051714)
 * [Siddartha](https://en.wikipedia.org/wiki/Siddhartha_(novel))
 * [Survivor](https://en.wikipedia.org/wiki/Survivor_(Palahniuk_novel\))
