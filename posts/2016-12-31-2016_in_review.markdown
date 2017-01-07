@@ -46,23 +46,23 @@ Regrets
 
 Goals from Last Year
 ====================
-* Succeeded: Revive the Lost Kids Ride (At least for a few months. It was good.)
-* Failed: Throw an unsanctioned race or two (I did wear a dress at an alley cat
+* <span class="suc">Succeeded</span>: Revive the Lost Kids Ride (At least for a few months. It was good.)
+* <span class="fail">Failed</span>: Throw an unsanctioned race or two (I did wear a dress at an alley cat
   my partner hosted, though. That was fun.)
-* Failed: Be able to hold a free handstand for a minute (Stopped caring.)
-* Succeeded: Get the hell out of the country (Went to Shanghai, Qingdao)
-* Failed: Continue boxing, rock-climbing
-* Succeeded: Race Track
-* Unsure: Read more Books
-* Succeeded: Create something that isn't code: Clothing, sculpture, some kind of
+* <span class="fail">Failed</span>: Be able to hold a free handstand for a minute (Stopped caring.)
+* <span class="suc">Succeeded</span>: Get the hell out of the country (Went to Shanghai, Qingdao)
+* <span class="fail">Failed</span>: Continue boxing, rock-climbing
+* <span class="suc">Succeeded</span>: Race Track
+* <span class="unsure">Unsure</span>: Read more Books
+* <span class="suc">Succeeded</span>: Create something that isn't code</span>: Clothing, sculpture, some kind of
   interactive art piece, sketching/drawing. (I learned to sew! Made a bunch of
   bags.)
-* Failed: Use all of the paint
-* Unsure: :Camp in the dome again ( I mean, I camped NEXT to the dome)
-* FailedFailedFailed: Don't drink at all (Let's try full straight-edge!)
-* Failed: Journal every day (I got quite a few days but not all of them)
-* Unsure: Take more pictures, like 2013 (I did take a few pictures)
-* Failed: Pass CHN203 (The time came and went and I didn't sign up)
+* <span class="fail">Failed</span>: Use all of the paint
+* <span class="unsure">Unsure</span>: </span>:Camp in the dome again ( I mean, I camped NEXT to the dome)
+* <span class="fail">FailedFailedFailed</span>: Don't drink at all (Let's try full straight-edge!)
+* <span class="fail">Failed</span>: Journal every day (I got quite a few days but not all of them)
+* <span class="unsure">Unsure</span>: Take more pictures, like 2013 (I did take a few pictures)
+* <span class="fail">Failed</span>: Pass CHN203 (The time came and went and I didn't sign up)
 
 Goals for 2017
 ==============

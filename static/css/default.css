@@ -75,3 +75,12 @@ footer {
     box-shadow: 0px 0px 5px #fff;
     opacity: 1.0;
 }
+span.suc {
+    color: #A0FFA0;
+}
+span.fail {
+    color: #FF9090;
+}
+span.unsure {
+    color: #FFFF80;
+}
