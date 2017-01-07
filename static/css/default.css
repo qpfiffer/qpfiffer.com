@@ -76,11 +76,23 @@ footer {
     opacity: 1.0;
 }
 span.suc {
-    color: #A0FFA0;
+    text-align: center;
+    background-color: #A0FFA0;
+    padding: 0.2em;
+    width: 7em;
+    display: inline-block;
 }
 span.fail {
-    color: #FF9090;
+    text-align: center;
+    background-color: #FF9090;
+    padding: 0.2em;
+    width: 7em;
+    display: inline-block;
 }
 span.unsure {
-    color: #FFFF80;
+    text-align: center;
+    background-color: #FFFF80;
+    padding: 0.2em;
+    width: 7em;
+    display: inline-block;
 }
