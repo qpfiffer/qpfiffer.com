@@ -1,5 +1,7 @@
 ---
 title: MR2 Checklist
+bg-image: ../static/img/mr2_bg.jpg
+bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetaken-public/
 ---
 
 ## Misc. Work
