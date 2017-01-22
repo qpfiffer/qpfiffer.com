@@ -12,3 +12,6 @@ Format is sets by reps @ weight in pounds.
 * 2017/01/20:
     * Rows: 4x10@95
     * Deadlifts: 3x8@225
+* 2017/01/21:
+    * Back Squats: 2x5@205
+    * Front Squats: 2x8@115
