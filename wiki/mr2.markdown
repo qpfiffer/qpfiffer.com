@@ -10,7 +10,7 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
 * <input disabled type="checkbox" />Fix Driver's Side Seat-belt
 * <input disabled type="checkbox" />Fix Headlight Skew
 * <input disabled type="checkbox" />Fix Windshield Mister
-* <input disabled type="checkbox" value="checked"/>Fix parking brake
+* <input disabled type="checkbox" checked/>Fix parking brake
 
 ## Suspension Work
 * <input disabled type="checkbox" />Strut Replacement
