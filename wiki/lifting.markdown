@@ -20,3 +20,14 @@ Format is sets by reps @ weight in pounds.
 * 2017/01/25:
     * Back-Squats: 2x12@135, 2x6@185
     * Front-squats: 2x12@95
+* 2017/01/28:
+    * Deadlifts: (worked up to) 3x1@315
+    * Bench: 3x6@135
+    * Squats: (worked up to) A couple singles at 225
+    * Bulgarian split squats (Tried with 25lb. Dumbbells.)
+    * Meta: Excted by new lifting gear at The Circuit on 17th, did a bunch of
+      everything.
+* 2017/01/28:
+    * Back-Squats: 2x6@185, 2x6@205
+    * Random front-squats, jump squats (at 95)
+    * Meta: First day with Do-Wins, felt amazing. Better for my calf.
