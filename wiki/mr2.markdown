@@ -19,6 +19,7 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
 * <input disabled type="checkbox" />Strut Top Replacements
     * [Front](https://twosrus.com/catalog/product_info.php?products_id#563)
     * [Rear](https://twosrus.com/catalog/product_info.php?products_id#586)
+* Front-right strut mount is loose or something. It's a bit fucked.
 
 ## Lights
 * <input disabled type="checkbox" />Fix Headlight Skew
