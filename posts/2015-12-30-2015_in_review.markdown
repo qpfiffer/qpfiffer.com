@@ -1,0 +1,150 @@
+---
+title: 2015 In Review
+author: Quinlan Pfiffer
+bg-image: ../static/img/12_30_2015.jpg
+bg-img-src: https://www.flickr.com/photos/104820964@N07/15221633500/
+---
+
+Lot's of turmoil this year, good and bad things. I feel like I'm a better person
+than I was last year.
+
+Accomplishments
+===============
+
+* Driver's License + Car (Wooo!)
+* Gained ~20 pounds (135 -> 155)
+* I'm in the best shape of my life
+* Got two bikes stolen, one was recovered. Learned my lesson there.
+* Met a lot of new people
+* Travelled to New York to see family with just my brother
+* New Tattoos
+* Hiked quite a bit
+* Started doing daily journalling to cope with memory loss. This has improved my
+  hand-writing and memory.
+* Wore some [stupid shirts](https://twitter.com/WAallLy/status/611664106894942208) to OSBridge.
+* [Helped build](https://twitter.com/corporatesans/status/653452235158872064)
+  and then [camped in](https://www.flickr.com/photos/104820964@N07/23783937410/in/datetaken-public/) a dome in the Alvord Desert.
+  [Bonus Video.](https://www.youtube.com/watch?v=v2IuHmwoWjM)
+* Didn't play street fighter at all
+* Had the best [fight of my life](https://www.youtube.com/watch?v=Lvir6Jd0j_g)
+  where [this happened.](http://giant.gfycat.com/MenacingShallowFrigatebird.gif)
+* Didn't drink for the two months before said fight
+* Started rock climbing, made it out to smith rock.
+* Passed CHN202
+* Camped out in a dome on the river with some friends
+* Hosted a Tuesday-night singlespeed-only ride for a while
+* Rode around Portland more than any other year. Met a lot of cool people via
+  bikescum groups.
+* Sort of learned to cook. I can make some pretty mean chicken breast in the
+  oven now.
+* Books for this year, couple of re-reads:
+    * [We Live Inside You](http://www.amazon.com/Live-Inside-Jeremy-Robert-Johnson/dp/1933929065)
+    * [Skullcrack City](http://www.amazon.com/Skullcrack-City-Jeremy-Robert-Johnson/dp/1621051714)
+    * [Black Hole](http://www.amazon.com/Black-Hole-Novel-Bucky-Sinister/dp/1593766076)
+    * [Survivor](https://en.wikipedia.org/wiki/Survivor_(Palahniuk_novel))
+    * [Haunted](https://en.wikipedia.org/wiki/Haunted_(Palahniuk_novel))
+    * [Rant: An Oral Biography of Buster Casey](https://en.wikipedia.org/wiki/Rant_(novel))
+    * [Candide](https://en.wikipedia.org/wiki/Candide)
+    * [Venus in Furs](https://en.wikipedia.org/wiki/Venus_in_Furs)
+
+
+Side-Projects
+=============
+
+### Succeeded (for some definitions of the word)
+* [Skulledit](https://github.com/qpfiffer/skulledit) - Random project in Love2D
+  that I wheedle on every now and then to [implement the skullcode hex editor.](http://skullcode.com/)
+* [38-Moths](https://github.com/qpfiffer/38-Moths) - Split waifu.xyz into a
+  framework in C. Actually pretty cool, reasonably fast and easy to use. Pretty proud
+  of this one, actually.
+* [Printer Facts API](https://github.com/qpfiffer/Printer-Facts-API) - Uses the
+  38-Moths framework to serve Printer facts at Webscale speeds.
+* [Simple Sparsehash](https://github.com/qpfiffer/Simple-Sparsehash) - A
+  re-implementation of Google's sparsehash, got me a little internet fame and
+  was a really good learning opportunity.
+* [Clear Waste of Time](https://github.com/infoforcefeed/Clear-Waste-of-Time) -
+  Random, tiny IRC-spawned ideas. Kind of a fun collection of stupid shit.
+* [Mayo-Workbench](https://github.com/infoforcefeed/mayo-workbench) - Uses
+  38-Moths to display information about an OlegDB instance.
+
+### Continued (Not dead yet!)
+* [Lair](https://github.com/qpfiffer/lair) - Still kicking, some how. Started
+  working on it again. Some [people are excited.](https://github.com/qpfiffer/lair/commit/1b8699a7d63df7545c34320b8f17c37a64d9a40b)
+* [#metaforcefeed](https://github.com/qpfiffer/metaforcefeed) - Still chugging
+  along even after the huge data failure. It now handles events and some
+  RSVP-like capabilities.
+* [shithouse.tv](https://github.com/qpfiffer/shithouse.tv) - Still one of my
+  more popular things, had quite a few PR's from [my favorite person](https://github.com/dequis) and a few new features.
+* [merveilles.io](https://github.com/qpfiffer/merveilles_io) - Still kicking
+  along since 2013, haven't really had to touch it. You can see the [one remaining instance here.](http://infoforcefeed.shithouse.tv/)
+
+### Limbo
+* [OlegDB](https://olegdb.org/) - Didn't really touch it this year, a weird
+  segfault in `olt_spoil` kind of defeated me.
+* [waifu.xyz](https://github.com/qpfiffer/waifu.xyz) - Defeated after numerous
+  segfaults, hosting costs and random shit. Decided to shelve it for the time being.
+* [voidcrash](https://github.com/qpfiffer/Voidcrash) - I don't even know. No
+  explicit goal or timeframe, mostly just mythos/world building with a friend of mine.
+
+### Failed
+* [zx](https://github.com/qpfiffer/zx) - Was going to use this as a time
+  tracking utility but stopped caring pretty quickly.
+* [PrinterFS](https://github.com/infoforcefeed/PrinterFS) - Was going to be a
+  distributed file system. Ended up being too complicated.
+* [PrintlessFS](https://github.com/qpfiffer/PrintlessFS) - Was going to use
+  this as FUSE bindings to rethinkdb for waifu. Overwhelmed and under-motivated.
+* [Thray](https://github.com/infoforcefeed/thray) - Was going to be an exercise
+  with a friend of mine to scrape tumblr. Got distracted and started working on
+  other things. Wrote some C++ that hits the tumble endpoints, though.
+
+Regrets
+=======
+
+* I spent way too much money on cassette tapes
+* I haven't created as much as I wanted to
+* Hurt some people.
+* Didn't work on OlegDB much at all this year.
+* Failed CHN203
+* waifu.xyz kind of stopped being a thing. Currently in Limbo. I put a lot of
+  effort into it last year. Sucks to see it languishing.
+* Didn't leave the country this year
+* Didn't write as much code as I wanted to
+* Slept too much
+
+Goals from Last Year
+====================
+
+* Succeeded: More mandarin.
+* Succeeded: More boxing. Get back to it. 
+* Failed: Travel to mainland china (Shenzhen, Shanghai)
+* Succeeded: Driver's License (Yeah right)
+* Failed: Travel to Japan
+* Succeeded: Drink less
+* N/A: Figure out whether freelancing is a good idea or not
+* Failed: Read more books
+
+Goals for 2016
+==============
+
+* Revive the Lost Kids Ride
+* Throw an unsanctioned race or two
+* Be able to hold a free handstand for a minute
+* Get the hell out of the country
+* Continue boxing, rock-climbing
+* Race Track
+* Read more Books
+* Create something that isn't code: Clothing, sculpture, some kind of
+  interactive art piece, sketching/drawing
+* Use all of the paint
+* Camp in the dome again
+* Don't drink at all (Let's try full straight-edge!)
+* Journal every day
+* Take more pictures, like 2013
+* Pass CHN203
+
+Random Stats
+============
+* Weight: ~155lbs
+* Commits: 1,843 total (oof)
+* Longest Commit Streak: 20 Days
+* 263 Pages Used across 3.5ish journals
