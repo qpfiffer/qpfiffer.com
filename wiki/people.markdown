@@ -17,6 +17,9 @@ This is a collection of people that I respect and admire.
 * [Gwern Branwen](http://gwern.net/)
 * [John Harrison](http://en.wikipedia.org/wiki/John_Harrison)
 * [Theodore Roosevelt](http://en.wikipedia.org/wiki/Theodore_Roosevelt)
+
+## Misc.
+* [Pyrros Dimas](https://en.wikipedia.org/wiki/Pyrros_Dimas)
 </div>
 
 <div class="col-6-12">

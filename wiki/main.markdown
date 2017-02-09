@@ -18,7 +18,14 @@ through my site.
 * [Low Power Server Build](/wiki/low_power_server)
 * [Musings and Random Thoughts](/wiki/musings)
 
-### Personal
+### Physical
+* [Lifting Log](/wiki/lifting)
+* [MTB Stuff](/wiki/mtb_stuff)
 * [Boxing](/wiki/boxing)
+
+### Mechanical
+* [MR2 Misc.](/wiki/mr2)
+
+### Personal
 * [Straight Razors](/wiki/razor)
 * [Cryptoanarchist Potato Farm](/wiki/potato)
