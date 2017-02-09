@@ -40,10 +40,10 @@ first.
 How does it work?
 =================
 
-I'm sure for some people, reading through the [implementation notes](https://google-sparsehash.googlecode.com/svn/trunk/doc/implementation.html)
+I'm sure for some people, reading through the [implementation notes](https://github.com/sparsehash/sparsehash/blob/master/doc/implementation.html)
 will be enough to give you a great overview of how this whole thing works,
 but I need to look at the code to really be able to understand. If you want to
-follow along, we'll be looking through [src/sparsehash/sparsetable](https://code.google.com/p/sparsehash/source/browse/trunk/src/sparsehash/sparsetable)
+follow along, we'll be looking through [src/sparsehash/sparsetable](https://github.com/sparsehash/sparsehash/blob/master/src/sparsehash/sparsetable)
 in the official repository. It's C++, so put your boots on.
 
 Before we really get into the code, let's talk about some jargon related to this
@@ -59,7 +59,7 @@ is hereby denoted __T__. Getting back to **location**, the **location** of an
 object is it's position `1 .. T` in the hash-table. So far so good?
 
 Drilling down another level, we have the concept of `groups`. Each hash-table is
-divided into some [semi-arbitrary number](https://code.google.com/p/sparsehash/source/browse/trunk/src/sparsehash/sparsetable#275)
+divided into some [semi-arbitrary number](https://github.com/sparsehash/sparsehash/blob/master/src/sparsehash/sparsetable#L275)
 of groups. Each group is a sparse vector. This is how each hash-table is modeled
 with a bunch of sparse vectors. Inside of each group, we have **position**. This
 is the __i__, typically, you use when indexing into an array. As an example (in
@@ -88,7 +88,7 @@ Their **offsets** would be 0 and 1, respectively.
 
 Insertion is pretty cool. We're going to get into [bit-shifting](https://en.wikipedia.org/wiki/Bitwise_operation),
 a really cool bitmap thing and some weird ways of moving memory around. So let's
-just dive in, here is the [whole relevant method](https://code.google.com/p/sparsehash/source/browse/trunk/src/sparsehash/sparsetable#1110):
+just dive in, here is the [whole relevant method](https://github.com/sparsehash/sparsehash/blob/master/src/sparsehash/sparsetable#L1110):
 
 ```
 
