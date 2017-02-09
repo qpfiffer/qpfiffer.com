@@ -178,3 +178,9 @@ meaning of the next statement, `1 << (i & 7)`.
 Shifting `1` left by that number of bits gets us the left-most `1` bit in the
 number. We use these two things to figure out where in the bitmap our value will
 be placed.
+
+`charbit`, being which char in the bitmap, and then `modbit`, being which
+specific bit we need when we add in the `charbit`. The C version I wrote uses
+two different numbers, `5` for `charbit` and `31` for `modbit` because it
+functions on 32-bit unsigned integers, vs. the Google one which uses 16-bit
+integers. The idea is the same, though.
