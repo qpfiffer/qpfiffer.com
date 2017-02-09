@@ -52,7 +52,7 @@ understand the SparseHash implementation. With SparseHash, you have three
 logical ways to denote positions, each at different UX levels.
 
 In the overall hash-table, you have what is known as the **location**. In your
-standard hasht-able, you have what are called **buckets** (see the [wikipedia
+standard hash-table, you have what are called **buckets** (see the [wikipedia
 article on hash-tables](https://en.wikipedia.org/wiki/Hash_table) for a better
 explanation of buckets/slots). The maximum number of buckets in your hash-table
 is hereby denoted __T__. Getting back to **location**, the **location** of an
