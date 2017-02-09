@@ -59,7 +59,7 @@ is hereby denoted __T__. Getting back to **location**, the **location** of an
 object is it's position `1 .. T` in the hash-table. So far so good?
 
 Drilling down another level, we have the concept of `groups`. Each hash-table is
-divided into some [semi-arbitrary number](https://github.com/sparsehash/sparsehash/blob/master/src/sparsehash/sparsetable#L275)
+divided into some [semi-arbitrary number](https://github.com/sparsehash/sparsehash/blob/master/src/sparsehash/sparsetable#L275-279)
 of groups. Each group is a sparse vector. This is how each hash-table is modeled
 with a bunch of sparse vectors. Inside of each group, we have **position**. This
 is the __i__, typically, you use when indexing into an array. As an example (in
