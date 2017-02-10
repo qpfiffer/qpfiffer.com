@@ -31,3 +31,8 @@ Format is sets by reps @ weight in pounds.
     * Back-Squats: 2x6@185, 2x6@205
     * Random front-squats, jump squats (at 95)
     * Meta: First day with Do-Wins, felt amazing. Better for my calf.
+* 2017/02/09:
+    * Back-Squats: 2x5@185, 3x5@205
+    * Bench: 3x10@95
+    * Random front-squats, jump squats (at 95)
+    * Meta: First day after the flu. Lungs still full of garbage.
