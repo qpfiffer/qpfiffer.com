@@ -38,3 +38,6 @@ Format is sets by reps @ weight in pounds.
 * 2017/02/11:
     * Deadlifts: 2x8@245, 1x8@295
     * OHP: 3x6@95. I AM WEAK.
+* 2017/02/13:
+    * Back-Squats: 3x4@225
+    * Meta: Highest I've squatted in a while. Felt pretty good.
