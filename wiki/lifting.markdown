@@ -34,5 +34,7 @@ Format is sets by reps @ weight in pounds.
 * 2017/02/09:
     * Back-Squats: 2x5@185, 3x5@205
     * Bench: 3x10@95
-    * Random front-squats, jump squats (at 95)
     * Meta: First day after the flu. Lungs still full of garbage.
+* 2017/02/11:
+    * Deadlifts: 2x8@245, 1x8@295
+    * OHP: 3x6@95. I AM WEAK.

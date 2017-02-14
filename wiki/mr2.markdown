@@ -4,6 +4,13 @@ bg-image: ../static/img/mr2_bg.jpg
 bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetaken-public/
 ---
 
+## Update Fed. 11 2017
+
+Car sounds terrible. Power loss. The exhaust sounds different now. I can feel
+hitching sometimes as the car is accelerating or maintaining speed with the
+accelerator in. I can smell burning upon exiting the car. Something is very wrong.
+Muffler/exhaust work might need to be done now for real.
+
 ## Misc. Work
 * <input disabled type="checkbox" />Valve Cover Gasket Replacement
 * <input disabled type="checkbox" />Fix Exhaust Rattle
