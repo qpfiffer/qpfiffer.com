@@ -41,3 +41,6 @@ Format is sets by reps @ weight in pounds.
 * 2017/02/13:
     * Back-Squats: 3x4@225
     * Meta: Highest I've squatted in a while. Felt pretty good.
+* 2017/02/15:
+    * Back-Squats: 3x8@135
+    * Bench: 3x10@105
