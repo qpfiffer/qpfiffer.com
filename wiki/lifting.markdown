@@ -44,3 +44,9 @@ Format is sets by reps @ weight in pounds.
 * 2017/02/15:
     * Back-Squats: 3x8@135
     * Bench: 3x10@105
+* 2017/02/19:
+    * Deadlifts: 1x4@315, 2x16@135
+    * Bench: 5x5@135
+    * Meta: Tried to pull 365 and I injured an oblique or something. Decided to
+      stop. Heard a click. Knee is messed up from riding fixed around on Friday,
+      that's why no squats.
