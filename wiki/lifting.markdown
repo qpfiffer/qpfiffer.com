@@ -50,3 +50,9 @@ Format is sets by reps @ weight in pounds.
     * Meta: Tried to pull 365 and I injured an oblique or something. Decided to
       stop. Heard a click. Knee is messed up from riding fixed around on Friday,
       that's why no squats.
+* 2017/02/21:
+    * Back-Squats: 4x10@115
+    * Curls: 3x24@25
+    * Meta: Knee still messed up since 2017/02/17, tried to squat heavier and it
+      felt real bad. Did some OHP with dumb-bells, too. The curls are for
+      general arm health, tris are getting to tight.
