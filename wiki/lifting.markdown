@@ -45,7 +45,7 @@ Format is sets by reps @ weight in pounds.
     * Back-Squats: 3x8@135
     * Bench: 3x10@105
 * 2017/02/19:
-    * Deadlifts: 1x4@315, 2x16@135
+    * Deadlifts: 1x4@315, 2x16@135 (RDL)
     * Bench: 5x5@135
     * Meta: Tried to pull 365 and I injured an oblique or something. Decided to
       stop. Heard a click. Knee is messed up from riding fixed around on Friday,
@@ -56,3 +56,8 @@ Format is sets by reps @ weight in pounds.
     * Meta: Knee still messed up since 2017/02/17, tried to squat heavier and it
       felt real bad. Did some OHP with dumb-bells, too. The curls are for
       general arm health, tris are getting to tight.
+* 2017/02/22:
+    * Back-Squats: Worked up to 1x235, PR. Legs were fatigued from yesterday and
+      warm up squats.
+    * Deadlifts: 3x24@135 (RDL)
+    * Meta: Knee feeling better, esp. after warmup. Rib feeling fucked still.
