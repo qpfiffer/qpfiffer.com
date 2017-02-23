@@ -4,18 +4,14 @@ bg-image: ../static/img/mr2_bg.jpg
 bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetaken-public/
 ---
 
-## Update Fed. 11 2017
+## Mod Ideas
 
-Car sounds terrible. Power loss. The exhaust sounds different now. I can feel
-hitching sometimes as the car is accelerating or maintaining speed with the
-accelerator in. I can smell burning upon exiting the car. Something is very wrong.
-Muffler/exhaust work might need to be done now for real.
-
-Update: Put in a new muffler, helked a lot.
+* Ignition coils: [http://www.sq-engineering.com/tech-articles/coilpack-info-guide]
 
 ## Misc. Work
 * <input disabled type="checkbox" />Valve Cover Gasket Replacement
-* <input disabled type="checkbox" />Put in new spark plugs
+* <input disabled type="checkbox" checked />Put in new spark plugs
+* <input disabled type="checkbox" />Buy new HT leads
 * <input disabled type="checkbox" checked />Fix Exhaust Rattle
 * <input disabled type="checkbox" />Fix Driver's Side Seat-belt
 * <input disabled type="checkbox" />Fix Headlight Skew
@@ -34,3 +30,12 @@ Update: Put in a new muffler, helked a lot.
 ## Lights
 * <input disabled type="checkbox" />Fix Headlight Skew
 * <input disabled type="checkbox" />Fog-lights?
+
+## Update Fed. 11 2017
+
+Car sounds terrible. Power loss. The exhaust sounds different now. I can feel
+hitching sometimes as the car is accelerating or maintaining speed with the
+accelerator in. I can smell burning upon exiting the car. Something is very wrong.
+Muffler/exhaust work might need to be done now for real.
+
+Update: Put in a new muffler, helked a lot. Also replaced the spark plugs.
