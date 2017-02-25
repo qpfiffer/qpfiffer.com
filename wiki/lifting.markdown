@@ -61,3 +61,6 @@ Format is sets by reps @ weight in pounds.
       warm up squats.
     * Deadlifts: 3x24@135 (RDL)
     * Meta: Knee feeling better, esp. after warmup. Rib feeling fucked still.
+* 2017/02/24:
+    * Back-Squats: Tried to do 5x5@225, but some were high and some were low.
+      Did two sets at 245, dropped down to 205 to finish the set.
