@@ -64,3 +64,6 @@ Format is sets by reps @ weight in pounds.
 * 2017/02/24:
     * Back-Squats: Tried to do 5x5@225, but some were high and some were low.
       Did two sets at 245, dropped down to 205 to finish the set.
+* 2017/02/26:
+    * Push-ups: 5x20
+    * Running: 10 minutes solid, 5x sprints up a hill
