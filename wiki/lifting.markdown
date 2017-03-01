@@ -63,7 +63,15 @@ Format is sets by reps @ weight in pounds.
     * Meta: Knee feeling better, esp. after warmup. Rib feeling fucked still.
 * 2017/02/24:
     * Back-Squats: Tried to do 5x5@225, but some were high and some were low.
-      Did two sets at 245, dropped down to 205 to finish the set.
+    * Meta: Did two sets at 245, dropped down to 205 to finish the set.
 * 2017/02/26:
     * Push-ups: 5x20
     * Running: 10 minutes solid, 5x sprints up a hill
+* 2017/02/27:
+    * Deadlifts: 1X8@135, 2X8@225, 2X8@225 (Sumo)
+    * Bench: 3x6@135
+    * Meta: Rib feeling better, still wonky
+* 2017/02/24:
+    * Back-Squats: 1x8@135, 1x8@185, 3x5@225, 1x10@135
+    * Meta: Tried to do 5x5 again, form started suffering so I dropped down. Low
+      macros.
