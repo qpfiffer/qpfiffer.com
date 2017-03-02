@@ -6,11 +6,11 @@ Format is sets by reps @ weight in pounds.
 
 * 2017/01/18:
     * Deadlifts: 3x8@245
-    * Rows: 4x10@135
+    * Upright Rows: 4x10@135
 * 2017/01/19:
     * Squats: 5x5@185
 * 2017/01/20:
-    * Rows: 4x10@95
+    * Upgright Rows: 4x10@95
     * Deadlifts: 3x8@225
 * 2017/01/21:
     * Back Squats: 2x5@205
@@ -71,7 +71,13 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 1X8@135, 2X8@225, 2X8@225 (Sumo)
     * Bench: 3x6@135
     * Meta: Rib feeling better, still wonky
-* 2017/02/24:
+* 2017/02/28:
     * Back-Squats: 1x8@135, 1x8@185, 3x5@225, 1x10@135
     * Meta: Tried to do 5x5 again, form started suffering so I dropped down. Low
-      macros.
+      macros. Also did kickboxing later.
+* 2017/03/01:
+    * Upright Rows: 2x8@95, 2x10@135
+    * Tricep Pull-downs: 3x8@120
+    * Deadlifts: 2x8@225, 2x4@275
+    * Meta: Basically did a whole bunch of random stuff after work. Did some
+      core, too. Rib feeling much better but not 100%.
