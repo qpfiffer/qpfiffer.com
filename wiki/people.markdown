@@ -18,8 +18,11 @@ This is a collection of people that I respect and admire.
 * [John Harrison](http://en.wikipedia.org/wiki/John_Harrison)
 * [Theodore Roosevelt](http://en.wikipedia.org/wiki/Theodore_Roosevelt)
 
-## Misc.
+## Athletes
+* [Colin Burns](http://www.jtsstrength.com/articles/author/colinburns/)
+* [Justin Rossi](https://www.youtube.com/watch?v=H-ieUi9A2iw)
 * [Pyrros Dimas](https://en.wikipedia.org/wiki/Pyrros_Dimas)
+
 </div>
 
 <div class="col-6-12">
