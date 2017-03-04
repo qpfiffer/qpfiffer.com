@@ -81,3 +81,7 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 2x8@225, 2x4@275
     * Meta: Basically did a whole bunch of random stuff after work. Did some
       core, too. Rib feeling much better but not 100%.
+* 2017/03/02:
+    * Back-squats: 3x8@165, 2x12@165, 1x4@165
+    * Bench: 3x6@135
+    * Meta: HUNGEROVER POST-BIRTHDAY SQUATTIN
