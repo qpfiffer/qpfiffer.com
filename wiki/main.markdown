@@ -22,6 +22,7 @@ through my site.
 * [Lifting Log](/wiki/lifting)
 * [MTB Stuff](/wiki/mtb_stuff)
 * [Boxing](/wiki/boxing)
+* [Ride Planning](/wiki/rides)
 
 ### Mechanical
 * [MR2 Misc.](/wiki/mr2)
