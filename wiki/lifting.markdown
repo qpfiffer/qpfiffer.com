@@ -93,3 +93,7 @@ Format is sets by reps @ weight in pounds.
 * 2017/03/08:
     * Bench: 4x10@115
     * Row machine: 1x10@85, 2x10@100
+* 2017/03/09:
+    * Back-squats: 2x8@135, 2x8@185, 1x8@207
+    * Deadlifts: 1x10@135 RDL, 2x10@135 Sumo, 2x6@135 clean pulls
+    * Meta: Ate a burger before going. Bad move.
