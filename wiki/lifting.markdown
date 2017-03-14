@@ -97,3 +97,7 @@ Format is sets by reps @ weight in pounds.
     * Back-squats: 2x8@135, 2x8@185, 1x8@207
     * Deadlifts: 1x10@135 RDL, 2x10@135 Sumo, 2x6@135 clean pulls
     * Meta: Ate a burger before going. Bad move.
+* 2017/03/13:
+    * Power Cleans: 2x6@95, 1x6@115, 2x1@135
+    * Rows: 3x10@135
+    * Bench: 3x5@135
