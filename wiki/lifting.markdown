@@ -101,3 +101,8 @@ Format is sets by reps @ weight in pounds.
     * Power Cleans: 2x6@95, 1x6@115, 2x1@135
     * Rows: 3x10@135
     * Bench: 3x5@135
+* 2017/03/15:
+    * Back-squats: 1x8@135, 1x2@225, 4x3@225
+    * Deadlifts: 1x3@135, 1x3@225, 1x2@295, 1x1@315, 1x1@335, 1x3@295
+    * Meta: Scaredy-cat didn't want to go higher on the back-squats. They felt
+      alright though. Especially for still-recovering legs.
