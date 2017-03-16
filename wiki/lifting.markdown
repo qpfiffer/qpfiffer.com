@@ -106,3 +106,7 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 1x3@135, 1x3@225, 1x2@295, 1x1@315, 1x1@335, 1x3@295
     * Meta: Scaredy-cat didn't want to go higher on the back-squats. They felt
       alright though. Especially for still-recovering legs.
+* 2017/03/16:
+    * Bench: 1x8@75, 5x5@135, 2x1@165
+    * Hammer Curls: 3x12@30
+    * Meta: Tried to up the bench weight and it crushed me. Oops.
