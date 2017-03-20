@@ -115,3 +115,7 @@ Format is sets by reps @ weight in pounds.
     * Front-squats: 1x8@135
     * Meta: Knee felt like garbage again today. Got better when I warmed up, but
       still twingey.
+* 2017/03/20:
+    * Power-cleans: 2x6@95, 4x1@135
+    * Deadlifts: 1x6@225, 3x3@315
+    * Meta: Wanted to do 3x4, but my hands were not having it.
