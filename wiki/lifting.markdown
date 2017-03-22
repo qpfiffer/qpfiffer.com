@@ -119,3 +119,8 @@ Format is sets by reps @ weight in pounds.
     * Power-cleans: 2x6@95, 4x1@135
     * Deadlifts: 1x6@225, 3x3@315
     * Meta: Wanted to do 3x4, but my hands were not having it.
+* 2017/03/21:
+    * Back-squats: 1x8@135, 1x8@185, 5x5@225
+    * Front-squats: 1x6@135
+    * Meta: Knee felt better after rolling it out. Fuck yeah 5x5@225, been
+      wanting to do that forever.
