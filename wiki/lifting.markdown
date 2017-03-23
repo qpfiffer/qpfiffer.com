@@ -124,3 +124,9 @@ Format is sets by reps @ weight in pounds.
     * Front-squats: 1x6@135
     * Meta: Knee felt better after rolling it out. Fuck yeah 5x5@225, been
       wanting to do that forever.
+* 2017/03/22:
+    * Bench: 3x8@135
+    * Row machine: 3x8@115
+* 2017/03/23:
+    * Cleans: 6x1@135
+    * Deadlifts: 4x8@225
