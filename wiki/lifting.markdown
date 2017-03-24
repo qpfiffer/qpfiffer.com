@@ -130,3 +130,6 @@ Format is sets by reps @ weight in pounds.
 * 2017/03/23:
     * Cleans: 6x1@135
     * Deadlifts: 4x8@225
+* 2017/03/23:
+    * Back-squats: 3x8@135
+    * Meta: Went light, 5x5@225 killed me
