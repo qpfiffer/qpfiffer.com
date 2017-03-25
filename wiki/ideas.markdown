@@ -29,3 +29,19 @@ Random shit I don't want to lose.
 * [Small Pirate TV Station](https://www.youtube.com/watch?v=lS3ATd1MY04)
 * [Batsly Adams](http://www.batslyadams.com/)
 * [NULLSLEEP](http://www.nullsleep.com/)
+
+# Research
+
+## NRx
+
+* Moldbug
+* Lesswrong
+* [This person](https://twitter.com/alicemazzy)
+* [This one too](https://twitter.com/KANTBOT10K)
+* [This thing?](http://www.caspermag.com/2017/03/19/tren-warriors-by-kantbot10k/)
+* [Anti-NRX FAQ](https://slatestarcodex.com/2013/10/20/the-anti-reactionary-faq/)
+
+## DESTROY THE EARTH
+
+* [Destro](https://qntm.org/destro)
+* [All of these](https://qntm.org/fiction)
