@@ -137,3 +137,9 @@ Format is sets by reps @ weight in pounds.
     * Back-squats: 1x5@135, 1x5@205, 3x2@245, 1x5@205
     * Box-squats: 1x5@245
     * Meta: Ate badly and climbed. Low energy. Box squats are hard.
+* 2017/03/28:
+    * Deadlifts: 5x5@295
+    * Bench: 1x5@115, 5x5@135
+    * Meta: Leg drive is SO IMPORTANT during bench. I dunno if it helped
+      physically, but mentally it was huge. Also hands hurt from climbing
+      yesterday so deads sucked.
