@@ -2,7 +2,7 @@
 title: Ideas and Link Dump
 ---
 
-Random shit I don't want to lose.
+Random shit I don't want to lose. Things not big enough to be broken out into their own pages yet.
 
 ## Crash-only Program Design
 
@@ -19,6 +19,19 @@ Random shit I don't want to lose.
 * [More SKYLIFT](https://ahprojects.com/projects/skylift/)
 * [Even more](https://ahprojects.com/notebook/2016/skylift-geolocation/)
 
+## Fashion
+
+### Twelve Dead Men | Teeth-grinders Anonymous
+
+Panther-moderns inspired functional wear, a la [ACG](https://www.endclothing.com/blog/nikelab-present-the-nike-acg-all-condition-gear-collection-launching-3rd-december/) or [Acrnm](https://acrnm.com/). The world is trying to kill you. Don't let it. Should be:
+
+* Minimal and functional
+* Branding should be small or none
+* Should fit my weird bodyshape
+* Good for biking
+* Waterproof, breathable, fuck Gortex. Layerable.
+* Inconspicuous, but easy to hide in. Doable?
+* Inspired bike `#messlife`.
 
 ## Crypto
 
