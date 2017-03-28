@@ -135,4 +135,5 @@ Format is sets by reps @ weight in pounds.
     * Meta: Went light, 5x5@225 killed me
 * 2017/03/27:
     * Back-squats: 1x5@135, 1x5@205, 3x2@245, 1x5@205
-    * Meta: Ate badly and climbed. Low energy.
+    * Box-squats: 1x5@245
+    * Meta: Ate badly and climbed. Low energy. Box squats are hard.
