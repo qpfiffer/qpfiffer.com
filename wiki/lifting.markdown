@@ -143,3 +143,6 @@ Format is sets by reps @ weight in pounds.
     * Meta: Leg drive is SO IMPORTANT during bench. I dunno if it helped
       physically, but mentally it was huge. Also hands hurt from climbing
       yesterday so deads sucked.
+* 2017/03/29:
+    * Back-squats: 1x8@135, 1x5@225, 1x1@275, 3x6@185
+    * Meta: Tried to go for 295, failed. Tried to hit 275 again, also failed. Squats are hard.
