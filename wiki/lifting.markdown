@@ -146,3 +146,8 @@ Format is sets by reps @ weight in pounds.
 * 2017/03/29:
     * Back-squats: 1x8@135, 1x5@225, 1x1@275, 3x6@185
     * Meta: Tried to go for 295, failed. Tried to hit 275 again, also failed. Squats are hard.
+* 2017/03/30:
+    * Bench: 3x8@135, 1x3@155
+    * Plank: 1x1:00 + 45lb plate, 1x0:30 + 45lb plate
+    * Meta: I've been at 135 for what feels like forever, but 155 felt really
+      good. Don't think I could do it for more than 5 reps though.
