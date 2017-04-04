@@ -4,6 +4,21 @@ title: Lifting Log
 
 Format is sets by reps @ weight in pounds.
 
+* 2016/07/26:
+    * Deadlifts: 4x4@275
+    * Meta: Shit burns!
+* 2016/07/28:
+    * Back-squats: 4x4@225
+    * OHP: 4x4@75
+    * Meta: Shit burns!
+* 2016/07/31:
+    * Deadlifts: 1x1@295
+    * Bench: 3x6@135
+    * Meta: Backlogged from journal. Sets/reps innacurate. Almost made 300lbs on deadlift.
+ * 2016/08/09:
+    * Deadlifts: 5x4@275
+    * Bench: 3x6@135
+    * Meta: Backlogged from journal. Sets/reps innacurate. Almost made 300lbs on deadlift.
 * 2017/01/18:
     * Deadlifts: 3x8@245
     * Upright Rows: 4x10@135
@@ -27,7 +42,7 @@ Format is sets by reps @ weight in pounds.
     * Bulgarian split squats (Tried with 25lb. Dumbbells.)
     * Meta: Excted by new lifting gear at The Circuit on 17th, did a bunch of
       everything.
-* 2017/01/28:
+* 2017/01/29:
     * Back-Squats: 2x6@185, 2x6@205
     * Random front-squats, jump squats (at 95)
     * Meta: First day with Do-Wins, felt amazing. Better for my calf.
