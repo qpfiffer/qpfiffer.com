@@ -4,6 +4,10 @@ title: Lifting Log
 
 Format is sets by reps @ weight in pounds.
 
+* 2016/03/28:
+    * Deadlifts: 3x8@205
+    * Bench: 1x12@95, 2x10@95
+    * Meta: Backlogged from journal
 * 2016/07/26:
     * Deadlifts: 4x4@275
     * Meta: Shit burns!
