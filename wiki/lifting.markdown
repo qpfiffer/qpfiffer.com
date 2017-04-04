@@ -178,3 +178,9 @@ Format is sets by reps @ weight in pounds.
     * Plank: 1x1:00 + 45lb plate, 1x0:30 + 45lb plate
     * Meta: I've been at 135 for what feels like forever, but 155 felt really
       good. Don't think I could do it for more than 5 reps though.
+* 2017/04/04:
+    * Bench: 3x8@135
+    * Back-squats: 1x8@135
+    * Rows: 1x10@135
+    * Meta: Did a few Cleans/Power-cleans as well. My body is fucked up from
+      being dehydrated last night and the ride/race on Sunday.
