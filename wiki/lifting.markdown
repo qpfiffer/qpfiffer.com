@@ -15,10 +15,18 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 1x1@295
     * Bench: 3x6@135
     * Meta: Backlogged from journal. Sets/reps innacurate. Almost made 300lbs on deadlift.
- * 2016/08/09:
+* 2016/08/09:
     * Deadlifts: 5x4@275
-    * Bench: 3x6@135
-    * Meta: Backlogged from journal. Sets/reps innacurate. Almost made 300lbs on deadlift.
+    * Bench: 3x6@135, 2x10@115
+* 2016/08/11:
+    * Back-suats: ???x???@185
+    * Meta: Backlogged from journal. "Got deep in the 185."
+* 2016/08/23:
+    * Overhead Squats: ???x???@40?
+    * Meta: Backlogged from journal. Overhead squats/cleans with a rock in florida.
+* 2016/09/04:
+    * Deadlifts: 4x8@225
+    * Meta: Backlogged from journal
 * 2017/01/18:
     * Deadlifts: 3x8@245
     * Upright Rows: 4x10@135
