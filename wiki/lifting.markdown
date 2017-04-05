@@ -184,3 +184,6 @@ Format is sets by reps @ weight in pounds.
     * Rows: 1x10@135
     * Meta: Did a few Cleans/Power-cleans as well. My body is fucked up from
       being dehydrated last night and the ride/race on Sunday.
+* 2017/04/05:
+    * Back-squats: 1x8@135, 1x8@185, 5x5@225
+    * Meta: I think I'm getting sick. 225 felt pretty good otherwise.
