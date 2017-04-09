@@ -187,3 +187,7 @@ Format is sets by reps @ weight in pounds.
 * 2017/04/05:
     * Back-squats: 1x8@135, 1x8@185, 5x5@225
     * Meta: I think I'm getting sick. 225 felt pretty good otherwise.
+* 2017/04/08:
+    * Back-squats: 3x8@145
+    * OHP: 3x8@75
+    * Meta: Getting over being sick.
