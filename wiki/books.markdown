@@ -15,8 +15,6 @@ good idea of the kind of books I want to read.
 
 ### Reading
 
-* Pattern Recognition - William Gibson
-
 The following list is not even close to complete, I'll update it as I start to
 finish books.
 
@@ -41,6 +39,7 @@ finish books.
 * [In the Miso Soup](https://en.wikipedia.org/wiki/In_the_Miso_Soup)
 * [I Have No Mouth and I Must Scream](http://en.wikipedia.org/wiki/I_Have_No_Mouth,_and_I_Must_Scream)
 * [Lolita](https://en.wikipedia.org/wiki/Lolita)
+* Pattern Recognition - William Gibson
 * [Piercing](http://www.goodreads.com/book/show/14288.Piercing)
 * [Rant: An Oral Biography of Buster Casey](https://en.wikipedia.org/wiki/Rant_(novel))
 * [REAMDE](http://www.amazon.com/Reamde-A-Novel-Neal-Stephenson/dp/0062191497)
