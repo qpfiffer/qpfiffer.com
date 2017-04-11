@@ -191,3 +191,6 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 1x8@135, 1x8@225, 2x8@275, 1x8@295
     * Bench: 2x5@135, 2x5@145, 1x5@150
     * Meta: Sinuses fucked up. Felt like they were going to explode.
+* 2017/04/11:
+    * Back-squats: 2x8@135, 1x6@185, 1x3@225, 1x3@245, 3x3@225
+    * Meta: Still sick. Body hurts. Legs jelly. Mom's Spaghetti.
