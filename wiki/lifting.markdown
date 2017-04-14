@@ -194,3 +194,8 @@ Format is sets by reps @ weight in pounds.
 * 2017/04/11:
     * Back-squats: 2x8@135, 1x6@185, 1x3@225, 1x3@245, 3x3@225
     * Meta: Still sick. Body hurts. Legs jelly. Mom's Spaghetti.
+* 2017/04/13:
+    * Cleans: 5x3@135
+    * Deadlifts: 1x2@345
+    * Meta: Cleans are garbage form. I can feel it. Randomly pulled 345 when
+      this guy was there. It felt really good. I wish my clean form was better.
