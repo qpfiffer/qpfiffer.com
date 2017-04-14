@@ -199,3 +199,7 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 1x2@345
     * Meta: Cleans are garbage form. I can feel it. Randomly pulled 345 when
       this guy was there. It felt really good. I wish my clean form was better.
+* 2017/04/14:
+    * Bench: 1x8@135, 1x8@145, 1x8@155
+    * Meta: Did a bunch of curls and rows and shit too. I don't record those
+      because I don't care.
