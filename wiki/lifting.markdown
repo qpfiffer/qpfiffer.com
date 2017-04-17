@@ -203,3 +203,6 @@ Format is sets by reps @ weight in pounds.
     * Bench: 1x8@135, 1x8@145, 1x8@155
     * Meta: Did a bunch of curls and rows and shit too. I don't record those
       because I don't care.
+* 2017/04/17:
+    * Back-squats: 1x8@135, 1x8@185, 1x5@225, 1x5@235, 1x5@225, 1x8@185, 1x8@135
+    * Meta: FEELIN WEAK. No coffee this week.
