@@ -211,5 +211,8 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 1x1@359
     * Bench: 3x8@135
     * Meta: Cleans felt p. bad. Form is hard. Bench felt great. Deadlifts were fuckaround.
-* 2017/04/17:
+* 2017/04/19:
     * Back-squats: 1x8@135, 2x8@185, 1x8@205
+* 2017/04/20:
+    * Deadlifts: 3x8@275
+    * Bench: 3x8@135
