@@ -216,3 +216,7 @@ Format is sets by reps @ weight in pounds.
 * 2017/04/20:
     * Deadlifts: 3x8@275
     * Bench: 3x8@135
+* 2017/04/20:
+    * BTN Press: 2x8@65, 2x8@85
+    * Back-squats: 3x8@135
+    * Meta: Race tonight.
