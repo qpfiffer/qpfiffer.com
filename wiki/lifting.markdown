@@ -220,3 +220,5 @@ Format is sets by reps @ weight in pounds.
     * BTN Press: 2x8@65, 2x8@85
     * Back-squats: 3x8@135
     * Meta: Race tonight.
+* 2017/04/20:
+    * Back-squats: 1x8@135, 1x8@185, 1x8@205, 1x8@225
