@@ -2,6 +2,13 @@
 title: Lifting Log
 ---
 
+Ideas for graphs:
+* Weekly frequency (Lifts per day per week)
+* Session weight moved
+* exercize frequency per week
+* Weight chart per session per date (Line graph, shows weight moved)
+* "Exertion" reps * sets * weight per session
+
 Format is sets by reps @ weight in pounds.
 
 * 2016/03/28:
@@ -216,9 +223,11 @@ Format is sets by reps @ weight in pounds.
 * 2017/04/20:
     * Deadlifts: 3x8@275
     * Bench: 3x8@135
-* 2017/04/20:
+* 2017/04/24:
     * BTN Press: 2x8@65, 2x8@85
     * Back-squats: 3x8@135
     * Meta: Race tonight.
-* 2017/04/20:
+* 2017/04/25:
     * Back-squats: 1x8@135, 1x8@185, 1x8@205, 1x8@225
+* 2017/04/26:
+    * Deadlifts: 1x8@135, 1x6@225, 3x8@305
