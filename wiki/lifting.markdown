@@ -231,3 +231,13 @@ Format is sets by reps @ weight in pounds.
     * Back-squats: 1x8@135, 1x8@185, 1x8@205, 1x8@225
 * 2017/04/26:
     * Deadlifts: 1x8@135, 1x6@225, 3x8@305
+* 2017/04/28:
+    * Bench: 4x5@155, 1x5@135
+    * Squats: 3x8@135
+    * Meta: Won the battle kat goldsprints tonight, too. Brutal.
+* 2017/04/29:
+    * Cleans: 3x3@135
+    * Hang cleans: 2x3@135
+    * Squats: 2x8@135, 1x8@185, 1x8@205
+* 2017/05/02:
+    * Squats: 1x1@265
