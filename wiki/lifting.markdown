@@ -245,3 +245,6 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 4x8@225
     * Cleans: 5x3@135
     * Meta: Clean form still terrible. Wish I had bumpers.
+* 2017/05/04:
+    * BTN Press: 1x8@65, 1x8@85, 3x8@95
+    * Hammer curls: 3x14@30
