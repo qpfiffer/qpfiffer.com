@@ -8,6 +8,8 @@ Ideas for graphs:
 * exercize frequency per week
 * Weight chart per session per date (Line graph, shows weight moved)
 * "Exertion" reps * sets * weight per session
+* percentage lift over time, should be percentage of 1RM, or the most lifted up
+  to that point.
 
 Format is sets by reps @ weight in pounds.
 
