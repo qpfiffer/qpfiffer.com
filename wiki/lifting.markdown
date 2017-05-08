@@ -250,5 +250,9 @@ Format is sets by reps @ weight in pounds.
 * 2017/05/04:
     * BTN Press: 1x8@65, 1x8@85, 3x8@95
     * Hammer curls: 3x14@30
-* 2017/05/02:
+* 2017/05/05:
     * Back-squats: 3x8@225
+* 2017/05/07:
+    * Cleans: 3x3@135
+    * Hang-Cleans: 3x2@135
+    * Deadlifts (RDL): 3x6@225, 1.5" deficit
