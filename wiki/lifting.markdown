@@ -264,3 +264,6 @@ Format is sets by reps @ weight in pounds.
     * Hammer curls: 3x14@35
     * Bench: 2x2@185, 3x2@165
     * Deadlifts (RDL): 3x6@225
+* 2017/05/11:
+    * Back-squats: 1x8@135, 1x8@205, 1x8@225, 1x6@245, 1x2@225
+    * Meta: GETTIN STRONGER
