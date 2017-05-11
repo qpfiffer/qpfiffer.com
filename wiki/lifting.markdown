@@ -256,3 +256,11 @@ Format is sets by reps @ weight in pounds.
     * Cleans: 3x3@135
     * Hang-Cleans: 3x2@135
     * Deadlifts (RDL): 3x6@225, 1.5" deficit
+* 2017/05/09:
+    * Cleans: 3x3@135, 1x2@165
+    * Back-squats: 2x2@245
+    * Deadlifts: 1x1@275
+* 2017/05/10:
+    * Hammer curls: 3x14@35
+    * Bench: 2x2@185, 3x2@165
+    * Deadlifts (RDL): 3x6@225
