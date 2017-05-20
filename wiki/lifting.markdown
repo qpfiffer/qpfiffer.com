@@ -267,3 +267,8 @@ Format is sets by reps @ weight in pounds.
 * 2017/05/11:
     * Back-squats: 1x8@135, 1x8@205, 1x8@225, 1x6@245, 1x2@225
     * Meta: GETTIN STRONGER
+* 2017/05/16:
+    * Back-squats: 1x8@135, 1x5@185, 2x2@245
+    * Meta: Got trapped under the weights at 255. Had to be picked up. Funny.
+* 2017/05/20:
+    * Back-squats: 1x8@135, 1x5@185, 5x5@225, 1x1@245
