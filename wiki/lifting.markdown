@@ -272,3 +272,11 @@ Format is sets by reps @ weight in pounds.
     * Meta: Got trapped under the weights at 255. Had to be picked up. Funny.
 * 2017/05/20:
     * Back-squats: 1x8@135, 1x5@185, 5x5@225, 1x1@245
+    * Bench: 5x5@135
+* 2017/05/21:
+    * Back-squats: 2x8@135, 1x8@205
+    * Deadlifts (RDL): 3x8@225
+* 2017/05/24:
+    * Back-squats: 1x8@165, 3x2@245, 1x3@245
+    * Cleans: 1x5@135
+    * BTN Press: 1x5@65, 1x1@115, 3x6@95
