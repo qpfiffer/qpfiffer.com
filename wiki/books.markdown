@@ -10,7 +10,6 @@ good idea of the kind of books I want to read.
 ### Want to Read
 
 * [Diaspora](https://en.wikipedia.org/wiki/Diaspora_(novel))
-* [Acceleranod](https://en.wikipedia.org/wiki/Accelerando)
 * [Blindsight](https://en.wikipedia.org/wiki/Blindsight_(Watts_novel))
 
 ### Reading
@@ -20,6 +19,7 @@ finish books.
 
 ### Read
 * [The Abominable](http://www.amazon.com/The-Abominable-Novel-Dan-Simmons/dp/0316198838)
+* [Acceleranod](https://en.wikipedia.org/wiki/Accelerando)
 * [A Deepness in the Sky](https://en.wikipedia.org/wiki/A_Deepness_in_the_Sky)
 * [Ajax Penumbra 1969](http://www.amazon.com/Ajax-Penumbra-1969-Kindle-Single-ebook/dp/B00EWZC8QI)
 * [Alone](https://en.wikipedia.org/wiki/Richard_E._Byrd)
