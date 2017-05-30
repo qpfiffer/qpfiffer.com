@@ -24,13 +24,23 @@ class Parser(object):
         sys.stdout.write(json.dumps(obj))
 
     def _parse_started(self, line):
-        self.current_date = re.match(r'\* ([0-9\/]+):', line).groups(0)[0]
+        possible_date = re.match(r'\* ([0-9\/]+):', line)
+        if possible_date is None:
+            raise Exception("Could not parse line: {}".format(line))
+        self.current_date = possible_date.groups(0)[0]
         self.state = "PARSING_DATE"
         self.lifts_by_date[self.current_date] = {}
 
     def _parse_lifts(self, line):
         if line.startswith("    ") and "*" in line:
-            pass
+            split_line = line.strip().rstrip().split(": ")
+            possible_lift = re.match(r'\* ([a-zA-Z()\ -]+)', split_line[0])
+            self.current_lift = possible_lift.groups(0)[0].lower()
+            print("LIFT: {}".format(self.current_lift))
+            if self.lifts_by_exercise.get(self.current_lift) is None:
+                self.lifts_by_exercise[self.current_lift] = {}
+        elif "*" not in line:
+            return
         else:
             self.state = "STARTED"
             return self._parse_started(line)
