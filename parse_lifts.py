@@ -36,9 +36,17 @@ class Parser(object):
             split_line = line.strip().rstrip().split(": ")
             possible_lift = re.match(r'\* ([a-zA-Z()\ -]+)', split_line[0])
             self.current_lift = possible_lift.groups(0)[0].lower()
-            print("LIFT: {}".format(self.current_lift))
+            if self.current_lift == "meta":
+                return
+            #print("LIFT: {}".format(self.current_lift))
             if self.lifts_by_exercise.get(self.current_lift) is None:
                 self.lifts_by_exercise[self.current_lift] = {}
+
+            try:
+                for sets_by_reps_by_weight in split_line[1].split(", "):
+                    print("SRW: {}".format(sets_by_reps_by_weight))
+            except IndexError:
+                return
         elif "*" not in line:
             return
         else:
