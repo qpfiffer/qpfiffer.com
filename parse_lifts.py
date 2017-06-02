@@ -29,7 +29,7 @@ class Parser(object):
             raise Exception("Could not parse line: {}".format(line))
         self.current_date = possible_date.groups(0)[0]
         self.state = "PARSING_DATE"
-        self.lifts_by_date[self.current_date] = {}
+        self.lifts_by_date[self.current_date] = []
 
     def _parse_lifts(self, line):
         if line.startswith("    ") and "*" in line:
@@ -44,7 +44,46 @@ class Parser(object):
 
             try:
                 for sets_by_reps_by_weight in split_line[1].split(", "):
-                    print("SRW: {}".format(sets_by_reps_by_weight))
+                    possible_srw = re.match(r'([0-9]+)[xX]([0-9]+)@([0-9]+)', sets_by_reps_by_weight)
+                    try:
+                        groups = possible_srw.groups()
+                    except AttributeError:
+                        continue
+                    if len(groups) != 3:
+                        continue
+                    sets = int(groups[0])
+                    reps = int(groups[1])
+                    weight = int(groups[2])
+                    full_obj = {
+                        "sets": sets,
+                        "reps": reps,
+                        "weight": weight,
+                        "exercise": self.current_lift,
+                    }
+                    try:
+                        self.lifts_by_exercise[self.current_lift][self.current_date].append(full_obj)
+                    except KeyError:
+                        self.lifts_by_exercise[self.current_lift][self.current_date] = [full_obj]
+
+                    try:
+                        self.lifts_by_weight[weight].append(full_obj)
+                    except KeyError:
+                        self.lifts_by_weight[weight] = [full_obj]
+
+                    try:
+                        self.lifts_by_reps[reps].append(full_obj)
+                    except KeyError:
+                        self.lifts_by_reps[reps] = [full_obj]
+
+                    try:
+                        self.lifts_by_sets[sets].append(full_obj)
+                    except KeyError:
+                        self.lifts_by_sets[sets] = [full_obj]
+
+                    try:
+                        self.lifts_by_date[self.current_date].append(full_obj)
+                    except KeyError:
+                        self.lifts_by_date[self.current_date] = [full_obj]
             except IndexError:
                 return
         elif "*" not in line:
