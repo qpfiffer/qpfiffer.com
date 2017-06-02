@@ -271,3 +271,7 @@ Format is sets by reps @ weight in pounds.
     * Back-squats: 1x8@165, 3x2@245, 1x3@245
     * Cleans: 1x5@135
     * BTN Press: 1x5@65, 1x1@115, 3x6@95
+* 2017/06/01:
+    * Back-squats: 3x8@185
+    * Meta: First day lifting with the food borne illness going on. Felt like
+      absolute shit.
