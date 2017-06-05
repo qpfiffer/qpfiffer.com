@@ -275,3 +275,9 @@ Format is sets by reps @ weight in pounds.
     * Back-squats: 3x8@185
     * Meta: First day lifting with the food borne illness going on. Felt like
       absolute shit.
+* 2017/06/04:
+    * Back-squats: 3x8@135
+    * Deadlifts: 1x6@225, 2x6@275
+    * Clean Complex: 3x3@135
+    * Dumbbell Bench Press: 3x12@35
+    * Meta: Clean complex: Clean, front squat, hang clean, front squat.
