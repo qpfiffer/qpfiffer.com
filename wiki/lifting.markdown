@@ -281,3 +281,6 @@ Format is sets by reps @ weight in pounds.
     * Clean Complex: 3x3@135
     * Dumbbell Bench Press: 3x12@35
     * Meta: Clean complex: Clean, front squat, hang clean, front squat.
+* 2017/06/06:
+    * Back-squats: 5x5@205
+    * Meta: Track season is here. Did 11 miles at the track at 7 AM.
