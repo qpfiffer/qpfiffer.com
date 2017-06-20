@@ -284,3 +284,14 @@ Format is sets by reps @ weight in pounds.
 * 2017/06/06:
     * Back-squats: 5x5@205
     * Meta: Track season is here. Did 11 miles at the track at 7 AM.
+* 2017/06/09:
+    * Back-squats: 2x8@135, 1x8@185
+    * Deadlifts: 2x8@225, 1x8@275
+    * Meta: Iceland strongman.
+* 2017/06/13:
+    * Back-squats: 5x5@225
+    * Meta: Iceland strongman.
+* 2017/06/20:
+    * Deadlifts: 1x8@135, 1x5@225, 1x6@275, 2x6@295
+    * Bench: 3x6@135
+    * Meta: Raced short track yesterday.
