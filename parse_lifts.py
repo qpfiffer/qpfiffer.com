@@ -110,7 +110,7 @@ def main():
 
     with open('./static/lifts.csv', 'wb') as csv_file:
         writer = csv.writer(csv_file)
-        writer.writerow(("Date", "Lift", "Sets", "Reps", "Weight (LBS)", "Meta"))
+        writer.writerow(("Date", "Lift", "Sets", "Reps", "Weight (LBS)"))
         for lift_key in sorted(parser.lifts_by_date.keys()):
             val = parser.lifts_by_date[lift_key]
             for lift_on_date in val:
