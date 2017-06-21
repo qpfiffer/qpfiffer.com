@@ -1,5 +1,5 @@
-#!/usr/bin/env python3
-import json, re, sys
+#!/usr/bin/env python2
+import json, re, sys, csv
 
 INFILE = "./wiki/lifting.markdown"
 
@@ -108,7 +108,15 @@ def main():
         for line in lift_file:
             parser.parse_line(line)
 
-    parser.dump_data()
+    with open('./static/lifts.csv', 'wb') as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerow(("Date", "Lift", "Sets", "Reps", "Weight (LBS)", "Meta"))
+        for lift_key in sorted(parser.lifts_by_date.keys()):
+            val = parser.lifts_by_date[lift_key]
+            for lift_on_date in val:
+                writer.writerow((lift_key, lift_on_date['exercise'], lift_on_date['sets'], lift_on_date['reps'], lift_on_date['weight']))
+
+    #parser.dump_data()
 
 if __name__ == '__main__':
     main()

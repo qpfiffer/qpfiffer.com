@@ -14,7 +14,6 @@ Ideas for graphs:
 Format is sets by reps @ weight in pounds.
 
 ;;START
-
 * 2016/03/28:
     * Deadlifts: 3x8@205
     * Bench: 1x12@95, 2x10@95
