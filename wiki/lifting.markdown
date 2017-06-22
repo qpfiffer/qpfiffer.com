@@ -295,3 +295,5 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 1x8@135, 1x5@225, 1x6@275, 2x6@295
     * Bench: 3x6@135
     * Meta: Raced short track yesterday.
+* 2017/06/21:
+    * Back-squats: 1x8@135, 1x5@185, 1x4@225, 1x2@225
