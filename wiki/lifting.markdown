@@ -302,3 +302,6 @@ Format is sets by reps @ weight in pounds.
 * 2017/06/27:
     * Back-squats: 1x8@135, 1x5@185, 1x5@205, 3x2@225
     * Bench: 1x5@135, 3x3@155
+* 2017/07/05:
+    * Back-squats: 3x8@135
+    * BTN Press: 1x5@65, 2x5@85, 2x5@95
