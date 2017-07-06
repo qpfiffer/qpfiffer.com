@@ -3,6 +3,7 @@ title: Lifting Log
 ---
 
 Ideas for graphs:
+
 * Weekly frequency (Lifts per day per week)
 * Session weight moved
 * exercize frequency per week
@@ -24,6 +25,7 @@ Format is sets by reps @ weight in pounds.
 <script type="text/javascript" src="https://cdn.reflect.io/embed.js"></script>
 
 ;;START
+
 * 2016/03/28:
     * Deadlifts: 3x8@205
     * Bench: 1x12@95, 2x10@95

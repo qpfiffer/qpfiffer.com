@@ -94,6 +94,9 @@ class Parser(object):
 
     def parse_line(self, line):
         if self.state == "UNSARTED" and line == ";;START\n":
+            self.state = "STARTED_PRE"
+            return
+        elif self.state == "STARTED_PRE" and line == "\n":
             self.state = "STARTED"
             return
 
