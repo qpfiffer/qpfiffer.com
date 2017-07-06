@@ -96,7 +96,7 @@ class Parser(object):
         if self.state == "UNSARTED" and line == ";;START\n":
             self.state = "STARTED_PRE"
             return
-        elif self.state == "STARTED_PRE" and line == "\n":
+        elif self.state == "STARTED_PRE":
             self.state = "STARTED"
             return
 

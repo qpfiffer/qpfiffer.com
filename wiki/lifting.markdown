@@ -25,7 +25,7 @@ Format is sets by reps @ weight in pounds.
 <script type="text/javascript" src="https://cdn.reflect.io/embed.js"></script>
 
 ;;START
-
+```
 * 2016/03/28:
     * Deadlifts: 3x8@205
     * Bench: 1x12@95, 2x10@95
@@ -317,3 +317,4 @@ Format is sets by reps @ weight in pounds.
 * 2017/07/05:
     * Back-squats: 3x8@135
     * BTN Press: 1x5@65, 2x5@85, 2x5@95
+```
