@@ -13,6 +13,16 @@ Ideas for graphs:
 
 Format is sets by reps @ weight in pounds.
 
+<div id="view-container"></div>
+
+<script type="text/javascript">
+  window.reflect = {
+    view: 'SbGI-Wg9SFqgJVy81s7nQg',
+    element: document.getElementById('view-container'),
+  };
+</script>
+<script type="text/javascript" src="https://cdn.reflect.io/embed.js"></script>
+
 ;;START
 * 2016/03/28:
     * Deadlifts: 3x8@205
