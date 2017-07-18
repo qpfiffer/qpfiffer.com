@@ -327,4 +327,8 @@ Format is sets by reps @ weight in pounds.
     * BTN-Press: 5x5@95
     * Curls: 1x24@20, 1x24@25
     * Back-squats: 3x1@245
+* 2017/07/17:
+    * Bench: 1x8@95, 1x8@135, 1x5@145, 1x8@135
+    * Seated-rows: 3x16@70
+    * Meta: Did some ab-work at the end, too. Body is feeling hella fatigued.
 ```
