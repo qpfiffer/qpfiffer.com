@@ -331,4 +331,8 @@ Format is sets by reps @ weight in pounds.
     * Bench: 1x8@95, 1x8@135, 1x5@145, 1x8@135
     * Seated-rows: 3x16@70
     * Meta: Did some ab-work at the end, too. Body is feeling hella fatigued.
+* 2017/07/24:
+    * Back-squats: 1x5@95, 1x5@135, 1x5@185, 3x5@205
+    * Dumbbell Rows: 3x8@50
+    * Meta: ROWS FOR SPRINTING POWER
 ```
