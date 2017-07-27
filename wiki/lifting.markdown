@@ -335,4 +335,8 @@ Format is sets by reps @ weight in pounds.
     * Back-squats: 1x5@95, 1x5@135, 1x5@185, 3x5@205
     * Dumbbell Rows: 3x8@50
     * Meta: ROWS FOR SPRINTING POWER
+* 2017/07/26:
+    * Bench: 1x5@115, 1x2@160, 2x5@135, 1x5@145
+    * Chin-ups: 3x5@160
+    * Meta: Chin-ups are bodyweight.
 ```
