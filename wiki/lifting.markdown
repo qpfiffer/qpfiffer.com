@@ -339,4 +339,7 @@ Format is sets by reps @ weight in pounds.
     * Bench: 1x5@115, 1x2@160, 2x5@135, 1x5@145
     * Chin-ups: 3x5@160
     * Meta: Chin-ups are bodyweight.
+* 2017/07/31:
+    * Deadlifts: 1x5@135, 1x5@225, 1x5@275, 2x5@295
+    * Chin-ups: 3x5@160
 ```
