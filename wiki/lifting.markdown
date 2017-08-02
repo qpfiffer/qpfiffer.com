@@ -342,4 +342,7 @@ Format is sets by reps @ weight in pounds.
 * 2017/07/31:
     * Deadlifts: 1x5@135, 1x5@225, 1x5@275, 2x5@295
     * Chin-ups: 3x5@160
+* 2017/07/24:
+    * Back-squats: 1x5@135, 2x5@185, 1x5@205, 1x8@135
+    * Meta: Lifting two days in a row sucks
 ```
