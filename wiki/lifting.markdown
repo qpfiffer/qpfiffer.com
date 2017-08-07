@@ -345,8 +345,12 @@ Format is sets by reps @ weight in pounds.
 * 2017/08/01:
     * Back-squats: 1x5@135, 2x5@185, 1x5@205, 1x8@135
     * Meta: Lifting two days in a row sucks
-* 2017/08/01:
+* 2017/08/02:
     * Back-squats: 1x5@135, 1x5@185, 1x3@205, 1x3@225, 1x3@245, 1x1@225
     * Bench: 5x5@135
     * Meta: Tried 1x1@265 squat, failed
+* 2017/08/07:
+    * Dumbbell Snatch: 1x10@40, 1x10@50, 1x4@55
+    * Deadlift: 1x5@135, 2x8@225, 1x3@315
+    * Chin-ups: 3x5@160
 ```
