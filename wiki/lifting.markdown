@@ -353,4 +353,7 @@ Format is sets by reps @ weight in pounds.
     * Dumbbell Snatch: 1x10@40, 1x10@50, 1x4@55
     * Deadlift: 1x5@135, 2x8@225, 1x3@315
     * Chin-ups: 3x5@160
+* 2017/08/08:
+    * Bench: 1x5@95, 1x5@135, 3x5@145
+    * Meta: Did standing starts and flying 200s in the morning, then biked til midnight. Whadda day.
 ```
