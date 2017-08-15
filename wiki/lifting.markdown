@@ -356,4 +356,8 @@ Format is sets by reps @ weight in pounds.
 * 2017/08/08:
     * Bench: 1x5@95, 1x5@135, 3x5@145
     * Meta: Did standing starts and flying 200s in the morning, then biked til midnight. Whadda day.
+* 2017/08/15:
+    * Squats: 1x8@135, 1x5@185, 1x5@205, 1x2@205
+    * Deadlift: 1x8@135, 1x5@225, 1x2@295, 1x6@225
+    * Chin-ups: 3x5@160
 ```
