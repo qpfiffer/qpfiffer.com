@@ -360,4 +360,7 @@ Format is sets by reps @ weight in pounds.
     * Squats: 1x8@135, 1x5@185, 1x5@205, 1x2@205
     * Deadlift: 1x8@135, 1x5@225, 1x2@295, 1x6@225
     * Chin-ups: 3x5@160
+* 2017/08/20:
+    * Squats: 1x8@135, 3x5@185
+    * Bench: 1x8@95, 1x5@135, 3x5@155
 ```
