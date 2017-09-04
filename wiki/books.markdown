@@ -29,6 +29,7 @@ finish books.
 * [Candide](https://en.wikipedia.org/wiki/Candide)
 * [Chris Hoy's Autobiography](https://www.amazon.com/Chris-Hoy-Autobiography/dp/000731132X)
 * [Count Zero](https://en.wikipedia.org/wiki/Count_Zero)
+* [Concrete Island](https://en.wikipedia.org/wiki/Concrete_Island)
 * [Dead Mountain: The Untold True Story of the Dyatlov Pass Incident Hardcover](https://www.amazon.com/Dead-Mountain-Untold-Dyatlov-Incident/dp/1452112746)
 * [The Case of Charles Dexter Ward](http://en.wikipedia.org/wiki/The_Case_of_Charles_Dexter_Ward)
 * [The Color out of Space](http://en.wikipedia.org/wiki/The_Color_Out_Of_Space)
