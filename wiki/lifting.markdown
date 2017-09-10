@@ -363,4 +363,11 @@ Format is sets by reps @ weight in pounds.
 * 2017/08/20:
     * Squats: 1x8@135, 3x5@185
     * Bench: 1x8@95, 1x5@135, 3x5@155
+* 2017/09/09:
+    * Squats: 1x5@135, 1x5@185, 1x5@135
+    * Incline-bench: 5x5@115
+    * Rack-pulls: 3x3@295
+* 2017/09/10:
+    * Squats: 1x5@135, 1x5@185, 1x2@225, 1x2@245, 1x1@275, 1x3@305
+    * Meta: Some dude helped me on the 305. China, man.
 ```
