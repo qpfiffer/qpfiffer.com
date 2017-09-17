@@ -370,4 +370,9 @@ Format is sets by reps @ weight in pounds.
 * 2017/09/10:
     * Squats: 1x5@135, 1x5@185, 1x2@225, 1x2@245, 1x1@275, 1x3@305
     * Meta: Some dude helped me on the 305. China, man.
+* 2017/09/17:
+    * Cleans: 3x1@135, 1x1@155
+    * Deadlifts: 1x8@135, 2x2@225, 1x2@275, 1x1@315, 3x1@335
+    * Bench: 1x8@95, 2x5@135, 5x3@155
+    * Meta: Cleans were really ugly. I need to work on form with those.
 ```
