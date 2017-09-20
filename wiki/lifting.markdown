@@ -375,4 +375,8 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 1x8@135, 2x2@225, 1x2@275, 1x1@315, 3x1@335
     * Bench: 1x8@95, 2x5@135, 5x3@155
     * Meta: Cleans were really ugly. I need to work on form with those.
+* 2017/09/19:
+    * Squats: 1x8@135, 1x5@185, 1x2@205, 1x2@225, 1x5@245, 4x3@225
+    * BTN Press: 3x5@75
+    * OHP: 2x5@75, 1x8@75, 1x1@125
 ```
