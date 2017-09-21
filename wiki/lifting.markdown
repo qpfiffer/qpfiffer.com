@@ -379,4 +379,6 @@ Format is sets by reps @ weight in pounds.
     * Squats: 1x8@135, 1x5@185, 1x2@205, 1x2@225, 1x5@245, 4x3@225
     * BTN Press: 3x5@75
     * OHP: 2x5@75, 1x8@75, 1x1@125
+* 2017/09/21:
+    * Bench: 1x8@95, 1x5@115, 5x3@160
 ```
