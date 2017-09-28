@@ -381,4 +381,8 @@ Format is sets by reps @ weight in pounds.
     * OHP: 2x5@75, 1x8@75, 1x1@125
 * 2017/09/21:
     * Bench: 1x8@95, 1x5@115, 5x3@160
+* 2017/09/21:
+    * Cleans: 3x3@115
+    * Deadlifts: 1x8@215, 1x8@225, 1x8@235
+    * Meta: First lifting session with home weights, woooo
 ```
