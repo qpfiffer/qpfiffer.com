@@ -1,0 +1,57 @@
+---
+title: Personal Backups
+author: Quinlan Pfiffer
+bg-image: ../static/img/13653449_1169579606432286_6561406343698300739_o.jpg
+bg-img-src: https://www.facebook.com/whatthefestival/photos/t.579862546/1169579606432286/?type=3&theater
+---
+
+This post is mostly about how I do backups, or lack there of. I kind of forgot,
+but now I don't have internet at my home so I'm exploring what I've got.
+
+## The backup server
+
+I've got a low-power (sorta) home-server that I use to back stuff up. It has
+three two-terabyte drives in RAID 5. LVM sits on top of that so I can split
+things out. This gives me some redundancy when a drive dies, which happens more
+often than I'd like. Oh well. I have a backup user that runs jobs hourly to back
+stuff up from the internet.
+
+## shithouse.tv
+
+I've got a Digital Ocean box that powers [shithouse.tv.](http://shithouse.tv/)
+The box has everything on it that I care about, for the most part. IRC is there,
+a few services, random things. It's important so I want to back it up.
+
+Backup philosophy bullet point #1 is that you should also have backup snapshots.
+You don't just want the one backup. Maybe you want to go back and check data
+from a year ago, maybe two months ago. Snapshots are good.
+
+Following on this, snapshots become less important over time so maybe you want
+to purge them. This is where `logpurge` comes in. A friend of mine wrote it and
+I love it to death. The idea is that it deletes snapshots with an exponential
+fall-off as time increses away from today. So you might have every snapshot from
+the last 24 hours, but only a snapshot once a month from last year, and only one
+snapshot for the whole of five years ago. Something like that.
+
+Heres the cronjob (run once an hour) that pulls down the entire box:
+
+```bash
+#!/bin/bash
+
+LOCATION=/var/backups/filesystem/corinthian_backups
+CURRENT_DATE=$(date +%Y-%m-%d_%H:%M:%S)
+
+m=`time (
+    /usr/bin/logpurge -d $LOCATION/corinthian_archives/ -y 2>&1 >/dev/null
+    pushd $LOCATION >/dev/null
+    rsync -Pavzl shithouse.tv:/ ./corinthian/ --exclude={/dev,/proc,/sys,/tmp/*,/run,/lost+found} 2>&1 >/dev/null
+    tar -cjf ./corinthian_archives/corinthian_$CURRENT_DATE.tar.bz2 ./corinthian/ 2>&1 >/dev/null
+    popd >/dev/null
+)`
+echo "M is "$m". Curling..."
+curl -d "m=$m" https://nosnch.in/xxxxxxxxxx
+```
+
+We log purge everything before we take a backup, then we take the server as it currently exists and makes sure that we have an
+up-to-date, unarchived copy, and then tar everything up and makes an archive
+out of it.
