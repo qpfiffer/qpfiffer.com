@@ -11,17 +11,17 @@ goes.
 ### Symptom: We're out of money. In the Stripe account.
 
 Well that's weird. Why are we out of money? For some context, I work for a
-market-to-market startup that has people paying for other people to sign up for
+market-to-market startup that has customers paying for other people to sign up for
 group classes, and then the person teaching the classes gets paid. We (the
 startup) take a cut of that. Simple. See: Uber, Etsy, Lyft, etc.
 
 We have to have a constant balance in the Stripe account to make sure that we
-can do promos or coupons. This helps us incentivize peopl to use the platform.
+can do promos or coupons. This helps us incentivize people to use the platform.
 Makes sense, right? Well, today we're out of money.
 
 Anyway, we're out of money. Usually no big deal, we'll just top it up and be on
 our way, but this time is suspicious because we *just* topped up, and we're out
-again already. Suspicious. Let's go digging further.
+again already. Interesting. Let's dig further.
 
 ### Symptom: Looks like someone has WAY more money in their [Stripe Connected account](https://stripe.com/connect) than they should.
 
@@ -76,7 +76,7 @@ what's going on. After some digging I notice this bit of code, in our cron job
 (code is simplified):
 
 ```
-def payout_cron_job:
+def payout_cron_job():
     with transaction.atomic():
         for account in managed_accounts:
             # ...
@@ -92,7 +92,7 @@ def payout_cron_job:
 After looking at this code, and thinking about the last symptom we saw, I
 figured out why we were erroring out. The error itself had something to do with
 an incorrect email. This was fine, and easy to fix, so I did. I also made the
-notification code more error-safe. Easy. The actual problem here is how we are
+notification code more error-safe. No problem. The actual issue here is how we are
 handling the transaction.
 
 Wrapping all accounts in one big transaction means the entire thing fails when
@@ -111,7 +111,7 @@ record of them getting paid out. Nice.
 The better code looks more like this:
 
 ```
-def payout_cron_job:
+def payout_cron_job():
     for account in managed_accounts:
         with transaction.atomic():
             # ...
@@ -123,7 +123,7 @@ Transaction chain that can control commits and roll-backs on 3rd-party
 incumbents. That way, if the stripe transaction fails for one person, we could
 roll-back all of them. That'd be pretty nice.
 
-So now that we've fixed ou cron job, we have to figure out why it failed and
+So now that we've fixed our cron job, we have to figure out why it failed and
 then *kept* failing. The cron job only runs every hour, so why was the errant
 user getting money ever four minutes? To figure that out, we have to dig into
 the Lambda documentation a little bit.
@@ -132,20 +132,20 @@ the Lambda documentation a little bit.
 
 I remembered reading something about a [dead letter queue](https://en.wikipedia.org/wiki/Dead_letter_queue) 
 in the lambda documentation. If you don't know what that is, a quick definition
-is that whenenver a job or message processor fails to finish processing a
+is that whenever a job or message processor fails to finish processing a
 message (in this case a job), the queue doesn't remove that message/job. So, in
-our case since the job itself kept failing, amazon kept telling the job to
+our case since the job itself kept failing, amazon kept telling it to
 execute. Usually a good idea, if your errors are freaks of nature and prone to
 temporal resolution.
 
-So, that's what happened here. Our cron kept going, partially succeeding,
-erroring out and then dying. Amazon, faithful cron executor that it is, decided
-to keep trying the job. This meant that the same account kept getting paid out
-over and over and over again.
+So, that's what happened here. Our task kept going, partially succeeding,
+erroring out and then dying. Amazon, faithful executor that it is, decided
+to keep retrying. This meant that the same account kept getting paid out
+every execution, eg. every four minutes.
 
 ### Fix: Reverse all the bad transactions
 
 After finally putting these pieces together I deployed the fixed code and
 explained what had happened to my co-workers. They left me the task of fixing
-all 88 bad transactions myself. Just punishment for some bad code, I'd say.
+all of the bad transactions myself. Just punishment for some irresponsible code, I'd say.
 Worth it, for such a combo of small errors leading to such a catastrophic bug.
