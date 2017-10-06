@@ -357,18 +357,18 @@ Format is sets by reps @ weight in pounds.
     * Bench: 1x5@95, 1x5@135, 3x5@145
     * Meta: Did standing starts and flying 200s in the morning, then biked til midnight. Whadda day.
 * 2017/08/15:
-    * Squats: 1x8@135, 1x5@185, 1x5@205, 1x2@205
+    * Back-Squats: 1x8@135, 1x5@185, 1x5@205, 1x2@205
     * Deadlift: 1x8@135, 1x5@225, 1x2@295, 1x6@225
     * Chin-ups: 3x5@160
 * 2017/08/20:
-    * Squats: 1x8@135, 3x5@185
+    * Back-Squats: 1x8@135, 3x5@185
     * Bench: 1x8@95, 1x5@135, 3x5@155
 * 2017/09/09:
-    * Squats: 1x5@135, 1x5@185, 1x5@135
+    * Back-Squats: 1x5@135, 1x5@185, 1x5@135
     * Incline-bench: 5x5@115
     * Rack-pulls: 3x3@295
 * 2017/09/10:
-    * Squats: 1x5@135, 1x5@185, 1x2@225, 1x2@245, 1x1@275, 1x3@305
+    * Back-Squats: 1x5@135, 1x5@185, 1x2@225, 1x2@245, 1x1@275, 1x3@305
     * Meta: Some dude helped me on the 305. China, man.
 * 2017/09/17:
     * Cleans: 3x1@135, 1x1@155
@@ -376,7 +376,7 @@ Format is sets by reps @ weight in pounds.
     * Bench: 1x8@95, 2x5@135, 5x3@155
     * Meta: Cleans were really ugly. I need to work on form with those.
 * 2017/09/19:
-    * Squats: 1x8@135, 1x5@185, 1x2@205, 1x2@225, 1x5@245, 4x3@225
+    * Back-Squats: 1x8@135, 1x5@185, 1x2@205, 1x2@225, 1x5@245, 4x3@225
     * BTN Press: 3x5@75
     * OHP: 2x5@75, 1x8@75, 1x1@125
 * 2017/09/21:
@@ -385,4 +385,6 @@ Format is sets by reps @ weight in pounds.
     * Cleans: 3x3@115
     * Deadlifts: 1x8@215, 1x8@225, 1x8@235
     * Meta: First lifting session with home weights, woooo
+* 2017/10/05:
+    * Back-Squats: 1x5@135, 1x4@185, 1x2@205, 3x2@235
 ```
