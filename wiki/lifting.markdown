@@ -385,6 +385,10 @@ Format is sets by reps @ weight in pounds.
     * Cleans: 3x3@115
     * Deadlifts: 1x8@215, 1x8@225, 1x8@235
     * Meta: First lifting session with home weights, woooo
-* 2017/10/05:
+* 2017/10/04:
     * Back-Squats: 1x5@135, 1x4@185, 1x2@205, 3x2@235
+* 2017/10/06:
+    * Cleans: 3x1@115, 6x1@135
+    * Front-Squats: 3x5@135
+    * Meta: Clean form is starting to come together. Having the weights out back is helping a lot.
 ```
