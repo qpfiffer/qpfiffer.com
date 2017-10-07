@@ -14,6 +14,9 @@ p code {
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.post {
+    padding-bottom: 75px;
+}
 #home {
     padding-bottom: 6px !important;
     font-size: 18px;

@@ -10,6 +10,5 @@ All of the pictures on this site were taken by me. You can check the source
 by clicking on the circle in the upper-left of each header.
 
 ## Projects
-* <p><a href="http://kyoto.io">kyoto.io</a></p>
-* <p><a href="http://merveill.es">merveill.es</a></p>
 * <p><a href="https://olegdb.org">olegdb.org</a></p>
+* <p><a href="https://shithouse.tv">shithouse.tv</a></p>
