@@ -1,5 +1,5 @@
 ---
-title: Fun with Graphs part 1: Getting Started
+title: "Fun with Graphs part 1: Getting Started"
 author: Quinlan Pfiffer
 bg-image: ../static/img/09_28_2014.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/15380881731/
