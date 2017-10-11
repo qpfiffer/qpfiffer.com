@@ -391,4 +391,9 @@ Format is sets by reps @ weight in pounds.
     * Cleans: 3x1@115, 6x1@135
     * Front-Squats: 3x5@135
     * Meta: Clean form is starting to come together. Having the weights out back is helping a lot.
+* 2017/10/10:
+    * Cleans: 2x1@115
+    * OHP: 2x3@115
+    * Deadlifts: 1x8@115, 5x1@205, 4x5@225
+    * Meta: Rib getting better.
 ```
