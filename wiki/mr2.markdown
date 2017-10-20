@@ -9,13 +9,18 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
 * Ignition coils: [http://www.sq-engineering.com/tech-articles/coilpack-info-guide]
 
 ## Misc. Work
+* <input disabled type="checkbox" />Upgrade front calipers/rotors to 87+
+    * [Forum thread about what needs changed](http://www.mr2.com/forums/archive/index.php/t-1770.html)
+    * [MR2 Writeups](http://www.padandwheels.com/mr2/brakes/brakes.html)
+* <input disabled type="checkbox" />Replace alternator
 * <input disabled type="checkbox" />Valve Cover Gasket Replacement
 * <input disabled type="checkbox" checked />Put in new spark plugs
-* <input disabled type="checkbox" />Buy new HT leads
+* <input disabled type="checkbox" checked />Buy new HT leads
+* <input disabled type="checkbox" checked />Replace distributor cap
 * <input disabled type="checkbox" checked />Fix Exhaust Rattle
 * <input disabled type="checkbox" />Fix Driver's Side Seat-belt
-* <input disabled type="checkbox" />Fix Headlight Skew
-* <input disabled type="checkbox" />Fix Windshield Mister
+* <input disabled type="checkbox" checked />Fix Windshield Mister
+    * I'm just an idiot this has worked the whole time.
 * <input disabled type="checkbox" checked/>Fix parking brake
 
 ## Suspension Work
