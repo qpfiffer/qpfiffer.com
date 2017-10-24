@@ -12,7 +12,7 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
 * <input disabled type="checkbox" />Upgrade front calipers/rotors to 87+
     * [Forum thread about what needs changed](http://www.mr2.com/forums/archive/index.php/t-1770.html)
     * [MR2 Writeups](http://www.padandwheels.com/mr2/brakes/brakes.html)
-* <input disabled type="checkbox" />Replace alternator
+* <input disabled type="checkbox" checked/>Replace alternator
 * <input disabled type="checkbox" />Valve Cover Gasket Replacement
 * <input disabled type="checkbox" />Replace missing throttle bracket screw (Gm# 11561025 (m6x1.0x16))
 * <input disabled type="checkbox" checked />Put in new spark plugs
