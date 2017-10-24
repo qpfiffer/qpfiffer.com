@@ -396,4 +396,7 @@ Format is sets by reps @ weight in pounds.
     * OHP: 2x3@115
     * Deadlifts: 1x8@115, 5x1@205, 4x5@225
     * Meta: Rib getting better.
+* 2017/10/23:
+    * Back-Squats: 3x8@135
+    * Meta: Built squat rack out back, finally.
 ```
