@@ -399,4 +399,7 @@ Format is sets by reps @ weight in pounds.
 * 2017/10/23:
     * Back-Squats: 3x8@135
     * Meta: Built squat rack out back, finally.
+* 2017/10/25:
+    * Deadlifts (RDL): 1x10@115, 1x5@205, 1x5@225, 1x5@245, 1x5@255
+    * OHP: 3x4@115
 ```
