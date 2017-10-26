@@ -6,7 +6,12 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
 
 ## Mod Ideas
 
-* Ignition coils: [http://www.sq-engineering.com/tech-articles/coilpack-info-guide]
+* [Ignition coils](http://www.sq-engineering.com/tech-articles/coilpack-info-guide)
+
+## Low-priority Parts to get
+
+* New seat belts
+* New rubber seals everywhere
 
 ## Misc. Work
 * <input disabled type="checkbox" />Upgrade front calipers/rotors to 87+
@@ -18,6 +23,8 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
 * <input disabled type="checkbox" />Replace bushings
     * Something like [this](https://primedriven.com/products/urethane-suspension-bushing-kit-mki)
 * <input disabled type="checkbox" />Replace missing throttle bracket screw (Gm# 11561025 (m6x1.0x16))
+* <input disabled type="checkbox" />Do [air filter mod](http://www.padandwheels.com/mr2/intake/intake.html)
+    * While you're in there [clean the throttle body](http://www.padandwheels.com/mr2/TPS/tps.html)
 * <input disabled type="checkbox" checked />Put in new spark plugs
 * <input disabled type="checkbox" checked />Buy new HT leads
 * <input disabled type="checkbox" checked />Replace distributor cap
@@ -26,6 +33,8 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
 * <input disabled type="checkbox" checked />Fix Windshield Mister
     * I'm just an idiot this has worked the whole time.
 * <input disabled type="checkbox" checked/>Fix parking brake
+    * Turns out if the brake light is staying on that just means the brake fluid
+      is low
 
 ## Suspension Work
 * <input disabled type="checkbox" />Strut Replacement
