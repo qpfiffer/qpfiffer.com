@@ -19,6 +19,7 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
     * [MR2 Writeups](http://www.padandwheels.com/mr2/brakes/brakes.html)
 * <input disabled type="checkbox" checked/>Replace alternator
 * <input disabled type="checkbox" />Valve Cover Gasket Replacement
+* <input disabled type="checkbox" />Clean and paint inside of trunk with anti-corrosion stuff
 * <input disabled type="checkbox" />Replace front ball joints
 * <input disabled type="checkbox" />Replace bushings
     * Something like [this](https://primedriven.com/products/urethane-suspension-bushing-kit-mki)
