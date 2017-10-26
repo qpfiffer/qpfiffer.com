@@ -12,12 +12,14 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
 
 * New seat belts
 * New rubber seals everywhere
+* Rear window visor
 
 ## Misc. Work
 * <input disabled type="checkbox" />Upgrade front calipers/rotors to 87+
     * [Forum thread about what needs changed](http://www.mr2.com/forums/archive/index.php/t-1770.html)
     * [MR2 Writeups](http://www.padandwheels.com/mr2/brakes/brakes.html)
 * <input disabled type="checkbox" checked/>Replace alternator
+* <input disabled type="checkbox" />Tighten alternator belt
 * <input disabled type="checkbox" />Valve Cover Gasket Replacement
 * <input disabled type="checkbox" />Clean and paint inside of trunk with anti-corrosion stuff
 * <input disabled type="checkbox" />Replace front ball joints
