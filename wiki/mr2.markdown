@@ -20,6 +20,10 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
     * [MR2 Writeups](http://www.padandwheels.com/mr2/brakes/brakes.html)
 * <input disabled type="checkbox" checked/>Replace alternator
 * <input disabled type="checkbox" />Tighten alternator belt
+* <input disabled type="checkbox" />Get car waxed and paint touched up
+    * Possible color code 150? Check driver's side door jam. "A typical code
+      will look like C/TR: 1D4/FH13, and 1D4 would be the color code in this
+      example."
 * <input disabled type="checkbox" />Valve Cover Gasket Replacement
 * <input disabled type="checkbox" />Clean and paint inside of trunk with anti-corrosion stuff
 * <input disabled type="checkbox" />Replace front ball joints
