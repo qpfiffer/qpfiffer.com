@@ -402,4 +402,7 @@ Format is sets by reps @ weight in pounds.
 * 2017/10/25:
     * Deadlifts (RDL): 1x10@115, 1x5@205, 1x5@225, 1x5@245, 1x5@255
     * OHP: 3x4@115
+* 2017/10/27:
+    * Deadlifts: 1x8@135, 1x5@225, 1x3@265, 1x2@295, 1x1@345
+    * OHP: 2x3@115, 1x1@135
 ```
