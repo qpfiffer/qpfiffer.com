@@ -408,4 +408,7 @@ Format is sets by reps @ weight in pounds.
 * 2017/10/28:
     * BTN Press: 3x5@115
     * Back-Squats: 1x8@135, 3x8@185
+* 2017/10/31:
+    * OHP: 3x3@115
+    * Deadlifts: 1x8@115, 1x5@205, 1x3@225, 1x4@275, 1x4@295, 1x4@300, 1x4@305
 ```
