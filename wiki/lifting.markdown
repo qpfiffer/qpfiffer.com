@@ -411,4 +411,6 @@ Format is sets by reps @ weight in pounds.
 * 2017/10/31:
     * OHP: 3x3@115
     * Deadlifts: 1x8@115, 1x5@205, 1x3@225, 1x4@275, 1x4@295, 1x4@300, 1x4@305
+* 2017/11/02:
+    * Back-Squats: 1x8@135, 1x8@165, 1x5@185, 3x8@205
 ```
