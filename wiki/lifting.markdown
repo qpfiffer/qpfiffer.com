@@ -413,4 +413,8 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 1x8@115, 1x5@205, 1x3@225, 1x4@275, 1x4@295, 1x4@300, 1x4@305
 * 2017/11/02:
     * Back-Squats: 1x8@135, 1x8@165, 1x5@185, 3x8@205
+* 2017/11/07:
+    * Back-Squats: 1x5@135, 1x5@185, 1x5@205, 1x5@225, 1x1@245, 1x1@265
+    * Deadlifts: 1x3@225, 1x2@295, 1x2@355
+    * Meta: Felt spicy after missing 405 on saturday. Missed it again today.  Also failed 295 squatting.
 ```
