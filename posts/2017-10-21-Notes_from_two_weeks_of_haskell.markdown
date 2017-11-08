@@ -28,7 +28,7 @@ can infer them.
 ```
 update_location_query = "UPDATE location AS loc \
     \SET name = ?, lat = ?, lng = ? \
-    \FROM main_dropinclasssession AS sesh \
+    \FROM session AS sesh \
     \WHERE sesh.location_id = loc.id AND \
     \      sesh.id = ?;"
 
@@ -36,6 +36,39 @@ updateLocation :: T.Text -> T.Text -> Double -> Double -> ReaderT Connection IO 
 updateLocation session_id name lat lng = do
     conn <- ask
     lift $ execute conn update_location_query (name, lat, lng, session_id)
+```
+
+### Selecting a Bunch of Records
+
+We use `query_` here because `query_` doesn't expect any arguments to
+interpolate into the SQL query.
+
+```
+class_query = "SELECT id, name \
+    \FROM class \
+    \ORDER BY name;"
+
+getClasses :: Connection -> IO [Class]
+getClasses conn = query_ conn class_query
+```
+
+### Selecting Just One Record
+
+This will return a list of one item, but Haskell doesn't know that so it comes
+back as a list. It works well enough. This also interpolates the class ID into
+the query.
+
+```
+session_query = "SELECT id, timestamp \
+    \FROM session \
+    \WHERE cls_id = ? \
+    \ORDER BY timestamp DESC \
+    \LIMIT 1;"
+
+getSessionsOfClass :: Connection -> Class -> IO [Session]
+getSessionsOfClass conn cls =
+    query conn session_query class_id
+  where class_id = (Only $ classId cls) :: Only UUID
 ```
 
 ## ReaderT
