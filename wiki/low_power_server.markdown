@@ -48,3 +48,11 @@ The Build
 =========
 
 * Final price of the Node 304: $54.99
+
+Update November 2017
+====================
+
+* [Node 804 Case](http://www.fractal-design.com/home/product/cases/node-series/node-804)
+* 16GB of ECC DDR3
+* [LSI SAS9211-8I RAID Card setup pass-through](https://www.amazon.com/gp/product/B002RL8I7M/)
+* A bunch of 3TB SAS drives
