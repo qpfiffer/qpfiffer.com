@@ -423,4 +423,11 @@ Format is sets by reps @ weight in pounds.
     * Front-Squats: 5x5@135
     * BTN-Press: 4x1@135
     * Meta: Light day. Legs are feeling crunchy after last few days.
+* 2017/11/13:
+    * Zercher (full): 3x1@125, 2x1@215
+    * OHP: 4x7@95
+    * Meta: The zerchers are weird because I thought the 5lb plates were 10lb plates.
+* 2017/11/16:
+    * Back-Squats: 1x8@135, 1x6@185, 1x5@205, 1x2@245, 3x5@225
+    * Meta: Wrist is fucked up so squats it is. I need to start a program or something.
 ```
