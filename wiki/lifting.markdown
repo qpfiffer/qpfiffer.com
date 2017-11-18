@@ -430,4 +430,7 @@ Format is sets by reps @ weight in pounds.
 * 2017/11/16:
     * Back-Squats: 1x8@135, 1x6@185, 1x5@205, 1x2@245, 3x5@225
     * Meta: Wrist is fucked up so squats it is. I need to start a program or something.
+* 2017/11/17:
+    * Back-Squats (narrow): 1x8@115, 4x6@185
+    * Push-ups: 4x16@167
 ```
