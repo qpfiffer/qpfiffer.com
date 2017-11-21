@@ -433,4 +433,8 @@ Format is sets by reps @ weight in pounds.
 * 2017/11/17:
     * Back-Squats (narrow): 1x8@115, 4x6@185
     * Push-ups: 4x16@167
+* 2017/11/20:
+    * Deadlifts (RDL): 5x5@225
+    * Zercher (full): 5x1@225
+    * Meta: Turns out a nylon belt makes a great strap for your fucked up wrist.
 ```
