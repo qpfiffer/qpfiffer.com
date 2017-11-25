@@ -43,6 +43,18 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
     * Turns out if the brake light is staying on that just means the brake fluid
       is low
 
+## Fog Lights
+
+The regular headlights are weak and not very rally car. Adding foglights seems
+like a pretty easy mod.
+
+Inspiration:
+
+* [Marchal 750s](https://www.reddit.com/r/mr2/comments/5hj3tt/not_matching_but_back_together/)
+* [Hella 550s](https://www.reddit.com/r/mr2/comments/173xkw/hella_bright_one_more_in_comments/)
+
+
+
 ## Suspension Work
 * <input disabled type="checkbox" />Strut Replacement
     * [Front](https://twosrus.com/catalog/product_info.php?products_id#135)
