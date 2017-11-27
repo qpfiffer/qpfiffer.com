@@ -10,6 +10,7 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
 
 ## Low-priority Parts to get
 
+* Another defroster switch, for the right side, to toggle fog lights.
 * New seat belts
 * New rubber seals everywhere
 * Rear window visor
@@ -42,6 +43,11 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
 * <input disabled type="checkbox" checked/>Fix parking brake
     * Turns out if the brake light is staying on that just means the brake fluid
       is low
+
+## RALLY
+
+* [Some weird fbook profile with a lot of stuff done](https://www.facebook.com/HRmotorsport-284165204968259/?ref=profile)
+* [Pahl's](https://www.instagram.com/pahls_racing/)
 
 ## Fog Lights
 
