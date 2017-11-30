@@ -89,3 +89,7 @@ good:
 * Fix multiple oil leaks (Finally getting valve cover gaskets replaced)
 * Inner tie-rode ends are loose and need fixed
 * Squeaky front-struts
+
+To ask:
+* Good snow/dirt all-season all-terrain tires
+* Lift? Coilovers?
