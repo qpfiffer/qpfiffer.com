@@ -437,4 +437,11 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts (RDL): 5x5@225
     * Zercher (full): 5x1@225
     * Meta: Turns out a nylon belt makes a great strap for your fucked up wrist.
+* 2017/11/27:
+    * Deadlifts: 1x5@135, 1x5@225, 1x5@275, 3x5@295
+    * Push-ups: 2x10@167, 3x20@167
+    * Meta: Double overhand is hard. Wrist still messed up.
+* 2017/11/29:
+    * Back-Squats: 1x5@135, 1x5@185, 1x3@225, 3x1@255, 1x1@265
+    * Meta: Failed a lot tonight, can't hit 275 for the life of me.
 ```
