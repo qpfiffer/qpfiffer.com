@@ -72,7 +72,7 @@ Inspiration:
 * <input disabled type="checkbox" />Fix Headlight Skew
 * <input disabled type="checkbox" />Fog-lights?
 
-## Update Fed. 11 2017
+## Update Feb. 11 2017
 
 Car sounds terrible. Power loss. The exhaust sounds different now. I can feel
 hitching sometimes as the car is accelerating or maintaining speed with the
@@ -80,6 +80,19 @@ accelerator in. I can smell burning upon exiting the car. Something is very wron
 Muffler/exhaust work might need to be done now for real.
 
 Update: Put in a new muffler, helked a lot. Also replaced the spark plugs.
+
+## Update Nov. 30 2017
+
+Took the car into the shop to get a bunch of stuff done, heft price but overall
+good:
+
+* Fix multiple oil leaks (Finally getting valve cover gaskets replaced)
+* Inner tie-rode ends are loose and need fixed
+* Squeaky front-struts
+
+To ask:
+* Good snow/dirt all-season all-terrain tires
+* Lift? Coilovers?
 
 # WHITE MR2
 
