@@ -80,3 +80,14 @@ accelerator in. I can smell burning upon exiting the car. Something is very wron
 Muffler/exhaust work might need to be done now for real.
 
 Update: Put in a new muffler, helked a lot. Also replaced the spark plugs.
+
+# WHITE MR2
+
+I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is the cost breakdown, so far.
+
+* MR2 Initial Purchase - 400.00
+    * Includes extra set of OEM wheels
+    * Includes aluminum rims with studded tires
+* Towing - 80.00
+    * Tow-hitch for the 4unner - 24.95
+    * Full-trailer for a day - 55.00
