@@ -101,6 +101,6 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 * MR2 Initial Purchase - 400.00
     * Includes extra set of OEM wheels
     * Includes aluminum rims with studded tires
-* Towing - 80.00
+* Towing - 112.00 - 6 hours
     * Tow-hitch for the 4unner - 24.95
-    * Full-trailer for a day - 55.00
+    * Full-trailer for a day - 88.00
