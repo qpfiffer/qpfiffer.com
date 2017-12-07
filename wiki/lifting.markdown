@@ -444,4 +444,9 @@ Format is sets by reps @ weight in pounds.
 * 2017/11/29:
     * Back-Squats: 1x5@135, 1x5@185, 1x3@225, 3x1@255, 1x1@265
     * Meta: Failed a lot tonight, can't hit 275 for the life of me.
+* 2017/12/05:
+    * Deadlifts: 1x5@135, 1x8@225, 5x5@255
+    * Curls: 4x16@25
+    * Shrugs: 3x12@205
+    * Meta: Wrist still messed up.
 ```
