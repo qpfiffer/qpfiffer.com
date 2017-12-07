@@ -449,4 +449,6 @@ Format is sets by reps @ weight in pounds.
     * Curls: 4x16@25
     * Shrugs: 3x12@205
     * Meta: Wrist still messed up.
+* 2017/12/06:
+    * Back-Squats: 1x8@135, 4x6@205
 ```
