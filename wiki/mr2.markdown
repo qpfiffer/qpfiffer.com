@@ -115,3 +115,4 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 * [Estonian 222D](https://petrolicious.com/articles/toyota-222d-group-b-lives-on-as-homebuilt-estonian-rally-car)
 * [RALLY gallery](http://allracingcars.com/toyota-mr2-w10/)
 * [Tips on Engine removal](http://www.mr2.com/forums/archive/index.php/t-84007.html)
+* [Walkthroughs on engine removal](https://midshiprunabout.org/mk2/engine-drop/)
