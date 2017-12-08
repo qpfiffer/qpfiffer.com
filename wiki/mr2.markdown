@@ -111,5 +111,7 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 
 * [Porsche](http://www.thedrive.com/video/5586/the-porsche-safari-911-is-filthy-fun)
 * [Another One](http://www.thedrive.com/news/11030/tuthills-latest-porsche-911-safari-build-is-a-rally-ready-orange-rocket)
+* [MK1 MR2 EV Conversions](http://www.amphibike.org/index.cgi?page=pages/3_wheels/mr2/other_mr2s)
 * [Estonian 222D](https://petrolicious.com/articles/toyota-222d-group-b-lives-on-as-homebuilt-estonian-rally-car)
 * [RALLY gallery](http://allracingcars.com/toyota-mr2-w10/)
+* [Tips on Engine removal](http://www.mr2.com/forums/archive/index.php/t-84007.html)
