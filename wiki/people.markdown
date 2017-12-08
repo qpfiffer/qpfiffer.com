@@ -11,6 +11,7 @@ This is a collection of people that I respect and admire.
 * [Ernest Shackleton](http://en.wikipedia.org/wiki/Ernest_Shackleton)
 * [Francis Rawdon Moira Crozier](http://en.wikipedia.org/wiki/Francis_Crozier)
 * [George Mallory](http://en.wikipedia.org/wiki/George_Mallory)
+* [Barry Blanchard](https://en.wikipedia.org/wiki/Barry_Blanchard)
 
 ## Polymaths
 * [aliceffekt](http://wiki.xxiivv.com/)
