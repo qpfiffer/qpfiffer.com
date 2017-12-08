@@ -104,3 +104,12 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 * Towing - 112.00 - 6 hours
     * Tow-hitch for the 4unner - 24.95
     * Full-trailer for a day - 88.00
+
+# Inspiration
+
+"Safari" Porsches:
+
+* [Porsche](http://www.thedrive.com/video/5586/the-porsche-safari-911-is-filthy-fun)
+* [Another One](http://www.thedrive.com/news/11030/tuthills-latest-porsche-911-safari-build-is-a-rally-ready-orange-rocket)
+* [Estonian 222D](https://petrolicious.com/articles/toyota-222d-group-b-lives-on-as-homebuilt-estonian-rally-car)
+* [RALLY gallery](http://allracingcars.com/toyota-mr2-w10/)
