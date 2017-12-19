@@ -451,4 +451,21 @@ Format is sets by reps @ weight in pounds.
     * Meta: Wrist still messed up.
 * 2017/12/06:
     * Back-Squats: 1x8@135, 4x6@205
+* 2017/12/11:
+    * Curls: 2x16@25, 2x12@35
+    * OHP: 3x2@115
+    * Push-ups: 5x10@170
+    * Meta: First time doing OHP since wrist injury, my flexibility has regressed a bit
+* 2017/12/12:
+    * Deadlifts: (RDL): 2x10@135
+    * Deadlifts: 1x2@225, 1x1@295, 1x1@345
+    * Shrugs: 4x12@115
+    * Front-squats: 5x5@135
+    * Meta: Wrist still messed up, double-overhand going above 300 lbs is rough. I used a belt as a strap.
+* 2017/12/17:
+    * Deadlifts: 1x1@365
+    * Bench: 5x5@155, 1x1@185
+* 2017/12/19:
+    * Front-squats: 3x5@185
+    * Curls: 3x16@35
 ```
