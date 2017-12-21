@@ -97,6 +97,8 @@ To ask:
 
 # WHITE MR2
 
+* [Confirming Rod Knock](https://www.youtube.com/watch?v=8Eyk7cRgYX0)
+
 I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is the cost breakdown, so far.
 
 * MR2 Initial Purchase - 400.00
