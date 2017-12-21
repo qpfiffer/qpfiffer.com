@@ -7,6 +7,7 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
 ## Mod Ideas
 
 * [Ignition coils](http://www.sq-engineering.com/tech-articles/coilpack-info-guide)
+* [Rage Racing uses this battery](https://shop.odysseybattery.com/p/pc680)
 
 ## Low-priority Parts to get
 
@@ -104,6 +105,10 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 * Towing - 112.00 - 6 hours
     * Tow-hitch for the 4unner - 24.95
     * Full-trailer for a day - 88.00
+* Misc. Battery Stuff - 40.00
+    * Wire Stripper/Cutting Tool - 12.00
+    * 10/12 Gage Wire - 5.00
+    * New Battery Lead - 2.99
 
 # Inspiration
 
