@@ -468,4 +468,8 @@ Format is sets by reps @ weight in pounds.
 * 2017/12/19:
     * Front-squats: 3x5@185
     * Curls: 3x16@35
+* 2017/12/22:
+    * Deadlifts: 1x6@135, 1x5@225, 5x5@295
+    * Curls: 3x16@35
+    * Meta: Double-overhand again
 ```
