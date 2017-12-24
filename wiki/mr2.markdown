@@ -111,6 +111,12 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
     * Wire Stripper/Cutting Tool - 12.00
     * 10/12 Gage Wire - 5.00
     * New Battery Lead - 2.99
+* Random Shopping - 
+    * Random battery powered floodlight - 9.99
+    * 12x Terry Towels - 4.99
+    * Turkey Baster (for brakes) - 3.99
+    * Brake Fluid - 4.99
+    * Brakleen - 3.69
 
 # Inspiration
 
