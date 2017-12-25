@@ -98,6 +98,8 @@ To ask:
 # WHITE MR2
 
 * [Confirming Rod Knock](https://www.youtube.com/watch?v=8Eyk7cRgYX0)
+    * It has rod knock. We tore off the oil pan and the crank journal was fucked.
+* Bleed brakelines so we can rotate the rear wheels
 
 I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is the cost breakdown, so far.
 
