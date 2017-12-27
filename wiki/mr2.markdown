@@ -135,3 +135,4 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 # ECU Stuff
 
 * [Breakdown of Toyota OBD-I Protocol](http://toyota.kgbconsulting.ca/wiki/OBD-1_Serial_Interface#Available_Software)
+* [ESP8266 OBD-2 Project](https://github.com/flynnwt/ouobd2)
