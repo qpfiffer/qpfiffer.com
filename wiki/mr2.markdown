@@ -131,3 +131,7 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 * [RALLY gallery](http://allracingcars.com/toyota-mr2-w10/)
 * [Tips on Engine removal](http://www.mr2.com/forums/archive/index.php/t-84007.html)
 * [Walkthroughs on engine removal](https://midshiprunabout.org/mk2/engine-drop/)
+
+# ECU Stuff
+
+* [Breakdown of Toyota OBD-I Protocol](http://toyota.kgbconsulting.ca/wiki/OBD-1_Serial_Interface#Available_Software)
