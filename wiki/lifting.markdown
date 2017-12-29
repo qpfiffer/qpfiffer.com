@@ -474,4 +474,7 @@ Format is sets by reps @ weight in pounds.
     * Meta: Double-overhand again
 * 2017/12/23:
     * Back-Squats: 1x8@135, 1x6@185, 1x8@205, 2x8@225, 1x2@205
+* 2017/12/28:
+    * Deadlifts: 1x6@155, 2x10@225
+    * Meta: Gonna try to squat 300 tomorrow, keeping it light
 ```
