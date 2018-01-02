@@ -49,6 +49,7 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
 
 * [Some weird fbook profile with a lot of stuff done](https://www.facebook.com/HRmotorsport-284165204968259/?ref=profile)
 * [Pahl's](https://www.instagram.com/pahls_racing/)
+* [Rage Racing](https://www.instagram.com/rageracing/)
 
 ## Fog Lights
 
@@ -113,14 +114,20 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
     * Wire Stripper/Cutting Tool - 12.00
     * 10/12 Gage Wire - 5.00
     * New Battery Lead - 2.99
-* Random Shopping - 
+* Random Shopping - 27.65
     * Random battery powered floodlight - 9.99
     * 12x Terry Towels - 4.99
     * Turkey Baster (for brakes) - 3.99
     * Brake Fluid - 4.99
     * Brakleen - 3.69
+* [Random Parts Organizer](https://www.amazon.com/gp/product/B074BRRCP9/) - 8.99
+* Impact Driver - 241.95
+    * Impact driver socket set - 44.99
+    * Dewalt Chordless Impact Driver - 92.99
+    * Dewalt Battery Charger - 67.99
+    * Knock off batteries (2x) - 35.99
 
-# Inspiration
+## Inspiration
 
 "Safari" Porsches:
 
@@ -132,7 +139,11 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 * [Tips on Engine removal](http://www.mr2.com/forums/archive/index.php/t-84007.html)
 * [Walkthroughs on engine removal](https://midshiprunabout.org/mk2/engine-drop/)
 
-# ECU Stuff
+## ECU Stuff
 
 * [Breakdown of Toyota OBD-I Protocol](http://toyota.kgbconsulting.ca/wiki/OBD-1_Serial_Interface#Available_Software)
 * [ESP8266 OBD-2 Project](https://github.com/flynnwt/ouobd2)
+
+## Door Cards
+
+* [Good DIY Thread](http://www.clubroadster.net/vb_forum/86-diy-how-writeups/48999-custom-na-nb-style-door-cards-how.html#post954353)
