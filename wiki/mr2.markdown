@@ -106,6 +106,8 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 
 ## Dropping the engine Checklist
 
+[All from D4A](http://www.driving4answers.com/how-to-remove-the-engine-mr2-mk1/) and it's very good.
+
 - X Drain coolant from engine
 - X Drain coolant from radiator
 - X Disconnect and remove battery 
