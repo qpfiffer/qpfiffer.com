@@ -100,9 +100,46 @@ To ask:
 
 * [Confirming Rod Knock](https://www.youtube.com/watch?v=8Eyk7cRgYX0)
     * It has rod knock. We tore off the oil pan and the crank journal was fucked.
-* Bleed brakelines so we can rotate the rear wheels
+* [X] Bleed brakelines so we can rotate the rear wheels
 
 I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is the cost breakdown, so far.
+
+## Dropping the engine Checklist
+
+- X Drain coolant from engine
+- X Drain coolant from radiator
+- X Disconnect and remove battery 
+- X Remove air flow meter
+- X Remove coolant overflow tank
+- x Remove throttle body
+- X Remove throttle bracket
+- X Remove brake booster hose
+- Remove coolant filler neck
+- Disconnect oil cooler lines
+- Disconnect all the wire harness connections to the engine. There’s a quite a bit
+  of these. Take it easy and it one by one. Don’t yank and don’t be aggressive.
+  Gently bend harness away from engine once you disconnect everything.
+- Fuel delivery pipes and fuel rail. (You need to crank the car without it
+  turning over several times to relieve the fuel pressure before doing this. Do
+  this by removing the ECU fuse. Google it, its easy)
+- EGR piping and EGR vacuum modulator and valve
+- Vacuum lines/ hoses
+- Remove the Intake manifold (the T-VIS thing)
+- Exhaust piping, muffler, cat (if you have one), etc
+- Remove v-belt and alternator
+- Exhaust manifold
+- Remove clutch hose
+- Disconnect all coolant hoses from thermostat housing and cylinder head
+- Disconnect fuel lines
+- Disconnect shift (transmission) cables
+- Remove drive shafts
+- If I missed something you will notice it. I repeat: Big Green Book. Do not start removing
+  the engine untl you are 100% sure there is nothing in its way.
+- Unbolt engine mounts
+- Hoist engine so the chain hoist holds up all the weight
+- Drop engine
+
+## Expenses (so far)
 
 * MR2 Initial Purchase - 400.00
     * Includes extra set of OEM wheels
@@ -147,3 +184,8 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 ## Door Cards
 
 * [Good DIY Thread](http://www.clubroadster.net/vb_forum/86-diy-how-writeups/48999-custom-na-nb-style-door-cards-how.html#post954353)
+
+# Places to Race
+
+Shelton, WA
+Pat's Acres rally
