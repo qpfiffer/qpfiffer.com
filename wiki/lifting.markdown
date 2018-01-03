@@ -477,4 +477,8 @@ Format is sets by reps @ weight in pounds.
 * 2017/12/28:
     * Deadlifts: 1x6@155, 2x10@225
     * Meta: Gonna try to squat 300 tomorrow, keeping it light
+* 2018/12/28:
+    * Deadlifts: 5x3@315
+    * Curls: 4x16@35
+    * Meta: Got 3/5 Double overhand, managed to do switch grip the last two sets. Wrist felt iffy.
 ```
