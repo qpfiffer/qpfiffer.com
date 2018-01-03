@@ -71,7 +71,7 @@ Inspiration:
 * Front-right strut mount is loose or something. It's a bit fucked.
 
 ## Lights
-* <input disabled type="checkbox" />Fix Headlight Skew
+* <input disabled type="checkbox" checked />Fix Headlight Skew
 * <input disabled type="checkbox" />Fog-lights?
 
 ## Update Feb. 11 2017
