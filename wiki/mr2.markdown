@@ -21,17 +21,17 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
     * [Forum thread about what needs changed](http://www.mr2.com/forums/archive/index.php/t-1770.html)
     * [MR2 Writeups](http://www.padandwheels.com/mr2/brakes/brakes.html)
 * <input disabled type="checkbox" checked/>Replace alternator
-* <input disabled type="checkbox" />Tighten alternator belt
+* <input disabled type="checkbox" checked/>Tighten alternator belt
 * <input disabled type="checkbox" />Get car waxed and paint touched up
     * Possible color code 150? Check driver's side door jam. "A typical code
       will look like C/TR: 1D4/FH13, and 1D4 would be the color code in this
       example."
-* <input disabled type="checkbox" />Valve Cover Gasket Replacement
+* <input disabled type="checkbox" checked/>Valve Cover Gasket Replacement
 * <input disabled type="checkbox" />Clean and paint inside of trunk with anti-corrosion stuff
 * <input disabled type="checkbox" />Replace front ball joints
 * <input disabled type="checkbox" />Replace bushings
     * Something like [this](https://primedriven.com/products/urethane-suspension-bushing-kit-mki)
-* <input disabled type="checkbox" />Replace missing throttle bracket screw (Gm# 11561025 (m6x1.0x16))
+* <input disabled type="checkbox" checked/>Replace missing throttle bracket screw (Gm# 11561025 (m6x1.0x16))
 * <input disabled type="checkbox" />Do [air filter mod](http://www.padandwheels.com/mr2/intake/intake.html)
     * While you're in there [clean the throttle body](http://www.padandwheels.com/mr2/TPS/tps.html)
 * <input disabled type="checkbox" checked />Put in new spark plugs
