@@ -197,9 +197,9 @@ good component to sell on ebay.
 * [Web Archive Link 1](http://web.archive.org/web/20061210025656/www.mr2supercharger.com/lightsmods2.html)
 * [Web Archive Link 2](http://web.archive.org/web/20061210025640/www.mr2supercharger.com/lightsmods1.html)
 
-<img src="mr2/light_mode_00.jpg" />
-<img src="mr2/light_mode_01.jpg" />
-<img src="mr2/light_mode_02.jpg" />
+<img src="/static/mr2/light_mode_00.jpg" />
+<img src="/static/mr2/light_mode_01.jpg" />
+<img src="/static/mr2/light_mode_02.jpg" />
 
 # Places to Race
 
