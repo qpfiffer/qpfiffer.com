@@ -101,6 +101,8 @@ To ask:
 * [Confirming Rod Knock](https://www.youtube.com/watch?v=8Eyk7cRgYX0)
     * It has rod knock. We tore off the oil pan and the crank journal was fucked.
 * [X] Bleed brakelines so we can rotate the rear wheels
+* [] Move Battery up Front (improves weight distribution, frees up engine bay)
+* [] Replace rear brake pads
 
 I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is the cost breakdown, so far.
 
@@ -186,6 +188,18 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 ## Door Cards
 
 * [Good DIY Thread](http://www.clubroadster.net/vb_forum/86-diy-how-writeups/48999-custom-na-nb-style-door-cards-how.html#post954353)
+
+## Light Mods
+
+A light delete on the #NewR2 might save a lot of weight, and leave me with a
+good component to sell on ebay.
+
+* [Web Archive Link 1](http://web.archive.org/web/20061210025656/www.mr2supercharger.com/lightsmods2.html)
+* [Web Archive Link 2](http://web.archive.org/web/20061210025640/www.mr2supercharger.com/lightsmods1.html)
+
+<img src="mr2/light_mode_00.jpg" />
+<img src="mr2/light_mode_01.jpg" />
+<img src="mr2/light_mode_02.jpg" />
 
 # Places to Race
 
