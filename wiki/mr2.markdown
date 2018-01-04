@@ -47,9 +47,15 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
 
 ## RALLY
 
+
 * [Some weird fbook profile with a lot of stuff done](https://www.facebook.com/HRmotorsport-284165204968259/?ref=profile)
 * [Pahl's](https://www.instagram.com/pahls_racing/)
 * [Rage Racing](https://www.instagram.com/rageracing/)
+
+### Races
+
+* [Oregon Trail Rally](http://oregontrailrally.com/?cat=10)
+* [Olympus Rally](https://www.olympusrally.com/)
 
 ## Fog Lights
 
@@ -172,7 +178,7 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
     * Dewalt Chordless Impact Driver - 92.99
     * Dewalt Battery Charger - 67.99
     * Knock off batteries (2x) - 35.99
-* New Motor - 500.00
+* New Motor - 500.00 - ~6 hours
     * Came with a lot of goodies, including gasket kit, timing belt, oil pump,
       water pump, new piston heads, new crankshaft, new main/rod barings
 
