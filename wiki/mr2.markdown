@@ -104,6 +104,11 @@ To ask:
 * [] Move Battery up Front (improves weight distribution, frees up engine bay)
 * [] Replace rear brake pads
 
+[Rat2 MotorSports](https://www.rat2motorsports.com) sells a lot of MR2 stuff,
+and they're up in Seattle.
+
+Good pricing for used parts [here.](https://www.rat2motorsports.com/collections/aw11-used-parts)
+
 I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is the cost breakdown, so far.
 
 ## Dropping the engine Checklist
@@ -167,6 +172,9 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
     * Dewalt Chordless Impact Driver - 92.99
     * Dewalt Battery Charger - 67.99
     * Knock off batteries (2x) - 35.99
+* New Motor - 500.00
+    * Came with a lot of goodies, including gasket kit, timing belt, oil pump,
+      water pump, new piston heads, new crankshaft, new main/rod barings
 
 ## Inspiration
 
