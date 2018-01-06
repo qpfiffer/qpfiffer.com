@@ -47,7 +47,6 @@ bg-image-src: https://www.flickr.com/photos/104820964@N07/26640199665/in/datetak
 
 ## RALLY
 
-
 * [Some weird fbook profile with a lot of stuff done](https://www.facebook.com/HRmotorsport-284165204968259/?ref=profile)
 * [Pahl's](https://www.instagram.com/pahls_racing/)
 * [Rage Racing](https://www.instagram.com/rageracing/)
@@ -80,6 +79,10 @@ Inspiration:
 * <input disabled type="checkbox" checked />Fix Headlight Skew
 * <input disabled type="checkbox" />Fog-lights?
 
+## Clean out TPS
+
+* [Some tips on rough idle](http://www.driving4answers.com/fix-idle-related-issues-mr2-mk1-4a-ge-cars/)
+
 ## Update Feb. 11 2017
 
 Car sounds terrible. Power loss. The exhaust sounds different now. I can feel
@@ -109,6 +112,7 @@ To ask:
 * [X] Bleed brakelines so we can rotate the rear wheels
 * [] Move Battery up Front (improves weight distribution, frees up engine bay)
 * [] Replace rear brake pads
+* [] Replace Exhaust. [nameless performance rally cat.](https://shop.namelessperformance.com/rally-catalyst-exhaust-tip-w-v-band/)
 
 [Rat2 MotorSports](https://www.rat2motorsports.com) sells a lot of MR2 stuff,
 and they're up in Seattle.
