@@ -185,6 +185,11 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 * New Motor - 500.00 - ~6 hours
     * Came with a lot of goodies, including gasket kit, timing belt, oil pump,
       water pump, new piston heads, new crankshaft, new main/rod barings
+* Misc. Supplies - 34.63
+    * Shop Towels - 3x 3.33
+    * Carb. Cleaner
+    * Degreaser
+    * Black Silicon Gasket stuff
 
 ## Inspiration
 
