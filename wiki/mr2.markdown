@@ -133,7 +133,7 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 - x Remove throttle body
 - X Remove throttle bracket
 - X Remove brake booster hose
-- Remove coolant filler neck
+- X Remove coolant filler neck
 - Disconnect oil cooler lines
 - Disconnect all the wire harness connections to the engine. There’s a quite a bit
   of these. Take it easy and it one by one. Don’t yank and don’t be aggressive.
@@ -145,7 +145,7 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 - Vacuum lines/ hoses
 - Remove the Intake manifold (the T-VIS thing)
 - Exhaust piping, muffler, cat (if you have one), etc
-- Remove v-belt and alternator
+- x Remove v-belt and alternator
 - Exhaust manifold
 - Remove clutch hose
 - Disconnect all coolant hoses from thermostat housing and cylinder head
