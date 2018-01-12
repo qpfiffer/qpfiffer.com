@@ -481,4 +481,6 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 5x3@315
     * Curls: 4x16@35
     * Meta: Got 3/5 Double overhand, managed to do switch grip the last two sets. Wrist felt iffy.
+* 2018/12/12:
+    * Back-squats: 1x5@225, 3x3@245
 ```
