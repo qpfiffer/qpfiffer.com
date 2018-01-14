@@ -133,24 +133,23 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 - x Remove throttle body
 - X Remove throttle bracket
 - X Remove brake booster hose
-- Remove coolant filler neck
+- X Remove coolant filler neck
 - Disconnect oil cooler lines
 - Disconnect all the wire harness connections to the engine. There’s a quite a bit
   of these. Take it easy and it one by one. Don’t yank and don’t be aggressive.
   Gently bend harness away from engine once you disconnect everything.
-- Fuel delivery pipes and fuel rail. (You need to crank the car without it
+- X Fuel delivery pipes and fuel rail. (You need to crank the car without it
   turning over several times to relieve the fuel pressure before doing this. Do
   this by removing the ECU fuse. Google it, its easy)
-- EGR piping and EGR vacuum modulator and valve
-- Vacuum lines/ hoses
-- Remove the Intake manifold (the T-VIS thing)
-- Exhaust piping, muffler, cat (if you have one), etc
-- Remove v-belt and alternator
+- X EGR piping and EGR vacuum modulator and valve
+- X Vacuum lines/ hoses
+- X Remove the Intake manifold (the T-VIS thing)
+- X Exhaust piping, muffler, cat (if you have one), etc
+- x Remove v-belt and alternator
 - Exhaust manifold
 - Remove clutch hose
-- Disconnect all coolant hoses from thermostat housing and cylinder head
-- Disconnect fuel lines
-- Disconnect shift (transmission) cables
+- X Disconnect all coolant hoses from thermostat housing and cylinder head
+- X Disconnect shift (transmission) cables
 - Remove drive shafts
 - If I missed something you will notice it. I repeat: Big Green Book. Do not start removing
   the engine untl you are 100% sure there is nothing in its way.
