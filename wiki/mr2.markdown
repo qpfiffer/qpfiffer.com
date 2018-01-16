@@ -146,16 +146,16 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 - X Remove the Intake manifold (the T-VIS thing)
 - X Exhaust piping, muffler, cat (if you have one), etc
 - x Remove v-belt and alternator
-- Exhaust manifold
-- Remove clutch hose
+- X Exhaust manifold
+- X Remove clutch hose
 - X Disconnect all coolant hoses from thermostat housing and cylinder head
 - X Disconnect shift (transmission) cables
-- Remove drive shafts
-- If I missed something you will notice it. I repeat: Big Green Book. Do not start removing
+- X Remove drive shafts
+- X If I missed something you will notice it. I repeat: Big Green Book. Do not start removing
   the engine untl you are 100% sure there is nothing in its way.
-- Unbolt engine mounts
-- Hoist engine so the chain hoist holds up all the weight
-- Drop engine
+- X Unbolt engine mounts
+- X Hoist engine so the chain hoist holds up all the weight
+- X Drop engine
 
 ## Expenses (so far)
 
@@ -189,6 +189,9 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
     * Carb. Cleaner
     * Degreaser
     * Black Silicon Gasket stuff
+* Deep 30mm Socket - 6.50
+* Engine Hoist + Leveller - 235.00
+    * Note: Veen bought these
 
 ## Inspiration
 
