@@ -488,4 +488,5 @@ Format is sets by reps @ weight in pounds.
     * Curls: 4x12@45
 * 2018/01/1:
     * Back-Squats: 3x8@205
+    * OHP: 3x8@95
 ```
