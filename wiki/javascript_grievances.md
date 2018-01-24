@@ -3,3 +3,5 @@ say when people ask why.
 
 * async/await breaks the use of the debugger. You can not step into function if
   you are using async/await.
+* The javascript debugger is often completely unable to introspect outer scope
+  when inside a closure.
