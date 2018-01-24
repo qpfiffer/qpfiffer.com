@@ -486,6 +486,10 @@ Format is sets by reps @ weight in pounds.
 * 2018/01/13:
     * Deadlifts: 1x1@385
     * Curls: 4x12@45
-* 2018/01/1:
+* 2018/01/15:
     * Back-Squats: 3x8@205
+    * OHP: 3x8@95
+* 2018/01/21:
+    * Back-Squats: 1x5@225, 5x5@225
+    * OHP: 3x5@95, 2x5@115
 ```
