@@ -492,4 +492,8 @@ Format is sets by reps @ weight in pounds.
 * 2018/01/21:
     * Back-Squats: 1x5@225, 5x5@225
     * OHP: 3x5@95, 2x5@115
+* 2018/01/24:
+    * Curls: 3x12@45
+    * Deadlifts (RDL): 4x10@225
+    * Meta: DOUBLE OVERHAND. Wrist feels really good, still tweaked a bit though.
 ```
