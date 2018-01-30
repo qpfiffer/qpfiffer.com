@@ -496,4 +496,8 @@ Format is sets by reps @ weight in pounds.
     * Curls: 3x12@45
     * Deadlifts (RDL): 4x10@225
     * Meta: DOUBLE OVERHAND. Wrist feels really good, still tweaked a bit though.
+* 2018/01/29:
+    * Back-Squats: 3x3@225, 1x1@245, 1x1@255, 1x1@275
+    * Curls: 4x12@45
+    * Meta: Legs are feeling pretty fatigued today. I've done a lot of riding and misc.
 ```
