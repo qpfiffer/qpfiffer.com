@@ -26,3 +26,8 @@ Today:
   clearly in the database with the correct ID. Whats going on? I have no idea,
   no error is thrown. It just returns nothing. I can't step into the function
   because I am awaiting it, so it just steps into the runtime's active hooks thing.
+* Even with long stack traces enabled, stack traces are completely useless.
+  Problem: Some SQL query somewhere is throwing and error. Problem: I have no
+  idea where. The solution SHOULD be I just look at the stacktrace and see where
+  the call originates, but javascript is nondeterministic or something and
+  completely useless.
