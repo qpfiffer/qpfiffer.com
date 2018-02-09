@@ -500,4 +500,7 @@ Format is sets by reps @ weight in pounds.
     * Back-Squats: 3x3@225, 1x1@245, 1x1@255, 1x1@275
     * Curls: 4x12@45
     * Meta: Legs are feeling pretty fatigued today. I've done a lot of riding and misc.
+* 2018/02/09:
+    * Back-Squats: 1x5@135, 1x5@205, 1x1@255, 1x1@295
+    * Meta: Cleanest heavy single of my life
 ```
