@@ -37,6 +37,7 @@ finish books.
 * [Dune](https://en.wikipedia.org/wiki/Dune_(novel)
 * [Foundation and Empire](https://en.wikipedia.org/wiki/Foundation_and_Empire)
 * [Glasshouse](https://en.wikipedia.org/wiki/Glasshouse_(novel))
+* [Get In the Van](https://en.wikipedia.org/wiki/Get_in_the_Van)
 * [Haunted](https://en.wikipedia.org/wiki/Haunted_(Palahniuk_novel))
 * [High Rise](https://en.wikipedia.org/wiki/High_Rise)
 * [Idoru](http://en.wikipedia.org/wiki/Idoru)
