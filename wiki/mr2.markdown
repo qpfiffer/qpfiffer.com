@@ -192,6 +192,10 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
 * Deep 30mm Socket - 6.50
 * Engine Hoist + Leveller - 235.00
     * Note: Veen bought these
+* Random Tools/Electrical Parts - 50.00
+    * Big monkey wrench - 17.99
+    * Various wires/connectors/etc.
+* Exhaust wrap - 15.99
 
 ## Inspiration
 

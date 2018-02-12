@@ -505,4 +505,6 @@ Format is sets by reps @ weight in pounds.
     * Meta: Cleanest heavy single of my life
 * 2018/02/09:
     * Back-Squats: 5X5@225
+* 2018/02/11:
+    * OHP: 4x5@95, 1x8@95, 3x1@115
 ```
