@@ -31,3 +31,8 @@ Today:
   idea where. The solution SHOULD be I just look at the stacktrace and see where
   the call originates, but javascript is nondeterministic or something and
   completely useless.
+* Programmer goes to see doctor, says he is depressed. Says he is tired of
+  watching errors dissapear into nameless promise drain queues that destroy
+  callstacks and remove context. Doctor says, why not wrap your code in a try
+  catch? Programmer bursts into tears, `But doctor, I already wrap every single
+  line in try catch blocks!`
