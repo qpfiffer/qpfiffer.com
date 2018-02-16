@@ -19,6 +19,12 @@ say when people ask why.
 * The node debugger doesn't have step up/step down, only step into/step out.
   This is terrible for trying to learn context of a function being executed.
 * Bookshelf Model.count() returns a string representation of a number
+* ES6 named parameters are still positional. This means default params are useless. You can do:
+```
+func example(a, b=1, c=2) { ...
+example(a, c=5)
+```
+  b will equal 5 in this example, c will equal 2.
 
 Today:
 
