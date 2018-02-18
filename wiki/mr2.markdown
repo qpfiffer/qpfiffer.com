@@ -196,6 +196,10 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
     * Big monkey wrench - 17.99
     * Various wires/connectors/etc.
 * Exhaust wrap - 15.99
+* Oil filter puller - 9.99
+* Wire Brushes
+    * Brass - 5.18
+    * Steel 6.94
 
 ## Inspiration
 
