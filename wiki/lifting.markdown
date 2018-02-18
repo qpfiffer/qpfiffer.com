@@ -507,4 +507,7 @@ Format is sets by reps @ weight in pounds.
     * Back-Squats: 5X5@225
 * 2018/02/11:
     * OHP: 4x5@95, 1x8@95, 3x1@115
+* 2018/02/17:
+    * Bench: 1x5@115, 1x8@135, 4x4@155
+    * Meta: Calves are still super fucked up from running tuesday morning. I can't even squat how I want to.
 ```
