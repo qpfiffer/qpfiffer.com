@@ -42,3 +42,7 @@ Today:
   callstacks and remove context. Doctor says, why not wrap your code in a try
   catch? Programmer bursts into tears, `But doctor, I already wrap every single
   line in try catch blocks!`
+* Today Jest was doing that thing where it truncates my tables before the test
+  is done. Turns out I was calling a method that didn't exist on a class. The
+  error was completely irrelevant to what was actually happening. I spent an hour
+  and found the bug by stepping through the code line by line.
