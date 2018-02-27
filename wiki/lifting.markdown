@@ -510,4 +510,11 @@ Format is sets by reps @ weight in pounds.
 * 2018/02/17:
     * Bench: 1x5@115, 1x8@135, 4x4@155
     * Meta: Calves are still super fucked up from running tuesday morning. I can't even squat how I want to.
+* 2018/02/24:
+    * Back-Squats: 1x1@275
+    * Meta: Climbed before hand and I was really dehydrated. Skipped out after 275.
+* 2018/02/26:
+    * Bench: 4x6@135
+    * Back-Squats: 1x3@135, 1x5@225, 3x3@255
+    * Meta: Failed at 300 again.
 ```
