@@ -517,4 +517,7 @@ Format is sets by reps @ weight in pounds.
     * Bench: 4x6@135
     * Back-Squats: 1x3@135, 1x5@225, 3x3@255
     * Meta: Failed at 300 again.
+* 2018/02/28:
+    * Deadlifts: 1x1@405
+    * Meta: We were fucking around with weights and I randomly hit a 405 deadlift. Rogue bar is good.
 ```
