@@ -520,4 +520,7 @@ Format is sets by reps @ weight in pounds.
 * 2018/02/28:
     * Deadlifts: 1x1@405
     * Meta: We were fucking around with weights and I randomly hit a 405 deadlift. Rogue bar is good.
+* 2018/03/02:
+    * Back-Squats: 1x8@155, 2x14@170
+    * Meta: Birthday squats! BW 168
 ```
