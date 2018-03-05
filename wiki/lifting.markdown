@@ -523,4 +523,8 @@ Format is sets by reps @ weight in pounds.
 * 2018/03/02:
     * Back-Squats: 1x8@155, 2x14@170
     * Meta: Birthday squats! BW 168
+* 2018/03/04:
+    * Back-Squats: 1x5@135, 1x5@225, 3x5@255, 1x1@255, 1x4@225, 1x5@225
+    * Cleans: 3x2@135
+    * Meta: First heavy working set effort in a while. Back is weakpoint in addition to technique. I need a coach.
 ```
