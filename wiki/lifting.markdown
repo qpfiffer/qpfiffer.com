@@ -527,4 +527,7 @@ Format is sets by reps @ weight in pounds.
     * Back-Squats: 1x5@135, 1x5@225, 3x5@255, 1x1@255, 1x4@225, 1x5@225
     * Cleans: 3x2@135
     * Meta: First heavy working set effort in a while. Back is weakpoint in addition to technique. I need a coach.
+* 2018/03/10:
+    * Deadlifts: 1x5@135, 1x3@225, 1x3@315, 2x1@405
+    * Meta: Been fighting a chest cold for a week now, haven't lifted super heavy. I was mad tonight.
 ```
