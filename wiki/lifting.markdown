@@ -530,4 +530,7 @@ Format is sets by reps @ weight in pounds.
 * 2018/03/10:
     * Deadlifts: 1x5@135, 1x3@225, 1x3@315, 2x1@405
     * Meta: Been fighting a chest cold for a week now, haven't lifted super heavy. I was mad tonight.
+* 2018/03/12:
+    * OHP: 5x5@105
+    * Meta: Rest day
 ```
