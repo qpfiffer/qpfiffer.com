@@ -533,4 +533,7 @@ Format is sets by reps @ weight in pounds.
 * 2018/03/12:
     * OHP: 5x5@105
     * Meta: Rest day
+* 2018/03/13:
+    * Back-Squats: 1x5@155, 5x5@205
+    * Meta: Light, keeping the legs awake. Rides this weekend + sick.
 ```
