@@ -201,6 +201,7 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
     * Brass - 5.18
     * Steel 6.94
 * Silicon Hose Replacement Kit - 65.70
+* Rear tie-rod ends - 119.00
 
 ## Inspiration
 
