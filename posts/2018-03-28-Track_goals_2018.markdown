@@ -6,6 +6,7 @@ bg-img-src: https://www.instagram.com/p/BXdcs2ZhDr2/
 ---
 
 [My 2017 results.](http://obra.org/people/136287/2017)
+
 [Trackstart Calculator](https://www.trackstarcalculator.com/)
 
 ## Overall
@@ -37,6 +38,7 @@ bg-img-src: https://www.instagram.com/p/BXdcs2ZhDr2/
 * Race at Burnaby (Vancouver, BC)
 
 ### Criteriums
-* Race at Mission Crit
-* Race a socal crit event
-* Race at Bone Machine Crit
+* Race at [Mission Crit](http://www.missioncrit.com/)
+* Race a [Socal Fixed series](https://socalfixedseries.com/)
+* Race at [Bone Machine Crit](http://www.bonemachinecrit.com/)
+* Race at [Redbull Last Stand](https://laststand.splashthat.com/)
