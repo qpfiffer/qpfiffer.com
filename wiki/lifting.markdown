@@ -541,4 +541,7 @@ Format is sets by reps @ weight in pounds.
     * Front-Squats: 2x1@225
     * Deadlifts: 1x2@365
     * Meta: Lifting with TJ, went heavy. FUN!
+* 2018/03/13:
+    * Back-Squats: 1x6@155, 4x5@224, 1x5@245
+    * Meta: Watching Craig Mclean squat makes me want to go hard
 ```
