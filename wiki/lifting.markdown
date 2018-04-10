@@ -536,12 +536,15 @@ Format is sets by reps @ weight in pounds.
 * 2018/03/13:
     * Back-Squats: 1x5@155, 5x5@205
     * Meta: Light, keeping the legs awake. Rides this weekend + sick.
-* 2018/03/13:
+* 2018/03/17:
     * Back-Squats: 3x3@275
     * Front-Squats: 2x1@225
     * Deadlifts: 1x2@365
     * Meta: Lifting with TJ, went heavy. FUN!
-* 2018/03/13:
+* 2018/04/05:
     * Back-Squats: 1x6@155, 4x5@224, 1x5@245
     * Meta: Watching Craig Mclean squat makes me want to go hard
+* 2018/04/10:
+    * Deadlifts: 5x5@275
+    * Meta: Lighter deadlifts before goldsprints. Last lifts before then.
 ```
