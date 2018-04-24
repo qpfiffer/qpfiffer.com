@@ -19,13 +19,13 @@ bg-img-src: https://www.instagram.com/p/BXdcs2ZhDr2/
 
 ## Prep
 * Get UCI license
-* Get USAC license
+* x Get USAC license
 * Get some [foot straps](https://www.blsglobal.net/int/product/velcro-toe-straps/)
 * Get some 33CM bars for sprinting
     * Alpina
     * [Dixie Flyer Bars](https://www.instagram.com/p/Bg37AwEDAlH/)
     * 3T Scatto
-* Get new chain (waxed!)
+* x Get new chain (waxed!)
 
 ### Velodrome Events
 * Alpenrose
@@ -50,6 +50,18 @@ bg-img-src: https://www.instagram.com/p/BXdcs2ZhDr2/
 * Victoria Velodrome
     * [GVVA Track Fest June 8-10th](https://www.facebook.com/photo.php?fbid=10156181479103665&set=gm.570330699991000&type=3&theater)
     * [GVVA BC Track Championships](https://www.gvva.bc.ca/events/2018-08/)
+
+### Other Events
+* [Socal Fixed series](https://socalfixedseries.com/)
+    * May 27th
+    * June 24th
+    * July 29th
+* [Bone Machine Crit](http://bonemachinecrit.com/)
+    * July 6-8
+* [Victoria BC Crit](https://www.victoriabikerace.com/fixed-gear-crit)
+    * June 3
+* [Velorama 2018](https://www.veloramafestival.com/)
+    * August 18-19
 
 ### Calendars
 
