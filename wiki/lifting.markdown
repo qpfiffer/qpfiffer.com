@@ -547,4 +547,8 @@ Format is sets by reps @ weight in pounds.
 * 2018/04/10:
     * Deadlifts: 5x5@275
     * Meta: Lighter deadlifts before goldsprints. Last lifts before then.
+* 2018/04/25:
+    * Deadlifts: 5x5@315
+    * Bench: 1x5@135, 3x8@135
+    * Meta: Legs feeling good post massage and post mission crit.
 ```
