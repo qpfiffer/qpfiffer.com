@@ -551,4 +551,6 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 5x5@315
     * Bench: 1x5@135, 3x8@135
     * Meta: Legs feeling good post massage and post mission crit.
+* 2018/04/27:
+    * Squats: 5x5@225
 ```
