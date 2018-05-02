@@ -553,4 +553,8 @@ Format is sets by reps @ weight in pounds.
     * Meta: Legs feeling good post massage and post mission crit.
 * 2018/04/27:
     * Squats: 5x5@225
+* 2018/05/1:
+    * Deadlifts: 1x5@135, 1x5@225, 1x5@315, 1x1@365, 1x1@405, 3x2@365
+    * OHP: 4x5@115, 1x5@95
+    * Meta: Whiskey really helps the deadlifts.
 ```
