@@ -20,7 +20,7 @@ bg-img-src: https://www.instagram.com/p/BXdcs2ZhDr2/
 ## Prep
 * Get UCI license
 * x Get USAC license
-* Get some [foot straps](https://www.blsglobal.net/int/product/velcro-toe-straps/)
+* x Get some [foot straps](https://www.blsglobal.net/int/product/velcro-toe-straps/)
 * Get some 33CM bars for sprinting
     * Alpina
     * [Dixie Flyer Bars](https://www.instagram.com/p/Bg37AwEDAlH/)

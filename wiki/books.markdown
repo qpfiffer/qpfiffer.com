@@ -51,6 +51,7 @@ finish books.
 * [S](https://en.wikipedia.org/wiki/S._(Dorst_novel))
 * [Skullcrack City](http://www.amazon.com/Skullcrack-City-Jeremy-Robert-Johnson/dp/1621051714)
 * [Siddartha](https://en.wikipedia.org/wiki/Siddhartha_(novel))
+* [The Sun Also Rises](https://en.wikipedia.org/wiki/The_Sun_Also_Rises)
 * [Survivor](https://en.wikipedia.org/wiki/Survivor_(Palahniuk_novel\))
 * [The Terror](http://www.amazon.com/The-Terror-Novel-Dan-Simmons/dp/0316008079)
 * [Venus in Furs](https://en.wikipedia.org/wiki/Venus_in_Furs)
