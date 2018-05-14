@@ -557,4 +557,6 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 1x5@135, 1x5@225, 1x5@315, 1x1@365, 1x1@405, 3x2@365
     * OHP: 4x5@115, 1x5@95
     * Meta: Whiskey really helps the deadlifts.
+* 2018/05/13:
+    * Deadlifts: 1x8@135, 1x5@225, 1x5@315, 5x3@345
 ```
