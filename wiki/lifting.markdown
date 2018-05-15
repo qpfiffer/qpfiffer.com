@@ -559,4 +559,6 @@ Format is sets by reps @ weight in pounds.
     * Meta: Whiskey really helps the deadlifts.
 * 2018/05/13:
     * Deadlifts: 1x8@135, 1x5@225, 1x5@315, 5x3@345
+* 2018/05/14:
+    * Squats: 1x6@135, 5x3@225, 3x1@275
 ```
