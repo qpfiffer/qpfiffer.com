@@ -561,4 +561,11 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 1x8@135, 1x5@225, 1x5@315, 5x3@345
 * 2018/05/14:
     * Squats: 1x6@135, 5x3@225, 3x1@275
+* 2018/05/21:
+    * Squats: 1x8@135, 1x5@205, 5x3@255
+    * Bench: 3x8@115
+    * Meta: First bench session after cracking rib, didn't want to go any higher
+* 2018/05/24:
+    * Squats: 1x8@135, 1x5@205, 1x3@255, 1x1@275
+    * OHP: 5x5@95
 ```
