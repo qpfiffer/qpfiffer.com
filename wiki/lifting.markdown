@@ -568,4 +568,8 @@ Format is sets by reps @ weight in pounds.
 * 2018/05/24:
     * Squats: 1x8@135, 1x5@205, 1x3@255, 1x1@275
     * OHP: 5x5@95
+* 2018/05/29:
+    * Squats: 1x8@135, 1x8@185, 5x5@235
+    * Bench: 1x8@95, 3x8@135
+    * Meta: Rib feels fucking great.
 ```
