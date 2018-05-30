@@ -202,6 +202,14 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
     * Steel 6.94
 * Silicon Hose Replacement Kit - 65.70
 * Rear tie-rod ends - 119.00
+* Engine Block Machining - 600
+    * Resurfacing
+    * Dunking
+    * Overboring
+* Head Machining - 463.10
+    * Dunking
+    * Resurfacing
+    * All the fiddly bits
 
 ## Inspiration
 
