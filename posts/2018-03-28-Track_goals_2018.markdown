@@ -5,6 +5,8 @@ bg-image: ../static/img/track.jpg
 bg-img-src: https://www.instagram.com/p/BXdcs2ZhDr2/
 ---
 
+[Up! Up! Up!](http://upupup.aboc.com.au/the-book)
+
 [My 2017 results.](http://obra.org/people/136287/2017)
 
 [Trackstart Calculator](https://www.trackstarcalculator.com/)
@@ -15,6 +17,7 @@ bg-img-src: https://www.instagram.com/p/BXdcs2ZhDr2/
 * x Run a sub-13 200M at Alpenrose
     * Ran a 12.6. LETS RUN A 12 OR LESS! YEAAAAAAAAA
     * Ran a 12.4 at Marymoor. Getting there!
+    * Ran a 12.16 at West Short. SO CLOOOOOSE
 * Get to cat 2
 * Race Marymoor GP
 * x Beat my Kilo TT time from last year (1:20.15)
