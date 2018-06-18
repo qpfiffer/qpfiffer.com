@@ -580,4 +580,6 @@ Format is sets by reps @ weight in pounds.
     * Squats: 1x8@135, 1x4@225, 1x1@275, 1x1@295, 1x1@275
     * Curls: 3x16@30
     * OHP: 5x3@125
+* 2018/06/18:
+    * Deadlifts: 1x5@135, 1x5@225, 1x5@315, 3x1@405
 ```
