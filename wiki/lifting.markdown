@@ -582,4 +582,6 @@ Format is sets by reps @ weight in pounds.
     * OHP: 5x3@125
 * 2018/06/18:
     * Deadlifts: 1x5@135, 1x5@225, 1x5@315, 3x1@405
+* 2018/06/19:
+    * Hangboard: 3x5x10 second hangs, 2 min rest
 ```
