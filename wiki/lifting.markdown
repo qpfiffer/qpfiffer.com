@@ -586,4 +586,6 @@ Format is sets by reps @ weight in pounds.
     * Hangboard: 3x5x10 second hangs, 2 min rest
 * 2018/06/22:
     * Squats: 3x1@275
+* 2018/06/25:
+    * Bench: 1x8@135, 5x5@155
 ```
