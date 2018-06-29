@@ -591,4 +591,7 @@ Format is sets by reps @ weight in pounds.
 * 2018/06/26:
     * Squats: 1x8@135, 1x5@225, 5x1@275
     * Meta: Failed 295, short track really took it out of me
+* 2018/06/29:
+    * Deadlifts: 1x5@135, 1x5@225, 1x3@315, 3x3@365
+    * OHP: 3x5@115
 ```
