@@ -39,6 +39,7 @@ finish books.
 * [Glasshouse](https://en.wikipedia.org/wiki/Glasshouse_(novel))
 * [Get In the Van](https://en.wikipedia.org/wiki/Get_in_the_Van)
 * [Haunted](https://en.wikipedia.org/wiki/Haunted_(Palahniuk_novel))
+* [Her Body and Other Parties](https://www.goodreads.com/book/show/33375622-her-body-and-other-parties)
 * [High Rise](https://en.wikipedia.org/wiki/High_Rise)
 * [Idoru](http://en.wikipedia.org/wiki/Idoru)
 * [In the Miso Soup](https://en.wikipedia.org/wiki/In_the_Miso_Soup)
