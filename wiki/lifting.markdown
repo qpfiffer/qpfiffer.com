@@ -596,4 +596,7 @@ Format is sets by reps @ weight in pounds.
     * OHP: 3x5@115
 * 2018/07/02:
     * Squats: 1x8@135, 1x5@205, 2x2@275, 1x1@295
+* 2018/07/15:
+    * Squats: 1x8@135, 1x8@205, 1x2@275
+    * Bench: 1x8@135, 5x5@155
 ```
