@@ -599,4 +599,7 @@ Format is sets by reps @ weight in pounds.
 * 2018/07/15:
     * Squats: 1x8@135, 1x8@205, 1x2@275
     * Bench: 1x8@135, 5x5@155
+* 2018/07/29:
+    * Deadlifts: 1x8@135, 1x8@225, 3x5@315
+    * Squats: 1x8@135, 1x5@185, 3x5@225
 ```
