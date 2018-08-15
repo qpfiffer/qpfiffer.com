@@ -602,4 +602,9 @@ Format is sets by reps @ weight in pounds.
 * 2018/07/29:
     * Deadlifts: 1x8@135, 1x8@225, 3x5@315
     * Squats: 1x8@135, 1x5@185, 3x5@225
+* 2018/08/14:
+    * Deadlifts: 1x10@135, 1x8@225, 1x5@315, 2x1@405
+    * Squats: 1x8@135, 1x1@225, 1x2@225
+    * Bench: 1x3@185
+    * Meta: I've been lifting sorta but not logging it. We went heavy because I am a fragile baby.
 ```
