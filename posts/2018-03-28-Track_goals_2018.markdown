@@ -14,28 +14,31 @@ bg-img-src: https://www.instagram.com/p/BXdcs2ZhDr2/
 [Testing and it's importance](https://www.trackcyclingacademy.com/blog/why-is-testing-in-track-cycling-so-important)
 
 ## Overall
-* x Run a sub-13 200M at Alpenrose
+* `x` Run a sub-13 200M at Alpenrose
     * Ran a 12.6. LETS RUN A 12 OR LESS! YEAAAAAAAAA
     * Ran a 12.4 at Marymoor. Getting there!
     * Ran a 12.16 at West Short. SO CLOOOOOSE
-* Get to cat 2
-* Race Marymoor GP
-* x Beat my Kilo TT time from last year (1:20.15)
+    * Current PR at Alpenrose is 12.2. Next year.
+* `x` Get to cat 2
+* `-` Race Marymoor GP
+    * Went to Tahoe instead.
+* `x` Beat my Kilo TT time from last year (1:20.15)
     * Set a 1:17 PR at Marymoor at the Kickoff
-* - Hit every Fast Twitch Friday
+    * Set a 1:16 PR AT OBRA Elite State Track Championships. First two laps were GREAT.
+* `-` Hit every Fast Twitch Friday
     * Missed the very first one. OH WELL THE SEASON PASS IS MINE.
-* - Hit every Monday night PIR
+* `-` Hit every Monday night PIR
     * Fucked this up already. Dont care.
 
 ## Prep
-* Get UCI license
-* x Get USAC license
-* x Get some [foot straps](https://www.blsglobal.net/int/product/velcro-toe-straps/)
-* x Get some 33CM bars for sprinting
+* `-` Get UCI license
+* `x` Get USAC license
+* `x` Get some [foot straps](https://www.blsglobal.net/int/product/velcro-toe-straps/)
+* `x` Get some 33CM bars for sprinting
     * Alpina
     * (ding ding ding) [Dixie Flyer Bars](https://www.instagram.com/p/Bg37AwEDAlH/)
     * 3T Scatto
-* x Get new chain (waxed!)
+* `x` Get new chain (waxed!)
 
 ### Velodrome Events
 * Alpenrose
