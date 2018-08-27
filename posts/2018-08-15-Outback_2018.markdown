@@ -4,12 +4,11 @@ author: Quinlan Pfiffer
 bg-image: ../static/img/outback_2016.jpg
 ---
 
-Nix Handlebar bag? Deadweight.
-Add water bottle cages to fork
-Actually fix framebag
-Tubeless?
-Check cassette
-
+* Look for PVC cage things (are any left?)
+* Nix Handlebar bag? Deadweight.
+* Add water bottle cages to fork
+* Actually fix framebag
+* Tubeless?
 
 ## When
 
