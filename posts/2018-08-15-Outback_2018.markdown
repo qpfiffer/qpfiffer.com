@@ -4,15 +4,26 @@ author: Quinlan Pfiffer
 bg-image: ../static/img/outback_2016.jpg
 ---
 
+Nix Handlebar bag? Deadweight.
+Add water bottle cages to fork
+Actually fix framebag
+Tubeless?
+Check cassette
+
+
 ## When
 
 September 4th - 9th, 2018
 
+Train departs PDX at 2:50PM and (hopefully) gets to klamath falls by 9:50PM. The
+ideal would be to get in and slam out 20-30 miles before sleeping on the trail
+somewhere.
+
 ## Gear Checklist
 
-* Karate Monkey, Timberjack or Omnistrada?
-
+* Karate Monkey, ofc
 * Half-framebag
+    * Can opener
     * Toolkit
         * Multitool
         * Tire Levers
@@ -21,26 +32,42 @@ September 4th - 9th, 2018
         * Spare Tube
         * Zipties
     * Food
+    * Baby wipes/aquaphor
 
 * Saddle Bag
-    * Bivvy Bag
-    * Sleeping Bag/Half sleeping bag
+    * Tent
+        * Poles
+        * Stakes
+    * Cooking Stuff
+        * Stove
+        * Bowl
+        * Spork
+        * Lighter
 
 * Handlebars
+    * Bike Lights
+        * Front and rear
+    * Tent Poles
+    * Quick access bag
+        * Knife
+        * Headlamp
+        * USB Battery
+            * iPhone cable
+            * Regular USB Cable
+        * Solar Panel
+        * Kindle
+        * Aquaphor
+    * Sleeping Bag
 
 * Gastank
     * Phone
     * Wallet
     * Keys
-    * USB Battery
-    * Solar Panel?
 
 * Unbagged/Misc.
     * Cycling GPS Thing
     * Two Water Bottles
     * Water Bladder
-    * Emergency Blanket
-    * Anti-chafe Stuff
     * Clothing
         * Two Pairs Socks
         * Shirt
