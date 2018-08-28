@@ -51,6 +51,7 @@ finish books.
 * [REAMDE](http://www.amazon.com/Reamde-A-Novel-Neal-Stephenson/dp/0062191497)
 * [S](https://en.wikipedia.org/wiki/S._(Dorst_novel))
 * [Skullcrack City](http://www.amazon.com/Skullcrack-City-Jeremy-Robert-Johnson/dp/1621051714)
+* [Shibumi](https://en.wikipedia.org/wiki/Shibumi_(novel))
 * [Siddartha](https://en.wikipedia.org/wiki/Siddhartha_(novel))
 * [The Sun Also Rises](https://en.wikipedia.org/wiki/The_Sun_Also_Rises)
 * [Survivor](https://en.wikipedia.org/wiki/Survivor_(Palahniuk_novel\))
