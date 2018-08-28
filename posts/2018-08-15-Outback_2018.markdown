@@ -5,6 +5,7 @@ bg-image: ../static/img/outback_2016.jpg
 ---
 
 * Look for PVC cage things (are any left?)
+* Change grips
 * Nix Handlebar bag? Deadweight.
 * Add water bottle cages to fork
 * Actually fix framebag
@@ -17,6 +18,11 @@ September 4th - 9th, 2018
 Train departs PDX at 2:50PM and (hopefully) gets to klamath falls by 9:50PM. The
 ideal would be to get in and slam out 20-30 miles before sleeping on the trail
 somewhere.
+
+Ride the outback.
+
+Ride to [the Dalles](https://ridewithgps.com/routes/5005647) and take the
+greyhound back to PDX.
 
 ## Gear Checklist
 
@@ -48,6 +54,8 @@ somewhere.
         * Front and rear
     * Tent Poles
     * Quick access bag
+        * Toothbrush/toothpaste
+        * Spot tracker
         * Knife
         * Headlamp
         * USB Battery
