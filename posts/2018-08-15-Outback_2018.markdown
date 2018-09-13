@@ -27,9 +27,10 @@ greyhound back to PDX.
 ## Gear Checklist
 
 * Karate Monkey, ofc
-* Half-framebag
+* Framebag
     * Can opener
     * Toolkit
+        * Pliers
         * Multitool
         * Tire Levers
         * Spare Chain Links
@@ -38,11 +39,11 @@ greyhound back to PDX.
         * Zipties
     * Food
     * Baby wipes/aquaphor
+    * Filter
+    * Spot tracker
 
 * Saddle Bag
-    * Tent
-        * Poles
-        * Stakes
+    * Bivvy
     * Cooking Stuff
         * Stove
         * Bowl

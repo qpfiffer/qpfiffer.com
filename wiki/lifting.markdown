@@ -607,4 +607,7 @@ Format is sets by reps @ weight in pounds.
     * Squats: 1x8@135, 1x1@225, 1x2@225
     * Bench: 1x3@185
     * Meta: I've been lifting sorta but not logging it. We went heavy because I am a fragile baby.
+* 2018/08/14:
+    * Squats: 1x5@135, 5x5@225
+    * Bench: 3x8@135
 ```
