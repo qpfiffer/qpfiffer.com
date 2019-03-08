@@ -21,3 +21,6 @@
 * 2019/03/07:
     * Bike-Ride: 10.14 Miles, 1:00 Time
     * Strava: https://www.strava.com/activities/2197944632
+* 2019/03/08:
+    * Bike-Ride: 26.07 Miles, 2:11 Time
+    * Strava: https://www.strava.com/activities/2199839027
