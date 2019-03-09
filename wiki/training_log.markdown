@@ -24,3 +24,9 @@
 * 2019/03/08:
     * Bike-Ride: 26.07 Miles, 2:11 Time
     * Strava: https://www.strava.com/activities/2199839027
+* 2019/03/09:
+    * Lifting:
+        * Squats: 1x8@135, 5x5@155
+        * OHP: 5x5@75
+* 2019/03/09:
+    * Bouldering: 1.5 Hours
