@@ -5,6 +5,9 @@ import           Hakyll
 
 
 --------------------------------------------------------------------------------
+resumeCtx =
+    load "pages/resume.markdown" `mappend` defaultContext
+
 main :: IO ()
 main = hakyll $ do
     match "pages/index.html" $ do
@@ -20,6 +23,13 @@ main = hakyll $ do
                 >>= applyAsTemplate indexCtx
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
                 >>= relativizeUrls
+
+    match "resume" $ do
+        route       $ setExtension ""
+        compile     $ pandocCompiler
+            >>= loadBody "pages/resume.markdown"
+            >>= loadAndApplyTemplate "templates/resume.html" resumeCtx
+            >>= relativizeUrls
 
     match "wiki/*" $ do
         let wikiContext = modificationTimeField "modified" "%B %e, %Y %l:%M %p" `mappend` defaultContext
