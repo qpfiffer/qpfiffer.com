@@ -30,3 +30,12 @@
         * OHP: 5x5@75
 * 2019/03/09:
     * Bouldering: 1.5 Hours
+* 2019/03/09:
+    * Rollers: 5x10 second sprints
+    * Strava: https://www.strava.com/activities/2202973176
+* 2019/03/10:
+    * Bike-Ride: 26 Miles, 2:10 Time
+    * Strava: https://www.strava.com/activities/2205256457
+* 2019/03/12:
+    * Bike-Ride: 30.63 Miles, 2:38 Time
+    * Strava: https://www.strava.com/activities/2208744761
