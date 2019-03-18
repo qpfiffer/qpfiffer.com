@@ -15,7 +15,6 @@ This is my personal wiki. You’ll find a collection of information that I’ve 
 *   [Javascript Grievances](../wiki/javascript_grievances)
 *   [Power Consumption Notes](../wiki/power)
 *   [Low Power Server Build](../wiki/low_power_server)
-*   [Musings and Random Thoughts](../wiki/musings)
 
 ### Physical
 
