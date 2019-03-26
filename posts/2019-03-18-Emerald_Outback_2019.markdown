@@ -18,6 +18,14 @@ We bike to Astoria, stay the night and then start the actual
 Bike to Medford, take the train home. Easy!
 
 
+## Food Ideas
+
+* ProBars
+* Gels
+* PB
+* Instant Coffee
+* Chocolate
+
 ## Gear Checklist
 
 * Omni Strada

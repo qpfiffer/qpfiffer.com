@@ -1,8 +1,20 @@
 ---
 title: Oregon Outback 2018
 author: Quinlan Pfiffer
-bg-image: ../static/img/outback_2016.jpg
+bg-image: ../static/img/outback_2018.jpg
 ---
+
+The [Oregon Outback](http://www.bikepacking.com/routes/oregon-outback/) is something
+I've got kind of a history with. I tried it backward back in 2016, during
+winter, and failed it. There was a lot of snow, and dirt-touring in the winter
+is kind of brutal. In addition, when you go backwards you end up gaining a bunch
+of elevation instead of losing it, over the course of the ride. Add post-holing
+through snow in eastern Oregon and you end up with a recipe for low morale.
+
+# Preparation
+
+This was all stuff I wrote before the outback happened. Mostly a gear list, what
+to bring, make ore repair, that kind of thing.
 
 * Look for PVC cage things (are any left?)
 * Change grips
