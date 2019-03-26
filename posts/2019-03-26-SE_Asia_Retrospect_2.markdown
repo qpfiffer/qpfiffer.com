@@ -52,3 +52,13 @@ a basic meal. Dubai is not our favorite place.
 One pretty fun thing was our stay in the desert. We booked, kind of randomly, a
 [desert-camel-sunset-tour-thing](https://www.airbnb.com/experiences/232274). It
 seemed fun and harmless, and it was a personal favorite.
+
+We'd spent all day walking around in the sun, (In Dubai, no less) which was a
+total mistake, looking for a public beach. Turns out it was kind of a bizarre
+singles bar/resort/beach combo, so we went in and then immediately left. Our
+AirBnB experience host picked us up right from there, so we were able to hop
+into an air-conditioned SUV and cool down for a while. We abandoned poor Tom to
+the metro; he's a trooper.
+
+After driving out into the desert for a while, along roads that are sort of
+covered with sand, sort of not
