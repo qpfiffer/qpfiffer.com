@@ -112,6 +112,8 @@ unexpected. We went from 150 or so other people laughing and drinking and
 smoking [shisha](https://en.wikipedia.org/wiki/Hookah) to just us and a single
 chaperone, Mufeed.
 
+<img src="/static/img/se_asia_2018_2019/dubai_5.jpg"></img>
+
 We checked out our air-conditioned room, which was amazing, then Mufeed brought
 us out to smoke shisha, which was really interesting. He asked us what flavor we
 wanted; we had no idea and chose Grape. This was a poor decision, apparently, so
@@ -195,4 +197,47 @@ plane to Nepal and out of there.
 More shitty sleep, but we arrived i nthe KTH airport with little trouble.
 Everything was kind of dirty and podunk, and our bags took forever to show up.
 There was a brief panic when I thought someone had grabbed my bag, but it turns
-out the guy just had the same model. [Osprey](https://www.osprey.com/) is super popular over here.
+out the guy just had the same model. [Osprey](https://www.osprey.com/) bags are 
+super popular over here.
+
+<img src="/static/img/se_asia_2018_2019/nepal_2.jpg"></img>
+
+We made it to Kathmandu pretty easily, after fighting our way out of the airport
+and into a taxi. Tom more or less knew the correct price for a taxi so we were
+able to avoid getting ripped off. There was a lot of traffic, which was
+unsurprisngly crazy, and we didn't really know where our hotel was, so we just
+had the driver drop us off in [Thamel](https://en.wikipedia.org/wiki/Thamel).
+
+The people watching was great, and we just needed somewhere to sit and find
+internet so we walked to a small coffee shop. I had an amazing shot of espresso
+and managed to locate our hotel. It was nice to just sit there and rest though;
+internet access is always kind of comforting.
+
+We stashed our stuff, showered, and then went out to wander around. Thamel is
+basically _the_ place to go if you need to get stuff before trekking, and
+everything is really cheap because it's all fake. Tom didn't have any real cold
+weather or trekking gear, and we needed a few things as well, so we browsed and
+got lost a bit. We found some pretty good burritos for dinner before finally going to sleep.
+I think I passed right out after traveling all day.
+
+<img src="/static/img/se_asia_2018_2019/nepal_3.jpg"></img>
+
+We spent a couple days in Kathmandu, waiting for our flight to [Lukla](), the
+most dangerous airport in the world. It wasn't easy to get tickets, since it was
+more or less peak trekking season. Tom managed to get a flight earlier than us
+somehow.
+
+We mountain biked, bought some gear, ran and checked out some of the sights.
+There are a lot of ratty old temples in Kathmandu, but we mostly avoided them
+since we were in the midst of festival season as well. The crowds were intense,
+and there were a lot of animal sacrifices going on.
+
+We had [one good, long day](https://www.strava.com/activities/1910377041) out on bikes. 
+That ended up being kind of an epic because we got back way after dark and we
+were both just completely out of it. Kind of grumpy, hungry, tired and dirty.
+Kathmandu is great for finding roads that seem okay but just turn to utter
+garbage after a few meters. This kind of wears you down after a while,
+especially if you've been inhaling garbage fire smoke and getting buzzed by huge
+trucks all day.
+
+<img src="/static/img/se_asia_2018_2019/nepal_4.jpg"></img>
