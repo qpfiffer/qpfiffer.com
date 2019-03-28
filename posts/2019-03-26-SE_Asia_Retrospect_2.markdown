@@ -221,8 +221,7 @@ got lost a bit. We found some pretty good burritos for dinner before finally goi
 I think I passed right out after traveling all day.
 
 <img src="/static/img/se_asia_2018_2019/nepal_3.jpg"></img>
-
-We spent a couple days in Kathmandu, waiting for our flight to [Lukla](), the
+We spent a couple days in Kathmandu, waiting for our flight to [Lukla](https://en.wikipedia.org/wiki/Tenzing%E2%80%93Hillary_Airport), the
 most dangerous airport in the world. It wasn't easy to get tickets, since it was
 more or less peak trekking season. Tom managed to get a flight earlier than us
 somehow.
