@@ -240,3 +240,92 @@ especially if you've been inhaling garbage fire smoke and getting buzzed by huge
 trucks all day.
 
 <img src="/static/img/se_asia_2018_2019/nepal_4.jpg"></img>
+
+We were in Kathmandu for two days and we made the most of it, but we were in
+Nepal to trek, and we were gonna trek, damn it. I didn't know anything about
+Nepal or hiking in it, so Megan naturally highlighted the [three passes trek.](https://ebctrekguide.com/three-passes-trek-everest-base-camp),
+It's a pretty common (but less common than the [annapurna circuit](https://en.wikipedia.org/wiki/Annapurna_Circuit)) trek in
+the Everest Region, and goes up to Everest Basecamp if you want to. The whole
+loop is about 100 miles long, and you gain about 29,000 feet.
+
+You start in Lukla, and right off the bat we had trouble. Our flight never
+showed up, or was cancelled, or who knows. We certainly didn't and this sketchy
+guy at the airport kept trying to cajole us into getting into a helicopter. We
+eventually did, because our tickets were refunded and the helicopter ticket was only like
+$25 or so more. We flew with a chinese couple that was in the same situation we
+were. I've never been in a heli before, so that was pretty exciting. Tom had
+managed to get on a flight before us and hung out in Lukla all day.
+
+<img src="/static/img/se_asia_2018_2019/nepal_5.jpg"></img>
+
+Immediately you're at 9,000 or so feet and if you haven't been acclimatizing,
+you feel it. I definitely felt it. It was also pretty cold, and Tom wasn't
+feeling well. We'd later theorize that this was because of the altitude meds he
+was taking; he stopped taking them later and he got a bit better. We managed to
+book one of the last available rooms, explored a little bit, ate some dinner and
+then went to sleep.
+
+The trek started the next day. It's kind of annoying because right off the bat
+you lose like 1000 feet and have to get it back, and there are a million people
+that all want to go to Everest Basecamp and they're all walking at wildly
+different paces, and there are goats and horses and yaks and porters hauling
+ridiculous loads-- it was annoying to move quickly.
+
+Our group kind of split apart when we realized we walked a lot faster than Tom.
+He ended up staying the first night at a town a little bit before our
+destination, and we agreed to meet up the next day in Namche.
+That first day we walked almost 12 miles and gained 3500 feet.
+I was definitely feeling it towards the end of the day, I was hot and cold and
+sweating through my Technical Cotton Layers, and my pack felt terribly heavy.
+The shortness of breath from the altitude didn't help either.
+
+It was a rough intro (and I was determined not to use trekking poles) but Megan and
+I made it all the way to Namche, which is the hub of trek. She looked a lot more
+solid than I felt and she was *very* excited when we found skittles hidden away on
+some bottom shelf in a store there, she thoroughly stocked up.
+
+<img src="/static/img/se_asia_2018_2019/nepal_6.jpg"></img>
+
+Namche was a good place to stop and wait for Tom, so the next day we hiked up
+and explored the surrounding areas. There are a few small villages you can
+quickly gain access to, and some good trailrun-ish things you can do, if you're
+feeling spicy enough at 10,000+ feet. We explored a bit and randomly met [Ferg
+Hawke](https://en.wikipedia.org/wiki/Ferg_Hawke), which was fun. He had some
+great stories to tell about training for the [badwater
+135.](https://en.wikipedia.org/wiki/Badwater_Ultramarathon)
+
+After panting and slwo-walking up stairs all day, we spent some time in a cafe
+doing phone stuff and eating spaghetti and pastries. Tom showed up eventually
+and we went back to the hotel to hang out for a while. We ran into the chinese
+couple again, and they joined us for an impromptu push-up session in the hotel
+lobby.
+
+We left Tom and set out the next day, fighting all the way to Tengboche. At some
+point I'd developed a cold, but I'd figured out how to adjust the straps on my
+backpack so they weren't awful, and I'd decided to drink way more water than I
+thought necessary. I tried to put down at least three liters a day, and that
+helped a lot.
+
+We got to Tengboche but all the rooms were full, so we walked another 20 minutes
+downhill and stopped at a place named Rivendell, yes, [that Rivendell.](https://en.wikipedia.org/wiki/Rivendell)
+There were a few plaques explaining the Lord of the Rings reference. It was a
+pretty nice room. We spent the rest of that day doing laundry in hilariously
+cold water, playing [set](https://www.setgame.com/), reading and journalling.
+
+It was a cold night, I'd tried to stuff my wet baselayer into the bottom of my
+bag so it would dry, and it ended up just chilling me all night. The baselayer
+was not dry in the morning. When we set out, there was frost on the ground. The
+sun came out eventually and we set into our hiking rhythm, I figured out that
+shorts and no belt was the winning combo I needed to avoid getting destroyed by
+my backpack. Life was good.
+
+When we got to Dingboche we had no trouble finding a place to stay, and we found
+a pretty good room with a nice view. We played chess for a long time in a little
+cafe with really good veggie burgers. Megan ended up playing some random old man
+for a _really_ long time and lost. She really got into chess. I hate chess. We
+spent the evening talking with a guy named Peter, he was on this trek to climb
+[Island Peak](https://en.wikipedia.org/wiki/Imja_Tse), so we talked with him a
+lot about mountaineering. He had a cold too, we seemed to be at the stratus of
+the trek where a lot of people had colds or coughs. Megan, of course, was fine.
+
+<img src="/static/img/se_asia_2018_2019/nepal_7.jpg"></img>
