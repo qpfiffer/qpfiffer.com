@@ -9,30 +9,30 @@ Typical multi-sport adventure time.
 
 ## Tasks
 
-* [] Make MTB Tubeless
+* [x] Make MTB Tubeless
 
 ## Gear
 
 * General
     * Towel
-    * Toothbrush + toothpaste
-    * First aid stuff
+    * x Toothbrush + toothpaste
+    * x First aid stuff
         * Ibuprofen
         * Band-aids
         * Allergy stuff
     * Sunscreen
-    * Water bladder
-    * Pink backpack
-    * Gopro
+    * x Water bladder
+    * x Pink backpack
+    * x Gopro
     * Laptop + Charger
-    * Garmin watch
-    * Phone charger + cable
-    * USB Charger
-    * USB Battery
-    * USB Solar Panel
-    * Headlamp + spare batteries
-    * Toilet Paper
-    * Wet wipes
+    * x Garmin watch
+    * x Phone charger + cable
+    * x USB Charger
+    * x USB Battery
+    * x USB Solar Panel
+    * x Headlamp + spare batteries
+    * x Toilet Paper
+    * x Wet wipes
     * Garbage bags
 * Food
     * Nalgene
@@ -71,7 +71,7 @@ Typical multi-sport adventure time.
         * Mug
         * Small skillet?
     * Sleeping
-        * Emergen-c blanket
+        * Emergency blanket
         * Bivvy
         * Sleeping Bag
         * Thermarest
@@ -79,8 +79,6 @@ Typical multi-sport adventure time.
     * Astroman Shirt
     * Harness
     * Helmet
-    * Chalk bag
-    * Chalk
     * Shoes
     * Prusik
     * Crack climbing gloves
