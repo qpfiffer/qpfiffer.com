@@ -4,19 +4,15 @@ author: Quinlan Pfiffer
 bg-image: ../static/img/outback_2016.jpg
 ---
 
-Similar to the outback attempt last year, but this is longer and way worse. At
-least it won't be really hot.
-
 ## When
 
-May 2nd - 7th, 2019
+May 3rd - 10th, 2019
 
 We bike to Astoria, stay the night and then start the actual
 [race](https://www.facebook.com/Oregon-Emerald-Outback-237299430247671/) at
-6:30AM the next day. 600 miles. 150 miles a day, for four days. BRUTAL.
+6:30AM the next day. 600 miles. 120 miles a day, for five days. BRUTAL.
 
 Bike to Medford, take the train home. Easy!
-
 
 ## Food Ideas
 
@@ -24,25 +20,24 @@ Bike to Medford, take the train home. Easy!
 * Gels
 * PB
 * Instant Coffee
-* Chocolate
+* Dark Chocolate
+* Whatever you can find at gas stations
 
 ## Gear Checklist
 
-* Omni Strada
+* Bike
 * Two water bottles. Maybe third?
 * Framebag
     * Toolkit
-        * Pliers
-        * Multitool
+        * Multitool w/ Pliers
         * Tire Levers
         * Spare Chain Links
-        * Pump
-        * 2x Spare Tube
+        * Small Pump
+        * 2x Spare Tubes
         * Zipties
     * Food
     * Salt tablets
     * Nut butter chafe stuff
-    * Water Filter + squeeze bag
     * Spot tracker
 
 * Saddle Bag
@@ -54,7 +49,7 @@ Bike to Medford, take the train home. Easy!
         * Spork
         * Lighter
 
-* Handlebars
+* Handlebar Bag
     * Small Garmin with route loaded
     * Bike Lights
         * Front and rear
@@ -62,7 +57,7 @@ Bike to Medford, take the train home. Easy!
         * Toothbrush/toothpaste
         * Ibuprofen
         * Salt Tablets
-        * Water filter
+        * Water Filter + squeeze bag
         * NUUN/Skratch Packets
         * Spot tracker
         * Knife
@@ -72,9 +67,8 @@ Bike to Medford, take the train home. Easy!
             * iPhone cable
             * Regular USB Cable
         * Solar Panel
-        * Aquaphor
-        * Baby wipes/aquaphor
-    * Emergency Blanket x2
+        * Nut butter/Aquaphor
+    * Emergency Blanket
 
 * Gastank
     * Phone
