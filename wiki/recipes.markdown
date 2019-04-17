@@ -11,3 +11,7 @@
 
 * [Mulled wine.](https://www.foodnetwork.com/recipes/valerie-bertinelli/slow-cooker-mulled-wine-3538904)
 * [Or cblgh's version.](http://goddamn-glogg-bitch.shithouse.tv/)
+
+## Misc.
+
+* [Blackbean stuff](https://www.delish.com/cooking/a25656923/how-to-cook-black-beans/)
