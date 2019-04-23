@@ -55,8 +55,11 @@ Bike to Medford, take the train home. Easy!
         * Front and rear
     * Quick access bag
         * Toothbrush/toothpaste
-        * Ibuprofen
-        * Salt Tablets
+        * Small First-aid Kit
+            * Ibuprofen
+            * Salt Tablets
+            * Band-aids
+            * Nut butter/Aquaphor
         * Water Filter + squeeze bag
         * NUUN/Skratch Packets
         * Spot tracker
@@ -67,13 +70,12 @@ Bike to Medford, take the train home. Easy!
             * iPhone cable
             * Regular USB Cable
         * Solar Panel
-        * Nut butter/Aquaphor
     * Emergency Blanket
 
 * Gastank
     * Phone
     * Wallet
-    * Keys
+    * Snacks
 
 * Unbagged/Misc.
     * Garmin Watch
