@@ -1,7 +1,7 @@
 ---
 title: Oregon Emerald Outback 2019
 author: Quinlan Pfiffer
-bg-image: ../static/img/outback_2016.jpg
+bg-image: /static/img/oeo_2019.jpg
 ---
 
 ## When
@@ -23,6 +23,10 @@ Bike to Medford, take the train home. Easy!
 * Dark Chocolate
 * Whatever you can find at gas stations
 
+## Random
+
+OMTM has a [great guide on wet, ugly riding.](http://www.omtm.cc/30-tips-for-winter-riding-in-the-nw)
+
 ## Gear Checklist
 
 * Bike
@@ -39,6 +43,7 @@ Bike to Medford, take the train home. Easy!
     * Salt tablets
     * Nut butter chafe stuff
     * Spot tracker
+    * Firemaking Stuff
 
 * Saddle Bag
     * Bivvy
@@ -73,19 +78,27 @@ Bike to Medford, take the train home. Easy!
     * Emergency Blanket
 
 * Gastank
+    * Earbuds
     * Phone
+        * Podcasts
+        * Long Music playlists
+        * GaiaGPS loaded with Route
+        * Picture of my family
     * Wallet
     * Snacks
 
 * Unbagged/Misc.
     * Garmin Watch
     * Clothing
-        * Gloves
+        * Waterproof/resistant Gloves
         * Buff
         * Packable Puffy
-        * Helium jacket
-        * Two Pairs Socks
-        * Shirt
-        * Shorts
+        * Wool Hat
+        * Waterproof, Ventable jacket
+        * 2x Pairs Wool Socks
+        * Waterproof Socks
+        * 2x Wool Baselayers
+        * Waterproof Pants
+        * Long Thermal Bib
         * Helmet
         * Sunglasses
