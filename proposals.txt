@@ -1,0 +1,11 @@
+Hey there!
+
+This posting looks right up my alley. I've been working as a web developer specializing in backend technologies since 2011, and specifically I've been working with Python and Django for a majority of that time. I've done a fair bit of Node.js and JavaScript/ES6 development as well. My favorite database to use is PostgreSQL, but I've worked with SQLite a lot in the past for embedded/mobile applications. My most recent projects have all been building out REST/GraphQL APIs with Django and some fun Postgres extensions.
+
+My frontend skills aren't as strong as my backend skillset, but I know quite a lot about web technologies. I try to stay up-to-date on CSS changes and anything new in the HTML world. I'm familiar with Angular but haven't used it for a couple of years; I've been using Vue a little for personal projects and a lot of recent work has been React.
+
+A little bit about me: I'm based in Portland, Oregon, I like the outdoors and I'm looking for remote work so I can be more mobile. I like riding bikes a lot. Maybe too much. I also really like writing tests.
+
+Looking forward to hearing from you,
+Q. Pfiffer
+
