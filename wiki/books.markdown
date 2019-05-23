@@ -45,6 +45,7 @@ finish books.
 * [In the Miso Soup](https://en.wikipedia.org/wiki/In_the_Miso_Soup)
 * [I Have No Mouth and I Must Scream](http://en.wikipedia.org/wiki/I_Have_No_Mouth,_and_I_Must_Scream)
 * Intentional Dissonance - Iain S. Thomas
+* [Kiss or Kill](https://www.amazon.com/dp/B001C4QYGC/) - Mark Twight
 * [Lolita](https://en.wikipedia.org/wiki/Lolita)
 * Open - Andre Agassi
 * Pattern Recognition - William Gibson
