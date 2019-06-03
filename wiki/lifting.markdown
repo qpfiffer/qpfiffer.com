@@ -624,4 +624,9 @@ Format is sets by reps @ weight in pounds.
 * 2019/05/21:
     * Squats: 1x12@45, 1x8@155, 1x6@185, 2x6@205, 1x6@185, 1x8@155
     * OHP: 3x8@75
+* 2019/06/1:
+    * Squats: 5x5@155
+    * Onearm-Deadlifts: 3x8@155
+    * Onearm-Curls: 4x8@25
+    * Meta: Hand broken
 ```
