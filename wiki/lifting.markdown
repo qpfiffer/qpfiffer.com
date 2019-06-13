@@ -639,4 +639,6 @@ Format is sets by reps @ weight in pounds.
     * Squats: 1x12@115, 5x5@185
 * 2019/06/11:
     * Squats: 1x10@115, 4x6@165
+* 2019/06/12:
+    * Squats: 1x12@115, 5x5@205
 ```
