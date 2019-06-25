@@ -649,4 +649,6 @@ Format is sets by reps @ weight in pounds.
 * 2019/06/19:
     * Squats: 1x16@45, 1x10@135, 5x5@205
     * Meta: KILL YOURSELF OR DIE TRYING
+* 2019/06/24:
+    * Squats: 3x8@155
 ```
