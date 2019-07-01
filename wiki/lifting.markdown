@@ -655,4 +655,8 @@ Format is sets by reps @ weight in pounds.
     * Squats: 5x5@205
     * Curl-and-Press: 1x20@15, 2x15@15
     * Meta: The curl and presses felt alright, wrist is still fucked.
+* 2019/07/01:
+    * Squats: 1x10@135, 1x8@135, 1x5@185, 5x5@205
+    * Bench: 3x30@45
+    * Meta: The bench felt weird, it's bizarre to fatigue asymmetrically.
 ```
