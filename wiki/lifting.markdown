@@ -659,4 +659,8 @@ Format is sets by reps @ weight in pounds.
     * Squats: 1x10@135, 1x8@135, 1x5@185, 5x5@205
     * Bench: 3x30@45
     * Meta: The bench felt weird, it's bizarre to fatigue asymmetrically.
+* 2019/07/11:
+    * Deadlifts: 3x16@125
+    * Curls: 3x12@45
+    * OHP: 5x3@95
 ```
