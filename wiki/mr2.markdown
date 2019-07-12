@@ -110,7 +110,9 @@ To ask:
 * [Confirming Rod Knock](https://www.youtube.com/watch?v=8Eyk7cRgYX0)
     * It has rod knock. We tore off the oil pan and the crank journal was fucked.
 * [X] Bleed brakelines so we can rotate the rear wheels
-* [] Move Battery up Front (improves weight distribution, frees up engine bay)
+* [] Move Battery up Front (improves weight distribution, frees up engine bay).
+     From Facebook:
+     > I did this, and ran the wire through a hole behind the glovebox/passenger foot area, through the center console, through the hole that the shifter cables go through. It does have to try harder to crank with the long wire.
 * [] Replace rear brake pads
 * [] Replace Exhaust. [nameless performance rally cat.](https://shop.namelessperformance.com/rally-catalyst-exhaust-tip-w-v-band/)
 
