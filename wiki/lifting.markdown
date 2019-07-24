@@ -663,4 +663,9 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 3x16@125
     * Curls: 3x12@45
     * OHP: 5x3@95
+* 2019/07/23:
+    * Deadlifts: 3x8@155
+    * Curls: 4x12@45
+    * OHP: 5x3@95
+    * Rows: 5x8@95
 ```
