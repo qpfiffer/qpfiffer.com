@@ -668,4 +668,8 @@ Format is sets by reps @ weight in pounds.
     * Curls: 4x12@45
     * OHP: 5x3@95
     * Rows: 5x8@95
+* 2019/07/28:
+    * Front-squats: 5x5@135
+    * Bench: 3x8@95
+    * Meta: Front-squats don't aggravate my back, which is great. Deadlifts and backsquats seem to.
 ```
