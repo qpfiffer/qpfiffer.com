@@ -672,4 +672,6 @@ Format is sets by reps @ weight in pounds.
     * Front-squats: 5x5@135
     * Bench: 3x8@95
     * Meta: Front-squats don't aggravate my back, which is great. Deadlifts and backsquats seem to.
+* 2019/08/28:
+    * Bench: 5x5@115
 ```
