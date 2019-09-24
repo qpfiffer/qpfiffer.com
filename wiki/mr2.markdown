@@ -212,6 +212,7 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
     * Dunking
     * Resurfacing
     * All the fiddly bits
+* OEM Head Studs/Bolts - 100.00
 
 ## Inspiration
 
