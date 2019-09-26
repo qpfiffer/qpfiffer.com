@@ -213,6 +213,10 @@ I bought a white 1985 MR2 for $400. It doesn't run but it's hilarious. This is t
     * Resurfacing
     * All the fiddly bits
 * OEM Head Studs/Bolts - 100.00
+* Hardware Store Run - 37.00
+    * Spray paint
+    * Electrolysis Supplies
+* Piston Installation Tool - 13.47
 
 ## Inspiration
 
