@@ -679,4 +679,7 @@ Format is sets by reps @ weight in pounds.
     * Curls: 3x16@45
     * OHP: 5x3@100
     * Meta: I thought my hamstring would be fine, but it's feeling weird now that the deadlifts are over. Maybe should've gone lighter.
+* 2019/09/30:
+    * Back-squats: 1x6@115, 4x6@134
+    * Bench: 5x5@130
 ```
