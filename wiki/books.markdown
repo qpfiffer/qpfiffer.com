@@ -35,6 +35,7 @@ finish books.
 * [The Case of Charles Dexter Ward](http://en.wikipedia.org/wiki/The_Case_of_Charles_Dexter_Ward)
 * [The Color out of Space](http://en.wikipedia.org/wiki/The_Color_Out_Of_Space)
 * [Dune](https://en.wikipedia.org/wiki/Dune_(novel)
+* [The First Fifteen Lives of Harry August](https://en.wikipedia.org/wiki/The_First_Fifteen_Lives_of_Harry_August)
 * [Foundation and Empire](https://en.wikipedia.org/wiki/Foundation_and_Empire)
 * [Glasshouse](https://en.wikipedia.org/wiki/Glasshouse_(novel))
 * [Get In the Van](https://en.wikipedia.org/wiki/Get_in_the_Van)
