@@ -674,4 +674,12 @@ Format is sets by reps @ weight in pounds.
     * Meta: Front-squats don't aggravate my back, which is great. Deadlifts and backsquats seem to.
 * 2019/08/28:
     * Bench: 5x5@115
+* 2019/09/25:
+    * Deadlifts (RDL): 3x8@175
+    * Curls: 3x16@45
+    * OHP: 5x3@100
+    * Meta: I thought my hamstring would be fine, but it's feeling weird now that the deadlifts are over. Maybe should've gone lighter.
+* 2019/09/30:
+    * Back-squats: 1x6@115, 4x6@134
+    * Bench: 5x5@130
 ```
