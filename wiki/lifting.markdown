@@ -685,4 +685,8 @@ Format is sets by reps @ weight in pounds.
 * 2019/10/09:
     * Back-squats: 4x6@135
     * Bench: 5x5@135
+* 2019/10/14:
+    * Back-squats: 1x5@135, 5x3@185
+    * Bench: 5x5@135
+    * Meta: feeling strong climbing wise, too. Did a full 1-hour session and pulled a 3.
 ```
