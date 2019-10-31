@@ -692,4 +692,8 @@ Format is sets by reps @ weight in pounds.
 * 2019/10/23:
     * Bench: 5x5@135
     * Deadlifts (RDL): 5x5@135
+* 2019/10/30:
+    * Bench: 5x5@135
+    * Back-squats: 3x8@134
+    * Meta: Upper quad is still fucked up from Lastest not Fastest, so took it easy. Squats felt good otherwise.
 ```
