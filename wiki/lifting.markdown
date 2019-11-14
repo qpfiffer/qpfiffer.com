@@ -696,4 +696,7 @@ Format is sets by reps @ weight in pounds.
     * Bench: 5x5@135
     * Back-squats: 3x8@134
     * Meta: Upper quad is still fucked up from Lastest not Fastest, so took it easy. Squats felt good otherwise.
+* 2019/11/13:
+    * Bench: 3x5@135
+    * Back-squats: 2x6@185
 ```
