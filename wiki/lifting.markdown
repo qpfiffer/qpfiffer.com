@@ -699,4 +699,7 @@ Format is sets by reps @ weight in pounds.
 * 2019/11/13:
     * Bench: 3x5@135
     * Back-squats: 2x6@185
+* 2019/11/18:
+    * OHP: 1x8@75, 1x5@95, 1x4@75
+    * Back-squats: 1x8@135, 4x6@185
 ```
