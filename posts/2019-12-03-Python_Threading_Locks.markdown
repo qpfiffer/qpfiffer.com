@@ -1,7 +1,7 @@
 ---
 title: Python 2 Threading Primitives: Locks and Events
 author: Quinlan Pfiffer
-bg-image: /static/img/bg_gradient.png
+bg-image: /static/img/bg-gradient.png
 bg-img-src: https://google.com/
 ---
 
