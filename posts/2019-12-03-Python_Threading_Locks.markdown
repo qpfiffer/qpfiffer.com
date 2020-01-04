@@ -22,7 +22,7 @@ and locks and processes and whatever. Easier to think about.
 
 Heres something similar to what I ended up writing:
 
-```python
+```
 import thread, threading
 
 class Server:
