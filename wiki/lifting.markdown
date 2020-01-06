@@ -709,4 +709,7 @@ Format is sets by reps @ weight in pounds.
     * Back-squats: 1x8@135, 4x6@185
     * OHP: 1x5@95
     * Meta: I think I fucked up my shoulder. Squats are feeling good though. Hamstring feels weird after biking today.
+* 2020/01/05:
+    * Back-squats: 2x8@135, 1x8@185
+    * Bench: 5x5@135
 ```
