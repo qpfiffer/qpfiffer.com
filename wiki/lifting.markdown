@@ -712,4 +712,8 @@ Format is sets by reps @ weight in pounds.
 * 2020/01/05:
     * Back-squats: 2x8@135, 1x8@185
     * Bench: 5x5@135
+* 2020/01/05:
+    * Back-squats: 1x8@135, 5x5@185
+    * Deadlifts: 1x5@225, 3x2@275
+    * Meta: Pulling 275 has made my bad arm real sore. CROOK PANIC CHICK AINTCHA?
 ```
