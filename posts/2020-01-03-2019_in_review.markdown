@@ -141,7 +141,7 @@ Goals from Last Year
 * <span class="suc">Success</span>Dirt century - Bacona with OMTM.
 * <span class="suc">Success</span>Half-framebag for Motobecane
 * groading.com trip reports
-* <span class="fail">Success</span>Sell BMX Bike
+* <span class="suc">Success</span>Sell BMX Bike
 * <span class="fail">Failed</span>Sell extra MR2 stuff
 * <span class="suc">Success</span>Do an OMTM ride (with the group, or just the GPX track) - Did the Bacona whatever.
 * <span class="suc">Success</span>More 5AM dawnpatrol rides
