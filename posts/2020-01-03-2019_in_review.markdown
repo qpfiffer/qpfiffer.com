@@ -1,5 +1,5 @@
 ---
-title: 2019 In Reivew
+title: 2019 In Review
 author: Quinlan Pfiffer
 bg-image: /static/img/bg-gradient.png
 bg-img-src: https://google.com/
