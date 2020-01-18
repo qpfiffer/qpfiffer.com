@@ -716,4 +716,12 @@ Format is sets by reps @ weight in pounds.
     * Back-squats: 1x8@135, 5x5@185
     * Deadlifts: 1x5@225, 3x2@275
     * Meta: Pulling 275 has made my bad arm real sore. CROOK PANIC CHICK AINTCHA?
+* 2020/01/15:
+    * Front-squats: 3x8@135
+    * Bench: 1x5@135, 1x5@155, 3x5@135
+* 2020/01/18:
+    * OHP: 1x12@45, 3x5@95, 1x5@75, 1x5@45
+    * Deadlifts: 1x12@135, 3x8@185
+    * Meta: Back feeling a little off, taking it easyish. Trying to roll and
+      stretch it out.
 ```
