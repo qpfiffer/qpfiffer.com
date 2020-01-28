@@ -23,7 +23,7 @@ do.
 Ideas
 =====
 
-#### The Beaverton Creek Traverse
+### The Beaverton Creek Traverse
 
 The idea is you ride out to the [Tualatin Hills Nature Park](https://www.gaiagps.com/map/?loc=16.5/-122.8396/45.4946&pubLink=STNZw1XJl1JdbMm46v2LlFw9&waypointId=3e54425325012b3bd638c7b112473be2), do a bike ->
 boat transition, and then get as far as you can. I would be psyched if we could
@@ -35,7 +35,7 @@ I scoped this [previously](https://www.strava.com/activities/2769167185) and dec
 go back and look now that it's been raining pretty hard. It's too tempting to
 try it, it's RIGHT THERE.
 
-#### The Tualatin River Really Long Day
+### The Tualatin River Really Long Day
 
 This one is definitely more doable. The main idea is that you ride from home,
 get to the [Farmington Paddle Launch](http://tualatinriverkeepers.org/assets/resources/trk_water_trail_map_parallelfold.pdf)
