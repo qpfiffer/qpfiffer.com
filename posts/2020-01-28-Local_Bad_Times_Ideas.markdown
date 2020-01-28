@@ -8,7 +8,7 @@ bg-img-src: https://gaiagps.com/
 One of the things I __really__ enjoy is fuckin' around, which I define as an
 adventure that you can do from your door, that takes around a day, is poorly
 planned or loosely defined, and is fully human powered. The inspiration for this
-comes partly from [@jerryoftheyear](http://instagram.com/jerryoftheyear) and
+comes partly from @[jerryoftheyear](http://instagram.com/jerryoftheyear) and
 partly from Brian Donnely's [From the Doorstep](https://bikepacking.com/plog/from-the-doorstep-film/) video.
 
 To that end, it's good to have a couple different ideas to launch off on. Like
