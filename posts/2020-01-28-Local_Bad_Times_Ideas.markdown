@@ -23,6 +23,8 @@ do.
 Ideas
 =====
 
+* [PNW Packrafting FB Group](https://www.facebook.com/groups/1152724471784252/)
+
 ### The Beaverton Creek Traverse
 
 The idea is you ride out to the [Tualatin Hills Nature Park](https://www.gaiagps.com/map/?loc=16.5/-122.8396/45.4946&pubLink=STNZw1XJl1JdbMm46v2LlFw9&waypointId=3e54425325012b3bd638c7b112473be2), do a bike ->
