@@ -724,4 +724,7 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 1x12@135, 3x8@185
     * Meta: Back feeling a little off, taking it easyish. Trying to roll and
       stretch it out.
+* 2020/01/25:
+    * Back-squats: 5x5@195
+    * Bench: 5x5@135
 ```
