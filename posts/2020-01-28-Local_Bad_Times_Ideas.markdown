@@ -37,6 +37,8 @@ try it, it's RIGHT THERE.
 
 ### The Tualatin River Really Long Day
 
+[CFS and water temperature here.](https://waterdata.usgs.gov/usa/nwis/uv?site_no=14203500)
+
 This one is definitely more doable. The main idea is that you ride from home,
 get to the [Farmington Paddle Launch](http://tualatinriverkeepers.org/assets/resources/trk_water_trail_map_parallelfold.pdf)
 and then go as far as you can. I know Oregon City is definitely the end of the
