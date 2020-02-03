@@ -39,7 +39,8 @@ try it, it's RIGHT THERE.
 
 ### The Tualatin River Really Long Day
 
-[CFS and water temperature here.](https://waterdata.usgs.gov/usa/nwis/uv?site_no=14203500)
+* [CFS and water temperature here.](https://waterdata.usgs.gov/usa/nwis/uv?site_no=14203500)
+* Potential first bike segment [here.](https://www.google.com/maps/dir/2804+NE+18th+Ave,+Portland,+OR+97212-3316,+USA/23684-23600+OR-210,+Beaverton,+OR+97007/@45.421944,-122.9243928,12519m/data=!3m1!1e3!4m14!4m13!1m5!1m1!1s0x5495a731668268b5:0x37f067a6fa7b3038!2m2!1d-122.6470096!2d45.542946!1m5!1m1!1s0x549513a4eb41efcf:0x65d4862665605775!2m2!1d-122.9200757!2d45.4160106!3e1)
 
 This one is definitely more doable. The main idea is that you ride from home,
 get to the [Farmington Paddle Launch](http://tualatinriverkeepers.org/assets/resources/trk_water_trail_map_parallelfold.pdf)
