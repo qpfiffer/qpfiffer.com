@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--
+  ____ ____  _____ ____  _   _ _   _ _   _ _  _______ _
+ / ___|  _ \| ____/ ___|| | | | | | | \ | | |/ / ____| |
+| |  _| |_) |  _| \___ \| |_| | | | |  \| | ' /|  _| | |
+| |_| |  _ <| |___ ___) |  _  | |_| | |\  | . \| |___| |___
+ \____|_| \_\_____|____/|_| |_|\___/|_| \_|_|\_\_____|_____|
+
+Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
+-->
+<html>
+    <head>
+<title>q.pfiffer.org - <h1>SOMETHINGWENTWRONG</h1></title>        <meta charset="UTF-8">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        
+
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" media="all" href="/static/css/simplegrid.css" />
+        <link rel="stylesheet" media="all" href="/static/css/default.css" />
+            <style>
+        #bg_img {
+            width: 100%;
+            height: 409px;
+            background-size: cover;
+            background-position: center;
+            padding: 2px;
+background-image: url("  ../static/img/02_10_2014.jpg ");        }
+    </style>
+
+
+        <link rel="stylesheet" media="(max-width: 800px)" href="/static/css/mobile.css" />
+    </head>
+    <body>
+        <header>
+            <h2 id="blog_title"><a href="/">Malevolent Cartography</a></h2>
+            <div class="contact">
+                <p><i class="fab fa-github"></i> <a href="https://github.com/qpfiffer">github.com/qpfiffer</a></p>
+                <p><i class="far fa-envelope"></i> <a href="mailto:qpfiffer@gmail.com">qpfiffer@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> +1(503) 985-6583</p>
+            </div>
+        </header>
+        <div id="main_container">
+            <div id="bg_img"><div id="meta_container"><a id="bg_img_source" href=" http//www.flickr.com/photos/104820964@N07/12416309453/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Erlang port driver pitfalls</h2><p><span class="author_name">2014-02-10 by  Quinlan Pfiffer</span></p><p>Starting back in january I've been working on a homespun database called <a href="https://olegdb.org/">OlegDB</a>. It's written primarily in C with an Erlang front-end.</p>
+<p>The reason for this was primarily that C is fast but not good at concurrency, while Erlang is not-so-fast yet amazing at concurrency. Erlang is also a pretty common choice for this kind of thing, see <a href="http://www.actordb.com/">ActorDB</a>, <a href="http://basho.com/riak/">Riak</a> or <a href="http://couchdb.apache.org/">CouchDB</a>. I imagine we're not really unique with our C backend either, <a href="https://twitter.com/jonromero">Jon</a> at <a href="https://www.bugsense.com/">BugSense</a> hinted at a very interesting side project called &quot;Lethe&quot;. We're hardly out in the sticks here.</p>
+<p>Anyway, onto some code. Erlang has a lot of different ways to interface with C libraries, <a href="http://www.erlang.org/doc/tutorial/nif.html">NIFs</a>, <a href="http://www.erlang.org/doc/tutorial/cnode.html">C Nodes</a> and <a href="http://www.erlang.org/doc/tutorial/c_portdriver.html">Port Drivers</a> being the primary examples. I chose to go with writing my own port driver because I needed some implicit state (the database object) and I didn't want to <a href="http://www.erlang.org/doc/man/erl_connect.html">hardcode a connection uri</a>.</p>
+<p>Port drivers are neat in that they allow you to load up a C library, provided it has some interface code (the port driver). If you just want to jump straight to the OlegDB code, <a href="https://github.com/infoforcefeed/Project-Oleg/blob/master/src/port_driver.c">go read it here.</a></p>
+<p>The way Erlang knows what it's doing is primary the <code>ErlDrvEntry</code> struct and the <code>DRIVER_INIT</code> function, as seen here:</p>
+<pre><code>ErlDrvEntry ol_driver_entry = {
+    NULL,
+    oleg_start,
+    oleg_stop,
+    oleg_output,
+    NULL,
+    NULL,
+    &quot;libolegserver&quot;,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    ERL_DRV_EXTENDED_MARKER,
+    ERL_DRV_EXTENDED_MAJOR_VERSION,
+    ERL_DRV_EXTENDED_MINOR_VERSION,
+    0,
+    NULL,
+    NULL,
+    NULL
+};
+
+DRIVER_INIT(libolegserver) {
+    return &amp;ol_driver_entry;
+}</code></pre>
+<p>I'm not even using most of the functionality, the meat of the interface happens in the three functions defined at the top, <code>oleg_start</code>, <code>oleg_stop</code> and <code>oleg_output</code>. The rest can just be nulled out, for the most part.</p>
+<p>One pretty important caveat is the &quot;libolegserver&quot; string, this <em>must</em> be the same as what you pass to <code>erl_ddll:load_driver</code>! If they aren't, obviously Erlang won't be able to load your library.</p>
+<p>Every function you defined (start, stop, output) all take an <code>ErlDrvData</code> argument, which allows you to pass around some state in between calls. For me, this happens to be the database object I want to use. The start and stop calls are responsible for allocating and freeing any memory you might use.</p>
+<p>Your output function is where all the magic happens, and it takes a couple of interesting arguments. You've got your <code>ErlDrvData</code>, a random string (cmd, in my case) and an <code>ErlDrvSizeT</code> which shows you how long your <code>cmd</code> is. Before we can get to that, though, we need to know what kind of data Erlang is giving us.</p>
+<p>Enter the message passing side of things. When you run <code>erl_ddll:load_driver</code>, I'm pretty sure whats happening is that you're linking the Erlang vm up with your .so file, which allows you to later call <code>open_port</code>.</p>
+<p><code>open_port</code> is a function that takes a tuple and some arguments, in my case I use the following <code>init()</code> function:</p>
+<pre><code>init() -&gt;
+    register(complex, self()),
+    Port = open_port({spawn, ?SHAREDLIB}, [binary]),
+    loop(Port).</code></pre>
+<p>This, in sequence, register the atom <code>complex</code> as the <code>init()</code> function, opens a port, and then goes into the main loop. An important thing to note here is the <code>[binary]</code> argument to <code>open_port</code>! Without it you won't get binary data back from your port driver. In Erlang, binary = speed.</p>
+<p>The rest of <a href="https://github.com/infoforcefeed/Project-Oleg/blob/master/src/ol_database.erl"><code>ol_database.erl</code></a> is pretty simple. We have some exposed functions (<code>ol_jar</code>, <code>ol_unjar</code>) that look nice and work pretty easily, and some encoding functions. The encoding functions are apparently the standard way of communicating to the port_driver. I map 1 to <code>ol_jar</code>, and 2 to <code>ol_unjar</code>.</p>
+<p>Then, later on after I've done some message passing to the open_port (love dat message passing) we are finally ready to start digging into <code>oleg_output</code>.</p>
+<pre><code>if (fn == 1) {
+    /* ol_jar */
+    ...
+} else if (fn == 2) {
+    /* ol_unjar */
+    ...
+} else {
+    /* Don&#39;t know what to do. */
+    ...
+}</code></pre>
+<p>This is where we switch on that first byte. Here you'll map to whatever C functions you need before finally assembling some data to send back. This is the last thing that tripped me up. Handily, &quot;ei.h&quot; exports some awesome helper functions that make encoding data trivial.</p>
+<pre><code>ei_x_buff to_send;
+ei_x_new_with_version(&amp;to_send);
+ei_x_encode_tuple_header(&amp;to_send, 2);
+ei_x_encode_atom(&amp;to_send, &quot;ok&quot;);
+ei_x_encode_binary(&amp;to_send, data, strlen((char*)data));
+driver_output(d-&gt;port, to_send.buff, to_send.index);
+ei_x_free(&amp;to_send);</code></pre>
+<p><code>ei_x_buff</code> objects are magic, dynamic chunks of binary that Erlang understands pretty well. I believe this mostly speaks for itself, I'm sending back an object of <code>{ok, &lt;&lt;&quot;random binary data here&quot;&gt;&gt;}</code> that I can pattern match on, deconstruct ot whatever else I feel like. Then I send it back to Erlang. Easy!</p>
+<p>The last thing I feel I should mention to any prospective googlers is that no, driver_output, driver_alloc, driver_free are not defined anywhere. You cannot link to them via libei or whatever. I believe that when erlang does a 'load_driver', those functions are defined inside of the Erlang VM itself, which is frankly pretty awesome. This means that whenever you allocate memory or free memory using those functions, you're actually getting memory on the Erlang VM's heap. Crazy, yeah?</p>
+<p>Anyway, that pretty much covers it. OlegDB is available <a href="https://olegdb.org">here</a>, and all code is available in full <a href="https://github.com/infoforcefeed/Project-Oleg">here</a>. Critiques welcome, email me at qpfiffer@gmail.com or yell at me over <a href="https://twitter.com/WAallLy">Twitter</a>.</p>
+</div></div></div></div>
+
+        </div>
+        <div id="busted_pixel">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUA/wA0XsCoAAAACklEQVR4nGNiAAAABgADNjd8qAAAAABJRU5ErkJggg==">
+        </div>
+        
+        <footer>
+            <div class="grid grid-pad">
+                <div class="col-1-2">
+                    <div class="content">
+                        <ul>
+                            <li>&copy; Copyright 2014-2020, <a href="http://qpfiffer.com/">Quinlan Pfiffer</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-2">
+                    <div class="pull-right content">
+                        <ul>
+                            <!-- <li><a href="http://www.redbubble.com/people/qpfiffer/works/11380090-olegdb-graphics">Merch</a></li> -->
+                            <!-- <li><a href="/credits.html">Credits</a></li> -->
+                            <li><a href="mailto:qpfiffer@gmail.com">Email</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-30510579-1']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    
+
+    </body>
+</html>

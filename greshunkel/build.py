@@ -70,6 +70,12 @@ def _loop_context_interpolate(variable, loop_variable, current_item, i, context)
             return current_item[variable[1]]
         except TypeError:
             import ipdb; ipdb.set_trace()
+        except KeyError as e:
+            if variable[1] == 'bg-image':
+                return "/static/img/bg.jpg"
+            elif variable[1] == 'bg-img-src':
+                return "http://www.flickr.com/photos/104820964@N07/11595685883/"
+            raise e
     # All else fails try to use the dict variable
     return current_item[variable[1]]
 
@@ -80,8 +86,8 @@ def _render_loop(loop_obj, context):
     #outer_loop_variable = loop_obj["outer_loop_variable"]
 
     temp_loop_str = ""
-    regex = re.compile("xXx (?P<variable>[a-zA-Z_0-9\$]+) xXx")
-    wombat = re.compile("xXx LOOP (?P<variable>[a-zA-S_]+) (?P<fancy_list>[a-zA-S_\$]+) xXx(?P<subloop>.*)xXx BBL xXx")
+    regex = re.compile("xXx (?P<variable>[a-zA-Z_0-9\-\$]+) xXx")
+    wombat = re.compile("xXx LOOP (?P<variable>[a-zA-S_\-]+) (?P<fancy_list>[a-zA-S_\-\$]+) xXx(?P<subloop>.*)xXx BBL xXx")
     shattered_loops = wombat.split(loop_str)
     if len(shattered_loops) != 1:
         print("BEEP BEEP BEEP SUBLOOP DETECTED")
@@ -210,7 +216,7 @@ def parse_file(context, radical_file):
 
 def main(context):
     all_templates = []
-    required_dirs = ['./built', './built/blog']
+    required_dirs = ['./built', './built/posts']
 
     for dirn in required_dirs:
         if not path.exists(dirn):
@@ -244,7 +250,7 @@ def main(context):
         # UGLY HACK YOU DUMB SHIT
         context['dumb_meta'] = [post]
         post_meta = parse_file(context, BLOGPOST_FILE)
-        _render_file(post_meta, context, output_filename="blog/" + post['built_filename'])
+        _render_file(post_meta, context, output_filename="posts/" + post['built_filename'])
 
     # BeCaUsE WhY NoT
     return 0

@@ -43,14 +43,14 @@ def build_blog_context(default_context):
 
             if reading_meta and ':' in line:
                 split_line = stripped.split(":")
-                new_post[split_line[0]] = split_line[1]
+                new_post[split_line[0]] = "".join(split_line[1:]).replace('"', '')
 
             if not reading_meta:
                 all_text += line
 
         new_post['content'] = get_html_from_markdown(filename, filepath)
         new_post['preview'] = new_post['content'][:300] + "&hellip;"
-        new_post['link'] = "blog/{}".format(post.replace("markdown", "html"))
+        new_post['link'] = "posts/{}".format(post.replace("markdown", "html"))
         new_post['filename'] = post
         new_post['date'] = "-".join(post.split("-")[:3])
         new_post['built_filename'] = post.replace("markdown", "html")

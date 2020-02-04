@@ -1,126 +1,134 @@
+/* vim: set ts=4 sw=4 noet : */
 body {
-    /* font-family: 'Open Sans', sans-serif; */
-    font-family: Cantarell,Lato,LatoExtended,sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
+	font-family: Cantarell,Lato,LatoExtended,sans-serif;
 }
 a {
-    text-decoration: none;
-    color: #ff4742;
+	text-decoration: none;
+	color: #ff4742;
 }
 a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 header {
-    width: 25%;
-    color: #444;
-    width: 300px;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    overflow: auto;
-    border-right: solid 1px #AAA;
+	width: 25%;
+	color: #444;
+	width: 300px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+	border-right: solid 1px #AAA;
+	padding: 1em;
 }
 #main_container, footer {
-    margin-left: 25%;
+	margin-left: 25%;
 }
 #blog_title {
-    text-align: center;
+	text-align: center;
+}
+.contact > p {
+	margin-top: 0;
+	font-size: 0.75em;
+	margin-left: 1em;
 }
 pre code {
-    display: block;
-    padding: 5px;
-    background-color: #DDD;
-    border: solid 1px #AAA;
+	display: block;
+	padding: 5px;
+	background-color: #DDD;
+	border: solid 1px #AAA;
 }
 p code {
-    padding: 1px;
-    background-color: #DDD;
+	padding: 1px;
+	background-color: #DDD;
 }
 .info {
-    font-size: 10px;
-}
-/* h1,h2,h3,h4,h5,h6 {
-    font-weight: normal;
-}
-.post {
-    padding-bottom: 75px;
-}
-#home {
-    padding-bottom: 6px !important;
-    font-size: 18px;
-}
-#subtitle {
-    font-size: 12px;
-    display: block;
-}
-.content {
-    min-height: 512px;
-}
-p.title {
-    font-family: 'Open Sans', sans-serif;
-    font-size:24px;
-}
-#nav ul {
-    list-style-type: none;
-}
-li {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-footer {
-    font-size: 14px;
-}
-#right_col {
-    padding-left: 20px;
-    border-left: 1px solid #BBB;
-}
-#meta_container {
-    width: 40px;
-    padding: 5px;
-    background-color: #000;
-    border-radius: 3px 3px;
-    opacity: 0.2;
-}
-#meta_container:hover {
-    opacity: 0.5;
-}
-#bg_img_source {
-    margin: 0 auto;
-    display: block;
-    width: 25px;
-    height: 25px;
-    border-radius: 100%;
-    border: 5px solid #FFF;
-}
-#bg_img_source:hover {
-    box-shadow: 0px 0px 5px #fff;
-    opacity: 1.0;
-}
-span.suc {
-    text-align: center;
-    background-color: #A0FFA0;
-    padding: 0.2em;
-    width: 7em;
-    display: inline-block;
-}
-span.fail {
-    text-align: center;
-    background-color: #FF9090;
-    padding: 0.2em;
-    width: 7em;
-    display: inline-block;
-}
-span.unsure {
-    text-align: center;
-    background-color: #FFFF80;
-    padding: 0.2em;
-    width: 7em;
-    display: inline-block;
+	font-size: 10px;
 }
 .post img {
-    max-height: 450px;
-    max-width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-} */
+	max-height: 450px;
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#meta_container {
+	width: 40px;
+	padding: 5px;
+	background-color: #000;
+	border-radius: 3px 3px;
+	opacity: 0.2;
+}
+#meta_container:hover {
+	opacity: 0.5;
+}
+#bg_img_source {
+	margin: 0 auto;
+	display: block;
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+	border: 5px solid #FFF;
+}
+#bg_img_source:hover {
+	box-shadow: 0px 0px 5px #fff;
+	opacity: 1.0;
+}
+/* h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+.post {
+	padding-bottom: 75px;
+}
+#home {
+	padding-bottom: 6px !important;
+	font-size: 18px;
+}
+#subtitle {
+	font-size: 12px;
+	display: block;
+}
+.content {
+	min-height: 512px;
+}
+p.title {
+	font-family: 'Open Sans', sans-serif;
+	font-size:24px;
+}
+#nav ul {
+	list-style-type: none;
+}
+li {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+footer {
+	font-size: 14px;
+}
+#right_col {
+	padding-left: 20px;
+	border-left: 1px solid #BBB;
+}
+span.suc {
+	text-align: center;
+	background-color: #A0FFA0;
+	padding: 0.2em;
+	width: 7em;
+	display: inline-block;
+}
+span.fail {
+	text-align: center;
+	background-color: #FF9090;
+	padding: 0.2em;
+	width: 7em;
+	display: inline-block;
+}
+span.unsure {
+	text-align: center;
+	background-color: #FFFF80;
+	padding: 0.2em;
+	width: 7em;
+	display: inline-block;
+}
+*/

@@ -7,10 +7,27 @@ xXx TTYL xXx
 xXx META xXx
 xXx TTYL xXx
 xXx SCRIPTS xXx
+    <style>
+        #bg_img {
+            width: 100%;
+            height: 409px;
+            background-size: cover;
+            background-position: center;
+            padding: 2px;
+        xXx LOOP post_meta dumb_meta xXx
+            background-image: url(" xXx post_meta$bg-image xXx ");
+        xXx BBL xXx
+        }
+    </style>
 xXx TTYL xXx
 xXx CONTENT xXx
-<div class="blog_container">
     xXx LOOP post_meta dumb_meta xXx
+<div id="bg_img">
+    <div id="meta_container">
+        <a id="bg_img_source" href="xXx post_meta$bg-img-src xXx" title="Image Source"></a>
+    </div>
+</div>
+<div class="blog_container">
     <div class="grid grid-pad">
         <div class="col-1-1">
             <div class="language-bash content">
@@ -22,8 +39,8 @@ xXx CONTENT xXx
             </div>
         </div>
     </div>
-    xXx BBL xXx
 </div>
+    xXx BBL xXx
 xXx TTYL xXx
 xXx END_SCRIPTS xXx
 xXx TTYL xXx
