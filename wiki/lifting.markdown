@@ -727,4 +727,7 @@ Format is sets by reps @ weight in pounds.
 * 2020/01/25:
     * Back-squats: 5x5@195
     * Bench: 5x5@135
+* 2020/02/03:
+    * OHP: 1x5@95, 2x3@95, 1x6@45
+    * Deadlifts: 2x12@135, 2x5@225, 1x5@275, 2x5@225
 ```
