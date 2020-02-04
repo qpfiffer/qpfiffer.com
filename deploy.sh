@@ -1,7 +1,7 @@
 #!/bin/bash -e
-.cabal-sandbox/bin/qpfiffer.com build
+./build.py
 ./parse_lifts.py
-rsync -Pavz _site/* shithouse.tv:/var/www/qpfiffer.com/ &
+rsync -Pavz built/* shithouse.tv:/var/www/qpfiffer.com/ &
 rsync -Pavz static/lifts.csv shithouse.tv:/var/www/qpfiffer.com/static/ &
 rsync -Pavz static shithouse.tv:/var/www/qpfiffer.com &
 #rsync -Pavz static/robots.txt shithouse.tv:/var/www/qpfiffer.com/static/

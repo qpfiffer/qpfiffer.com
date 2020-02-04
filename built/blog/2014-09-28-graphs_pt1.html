@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+  ____ ____  _____ ____  _   _ _   _ _   _ _  _______ _
+ / ___|  _ \| ____/ ___|| | | | | | | \ | | |/ / ____| |
+| |  _| |_) |  _| \___ \| |_| | | | |  \| | ' /|  _| | |
+| |_| |  _ <| |___ ___) |  _  | |_| | |\  | . \| |___| |___
+ \____|_| \_\_____|____/|_| |_|\___/|_| \_|_|\_\_____|_____|
+
+Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
+-->
+<html>
+    <head>
+<title>q.pfiffer.org - <h1>SOMETHINGWENTWRONG</h1></title>        <meta charset="UTF-8">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <meta name="description" content="Technical blog and propoganda for OlegDB">
+
+
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" media="all" href="/static/css/simplegrid.css" />
+        <link rel="stylesheet" media="all" href="/static/css/default.css" />
+        <link rel="stylesheet" href="/static/css/blog.css" />
+<link rel="stylesheet" href="/static/css/prism.css"/>
+
+
+        <link rel="stylesheet" media="(max-width: 800px)" href="/static/css/mobile.css" />
+    </head>
+    <body>
+        <header>
+            <h2 id="blog_title"><a href="/">Malevolent Cartography</a></h2>
+        </header>
+        <div id="main_container">
+            <div class="blog_container">
+<div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> "Fun with Graphs part 1</h2><p><span class="author_name">2014-09-28 by  Quinlan Pfiffer</span><span class="comment_count"><a href="/blog/2014-09-28-graphs_pt1.html#disqus_thread">Comments</a></span></p><p>_This is part one of an X part series on my explorations using graphs._</p><p>As a hobby I run this <a href=http://merveill.es/>tool</a> that tracks links posted in
+IRC with some extra metadata about who posted it and when. In addition to
+this, it aggregates some of the data and <a href=http://merveill.es/stats>visualizes
+it</a> using some <a href=http://www.highcharts.com/>awesome javascript
+libraries.</a></p><p>One of the more important charts on the page is the 'Posts in the last 10 days'
+chart which, as you would expect, shows you chunked by-the-day numbers
+representing the number of links posted by a person in the channel. This is all
+well and good, except it doesn't track name changes. This means that if you
+change your name, you lose your stats.</p><p>This has been a 'problem' I've been thinking about for quite a while.
+I figured it would be a good time to explore graph databases a bit because
+people are starting to talk about them more and more. With this post I'll walk 
+you through a tool a built called, creatively, the <a href=https://github.com/qpfiffer/IRC-Nick-Graph>'IRC-Nick-Graph'</a>
+which does some parsing and data transformation to build a graph.</p><p>The main idea is to parse weechat logfiles into a directed series of nodes and edges. The
+nodes being names and the edges being "changed name to". This will give us a
+nice collection of tracked changes which we will, eventually, be able to query
+and learn neat things about.</p><p>Because I like interesting challenges, I decided to implement the tool in
+C++. I've been doing a lot of C for my <a href=http://olegdb.org/>database side-project</a>
+and I figured getting some experience with the new C++11 stuff would be fun.
+After a couple days of figuring out template errors and what-not, I finally have
+something useable.</p><p>The tool takes two arguments: an output format (there are a handful) and a
+logfile. It parses the logfile line-by-line looking for the strings " is now
+known as" and " has joined " in order to figure out who is where. From this we
+can construct a graph containing who-joined-what-channel and
+who-changed-their-name-to-what.</p><p>Included in the output formats is a couple of <a href=https://en.wikipedia.org/wiki/Comma-separated_values>csv
+files</a> that can be loaded
+into <a href=https://gephi.github.io/>Gephi</a>, an open-source graph visualization tool.
+Naturally, I loaded all of my logfiles from the last couple years into the tool,
+exported them, did some twiddling and ended up with this:</p><p><a href="https://www.flickr.com/photos/104820964@N07/15380881731/"><img style="width:100%;" src="/static/img/graph_preview.jpg" /></a></p><p>This is a collection of all of the people, rooms and aliases of the people in
+those rooms that I was in for the last 2-3 years. The logfile itself was 220MB
+or so. Not bad.</p><p>The big red cluster is <a href=irc://irc.freenode.net/haskell>#haskell</a>, for example,
+and all of the small nodes connected to it are people in that channel. The
+secondary ring around those nodes is, I think, aliases that only those people
+have. This behavior is mirrored in other channels as well.</p><p>In part 2 we'll look at porting the program to Erlang because C++ is annoying,
+and constructing more meaningful queries and questions about the data.</p><p></p></div><div id="disqus_thread"></div><script type="text/javascript">var disqus_shortname = 'olegdbblog';(function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);})();</script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div></div></div>
+
+
+        </div>
+        <div id="busted_pixel">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUA/wA0XsCoAAAACklEQVR4nGNiAAAABgADNjd8qAAAAABJRU5ErkJggg==">
+        </div>
+            <script type="text/javascript">
+    var disqus_shortname = 'olegdbblog';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+
+
+        <footer>
+            <div class="grid grid-pad">
+                <div class="col-1-2">
+                    <div class="content">
+                        <ul>
+                            <li>&copy; Copyright 2014-2020, <a href="http://qpfiffer.com/">Quinlan Pfiffer</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-2">
+                    <div class="pull-right content">
+                        <ul>
+                            <!-- <li><a href="http://www.redbubble.com/people/qpfiffer/works/11380090-olegdb-graphics">Merch</a></li> -->
+                            <!-- <li><a href="/credits.html">Credits</a></li> -->
+                            <li><a href="mailto:qpfiffer@gmail.com">Email</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-30510579-1']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    <script type="text/javascript" src="/static/js/prism.js"></script>
+
+
+    </body>
+</html>

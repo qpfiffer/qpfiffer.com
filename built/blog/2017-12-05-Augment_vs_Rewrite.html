@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+  ____ ____  _____ ____  _   _ _   _ _   _ _  _______ _
+ / ___|  _ \| ____/ ___|| | | | | | | \ | | |/ / ____| |
+| |  _| |_) |  _| \___ \| |_| | | | |  \| | ' /|  _| | |
+| |_| |  _ <| |___ ___) |  _  | |_| | |\  | . \| |___| |___
+ \____|_| \_\_____|____/|_| |_|\___/|_| \_|_|\_\_____|_____|
+
+Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
+-->
+<html>
+    <head>
+<title>q.pfiffer.org - <h1>SOMETHINGWENTWRONG</h1></title>        <meta charset="UTF-8">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <meta name="description" content="Technical blog and propoganda for OlegDB">
+
+
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" media="all" href="/static/css/simplegrid.css" />
+        <link rel="stylesheet" media="all" href="/static/css/default.css" />
+        <link rel="stylesheet" href="/static/css/blog.css" />
+<link rel="stylesheet" href="/static/css/prism.css"/>
+
+
+        <link rel="stylesheet" media="(max-width: 800px)" href="/static/css/mobile.css" />
+    </head>
+    <body>
+        <header>
+            <h2 id="blog_title"><a href="/">Malevolent Cartography</a></h2>
+        </header>
+        <div id="main_container">
+            <div class="blog_container">
+<div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Augment vs. Rewrite</h2><p><span class="author_name">2017-12-05 by  Quinlan Pfiffer</span><span class="comment_count"><a href="/blog/2017-12-05-Augment_vs_Rewrite.html#disqus_thread">Comments</a></span></p><p>I'm putting this here because I don't want to lose it.
+<h1>The Argument</h1></p><p>I've been thinking about us doing a whole rewrite of the back end, and I'm
+not sure it's the best idea. I feel that rewriting the whole thing just to
+target a more GraphQL centered approach to the frontend is irresponsible, and
+discards a lot of the real world things that we've learned about what this app
+requires, and how people interact with it. In addition, it is <a href=https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/>almost always a
+bad idea.</a></p><p>That said, I do believe there are some older/cruftier portions of the
+backend that could use a good scrubbing, and I think those should be scrubbed.
+What I don't think we should do is discard a medium-sized, unit and production 
+tested codebase to start from scratch.</p><p>Handling support requests every day and interacting with the frontline
+really puts the app into perspective. Continuing to support an existing app that
+we know is going to be retired is fruitless, and takes away time from working on
+the backend, even though there are really good ideas coming from the
+host/support/user interactions that I either have to drop on the ground or
+shoehorn into an app that isn't going anywhere.</p><p>A full rewrite, in addition to possibly suffering from <a href=https://en.wikipedia.org/wiki/Second-system_effect>second-system syndrome</a> will open up the possiblity for <a href=http://state.shithouse.tv/>entirely new bugs.</a>
+There is a value in having a tested codebase, even partially so.</p><p>Therefore what I think we should do instead of a full rewrite, is to augment
+the backend, or at least take parts of the existing codebase and reuse them.</p><p></p></div><div id="disqus_thread"></div><script type="text/javascript">var disqus_shortname = 'olegdbblog';(function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);})();</script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div></div></div>
+
+
+        </div>
+        <div id="busted_pixel">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUA/wA0XsCoAAAACklEQVR4nGNiAAAABgADNjd8qAAAAABJRU5ErkJggg==">
+        </div>
+            <script type="text/javascript">
+    var disqus_shortname = 'olegdbblog';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+
+
+        <footer>
+            <div class="grid grid-pad">
+                <div class="col-1-2">
+                    <div class="content">
+                        <ul>
+                            <li>&copy; Copyright 2014-2020, <a href="http://qpfiffer.com/">Quinlan Pfiffer</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-2">
+                    <div class="pull-right content">
+                        <ul>
+                            <!-- <li><a href="http://www.redbubble.com/people/qpfiffer/works/11380090-olegdb-graphics">Merch</a></li> -->
+                            <!-- <li><a href="/credits.html">Credits</a></li> -->
+                            <li><a href="mailto:qpfiffer@gmail.com">Email</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-30510579-1']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    <script type="text/javascript" src="/static/js/prism.js"></script>
+
+
+    </body>
+</html>
