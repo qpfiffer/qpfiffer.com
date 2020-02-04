@@ -36,6 +36,9 @@ p code {
     padding: 1px;
     background-color: #DDD;
 }
+.info {
+    font-size: 10px;
+}
 /* h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
 }
@@ -52,9 +55,6 @@ p code {
 }
 .content {
     min-height: 512px;
-}
-.info {
-    font-size: 10px;
 }
 p.title {
     font-family: 'Open Sans', sans-serif;

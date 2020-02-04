@@ -12,15 +12,12 @@ Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
     <head>
 <title>q.pfiffer.org - <h1>SOMETHINGWENTWRONG</h1></title>        <meta charset="UTF-8">
         <meta name=viewport content="width=device-width, initial-scale=1">
-        <meta name="description" content="Technical blog and propoganda for OlegDB">
-
+        
 
         <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" media="all" href="/static/css/simplegrid.css" />
         <link rel="stylesheet" media="all" href="/static/css/default.css" />
-        <link rel="stylesheet" href="/static/css/blog.css" />
-<link rel="stylesheet" href="/static/css/prism.css"/>
-
+        
 
         <link rel="stylesheet" media="(max-width: 800px)" href="/static/css/mobile.css" />
     </head>
@@ -30,55 +27,40 @@ Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
         </header>
         <div id="main_container">
             <div class="blog_container">
-<div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> KVM, CoreOS and LVM</h2><p><span class="author_name">2013-11-06 by  Quinlan Pfiffer</span><span class="comment_count"><a href="/blog/2013-11-06-2013_kvm_coreos.html#disqus_thread">Comments</a></span></p><p>This is a little tutorial on how I got the official <a
-href="http://coreos.com/">CoreOS</a> image working with KVM.</p><p>Setting up the Virtual Machine
-------------------------------</p><p><ol><li>1. Download the image. You can get it <a href="http://storage.core-os.net/coreos/amd64-generic/dev-channel/coreos_production_qemu_image.img.bz">here.</a></li><li>1. You need to convert the image to it's raw data so that you can extract it to</li></ol>
-   your LVM.
-<pre class="language-
-"><code>bunzip2 coreos_production_qemu_image.img.bz2
-qemu-img convert coreos_production_qemu_image.img -O raw coreos.raw
-</code></pre>
-<ol><li>1. Once thats done converting, take your raw data and dd it onto your LVM.</li></ol>
-<pre class="language-
-"><code>dd if=coreos.raw of=/dev/lvmgroup/lvm_name
-</code></pre>
-<ol><li>1. Create your machine with whatever specs you want, at the time of this writing</li></ol>
-   the CoreOS image is about 6GB or so. I used <code>virt-manager</code> to get it done
-quickly.</p><p>SSH Keys
---------</p><p>CoreOS has some funky ideas about users and ssh keys, so I had to figure out
-how to pass through the keys. Turns out with virt-manager, you can add these
-pretty easily through the interface.</p><p>You'll need your known <code>authorized_keys</code> file  setup beforehand, which I won't
-cover. Place it somewhere your libvirt user can read and access. I threw mine in
-<code>/var/lib/libvirt/ssh</code>.</p><p>Then just add the following XML to your KVM's definition, which should be in
-<code>/etc/libvirt/qemu</code>.</p><p><pre class="language-
-"><code><filesystem type='mount' accessmode='passthrough'>
-    <source dir='/var/lib/libvirt/ssh'/>
-    <target dir='metadata'/>
-    <readonly/>
-    <address type='pci' domain='0x0000' bus='0x00' slot='0x06' function='0x0'/>
-</filesystem>
-</code></pre></p><p>and then once thats done:</p><p><pre class="language-
-"><code>virsh define /etc/libvirt/machine_name.xml
-</code></pre></p><p>This adds a filesystem passthrough to your virtual machine that will add a
-'metadata' tag, which can be mounted. The virt-manager interface is a little
-misleading in this regard.</p><p>At the end of all this, you should be able to ssh as core into your new machine.</p><p></p></div><div id="disqus_thread"></div><script type="text/javascript">var disqus_shortname = 'olegdbblog';(function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);})();</script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div></div></div>
+<div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> KVM, CoreOS and LVM</h2><p><span class="author_name">2013-11-06 by  Quinlan Pfiffer</span></p><p>This is a little tutorial on how I got the official <a
+href="http://coreos.com/">CoreOS</a> image working with KVM.</p>
+<h2 id="setting-up-the-virtual-machine">Setting up the Virtual Machine</h2>
+<ol style="list-style-type: decimal">
+<li>Download the image. You can get it <a href="http://storage.core-os.net/coreos/amd64-generic/dev-channel/coreos_production_qemu_image.img.bz">here.</a></li>
+<li><p>You need to convert the image to it's raw data so that you can extract it to your LVM.</p>
+<pre><code>bunzip2 coreos_production_qemu_image.img.bz2
+qemu-img convert coreos_production_qemu_image.img -O raw coreos.raw</code></pre></li>
+<li><p>Once thats done converting, take your raw data and dd it onto your LVM.</p>
+<pre><code>dd if=coreos.raw of=/dev/lvmgroup/lvm_name</code></pre></li>
+<li><p>Create your machine with whatever specs you want, at the time of this writing the CoreOS image is about 6GB or so. I used <code>virt-manager</code> to get it done quickly.</p></li>
+</ol>
+<h2 id="ssh-keys">SSH Keys</h2>
+<p>CoreOS has some funky ideas about users and ssh keys, so I had to figure out how to pass through the keys. Turns out with virt-manager, you can add these pretty easily through the interface.</p>
+<p>You'll need your known <code>authorized_keys</code> file setup beforehand, which I won't cover. Place it somewhere your libvirt user can read and access. I threw mine in <code>/var/lib/libvirt/ssh</code>.</p>
+<p>Then just add the following XML to your KVM's definition, which should be in <code>/etc/libvirt/qemu</code>.</p>
+<pre><code>&lt;filesystem type=&#39;mount&#39; accessmode=&#39;passthrough&#39;&gt;
+    &lt;source dir=&#39;/var/lib/libvirt/ssh&#39;/&gt;
+    &lt;target dir=&#39;metadata&#39;/&gt;
+    &lt;readonly/&gt;
+    &lt;address type=&#39;pci&#39; domain=&#39;0x0000&#39; bus=&#39;0x00&#39; slot=&#39;0x06&#39; function=&#39;0x0&#39;/&gt;
+&lt;/filesystem&gt;</code></pre>
+<p>and then once thats done:</p>
+<pre><code>virsh define /etc/libvirt/machine_name.xml</code></pre>
+<p>This adds a filesystem passthrough to your virtual machine that will add a 'metadata' tag, which can be mounted. The virt-manager interface is a little misleading in this regard.</p>
+<p>At the end of all this, you should be able to ssh as core into your new machine.</p>
+</div></div></div></div>
 
 
         </div>
         <div id="busted_pixel">
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUA/wA0XsCoAAAACklEQVR4nGNiAAAABgADNjd8qAAAAABJRU5ErkJggg==">
         </div>
-            <script type="text/javascript">
-    var disqus_shortname = 'olegdbblog';
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-    </script>
-
-
+        
         <footer>
             <div class="grid grid-pad">
                 <div class="col-1-2">
@@ -109,8 +91,7 @@ misleading in this regard.</p><p>At the end of all this, you should be able to s
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
           })();
         </script>
-    <script type="text/javascript" src="/static/js/prism.js"></script>
-
+    
 
     </body>
 </html>

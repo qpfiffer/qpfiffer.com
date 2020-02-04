@@ -1,6 +1,5 @@
 from greshunkel.build import POSTS_DIR
 from greshunkel.utils import parse_variable
-from greshunkel.slimdown import Slimdown
 
 from os import listdir, walk
 import subprocess, re
@@ -9,10 +8,18 @@ BASE_CONTEXT = {
     "SITENAME": "q.pfiffer.org"
 }
 
+def get_html_from_markdown(filename, filepath):
+    htmlname = "/tmp/{}".format(filename.replace(".markdown", ".html"))
+    proc = subprocess.run(["pandoc", "-o", htmlname, filepath])
+    all_text = None
+    with open(htmlname, "r") as htmlfile:
+        all_text = htmlfile.read()
+
+    return all_text
+
 def build_blog_context(default_context):
     default_context['POSTS'] = []
 
-    slimmin = Slimdown()
     for post in listdir(POSTS_DIR):
         if not post.endswith(".markdown"):
             continue
@@ -20,7 +27,9 @@ def build_blog_context(default_context):
         new_post = {}
         dashes_seen = 0
         reading_meta = True
-        muh_file = open(POSTS_DIR + post)
+        filepath = POSTS_DIR + post
+        filename = post
+        muh_file = open(filepath)
         all_text = ""
         for line in muh_file:
             stripped = line.strip()
@@ -39,7 +48,7 @@ def build_blog_context(default_context):
             if not reading_meta:
                 all_text += line
 
-        new_post['content'] = slimmin.render(all_text)
+        new_post['content'] = get_html_from_markdown(filename, filepath)
         new_post['preview'] = new_post['content'][:300] + "&hellip;"
         new_post['link'] = "blog/{}".format(post.replace("markdown", "html"))
         new_post['filename'] = post
