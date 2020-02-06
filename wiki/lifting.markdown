@@ -722,12 +722,14 @@ Format is sets by reps @ weight in pounds.
 * 2020/01/18:
     * OHP: 1x12@45, 3x5@95, 1x5@75, 1x5@45
     * Deadlifts: 1x12@135, 3x8@185
-    * Meta: Back feeling a little off, taking it easyish. Trying to roll and
-      stretch it out.
+    * Meta: Back feeling a little off, taking it easyish. Trying to roll and stretch it out.
 * 2020/01/25:
     * Back-squats: 5x5@195
     * Bench: 5x5@135
 * 2020/02/03:
     * OHP: 1x5@95, 2x3@95, 1x6@45
     * Deadlifts: 2x12@135, 2x5@225, 1x5@275, 2x5@225
+* 2020/02/05:
+    * Back-squats: 1x6@135, 5x3@205
+    * Meta: FINALLY BACK ON THAT 200 TRAIN FUCK YEAH
 ```
