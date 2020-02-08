@@ -732,4 +732,8 @@ Format is sets by reps @ weight in pounds.
 * 2020/02/05:
     * Back-squats: 1x6@135, 5x3@205
     * Meta: FINALLY BACK ON THAT 200 TRAIN FUCK YEAH
+* 2020/02/07:
+    * Back-squats: 2x8@135
+    * Front-squats: 1x8@135
+    * BTN-Press: 3x12@45
 ```
