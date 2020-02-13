@@ -4,9 +4,7 @@ from greshunkel.utils import parse_variable
 from os import listdir, walk
 import subprocess, re
 
-BASE_CONTEXT = {
-    "SITENAME": "q.pfiffer.org"
-}
+BASE_CONTEXT = {}
 
 def get_html_from_markdown(filename, filepath):
     htmlname = "/tmp/{}".format(filename.replace(".markdown", ".html"))
