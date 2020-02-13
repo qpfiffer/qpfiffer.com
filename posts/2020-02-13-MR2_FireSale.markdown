@@ -70,3 +70,9 @@ unregistered: I have all previous bills of sale between the last title and now.
   it's still rattling around in there but shouldn't be a big deal.
 * Theres mouse-poop in the trunk: I had to pull out all of the fabric in there
   when I bought the car so it's largely empty.
+
+## Where is it
+
+The one super annoying thing is that both engines and a few parts are here in PDX, but the car
+itself is out in Scappoose in a hangar. It'll need to be trailered to go
+anywhere useful, but the engines can be grabbed here in Portland.
