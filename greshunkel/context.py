@@ -1,31 +1,28 @@
-from greshunkel.build import POSTS_DIR
-from greshunkel.utils import parse_variable
-
-from os import listdir, walk
-import subprocess, re
+from os import listdir
+import subprocess
 
 BASE_CONTEXT = {}
 
 def get_html_from_markdown(filename, filepath):
     htmlname = "/tmp/{}".format(filename.replace(".markdown", ".html"))
-    proc = subprocess.run(["pandoc", "-o", htmlname, filepath])
+    subprocess.run(["pandoc", "-o", htmlname, filepath])
     all_text = None
     with open(htmlname, "r") as htmlfile:
         all_text = htmlfile.read()
 
     return all_text
 
-def build_blog_context(default_context):
-    default_context['POSTS'] = []
+def build_blog_context(default_context, directory, output_path, var_name):
+    default_context[var_name] = []
 
-    for post in listdir(POSTS_DIR):
+    for post in listdir(directory):
         if not post.endswith(".markdown"):
             continue
 
         new_post = {}
         dashes_seen = 0
         reading_meta = True
-        filepath = POSTS_DIR + post
+        filepath = directory + post
         filename = post
         muh_file = open(filepath)
         all_text = ""
@@ -48,12 +45,13 @@ def build_blog_context(default_context):
 
         new_post['content'] = get_html_from_markdown(filename, filepath)
         new_post['preview'] = new_post['content'][:300] + "&hellip;"
-        new_post['link'] = "posts/{}".format(post.replace("markdown", "html"))
+        new_post['link'] = "{}/{}".format(output_path, post.replace("markdown", "html"))
         new_post['filename'] = post
         new_post['date'] = "-".join(post.split("-")[:3])
         new_post['built_filename'] = post.replace("markdown", "html")
-        default_context['POSTS'].append(new_post)
+        default_context[var_name].append(new_post)
         muh_file.close()
-    default_context['POSTS'] = sorted(default_context['POSTS'], key=lambda x: x["date"], reverse=True)
-    default_context['POSTS_LIMITED'] = default_context['POSTS'][:5]
+    default_context[var_name] = sorted(default_context[var_name], key=lambda x: x["date"], reverse=True)
+    limited_name = '{}_LIMITED'.format(var_name)
+    default_context[limited_name] = default_context[var_name][:5]
     return default_context

@@ -4,6 +4,7 @@ from os import listdir, makedirs, path
 import re
 
 POSTS_DIR = "posts/"
+WIKI_DIR = "wiki/"
 TEMPLATE_DIR = "templates/"
 BLOGPOST_FILE = "blog_post.html"
 BLOGPOST_TEMPLATE = TEMPLATE_DIR + BLOGPOST_FILE
@@ -75,6 +76,10 @@ def _loop_context_interpolate(variable, loop_variable, current_item, i, context)
                 return "/static/img/bg.jpg"
             elif variable[1] == 'bg-img-src':
                 return "http://www.flickr.com/photos/104820964@N07/11595685883/"
+            elif variable[1] == 'title':
+                return "NO TITLE"
+            elif variable[1] == 'author':
+                return "NO AUTHOR"
             raise e
     # All else fails try to use the dict variable
     return current_item[variable[1]]
@@ -216,7 +221,7 @@ def parse_file(context, radical_file):
 
 def main(context):
     all_templates = []
-    required_dirs = ['./built', './built/posts']
+    required_dirs = ['./built', './built/posts', './built/wiki']
 
     for dirn in required_dirs:
         if not path.exists(dirn):
@@ -251,6 +256,12 @@ def main(context):
         context['dumb_meta'] = [post]
         post_meta = parse_file(context, BLOGPOST_FILE)
         _render_file(post_meta, context, output_filename="posts/" + post['built_filename'])
+
+    for post in context['WIKI_POSTS']:
+        # UGLY HACK YOU DUMB SHIT
+        context['dumb_meta'] = [post]
+        post_meta = parse_file(context, BLOGPOST_FILE)
+        _render_file(post_meta, context, output_filename="wiki/" + post['built_filename'])
 
     # BeCaUsE WhY NoT
     return 0

@@ -1,3 +1,7 @@
+---
+title: Javascript Grievances
+---
+
 This is a list of things I hate about javascript, just so I have something to
 say when people ask why.
 
