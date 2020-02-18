@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+  ____ ____  _____ ____  _	 _ _   _ _	 _ _  _______ _
+ / ___|  _ \| ____/ ___|| | | | | | | \ | | |/ / ____| |
+| |  _| |_) |  _| \___ \| |_| | | | |  \| | ' /|  _| | |
+| |_| |  _ <| |___ ___) |  _  | |_| | |\  | . \| |___| |___
+ \____|_| \_\_____|____/|_| |_|\___/|_| \_|_|\_\_____|_____|
+
+Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
+-->
+<html>
+	<head>
+		<title>q.pfiffer.org -  Javascript Grievances
+</title>
+		<meta charset="UTF-8">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		
+
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" media="all" href="/static/css/simplegrid.css" />
+		<link rel="stylesheet" media="all" href="/static/css/default.css" />
+		    <style>
+        #bg_img {
+            width: 100%;
+            height: 409px;
+            background-size: cover;
+            background-position: center;
+            padding: 2px;
+background-image: url(" /static/img/bg.jpg ");        }
+    </style>
+
+
+		<link rel="stylesheet" media="(max-width: 800px)" href="/static/css/mobile.css" />
+	</head>
+	<body>
+		<header>
+			<h2 id="blog_title"><a href="/">Malevolent Cartography</a></h2>
+			<div class="contact">
+				<p><i class="fab fa-github"></i> <a href="https://github.com/qpfiffer">github.com/qpfiffer</a></p>
+				<p><i class="far fa-envelope"></i> <a href="mailto:qpfiffer@gmail.com">qpfiffer@gmail.com</a></p>
+				<p><i class="fas fa-phone"></i> +1(503) 985-6583</p>
+			</div>
+			<div class="links">
+			</div>
+		</header>
+		<div id="main_container">
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Javascript Grievances</h2><p><span class="author_name">javascript_grievances.markdown by NO AUTHOR</span></p><p>This is a list of things I hate about javascript, just so I have something to say when people ask why.</p>
+<ul>
+<li>async/await breaks the use of the debugger. You can not step into function if you are using async/await.</li>
+<li>The javascript debugger is often completely unable to introspect outer scope when inside a closure.</li>
+<li>You can't evaluate promises in the Chrome debugger while it's paused</li>
+<li>The chrome debugger steals window focus every time a breakpoint is hit, which doesn't make any sense when you're not debugging a webapp</li>
+<li>The best way to figure out where your code is <em>throwing an exception</em> is to put a debugger statement at the top of the routine you suspect and just step over functions until your app explodes</li>
+<li>Bookshelf.js doesn't tell you that a field is null (like for instance, a foreign key) it just warns that <code>undefined bindings have been detected</code></li>
+<li>The chrome debugger steals focus, autofucuses the source display window and let's you type into it, for some reason. This is annoying if, for instance, you're doing LITERALLY ANYTHING ELSE and chrome decides its MY TURN</li>
+<li>The node debugger doesn't have step up/step down, only step into/step out. This is terrible for trying to learn context of a function being executed.</li>
+<li>Bookshelf Model.count() returns a string representation of a number</li>
+<li><p>ES6 named parameters are still positional. This means default params are useless. You can do:</p>
+<pre><code>func example(a, b=1, c=2) { ...
+example(a, c=5)</code></pre>
+<p>b will equal 5 in this example, c will equal 2.</p></li>
+</ul>
+<p>Today:</p>
+<ul>
+<li>Bookshelf is failing to fetch() a related record on a model, even though it is clearly in the database with the correct ID. Whats going on? I have no idea, no error is thrown. It just returns nothing. I can't step into the function because I am awaiting it, so it just steps into the runtime's active hooks thing.</li>
+<li>Even with long stack traces enabled, stack traces are completely useless. Problem: Some SQL query somewhere is throwing and error. Problem: I have no idea where. The solution SHOULD be I just look at the stacktrace and see where the call originates, but javascript is nondeterministic or something and completely useless.</li>
+<li>Programmer goes to see doctor, says he is depressed. Says he is tired of watching errors dissapear into nameless promise drain queues that destroy callstacks and remove context. Doctor says, why not wrap your code in a try catch? Programmer bursts into tears, <code>But doctor, I already wrap every single   line in try catch blocks!</code></li>
+<li>Today Jest was doing that thing where it truncates my tables before the test is done. Turns out I was calling a method that didn't exist on a class. The error was completely irrelevant to what was actually happening. I spent an hour and found the bug by stepping through the code line by line.</li>
+</ul>
+</div></div></div></div>
+
+		</div>
+		<div id="busted_pixel">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUA/wA0XsCoAAAACklEQVR4nGNiAAAABgADNjd8qAAAAABJRU5ErkJggg==">
+		</div>
+		
+		<footer>
+			<div class="grid grid-pad">
+				<div class="col-1-2">
+					<div class="content">
+						<ul>
+							<li>&copy; Copyright 2014-2020, <a href="http://q.pfiffer.org/">Quinlan Pfiffer</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-1-2">
+					<div class="pull-right content">
+						<ul>
+							<li><a href="mailto:qpfiffer@gmail.com">Email</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-30510579-1']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	
+
+	</body>
+</html>
+<!-- vim: noet ts=4 sw=4:
+-->
