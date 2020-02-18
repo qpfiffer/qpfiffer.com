@@ -736,4 +736,7 @@ Format is sets by reps @ weight in pounds.
     * Back-squats: 2x8@135
     * Front-squats: 1x8@135
     * BTN-Press: 3x12@45
+* 2020/02/18:
+    * Deadlifts: 1x12@135, 1x5@225, 5x3@275
+    * Bench: 1x12@95, 4x6@135
 ```
