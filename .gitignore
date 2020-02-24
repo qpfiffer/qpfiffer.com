@@ -4,5 +4,6 @@ dist/*
 cabal.sandbox.config
 *.swp
 *.swo
+*.pyc
 _site/*
 __pycache__
