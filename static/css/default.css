@@ -1,7 +1,8 @@
 /* vim: set ts=4 sw=4 noet : */
 body {
 	/* font-family: 'Open Sans', sans-serif; */
-	font-family: Cantarell,Lato,LatoExtended,sans-serif;
+	/* font-family: Cantarell,Lato,LatoExtended,sans-serif; */
+	font-family: 'Fira Code', 'Nanum Gothic Coding', monospace;
 }
 a {
 	text-decoration: none;
