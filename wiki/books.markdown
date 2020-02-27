@@ -34,7 +34,7 @@ finish books.
 * [Dead Mountain: The Untold True Story of the Dyatlov Pass Incident Hardcover](https://www.amazon.com/Dead-Mountain-Untold-Dyatlov-Incident/dp/1452112746)
 * [The Case of Charles Dexter Ward](http://en.wikipedia.org/wiki/The_Case_of_Charles_Dexter_Ward)
 * [The Color out of Space](http://en.wikipedia.org/wiki/The_Color_Out_Of_Space)
-* [Dune](https://en.wikipedia.org/wiki/Dune_(novel)
+* <a href="https://en.wikipedia.org/wiki/Dune_(novel)">Dune</a>
 * [Exhalations](https://en.wikipedia.org/wiki/Exhalation:_Stories)
 * [Extreme Alpinism](https://www.amazon.com/Extreme-Alpinism-Climbing-Light-High/dp/0898866545)
 * [The First Fifteen Lives of Harry August](https://en.wikipedia.org/wiki/The_First_Fifteen_Lives_of_Harry_August)
@@ -61,7 +61,7 @@ finish books.
 * [Shibumi](https://en.wikipedia.org/wiki/Shibumi_(novel))
 * [Siddartha](https://en.wikipedia.org/wiki/Siddhartha_(novel))
 * [The Sun Also Rises](https://en.wikipedia.org/wiki/The_Sun_Also_Rises)
-* [Survivor](https://en.wikipedia.org/wiki/Survivor_(Palahniuk_novel\))
+* <a href="https://en.wikipedia.org/wiki/Survivor_(Palahniuk_novel\)">Survivor</a>
 * [The Terror](http://www.amazon.com/The-Terror-Novel-Dan-Simmons/dp/0316008079)
 * [Venus in Furs](https://en.wikipedia.org/wiki/Venus_in_Furs)
 * [Void Star](https://www.amazon.com/Void-Star-Novel-Zachary-Mason-ebook/dp/B01LZUDPGV/)

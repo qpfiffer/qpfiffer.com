@@ -6,28 +6,18 @@ This is my personal wiki. You’ll find a collection of information that I’ve 
 
 ### Things I’m Interested In
 
-*   [Books](../wiki/books)
-*   [People](../wiki/people)
-*   [Technologies](../wiki/tech)
+*   [Books](/wiki/books.html)
 
 ### Notes and Studies
 
-*   [Javascript Grievances](../wiki/javascript_grievances)
-*   [Power Consumption Notes](../wiki/power)
-*   [Low Power Server Build](../wiki/low_power_server)
+*   [Javascript Grievances](/wiki/javascript_grievances.html)
+*   [Power Consumption Notes](/wiki/power.html)
 
 ### Physical
 
-*   [Lifting Log](../wiki/lifting)
-*   [MTB Stuff](../wiki/mtb_stuff)
-*   [Boxing](../wiki/boxing)
-*   [Ride Planning](../wiki/rides)
+*   [Lifting Log](/wiki/lifting.html)
 
-### Mechanical
+### Outside Web
 
-*   [MR2 Misc.](../wiki/mr2)
-
-### Personal
-
-*   [Straight Razors](../wiki/razor)
-*   [Cryptoanarchist Potato Farm](../wiki/potato)
+*    [Good Blogs](/wiki/good_blogs.markdown)
+*    [Good Twitters](/wiki/good_twitters.markdown)
