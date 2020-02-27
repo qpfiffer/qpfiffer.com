@@ -10,7 +10,7 @@ Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
 -->
 <html>
 	<head>
-		<title>q.pfiffer.org -  Technologies
+		<title>q.pfiffer.org -  Django Aggregates Over JSONB
 </title>
 		<meta charset="UTF-8">
 		<meta name=viewport content="width=device-width, initial-scale=1">
@@ -30,7 +30,7 @@ Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
             background-size: cover;
             background-position: center;
             padding: 2px;
-background-image: url("  ../static/img/wiki.jpg ");        }
+background-image: url(" /static/img/bg.jpg ");        }
     </style>
 
 
@@ -48,44 +48,28 @@ background-image: url("  ../static/img/wiki.jpg ");        }
 			</div>
 		</header>
 		<div id="main_container">
-			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href=" http//www.flickr.com/photos/104820964@N07/10685169003/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Technologies</h2><p><span class="author_name">tech.markdown by NO AUTHOR</span></p><p>This is a collection of technologies I'm interested in, in alphabetical order.</p>
-<div class="col-6-12">
-<h3 id="analog">Analog</h3>
-<ul>
-<li><a href="http://www.bulletjournal.com/">Bullet Journal</a></li>
-<li><a href="http://www.glassian.org/Prism/Patent/GB18184222/page1.html">The Preston Patent Illuminator</a></li>
-<li><a href="http://practicaltypography.com/times-new-roman.html">Times New Roman</a></li>
-</ul>
-<h3 id="hardware">Hardware</h3>
-<ul>
-<li><a href="http://www.lemote.com/en/products/Notebook/2010/0310/112.html">Lemote Yeeloong</a></li>
-<li><a href="http://www.raspberrypi.org/">The Raspberry Pi</a></li>
-</ul>
-</div>
-<div class="col-6-12">
-<h3 id="software">Software</h3>
-<ul>
-<li><a href="http://www.erlang.org/">Erlang</a></li>
-<li><a href="http://flask.pocoo.org/">Flask</a></li>
-<li><a href="http://git-annex.branchable.com/">Git Annex</a></li>
-<li><a href="http://www.haskell.org/">Haskell</a></li>
-<li><a href="http://jaspervdj.be/hakyll/">Hakyll</a></li>
-<li><a href="http://ikiwiki.info/">Ikwiki</a></li>
-<li><a href="http://fallabs.com/kyotocabinet/">Kyoto Cabinet</a></li>
-<li><a href="http://liw.fi/obnam/">The Obnam Backup Program</a></li>
-<li><a href="http://basho.com/riak/">Riak</a></li>
-<li><a href="http://sigmajs.org/">sigma.js</a></li>
-<li><a href="http://sphia.org/index.html">Sophia</a></li>
-<li><a href="https://github.com/kyleterry/tenyks">tenyks</a></li>
-</ul>
-<h3 id="websites">Websites</h3>
-<ul>
-<li><a href="https://ipxcore.com/">IPXCore</a></li>
-<li><a href="http://getpocket.com/">Pocket</a></li>
-<li><a href="http://stream.pncks.com/">pncks</a></li>
-<li><a href="http://www.tarsnap.com/">Tarsnap</a></li>
-</ul>
-</div>
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Django Aggregates Over JSONB</h2><p><span class="author_name">2020-02-27 by  Quinlan Pfiffer</span></p><p>I wanted to park this here because it's useful. You can do aggregates over nested JSONB fields in Django via a series of casts, which you can express using only the ORM. Heres a simple examples. This is based on a real-world example where I had to cast the float to an integer, which is a bonus little easter egg.</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="im">from</span> django.db.models <span class="im">import</span> Sum, IntegerField, FloatField, TextField
+<span class="im">from</span> django.db.models.functions <span class="im">import</span> Cast
+<span class="im">from</span> django.utils <span class="im">import</span> timezone
+<span class="im">from</span> datetime <span class="im">import</span> timedelta
+
+<span class="kw">class</span> TicketReport:
+    timestamp <span class="op">=</span> models.DatetimeField()
+    tickets <span class="op">=</span> JSONField()
+
+    <span class="kw">def</span> get_ticket_count_30_day(<span class="va">self</span>):
+        qs <span class="op">=</span> obj.report_set<span class="op">\</span>
+                .<span class="bu">filter</span>(timestamp__gt<span class="op">=</span>timezone.now() <span class="op">-</span> timedelta(days<span class="op">=</span><span class="dv">30</span>))<span class="op">\</span>
+                .annotate(numeric_val<span class="op">=</span>Cast(Cast(Cast(<span class="st">&#39;tickets&#39;</span>, TextField()), FloatField()), IntegerField()))<span class="op">\</span>
+                .aggregate(Sum(<span class="st">&#39;numeric_val&#39;</span>))
+        ds <span class="op">=</span> qs[<span class="st">&#39;numeric_val__sum&#39;</span>] <span class="kw">or</span> <span class="dv">0</span>
+        <span class="cf">return</span> ds</code></pre></div>
+<p>Assume the JSON looks something like this, and you take part of that value and extract it into the <code>tickets</code> field:</p>
+<div class="sourceCode"><pre class="sourceCode json"><code class="sourceCode json"><span class="fu">{</span>
+  <span class="dt">&quot;tickets&quot;</span><span class="fu">:</span> <span class="fl">2516.0</span>
+<span class="fu">}</span></code></pre></div>
+<p>You can directly cast the value into an Integer and then aggregate over it.</p>
 </div></div></div></div>
 
 		</div>
