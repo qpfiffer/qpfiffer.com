@@ -16,6 +16,7 @@ This is my personal wiki. You’ll find a collection of information that I’ve 
 ### Physical
 
 *   [Lifting Log](/wiki/lifting.html)
+*   [Food & Recipes](/wiki/food.html)
 
 ### Outside Web
 
