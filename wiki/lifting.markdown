@@ -742,4 +742,7 @@ Format is sets by reps @ weight in pounds.
 * 2020/02/21:
     * Back-squats: 4x6@185
     * Meta: Probably shouldn't have lifted today. Did a 4 mile tempo yesterday and the legs are feeling rough.
+* 2020/02/27:
+    * Deadlifts: 1x12@155, 1x5@225, 1x1@275, 5x3@285, 1x1@275, 1x5@155
+    * Meta: I am sore.
 ```
