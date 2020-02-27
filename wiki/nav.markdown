@@ -19,5 +19,5 @@ This is my personal wiki. You’ll find a collection of information that I’ve 
 
 ### Outside Web
 
-*    [Good Blogs](/wiki/good_blogs.markdown)
-*    [Good Twitters](/wiki/good_twitters.markdown)
+*    [Good Blogs](/wiki/good_blogs.html)
+*    [Good Twitters](/wiki/good_twitters.html)
