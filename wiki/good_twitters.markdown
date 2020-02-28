@@ -7,4 +7,5 @@ heres a rough list.
 
 * [Foone](https://twitter.com/Foone)
 * [neauoire](https://twitter.com/neauoire)
+* [Loren Schmidt](https://twitter.com/lorenschmidt)
 
