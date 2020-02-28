@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 from greshunkel.utils import parse_variable, interpolate
 from os import listdir, makedirs, path
-import re
+import hashlib, re
 
 POSTS_DIR = "posts/"
 WIKI_DIR = "wiki/"
@@ -72,15 +72,34 @@ def _loop_context_interpolate(variable, loop_variable, current_item, i, context)
         except TypeError:
             import ipdb; ipdb.set_trace()
         except KeyError as e:
-            if variable[1] == 'bg-image':
-                return "/static/img/bg.jpg"
-            elif variable[1] == 'bg-img-src':
-                return "http://www.flickr.com/photos/104820964@N07/11595685883/"
-            elif variable[1] == 'title':
-                return "NO TITLE"
-            elif variable[1] == 'author':
-                return "NO AUTHOR"
-            raise e
+            try:
+                hsh = str(int(hashlib.sha1(current_item['title'].encode()).hexdigest(), 16))
+                hsh2 = str(int(hashlib.sha1(current_item['filename'].encode()).hexdigest(), 16))
+                rgba1 = [0, 1, 2]
+                rgba1[0] = (int(hsh) & 0xFF0000) >> 16
+                rgba1[1] = (int(hsh) & 0x00FF00) >> 8
+                rgba1[2] = (int(hsh) & 0x0000FF)
+                rgba2 = [0, 0, 0]
+                rgba2[0] = (int(hsh2) & 0xFF0000) >> 16
+                rgba2[1] = (int(hsh2) & 0x00FF00) >> 8
+                rgba2[2] = (int(hsh2) & 0x0000FF)
+            except KeyError as e:
+                rgba1 = (243, 68, 17)
+                rgba2 = (51, 37, 255)
+            extra_variables_map = {
+                'bg-image': "/static/img/bg.jpg",
+                'bg-img-src': "http://www.flickr.com/photos/104820964@N07/11595685883/",
+                'title': 'NO TITLE',
+                'author': 'NO AUTHOR',
+                'css-rgb-colors': 'rgba({}, {}, {})'.format(rgba1[0], rgba1[1], rgba1[2]),
+                'css-rgba-colors1': 'rgba({}, {}, {}, 1)'.format(rgba1[0], rgba1[1], rgba1[2]),
+                'css-rgba-colors2': 'rgba({}, {}, {}, 2)'.format(rgba2[0], rgba2[1], rgba2[2]),
+            }
+            var = extra_variables_map.get(variable[1], None)
+            if var == None:
+                import ipdb; ipdb.set_trace()
+                raise e
+            return var
     # All else fails try to use the dict variable
     return current_item[variable[1]]
 
