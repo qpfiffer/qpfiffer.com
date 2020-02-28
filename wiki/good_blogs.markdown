@@ -11,3 +11,5 @@ Maybe start with the [dark cult webring?](https://webring.xxiivv.com/)
 * [JoeyH](http://joeyh.name/blog/)
 * [Liam Cooke](https://liamcooke.com/)
 * [Jake Franklin](http://jakofranko.github.io/thoughts/) (Has fancy CSS, too)
+* [Leandro Pereira](https://tia.mat.br/posts/) Wrote [lwan](https://lwan.ws/).
+  Lots of good low-level stuff.
