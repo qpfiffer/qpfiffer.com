@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--
+  ____ ____  _____ ____  _	 _ _   _ _	 _ _  _______ _
+ / ___|  _ \| ____/ ___|| | | | | | | \ | | |/ / ____| |
+| |  _| |_) |  _| \___ \| |_| | | | |  \| | ' /|  _| | |
+| |_| |  _ <| |___ ___) |  _  | |_| | |\  | . \| |___| |___
+ \____|_| \_\_____|____/|_| |_|\___/|_| \_|_|\_\_____|_____|
+
+Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
+-->
+<html>
+	<head>
+		<title>q.pfiffer.org -  Decoupling your game loop
+</title>
+		<meta charset="UTF-8">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		
+
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" media="all" href="/static/css/simplegrid.css" />
+		<link rel="stylesheet" media="all" href="/static/css/default.css" />
+		    <link rel="stylesheet" href="/static/css/highlight_js/default.css">
+    <script src="/static/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <style>
+        #bg_img {
+            width: 100%;
+            height: 409px;
+            background-size: cover;
+            background-position: center;
+            padding: 2px;
+/* background-image: url(" /static/img/bg.jpg "); */background: rgba(192, 115, 110);background: linear-gradient(90deg, rgba(192, 115, 110, 1) 0%,rgba(178, 210, 192, 2) 100%);        }
+    </style>
+
+
+		<link rel="stylesheet" media="(max-width: 800px)" href="/static/css/mobile.css" />
+	</head>
+	<body>
+		<header>
+			<h2 id="blog_title"><a href="/">Malevolent Cartography</a></h2>
+			<h4>Contact</h4>
+			<div class="contact">
+				<p><i class="fab fa-github"></i> <a href="https://github.com/qpfiffer">github.com/qpfiffer</a></p>
+				<p><i class="far fa-envelope"></i> <a href="mailto:qpfiffer@gmail.com">qpfiffer@gmail.com</a></p>
+				<p><i class="fas fa-phone"></i> +1(503) 985-6583</p>
+			</div>
+			<h4>Links</h4>
+			<div class="links">
+				<ul>
+					<li><a href="/blog.html">All Posts</a></li>
+					<li><a href="/wiki/nav.html">Nav</a></li>
+				</ul>
+			</div>
+		</header>
+		<div id="main_container">
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Decoupling your game loop</h2><p><span class="author_name">2020-03-02 by  Quinlan Pfiffer</span></p><p>In an effort to write more, I'm just doing whatever I want and lowering my barrier to entry for posting here. One of the things that I've done a couple times recently is decoupled my <code>update</code> and <code>draw</code> loops in a couple of different applications. One was <a href="https://github.com/qpfiffer/Voidcrash/tree/master/the_black_cartograph">Voidcrash</a> which I've been working on sporadically for a little while, and the other is a <a href="https://github.com/qpfiffer/mgm">personal management tool</a> I'm just calling <code>mgm</code>.</p>
+<p>The main idea is pretty simple: You want your state-update code to run as often as possible (especially for physics simulations) or really just as close to real-time as possible. You also want it to be agnostic of real-world time, so it should keep working in less-than-ideal circumstances.</p>
+<p>For example, you have a physics simulation that you want to run at 60 frames-per-second, but your computer is multi-tasking and chugging either doing something else (like rendering that same physics sim) or just running a web-browser. Your update loop should do it's best to compare real-world, elapsed time with the number of steps that should have happened in it's simulation, so it'll either compute many frames of simulation per function call, or not do anything because not enough time has elapsed. It's a neat idea, and avoids problems like <a href="https://www.howtogeek.com/171945/why-do-old-game-run-way-too-fast-on-modern-computers/">games running too fast.</a></p>
+<p>Voidcrash is in Lua (and <a href="https://love2d.org/">LÖVE2D</a>!), so let's look at it first since it's a bit easier to parse at first glance.</p>
+<div class="sourceCode"><pre class="sourceCode lua"><code class="sourceCode lua">TICKER_RATE <span class="ot">=</span> <span class="dv">1</span><span class="ot">/</span><span class="dv">60</span>
+
+<span class="kw">function</span> MapState:update<span class="ot">(</span>game_state<span class="ot">,</span> dt<span class="ot">)</span>
+    self<span class="ot">.</span>dtotal <span class="ot">=</span> self<span class="ot">.</span>dtotal <span class="ot">+</span> dt
+    <span class="kw">if</span> self<span class="ot">.</span>dtotal <span class="ot">&gt;=</span> constants<span class="ot">.</span>TICKER_RATE <span class="kw">then</span>
+        <span class="do">-- Do updates here.</span>
+    <span class="kw">end</span>
+<span class="kw">end</span></code></pre></div>
+<p>The only outside context you really need to know here is that <code>dt</code> (the argument) is the delta-time (in seconds) from the last time this function was called, which is very useful. We then take and add that delta to the <code>total</code> delta we have (<code>self.dtotal</code> here). We then compare the number of seconds that have passed with our <code>TICKER_RATE</code>, which in this case is 60 frames per second. If this is greater than the ticker rate, we do our state-update. Simple!</p>
+<p>For a little more complex example, heres the <a href="https://github.com/qpfiffer/mgm">mgm</a> one with <a href="https://en.wikipedia.org/wiki/Ncurses">ncurses</a> and C:</p>
+<div class="sourceCode"><pre class="sourceCode c"><code class="sourceCode c"><span class="pp">#define TICKER_RATE (1.0f/60.0f) * 1000</span>
+
+<span class="dt">void</span> update(<span class="kw">struct</span> app_state_t *main_state) {
+    <span class="co">/* Initial stuff for time display and dirty flagging */</span>
+    <span class="dt">const</span> <span class="dt">uint64_t</span> now_ms = get_ms_now();
+    main_state-&gt;update_dt = now_ms - main_state-&gt;last_update_time;
+    main_state-&gt;update_dtotal += main_state-&gt;update_dt;
+
+    main_state-&gt;last_update_time = now_ms;
+
+    <span class="cf">if</span> (main_state-&gt;update_dtotal &gt;= TICKER_RATE) {
+        main_state-&gt;update_dtotal -= TICKER_RATE;
+
+        <span class="co">/* Do more updates here */</span>
+    }
+}</code></pre></div>
+<p>A very similar concept, and not that different from the Lua implementation, except that we have to get our own delta-time. This is the <code>update()</code> loop, but I also have the draw loop specified this way since ncurses doesn't like being rendered a lot (it flickers). One caveat with the C version is that you have to make sure you're specifying your <code>TICKER_RATE</code> as floating point math: I forgot that integer division truncates, so my loop was running REAL fast.</p>
+<p>Anyway I just wanted to write this up because writing is useful. Hopefully you've learned something here. Go forth and write some loops!</p>
+</div></div></div></div>
+
+		</div>
+		<div id="busted_pixel">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUA/wA0XsCoAAAACklEQVR4nGNiAAAABgADNjd8qAAAAABJRU5ErkJggg==">
+		</div>
+		
+		<footer>
+			<div class="grid grid-pad">
+				<div class="col-1-2">
+					<div class="content">
+						<ul>
+							<li>&copy; Copyright 2014-2020, <a href="http://q.pfiffer.org/">Quinlan Pfiffer</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-1-2">
+					<div class="pull-right content">
+						<ul>
+							<li><a href="mailto:qpfiffer@gmail.com">Email</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-30510579-1']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	
+
+	</body>
+</html>
+<!-- vim: noet ts=4 sw=4:
+-->
