@@ -745,4 +745,7 @@ Format is sets by reps @ weight in pounds.
 * 2020/02/27:
     * Deadlifts: 1x12@155, 1x5@225, 1x1@275, 5x3@285, 1x1@275, 1x5@155
     * Meta: I am sore.
+* 2020/03/02:
+    * Back-squats: 1x8@135, 1x30@155
+    * Meta: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA (birthday squats)
 ```
