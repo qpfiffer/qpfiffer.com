@@ -8,6 +8,7 @@ Maybe start with the [dark cult webring?](https://webring.xxiivv.com/)
   disingenuous, but oh well. His newsletter his fantastic.
 * [Leafo](https://leafo.net/)
 * [SirCmpwn](https://drewdevault.com/)
+* [Xe](https://christine.website/blog)
 * [JoeyH](http://joeyh.name/blog/)
 * [Liam Cooke](https://liamcooke.com/)
 * [Jake Franklin](http://jakofranko.github.io/thoughts/) (Has fancy CSS, too)
