@@ -748,4 +748,8 @@ Format is sets by reps @ weight in pounds.
 * 2020/03/02:
     * Back-squats: 1x8@135, 1x30@155
     * Meta: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA (birthday squats)
+* 2020/03/06:
+    * Deadlifts: 4x6@225
+    * Bench: 1x5@135, 3x5@155, 2x5@135
+    * Pull-ups: 5x8@BW
 ```
