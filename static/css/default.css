@@ -81,6 +81,27 @@ p code {
 	left: 690px;
 	z-index: 1000;
 }
+span.suc {
+	text-align: center;
+	background-color: #A0FFA0;
+	padding: 0.2em;
+	width: 7em;
+	display: inline-block;
+}
+span.fail {
+	text-align: center;
+	background-color: #FF9090;
+	padding: 0.2em;
+	width: 7em;
+	display: inline-block;
+}
+span.unsure {
+	text-align: center;
+	background-color: #FFFF80;
+	padding: 0.2em;
+	width: 7em;
+	display: inline-block;
+}
 /* h1,h2,h3,h4,h5,h6 {
 	font-weight: normal;
 }
@@ -115,26 +136,5 @@ footer {
 #right_col {
 	padding-left: 20px;
 	border-left: 1px solid #BBB;
-}
-span.suc {
-	text-align: center;
-	background-color: #A0FFA0;
-	padding: 0.2em;
-	width: 7em;
-	display: inline-block;
-}
-span.fail {
-	text-align: center;
-	background-color: #FF9090;
-	padding: 0.2em;
-	width: 7em;
-	display: inline-block;
-}
-span.unsure {
-	text-align: center;
-	background-color: #FFFF80;
-	padding: 0.2em;
-	width: 7em;
-	display: inline-block;
 }
 */
