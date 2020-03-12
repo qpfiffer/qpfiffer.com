@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--
+  ____ ____  _____ ____  _	 _ _   _ _	 _ _  _______ _
+ / ___|  _ \| ____/ ___|| | | | | | | \ | | |/ / ____| |
+| |  _| |_) |  _| \___ \| |_| | | | |  \| | ' /|  _| | |
+| |_| |  _ <| |___ ___) |  _  | |_| | |\  | . \| |___| |___
+ \____|_| \_\_____|____/|_| |_|\___/|_| \_|_|\_\_____|_____|
+
+Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
+-->
+<html>
+	<head>
+		<title>q.pfiffer.org -  A Random Python Timezone Bug
+</title>
+		<meta charset="UTF-8">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		
+
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" media="all" href="/static/css/simplegrid.css" />
+		<link rel="stylesheet" media="all" href="/static/css/default.css" />
+		    <link rel="stylesheet" href="/static/css/highlight_js/default.css">
+    <script src="/static/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <style>
+        #bg_img {
+            width: 100%;
+            height: 409px;
+            background-size: cover;
+            background-position: center;
+            padding: 2px;
+/* background-image: url(" /static/img/bg.jpg "); */background: rgba(157, 197, 151);background: linear-gradient(90deg, rgba(157, 197, 151, 1) 0%,rgba(67, 140, 149, 2) 100%);        }
+    </style>
+
+
+		<link rel="stylesheet" media="(max-width: 800px)" href="/static/css/mobile.css" />
+	</head>
+	<body>
+		<header>
+			<h2 id="blog_title"><a href="/">Malevolent Cartography</a></h2>
+			<div class="contact">
+				<p>Write C</p>
+				<p>Drink your coffee black</p>
+				<p>Sleep on the floor</p>
+			</div>
+			<h4>Contact</h4>
+			<div class="contact">
+				<p><i class="fab fa-github"></i> <a href="https://github.com/qpfiffer">github.com/qpfiffer</a></p>
+				<p><i class="far fa-envelope"></i> <a href="mailto:qpfiffer@gmail.com">qpfiffer@gmail.com</a></p>
+				<p><i class="fas fa-phone"></i> +1(503) 985-6583</p>
+			</div>
+			<h4>Links</h4>
+			<div class="links">
+				<ul>
+					<li><a href="/blog.html">All Posts</a></li>
+					<li><a href="/wiki/nav.html">Nav</a></li>
+				</ul>
+			</div>
+		</header>
+		<div id="main_container">
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> A Random Python Timezone Bug</h2><p><span class="author_name">2020-03-12 by  Quinlan Pfiffer</span></p><p>So this one is another interesting Python Timezone thing. It feels like every time I do something with timezones in Python, I think I've got them figured out and I clearly don't. Theres always another thing. This one was interesting though and took a while to figure out. The issue turned out to be not as straight-forward as I thought it would have been.</p>
+<p>Imagine something like this:</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="im">from</span> datetime <span class="im">import</span> datetime, timezone
+<span class="im">import</span> pytz
+
+TIMEZONE <span class="op">=</span> <span class="st">&quot;US/Eastern&quot;</span>
+tz <span class="op">=</span> pytz.timezone(TIMEZONE)
+
+<span class="kw">def</span> utc_now():
+    <span class="cf">return</span> datetime.now(timezone.utc)
+
+<span class="kw">def</span> tz_now():
+    <span class="cf">return</span> convert_to_local(get_utc_now())
+
+<span class="kw">def</span> convert_to_local(any_time):
+    <span class="cf">return</span> any_time.astimezone(tz)
+
+<span class="kw">def</span> convert_to_utc(any_time):
+    <span class="cf">return</span> any_time.astimezone(pytz.utc)</code></pre></div>
+<p>With me so far? Simple stuff, and this is all the correct way to do timezones in Python: No <a href="https://docs.python.org/3/library/datetime.html#aware-and-naive-objects">naive timestamps</a>, no <a href="http://pytz.sourceforge.net/#localized-times-and-date-arithmetic">replace</a>, use UTC for computation and localtime for display, etc. Good, let's keep going:</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="co"># Get the first of the month, in the local time:</span>
+local_first_of_month <span class="op">=</span> tz_now().replace(day<span class="op">=</span><span class="dv">1</span>, hour<span class="op">=</span><span class="dv">0</span>, minute<span class="op">=</span><span class="dv">0</span>,
+        second<span class="op">=</span><span class="dv">0</span>, microsecond<span class="op">=</span><span class="dv">0</span>)
+<span class="co"># datetime.datetime(2020, 3, 1, 0, 0,</span>
+<span class="co">#    tzinfo=&lt;DstTzInfo &#39;US/Eastern&#39; EDT-1 day, 20:00:00 DST&gt;)</span>
+
+<span class="co"># Convert it to utc:</span>
+utc_first_of_month <span class="op">=</span> convert_to_utc(local_first_of_month)
+<span class="co"># datetime.datetime(2020, 3, 1, 4, 0,</span>
+<span class="co">#    tzinfo=datetime.timezone.utc)</span>
+
+<span class="co"># Convert it back and ???</span>
+convert_to_local(utc_first_of_month)
+<span class="co"># datetime.datetime(2020, 2, 29, 23, 0,</span>
+<span class="co">#    tzinfo=&lt;DstTzInfo &#39;US/Eastern&#39; EST-1 day, 19:00:00 STD&gt;)</span></code></pre></div>
+<p>Whoa, wait a minute, what happened there? Why aren't they the same? Should going between UTC and your local timezone be idempotent? Well, you'd be correct, except that things go a little haywire when you call <code>replace()</code>. <code>replace()</code> will probably work just fine in the vast majority of cases, <em>except</em> when you cross a daylight savings-time boundary. You'll notice here that the two timestamps have the same timezone name, but differ in Daylight-ness: <code>DST</code> vs. <code>STD</code>.</p>
+<p>The reason it isn't &quot;idempotent&quot; here is because that doesn't really make any sense, since you're crossing a datetime boundary: Though timezones are technically the same, the hour delta between UTC changes because of daylight savings time. This only happens when you do a <code>replace()</code>, because you're just modifying values on an existing timezone. Fascinating, but REAL annoying. Heres the correct implementation: instead of doing a replace, build the datetime from the ground up:</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="co"># Get the first of the month, in the local time:</span>
+local_first_of_month <span class="op">=</span> datetime(year<span class="op">=</span>this.year, month<span class="op">=</span>this.month, day<span class="op">=</span><span class="dv">1</span>,
+        hour<span class="op">=</span><span class="dv">0</span>, minute<span class="op">=</span><span class="dv">0</span>, second<span class="op">=</span><span class="dv">0</span>, microsecond<span class="op">=</span><span class="dv">0</span>)
+local_first_of_month <span class="op">=</span> tz.localize(local_first_of_month)</code></pre></div>
+<p>This works as you'd expect, and works regardless of when you run the code since you're not doing a replace on <code>datetime.now()</code>. Good luck out there, soldier.</p>
+</div></div></div></div>
+
+		</div>
+		<div id="busted_pixel">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUA/wA0XsCoAAAACklEQVR4nGNiAAAABgADNjd8qAAAAABJRU5ErkJggg==">
+		</div>
+		
+		<footer>
+			<div class="grid grid-pad">
+				<div class="col-1-2">
+					<div class="content">
+						<ul>
+							<li>&copy; Copyright 2014-2020, <a href="http://q.pfiffer.org/">Quinlan Pfiffer</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-1-2">
+					<div class="pull-right content">
+						<ul>
+							<li><a href="mailto:qpfiffer@gmail.com">Email</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-30510579-1']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	
+
+	</body>
+</html>
+<!-- vim: noet ts=4 sw=4:
+-->
