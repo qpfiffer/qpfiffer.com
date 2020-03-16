@@ -16,3 +16,4 @@ Maybe start with the [dark cult webring?](https://webring.xxiivv.com/)
 * [Lunduke](http://lunduke.com/)
 * [N-Gate](http://n-gate.com/) Satire.
 * [oatmeal](https://eli.li/)
+* [Quel Solaar](https://news.quelsolaar.com/) Low-level savant
