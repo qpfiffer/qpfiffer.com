@@ -15,3 +15,4 @@ Maybe start with the [dark cult webring?](https://webring.xxiivv.com/)
 * [Leandro Pereira](https://tia.mat.br/posts/) Wrote [lwan](https://lwan.ws/). Lots of good low-level stuff.
 * [Lunduke](http://lunduke.com/)
 * [N-Gate](http://n-gate.com/) Satire.
+* [oatmeal](https://eli.li/)
