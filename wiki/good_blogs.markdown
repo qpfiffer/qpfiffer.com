@@ -13,4 +13,5 @@ Maybe start with the [dark cult webring?](https://webring.xxiivv.com/)
 * [Liam Cooke](https://liamcooke.com/)
 * [Jake Franklin](http://jakofranko.github.io/thoughts/) (Has fancy CSS, too)
 * [Leandro Pereira](https://tia.mat.br/posts/) Wrote [lwan](https://lwan.ws/). Lots of good low-level stuff.
+* [Lunduke](http://lunduke.com/)
 * [N-Gate](http://n-gate.com/) Satire.
