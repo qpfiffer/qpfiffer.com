@@ -102,39 +102,13 @@ span.unsure {
 	width: 7em;
 	display: inline-block;
 }
-/* h1,h2,h3,h4,h5,h6 {
-	font-weight: normal;
-}
-.post {
-	padding-bottom: 75px;
-}
-#home {
-	padding-bottom: 6px !important;
-	font-size: 18px;
-}
-#subtitle {
-	font-size: 12px;
-	display: block;
-}
-.content {
-	min-height: 512px;
-}
-p.title {
-	font-family: 'Open Sans', sans-serif;
-	font-size:24px;
-}
-#nav ul {
-	list-style-type: none;
-}
 li {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 footer {
-	font-size: 14px;
+	font-size: 10px;
 }
-#right_col {
-	padding-left: 20px;
-	border-left: 1px solid #BBB;
+footer ul {
+	list-style: none;
 }
-*/
