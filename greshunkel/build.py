@@ -13,6 +13,8 @@ BUILD_DIR = "built/"
 DOCUMENTATION_FILE = "documentation.html"
 DOCUMENTATION_TEMPLATE = TEMPLATE_DIR + DOCUMENTATION_FILE
 
+RSS_FILE = "rss.xml"
+
 def _render_file(file_yo, context, output_filename=None):
     if file_yo.get("children"):
         # We DoNt ReNdEr FiLeS wItH cHiLdReN
@@ -271,16 +273,17 @@ def main(context):
         _render_file(tree[base_file], context)
 
     for post in context['POSTS']:
-        # UGLY HACK YOU DUMB SHIT
         context['dumb_meta'] = [post]
         post_meta = parse_file(context, BLOGPOST_FILE)
         _render_file(post_meta, context, output_filename="posts/" + post['built_filename'])
 
     for post in context['WIKI_POSTS']:
-        # UGLY HACK YOU DUMB SHIT
         context['dumb_meta'] = [post]
         post_meta = parse_file(context, BLOGPOST_FILE)
         _render_file(post_meta, context, output_filename="wiki/" + post['built_filename'])
+
+    post_meta = parse_file(context, RSS_FILE)
+    _render_file(post_meta, context, output_filename="feed.xml")
 
     # BeCaUsE WhY NoT
     return 0

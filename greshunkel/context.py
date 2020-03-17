@@ -1,3 +1,4 @@
+from datetime import datetime, timezone
 from os import listdir
 import subprocess
 
@@ -47,7 +48,20 @@ def build_blog_context(default_context, directory, output_path, var_name):
         new_post['preview'] = new_post['content'][:300] + "&hellip;"
         new_post['link'] = "{}/{}".format(output_path, post.replace("markdown", "html"))
         new_post['filename'] = post
-        new_post['date'] = "-".join(post.split("-")[:3])
+        split_post = post.split("-")[:3]
+        new_post['date'] = "-".join(split_post)
+        try:
+            dtime = datetime.now(timezone.utc).replace(
+                    year=int(split_post[0]),
+                    month=int(split_post[1]),
+                    day=int(split_post[2]),
+                    hour=16,
+                    minute=0,
+                    second=0,
+                    microsecond=0)
+            new_post['rss_date'] = dtime.strftime("%a, %d %b %Y %H:%M:%S %z")
+        except Exception as e:
+            pass
         new_post['built_filename'] = post.replace("markdown", "html")
         default_context[var_name].append(new_post)
         muh_file.close()

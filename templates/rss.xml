@@ -1,0 +1,12 @@
+xXx PARENT=templates/empty.html xXx
+xXx CONTENT xXx
+        xXx LOOP blog_meta POSTS xXx
+        <item>
+            <title>xXx blog_meta$title xXx</title>
+            <description>xXx blog_meta$preview xXx</description>
+            <pubDate>xXx blog_meta$rss_date xXx</pubDate>
+            <link>http://q.pfiffer.orgxXx blog_meta$link xXx</link>
+            <guid isPermaLink="true">http://q.pfiffer.orgxXx blog_meta$link xXx</guid>
+        </item>
+        xXx BBL xXx
+xXx TTYL xXx
