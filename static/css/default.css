@@ -112,11 +112,6 @@ footer {
 footer ul {
 	list-style: none;
 }
-#webring {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 34px;
-	width: 34px;
-	height: 34px;
+footer img {
+	height: 2em;
 }
