@@ -3,6 +3,7 @@ title: 256 Colors in weechat-curses
 author: Quinlan Pfiffer
 bg-image: ../static/img/06_04_2015.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/15102194889/
+tags: software, how-to
 ---
 
 I'm sick of googling it everytime so I'm just going to put this here.

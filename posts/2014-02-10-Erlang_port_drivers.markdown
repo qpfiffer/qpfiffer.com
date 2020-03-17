@@ -3,6 +3,7 @@ title: Erlang port driver pitfalls
 author: Quinlan Pfiffer
 bg-image: ../static/img/02_10_2014.jpg
 bg-img-src: http://www.flickr.com/photos/104820964@N07/12416309453/
+tags: software, code
 ---
 
 Starting back in january I've been working on a homespun database called

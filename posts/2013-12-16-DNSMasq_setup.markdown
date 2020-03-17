@@ -3,6 +3,7 @@ title: Sane dnsmasq setup
 author: Quinlan Pfiffer
 bg-image: ../static/img/12_16_2013.jpg
 bg-img-src: http://www.flickr.com/photos/104820964@N07/10920448963/
+tags: software, how-to
 ---
 
 [Dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) is a slick little piece

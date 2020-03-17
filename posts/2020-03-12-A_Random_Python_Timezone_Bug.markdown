@@ -1,6 +1,7 @@
 ---
 title: A Random Python Timezone Bug
 author: Quinlan Pfiffer
+tags: software, writing
 ---
 
 So this one is another interesting Python Timezone thing. It feels like every

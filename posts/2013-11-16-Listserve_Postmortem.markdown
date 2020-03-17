@@ -3,6 +3,7 @@ title: Listserve Post-mortem
 author: Quinlan Pfiffer
 bg-image: ../static/img/listserve.jpg
 bg-img-src: http://www.flickr.com/photos/104820964@N07/10575928294
+tags: writing, random
 ---
 
 On November 2nd, 2013 I won [the listserve](http://thelistserve.com/) lottery.

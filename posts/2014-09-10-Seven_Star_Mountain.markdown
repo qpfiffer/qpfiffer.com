@@ -3,6 +3,7 @@ title: Seven Star Mountain
 author: Quinlan Pfiffer
 bg-image: ../static/img/09_10_2014.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/15194491941/
+tags: travel
 ---
 
 Well it's been three days or so since I last wrote. What have I been up to?

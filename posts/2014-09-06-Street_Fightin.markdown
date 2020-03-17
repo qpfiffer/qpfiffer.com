@@ -3,6 +3,7 @@ title: Street Fightin
 author: Quinlan Pfiffer
 bg-image: ../static/img/09_06_2014.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/14970120107/
+tags: travel
 ---
 
 Today was pretty rad, I woke up at 9AM or so showered, and headed out to go

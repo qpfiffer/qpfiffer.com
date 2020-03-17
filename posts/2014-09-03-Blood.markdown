@@ -3,6 +3,7 @@ title: Blood
 author: Quinlan Pfiffer
 bg-image: ../static/img/09_03_2014.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/15126755682/
+tags: travel
 ---
 
 Well it's been two days, what have I been up to? Just a bit. As a general status

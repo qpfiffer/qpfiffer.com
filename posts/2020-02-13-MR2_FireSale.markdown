@@ -3,6 +3,7 @@ title: The Great MR2 FireSale
 author: Quinlan Pfiffer
 bg-image: /static/img/mr2_firesale.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/49530280381/
+tags: junk
 ---
 
 The time has come. I'm getting out of the game, and I'm selling this MR2. 

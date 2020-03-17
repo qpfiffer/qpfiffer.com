@@ -3,6 +3,7 @@ title: Lets Talk About a Bug
 author: Quinlan Pfiffer
 bg-image: /static/img/2017_09_30.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/36709791114/in/datetaken-public/
+tags: software, writing
 ---
 
 Let's talk about a bug. I've wanted to write this one up for a while so here

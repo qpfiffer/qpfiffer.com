@@ -1,6 +1,7 @@
 ---
 title: Decoupling your game loop
 author: Quinlan Pfiffer
+tags: software, how-to
 ---
 
 In an effort to write more, I'm just doing whatever I want and lowering my

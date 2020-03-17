@@ -2,6 +2,7 @@
 title: "SE Asia: Guangzhou and Pakistan"
 author: Quinlan Pfiffer
 bg-image: /static/img/se_asia_2018_2019/header.jpg
+tags: travel, writing
 ---
 
 This is probably going to be a long post. Or a series of posts. In 2018 I left for SE Asia on an extended trip. 

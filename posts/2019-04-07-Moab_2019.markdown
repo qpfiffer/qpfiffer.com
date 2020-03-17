@@ -1,6 +1,7 @@
 ---
 title: Moab 2019
 author: Quinlan Pfiffer
+tags: travel, writing
 ---
 
 Day 0:

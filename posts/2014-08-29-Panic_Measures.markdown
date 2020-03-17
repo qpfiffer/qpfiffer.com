@@ -3,6 +3,7 @@ title: Panic Measures
 author: Quinlan Pfiffer
 bg-image: ../static/img/08_28_2014.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/15060469182/
+tags: travel
 ---
 
 Tonight, I got drunk. At [Revolver](https://www.facebook.com/revolver.taipei).
@@ -10,8 +11,8 @@ Nice place. Friendly people, and I think I made a friend, but you never know,
 Maybe he's a Gremlin or a Prole. I'm still pretty drunk now.
 
 Other than that, today was pretty damn busy. I woke up at 6:30AM again because
-Jetlag. I procrastinated a bit, then decided to visit (GuangHua Digital
-Plaza)[https://en.wikipedia.org/wiki/Guang_Hua_Digital_Plaza) and the [24-hour
+Jetlag. I procrastinated a bit, then decided to visit [GuangHua Digital
+Plaza](https://en.wikipedia.org/wiki/Guang_Hua_Digital_Plaza) and the [24-hour
 bookstore.](http://www.guide.taiwan-adventures.com/2011/eslite-24-hour-bookstore/)
 
 Had lunch at a place called Watami, some kind of crazy Egg-in-a-stone-bowl meal

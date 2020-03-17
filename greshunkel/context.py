@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
 from os import listdir
-import subprocess
+import hashlib, subprocess
 
 BASE_CONTEXT = {}
 
@@ -50,6 +50,7 @@ def build_blog_context(default_context, directory, output_path, var_name):
         new_post['filename'] = post
         split_post = post.split("-")[:3]
         new_post['date'] = "-".join(split_post)
+        new_post['built_filename'] = post.replace("markdown", "html")
         try:
             dtime = datetime.now(timezone.utc).replace(
                     year=int(split_post[0]),
@@ -62,7 +63,23 @@ def build_blog_context(default_context, directory, output_path, var_name):
             new_post['rss_date'] = dtime.strftime("%a, %d %b %Y %H:%M:%S %z")
         except Exception as e:
             pass
-        new_post['built_filename'] = post.replace("markdown", "html")
+        try:
+            tags = new_post['tags']
+            tags = tags.strip().rstrip().split(",")
+            tags_html = ""
+            for tag in tags:
+                colors = ["#f79533", "#f37055", "#ef4e7b", "#a166ab", "#5073b8", "#1098ad", "#07b39b", "#6dba82"]
+                hsh = int(hashlib.sha1(tag.encode()).hexdigest(), 16)
+                hsh2 = int(hashlib.sha1(tag[::-1].encode()).hexdigest(), 16)
+                bg_color = 'background: linear-gradient(90deg, {} 0%, {} 100%);'.format(
+                        colors[hsh % len(colors)],
+                        colors[hsh2 % len(colors)])
+                tags_html += '<span style="{}" class="tag">{}</span>'.format(
+                        bg_color, tag.strip().rstrip()
+                )
+                new_post['tags'] = tags_html
+        except Exception as e:
+            pass
         default_context[var_name].append(new_post)
         muh_file.close()
     default_context[var_name] = sorted(default_context[var_name], key=lambda x: x["date"], reverse=True)

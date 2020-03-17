@@ -93,6 +93,7 @@ def _loop_context_interpolate(variable, loop_variable, current_item, i, context)
                 'bg-img-src': "http://www.flickr.com/photos/104820964@N07/11595685883/",
                 'title': 'NO TITLE',
                 'author': 'NO AUTHOR',
+                'tags': '',
                 'css-rgb-colors': 'rgba({}, {}, {})'.format(rgba1[0], rgba1[1], rgba1[2]),
                 'css-rgba-colors1': 'rgba({}, {}, {}, 1)'.format(rgba1[0], rgba1[1], rgba1[2]),
                 'css-rgba-colors2': 'rgba({}, {}, {}, 2)'.format(rgba2[0], rgba2[1], rgba2[2]),

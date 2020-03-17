@@ -3,6 +3,7 @@ title: Market Forces
 author: Quinlan Pfiffer
 bg-image: ../static/img/08_29_2014.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/14874284997/
+tags: travel
 ---
 
 Today was pretty eventful. Woke up with a slight hangover from cheap happy hour

@@ -1,6 +1,7 @@
 ---
 title: Augment vs. Rewrite
 author: Quinlan Pfiffer
+tags: software, writing
 ---
 
 I'm putting this here because I don't want to lose it.

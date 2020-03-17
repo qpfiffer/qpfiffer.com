@@ -3,6 +3,7 @@ title: Wander
 author: Quinlan Pfiffer
 bg-image: ../static/img/09_01_2014.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/15101034801/
+tags: travel
 ---
 
 Haven't written in a couple of days, let's see what I've done... Quite a lot. Not a

@@ -3,6 +3,7 @@ title: 2016 In Review
 author: Quinlan Pfiffer
 bg-image: ../static/img/13653449_1169579606432286_6561406343698300739_o.jpg
 bg-img-src: https://www.facebook.com/whatthefestival/photos/t.579862546/1169579606432286/?type=3&theater
+tags: year-end-review
 ---
 Accomplishments
 ===============

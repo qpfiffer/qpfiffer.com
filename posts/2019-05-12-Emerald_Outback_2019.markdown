@@ -2,6 +2,7 @@
 title: Oregon Emerald Outback 2019
 author: Quinlan Pfiffer
 bg-image: /static/img/oeo_2019.jpg
+tags: outside, writing
 ---
 
 On May 3rd 2019 I left Portland with a bunch of dudes determined to finish the

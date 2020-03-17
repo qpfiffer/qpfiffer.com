@@ -1,6 +1,7 @@
 ---
 title: Django Aggregates Over JSONB
 author: Quinlan Pfiffer
+tags: software, how-to
 ---
 
 I wanted to park this here because it's useful. You can do aggregates over

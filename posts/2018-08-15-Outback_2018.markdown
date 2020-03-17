@@ -2,6 +2,7 @@
 title: Oregon Outback 2018
 author: Quinlan Pfiffer
 bg-image: ../static/img/outback_2018.jpg
+tags: outside, checklist
 ---
 
 The [Oregon Outback](http://www.bikepacking.com/routes/oregon-outback/) is something

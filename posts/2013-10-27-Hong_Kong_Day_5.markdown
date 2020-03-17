@@ -3,6 +3,7 @@ title: Hong Kong Day 5
 author: Quinlan Pfiffer
 bg-image: ../static/img/10_26_2013.jpg
 bg-img-src: http://www.flickr.com/photos/104820964@N07/10565746276/
+tags: travel
 ---
 
 Woke up feeling dehydrated. Went to find food.

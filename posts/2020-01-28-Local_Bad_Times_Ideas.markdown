@@ -3,6 +3,7 @@ title: Local Bad Times Ideas
 author: Quinlan Pfiffer
 bg-image: /static/img/bad_times.png
 bg-img-src: https://gaiagps.com/
+tags: outside
 ---
 
 One of the things I __really__ enjoy is fuckin' around, which I define as an

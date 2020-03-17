@@ -3,6 +3,7 @@ title: Hong Kong Day 3
 author: Quinlan Pfiffer
 bg-image: ../static/img/10_24_2013.jpg
 bg-img-src: http://www.flickr.com/photos/104820964@N07/10565769185/
+tags: travel
 ---
 
 Pretty full day, actually bought somet things.

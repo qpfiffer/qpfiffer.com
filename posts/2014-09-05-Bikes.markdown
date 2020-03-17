@@ -3,6 +3,7 @@ title: Bikes
 author: Quinlan Pfiffer
 bg-image: ../static/img/09_05_2014.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/14961566790/
+tags: travel
 ---
 
 Yesterday was boring and I didn't do anything except [write some

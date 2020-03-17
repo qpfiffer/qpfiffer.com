@@ -2,6 +2,7 @@
 title: "SE Asia: Dubai, Nepal"
 author: Quinlan Pfiffer
 bg-image: /static/img/se_asia_2018_2019/header_2.jpg
+tags: travel, writing
 ---
 
 This is part two of the coverage for my trip to SE Asia. Read part one

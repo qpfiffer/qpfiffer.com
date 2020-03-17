@@ -3,6 +3,7 @@ title: Hong Kong Day 4
 author: Quinlan Pfiffer
 bg-image: ../static/img/10_25_2013.jpg
 bg-img-src: http://www.flickr.com/photos/104820964@N07/10565733506/
+tags: travel
 ---
 
 * Woke up around 7. Decided to go to the peak.

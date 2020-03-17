@@ -3,6 +3,7 @@ title: 2014 In Review
 author: Quinlan Pfiffer
 bg-image: ../static/img/1_1_2014.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/15221633500/
+tags: year-end-review
 ---
 Accomplishments
 ===============

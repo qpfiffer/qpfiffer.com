@@ -3,6 +3,7 @@ title: Last Day
 author: Quinlan Pfiffer
 bg-image: ../static/img/09_17_2014.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/15080759800/
+tags: travel
 ---
 
 Well, this is basically my last full day. Well, I guess I have tomorrow (the

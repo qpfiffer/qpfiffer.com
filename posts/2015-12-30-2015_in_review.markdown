@@ -3,6 +3,7 @@ title: 2015 In Review
 author: Quinlan Pfiffer
 bg-image: ../static/img/12_30_2015.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/15221633500/
+tags: year-end-review
 ---
 
 Lot's of turmoil this year, good and bad things. I feel like I'm a better person

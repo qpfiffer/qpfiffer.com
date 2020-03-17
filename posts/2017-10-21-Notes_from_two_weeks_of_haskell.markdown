@@ -1,6 +1,7 @@
 ---
 title: Notes from Two Weeks of Haskell
 author: Quinlan Pfiffer
+tags: software, writing
 ---
 
 I've been writing Haskell at `$WORK` for about two weeks now, and it's been
