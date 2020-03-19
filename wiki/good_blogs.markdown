@@ -19,3 +19,4 @@ Maybe start with the [dark cult webring?](https://webring.xxiivv.com/)
 * [Quel Solaar](https://news.quelsolaar.com/) Low-level savant
 * [DragonflyBSD Digest](https://www.dragonflydigest.com/) They have good link collections
 * [Geoff Greer](https://geoff.greer.fm/)
+* [Allessandro Cheli](https://0x0f0f0f.github.io/posts/)
