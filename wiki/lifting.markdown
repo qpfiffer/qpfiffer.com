@@ -752,4 +752,8 @@ Format is sets by reps @ weight in pounds.
     * Deadlifts: 4x6@225
     * Bench: 1x5@135, 3x5@155, 2x5@135
     * Pull-ups: 5x8@BW
+* 2020/03/18:
+    * Rack-pulls: 3x8@225
+    * Back-squats: 5x5@185
+    * OHP: 3x8@80
 ```
