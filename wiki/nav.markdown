@@ -22,3 +22,7 @@ This is my personal wiki. You’ll find a collection of information that I’ve 
 
 *    [Good Blogs](/wiki/good_blogs.html)
 *    [Good Twitters](/wiki/good_twitters.html)
+
+### Programming
+
+*    [C Roundup](/wiki/c.html)
