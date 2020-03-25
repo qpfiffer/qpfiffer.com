@@ -756,4 +756,8 @@ Format is sets by reps @ weight in pounds.
     * Rack-pulls: 3x8@225
     * Back-squats: 5x5@185
     * OHP: 3x8@80
+* 2020/03/25:
+    * Front-squats: 1x6@115, 4x6@135
+    * OHP: 3x12@45
+    * Good-mornings: 4x12@25
 ```
