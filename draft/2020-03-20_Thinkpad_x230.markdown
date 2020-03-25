@@ -1,0 +1,21 @@
+---
+title: Thinkpad X230 Setup
+author: Quinlan Pfiffer
+tags: software, writing
+---
+
+I've fallen for the [groupthink](https://en.wikipedia.org/wiki/Groupthink) and
+one again purchased an old Thinkpad. This is kind of my write-up for where I'm
+at and what I've done to it.
+
+## What it is
+
+A [Thinkpad X230](https://www.lenovo.com/us/en/laptops/thinkpad/x-series/x230/).
+It's the non-tablet version, here are the specs:
+
+* Intel 2-core 4-thread i5-3320M, 2.6GHz, 3MB of cache
+* [16gb of DDR3L Ram @ 2133MHz](https://www.amazon.com/gp/product/B00UVOVV12/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1) (Nabbed for $106.00 shipped)
+* 9-cell battery
+* 250GB Samsung 860 EVO SSD
+
+I picked up the laptop sans charger and hard-drive caddy for $71.00 shipped.
