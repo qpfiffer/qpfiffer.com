@@ -46,7 +46,7 @@ def build_blog_context(default_context, directory, output_path, var_name):
 
         new_post['content'] = get_html_from_markdown(filename, filepath)
         new_post['preview'] = new_post['content'][:300] + "&hellip;"
-        new_post['link'] = "{}/{}".format(output_path, post.replace("markdown", "html"))
+        new_post['link'] = "{}{}".format(output_path, post.replace("markdown", "html"))
         new_post['filename'] = post
         split_post = post.split("-")[:3]
         new_post['date'] = "-".join(split_post)
