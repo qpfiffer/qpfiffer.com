@@ -7,8 +7,9 @@ tags: software, writing, c
 With quarantine being a Real Thing in our lives now, I've been spending a lot
 more time on personal projects than I have in a while. One of the things I
 recently added to [Lair](https://git.sr.ht/~qpfiffer/lair) is a sort of runtime
-exception. I needed these because without them, I wouldn't be able to properly
-do unit testing on real code samples.
+exception. I needed something like this because without it, I wouldn't be able to properly
+do unit testing on real code samples. I was just calling `exit(1)` before, which
+is not really useful.
 
 I'm always on the lookout for [fun](https://linux.die.net/man/2/writev) 
 and [weird](https://linux.die.net/man/2/posix_fadvise) new syscalls, and
