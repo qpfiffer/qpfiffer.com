@@ -60,6 +60,7 @@ finish books.
 * [Skullcrack City](http://www.amazon.com/Skullcrack-City-Jeremy-Robert-Johnson/dp/1621051714)
 * [Shibumi](https://en.wikipedia.org/wiki/Shibumi_(novel))
 * [Siddartha](https://en.wikipedia.org/wiki/Siddhartha_(novel))
+* Sisyphean - Dempow Torishima
 * [The Sun Also Rises](https://en.wikipedia.org/wiki/The_Sun_Also_Rises)
 * <a href="https://en.wikipedia.org/wiki/Survivor_(Palahniuk_novel\)">Survivor</a>
 * [The Terror](http://www.amazon.com/The-Terror-Novel-Dan-Simmons/dp/0316008079)
