@@ -760,4 +760,6 @@ Format is sets by reps @ weight in pounds.
     * Front-squats: 1x6@115, 4x6@135
     * OHP: 3x12@45
     * Good-mornings: 4x12@25
+* 2020/03/31:
+    * Back-squats: 1x6@155, 1x5@175, 5x3@205
 ```
