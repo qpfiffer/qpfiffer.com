@@ -63,12 +63,11 @@ def fetch_file(requester, filename):
 
 # Caveats
 
-* All communications channels between nodes should be encrypted.
-* The business node should connect to the party node: The party is in the cloud,
-  so the business should connect up to _it_. This keeps us from having to do any
+* All communications channels between nodes must be encrypted.
+* The business node must connect to the party node: The party is in the cloud,
+  so the business must connect up to _it_. This keeps us from having to do any
   port shenanigans on the home router.
-* The business node should be configurable to connect to multiple parties.
+* The business node must be configurable to connect to multiple parties.
 * Protocol between the whole mullet TBD: Probably checksum, filename and file
   contents.
-* Simplifying the interface to the Party node could/should be done through FUSE.
-  It's all files, baby!
+* The interface to the party node must be through FUSE.
