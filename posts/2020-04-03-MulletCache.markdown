@@ -70,3 +70,5 @@ def fetch_file(requester, filename):
 * The business node should be configurable to connect to multiple parties.
 * Protocol between the whole mullet TBD: Probably checksum, filename and file
   contents.
+* Simplifying the interface to the Party node could/should be done through FUSE.
+  It's all files, baby!
