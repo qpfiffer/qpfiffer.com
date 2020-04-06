@@ -762,4 +762,7 @@ Format is sets by reps @ weight in pounds.
     * Good-mornings: 4x12@25
 * 2020/03/31:
     * Back-squats: 1x6@155, 1x5@175, 5x3@205
+* 2020/04/06:
+    * Deadlifts: 5x5@225
+    * Meta: Back is way too tight. I feel terrible.
 ```
