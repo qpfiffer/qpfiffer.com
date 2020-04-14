@@ -12,3 +12,7 @@ title: Ride Planning
 ## MTB
 
 * Growler's Gulch
+
+## Roadish
+
+* [Ryan's Post](https://groups.google.com/forum/#!topic/unpaved/QFj_vLMnjhQ)
