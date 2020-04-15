@@ -765,4 +765,8 @@ Format is sets by reps @ weight in pounds.
 * 2020/04/06:
     * Deadlifts: 5x5@225
     * Meta: Back is way too tight. I feel terrible.
+* 2020/04/15:
+    * Back-squats: 1x8@155, 1x5@175, 3x5@205
+    * OHP: 3x5@85, 2x5@75
+    * Meta: Back-squats felt alright considering the whole 200 mile thing.
 ```
