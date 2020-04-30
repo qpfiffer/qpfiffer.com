@@ -769,7 +769,14 @@ Format is sets by reps @ weight in pounds.
     * Back-squats: 1x8@155, 1x5@175, 3x5@205
     * OHP: 3x5@85, 2x5@75
     * Meta: Back-squats felt alright considering the whole 200 mile thing.
-* 2020/04/15:
+* 2020/04/21:
     * Back-squats: 1x5@155, 1x5@175, 5x5@205
     * OHP: 3x8@75
+* 2020/04/28:
+    * Deads: 1x8@155, 1x8@225, 1x8@245, 1x8@255, 1x8@260
+    * OHP: 3X8@75
+* 2020/04/30:
+    * Bench: 1x12@45, 1x8@95, 5x5@135
+    * Rows: 5x5@115
+    * Curls: 3x12@45
 ```
