@@ -21,7 +21,7 @@ has no cache size, it just serves any file requested from it.
        Home                 Cloud
 +----------------+      +------------+                         +--------------+
 |                |      |            |    Request for Asset    |              |    HTTP Request
-| Business Node  |      | Party Node | <---------------------+ | HTTP Service | <----------------+
+|   Party Node   |      |  Bzns Node | <---------------------+ | HTTP Service | <----------------+
 |                |      |            |                         |              |
 +----------------+      +------------+                         +--------------+
 ```
@@ -34,7 +34,7 @@ have from the business node.
        Home                 Cloud
 +----------------+  RX  +------------+                         +--------------+
 |                <------+            |    Request for Asset    |              |    HTTP Request
-| Business Node  |      | Party Node | <---------------------+ | HTTP Service | <----------------+
+|   Party Node   |      |  Bzns Node | <---------------------+ | HTTP Service | <----------------+
 |                +------>            |                         |              |
 +----------------+  TX  +------------+                         +--------------+
 ```

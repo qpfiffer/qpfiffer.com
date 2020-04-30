@@ -66,14 +66,14 @@ Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
 <pre><code>       Home                 Cloud
 +----------------+      +------------+                         +--------------+
 |                |      |            |    Request for Asset    |              |    HTTP Request
-| Business Node  |      | Party Node | &lt;---------------------+ | HTTP Service | &lt;----------------+
+|   Party Node   |      |  Bzns Node | &lt;---------------------+ | HTTP Service | &lt;----------------+
 |                |      |            |                         |              |
 +----------------+      +------------+                         +--------------+</code></pre>
 <p>The party node will handle any incoming request for a file, check it's internal LRU cache (and by proxy the local filesystem), and request any file it doesn't have from the business node.</p>
 <pre><code>       Home                 Cloud
 +----------------+  RX  +------------+                         +--------------+
 |                &lt;------+            |    Request for Asset    |              |    HTTP Request
-| Business Node  |      | Party Node | &lt;---------------------+ | HTTP Service | &lt;----------------+
+|   Party Node   |      |  Bzns Node | &lt;---------------------+ | HTTP Service | &lt;----------------+
 |                +------&gt;            |                         |              |
 +----------------+  TX  +------------+                         +--------------+</code></pre>
 <p>The Party node can be configured in either write-back or write-through configurations, depending on speed vs. safety requirements. Heres example pseudo-code for the party node's asset handler routine:</p>
