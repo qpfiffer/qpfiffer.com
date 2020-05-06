@@ -779,4 +779,9 @@ Format is sets by reps @ weight in pounds.
     * Bench: 1x12@45, 1x8@95, 5x5@135
     * Rows: 5x5@115
     * Curls: 3x12@45
+* 2020/05/06:
+    * Back-squats: 3x8@185
+    * OHP: 3x8@80
+    * Curls: 3x12@45
+    * Meta: Too much cardio this week. Super flat. Took forever to warm up.
 ```
