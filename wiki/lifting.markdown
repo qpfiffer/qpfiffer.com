@@ -784,4 +784,8 @@ Format is sets by reps @ weight in pounds.
     * OHP: 3x8@80
     * Curls: 3x12@45
     * Meta: Too much cardio this week. Super flat. Took forever to warm up.
+* 2020/05/06:
+    * Bench: 5x5@140
+    * Rows: 4x6@115
+    * Meta: Back is still fucked up from aborted deadlifts last week.
 ```
