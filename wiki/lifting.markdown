@@ -788,4 +788,7 @@ Format is sets by reps @ weight in pounds.
     * Bench: 5x5@140
     * Rows: 4x6@115
     * Meta: Back is still fucked up from aborted deadlifts last week.
+* 2020/05/26:
+    * Bench: 5x5@145
+    * Rows: 3x8@95
 ```
