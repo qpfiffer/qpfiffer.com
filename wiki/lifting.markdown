@@ -791,4 +791,7 @@ Format is sets by reps @ weight in pounds.
 * 2020/05/26:
     * Bench: 5x5@145
     * Rows: 3x8@95
+* 2020/08/19:
+    * Bench: 5x3@165
+    * Meta: I've been lifting but not recording it. I DONT ANSWER TO YOU.
 ```
