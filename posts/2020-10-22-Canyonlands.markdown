@@ -1,5 +1,5 @@
 ---
-title: Canyonlands Packrafting
+title: A Canyonlands Figure-8
 author: Quinlan Pfiffer
 tags: travel, adventure, packrafting, writing
 ---
@@ -112,3 +112,125 @@ We dropped camp in Horse Canyon, then found a small spring for water and trudged
 back. We were absolutely destroyed and in bed by 7:45PM.
 
 # Day 3
+
+<img src="/static/img/canyonlands/day_3.jpg" />
+
+> "These Goddamned deranged canyon bats" - Eric
+
+We woke up at 5:30 again, in the dark. It was a slower paced morning because we
+didn't have to pack up the rafts. We took our time a little bit. The spring was
+a bit more full this morning so we topped off water before beginning the long
+trek down to the Green.
+
+<img src="/static/img/canyonlands/day_3_1.jpg" />
+
+Walking through Horse Canyon was much suffering: Soft Sand and heavy packs. Eric
+did a good job of navigating us through the shortest path though, sometimes
+pushing us to bushwhack a little bit, sometimes kicking us through cactuses.
+Kicking a cactus sucks. At least the sun wasn't oppressive early in the morning.
+We made pretty good time and got to the end of the canyon after only a few
+hours. We dropped the packs and walked down as far as we could go, which ended
+at a long rappel down to the next chunk of the canyon.
+
+<img src="/static/img/canyonlands/day_3_2.jpg" />
+
+We scrambled up and around into something that's unofficially just called
+"Pre-Horse Canyon" and dropped all the way down to the Green River proper. It
+was a long, funny descent and we have a brief moment of panic when the path
+ended with a sheer 25-foot drop into the water below. Luckily you can just walk
+upriver a bit and put-in without a hilarious [seal launch](https://www.youtube.com/watch?v=szZ3sqZDSfk).
+
+<img src="/static/img/canyonlands/day_3_3.jpg" />
+
+Putting in at the Green.
+
+<img src="/static/img/canyonlands/day_3_4.jpg" />
+
+After through hours of paddling, which felt amazing after trudging through sand
+for a few days, we arrived at camp: A nice little sandy beach that slowly eroded
+as we slept.
+
+<img src="/static/img/canyonlands/day_3_5.jpg" />
+
+It was our first chance to wash off the canyon-grime and we both jumped into the
+river while there was still some sun. We again went to bed pretty early after
+just lazing it up on the beach for a while.
+
+# Day 4
+
+<img src="/static/img/canyonlands/day_4.jpg" />
+
+> "I'm as masochistic as the next guy but I don't paddle flatwater all day just
+> to reward myself with hot olive slop" - Eric, on the worst dehydrated meal
+> he'd ever had.
+
+We were both feeling pretty lazy but managed to get up while it was dark.
+Nothing was totally dry but it was dry enough: My single [NRS Silkweight
+Hoodie](https://www.nrs.com/product/10139.04/nrs-mens-h2core-silkweight-hoodie) 
+was starting to feel pretty stiff and salty, but it was time to put on
+my next pair of clean socks so that felt amazing.
+
+We paddled for a few hours after breaking camp and made it back to basically
+where we'd been a few days before, across from Spanish Bottom. We'd seen a lot
+of parties camped along the banks. Turns out when you don't want to run Cataract
+Canyon, you just wait until the jetboat comes to pick you up. It seems very
+wrong to me to float down a peaceful chunk of water only to have a boat with a
+huge engine ferry you back up days later.
+
+<img src="/static/img/canyonlands/day_4_1.jpg" />
+
+This was probably the hardest day for Eric: Water was a problem the whole trip,
+both because it was hard to find and again because the river water was full of
+silt. This required us to "settle" it over night with alum, which makes the
+water taste like deoderant, and then carry it with us over long, dry distances.
+For camp this night, there'd be absolutely no water so Eric came up with the
+idea of carrying two and a half gallons of water or so up to the [Devil's
+Pocket](https://www.gjhikes.com/2014/10/devils-pocket.html) 
+where we'd be sleeping. He basically carried a kettlebell all day, up
+the canyons, through the sun and still with heavy packs. Absolutely brutal, but
+we had water for that day and the next.
+
+<img src="/static/img/canyonlands/day_4_2.jpg" />
+
+We were so messed up by mid-afternoon we decided to just stop at our campsite
+and rest. We'd had grand ambitions of a day hike, but climbing all the way up
+the canyon walls in the sun really destroyed us. I was totally dehydrated and
+Eric was all twisted because of the water-haul-in-the-drybag-technique. We just
+sat and ate all the food we had and hid from the sun. It was a tough day.
+
+<img src="/static/img/canyonlands/day_4_3.jpg" />
+
+We slept well in our slot canyon campsite.
+
+# Day 5
+
+<img src="/static/img/canyonlands/day_5.jpg" />
+
+The final day, and our biggest on foot. We had light (sorta) packs, just enough
+foul-tasting water to get by and only a single day's worth of food left. We
+decided to push it and went for a bigger loop.
+
+<img src="/static/img/canyonlands/day_5_1.jpg" />
+
+We mostly trekked with our own thoughts through weird, deserty alien rock
+formations. The terrain changed wildly, from smooth, water-worn rock with iron
+ladders to drop us into canyons, to overgrown and shady forested floors. At this
+point we'd seen so much wild terrain we were ignorant to the strageness of it all.
+
+<img src="/static/img/canyonlands/day_5_2.jpg" />
+
+We finally started to see people, too, which was when we really knew it was over.
+An older couple we talked to for a while said they were visiting their last
+feature in the canyonlands: they'd seen everything else. They called themselves
+Desert Rats and I really liked that. It was inspiring to see people who'd spent
+so much time in the desert.
+
+<img src="/static/img/canyonlands/day_5_3.jpg" />
+
+And just like that, after 90 miles through the sun and the river, we were back at the car. We
+threw away all our wag bags (oof), ate the rest of our food and headed back to
+Moab to drink clean water and find showers.
+
+If you want to know more details, email [me](qpfiffer@gmail.com) or [Eric](eric@nyara.org) and
+we'd be more than happy to share experiences and beta. Thanks for reading! Heres
+to now.

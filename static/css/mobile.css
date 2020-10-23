@@ -5,3 +5,7 @@ header {
 #main_container, footer {
 	margin-left: 0;
 }
+.blog_container img {
+	height: auto;
+	width: 100%;
+}
