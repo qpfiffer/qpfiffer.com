@@ -78,15 +78,15 @@ random collections of pond scum and foam on the river.
 
 <img src="/static/img/canyonlands/day_2.jpg" />
 
-Day two was a hard day for me. We agreed to wake up at 5:30 every day just so
+Day two was a hard day for me. We agreed to wake up at 5:30 every morning just so
 we'd have time to hike before the sun totally destroyed us. It was actually
-really nice to get into that rhythm, it definitely set the expectation for the
-day. Eric is an efficient machine at packing, and I liked to eat oatmeal, so we
+really nice to get into the rhythm, it definitely set the expectation for the
+how the day was going to. Eric is an efficient machine at packing, and I liked to eat oatmeal, so we
 usually wouldn't leave camp before 7:00 or so.
 
-Starting the day with the same 2500 foot climb as the day before, but with our
-fully loaded packs, was pretty soul-crushing. It got harder, as we ended up
-covering 18 miles that day.
+Starting our hike with the same 2500 foot climb as the previous day, but with our
+fully loaded packs, was pretty morale destroying. We'd end up covering 18 miles
+before going to sleep however, so it only got harder.
 
 We started off by going to the overlook point, which was nice because we got to
 ditch the packs for a while and see the river from as high up as possible.
@@ -95,12 +95,12 @@ ditch the packs for a while and see the river from as high up as possible.
 
 From there we hiked down and back around, dropping briefly into Water Canyon and
 then mindlessly slogging up Shot Canyon. Water was hard to find and I felt
-pretty terrible most of the day. The sun was pretty brutal.
+pretty terrible most of the day. The sun was always there.
 
 <img src="/static/img/canyonlands/day_2_2.jpg" />
 
 For some reason I thought getting to Chimney Rock would be some kind of relief
-from the slogging in the heat, but it really just marked the midpoint of the day.
+from marching in the heat, but it really just marked the midpoint of the day.
 We kept slogging, eventually dropping off of the plateau and down back into [the
 maze](https://www.nps.gov/cany/planyourvisit/maze.htm) itself. We spent the rest
 of the day trudging slowly through soft sand. We did get to pass the gallery
@@ -108,7 +108,7 @@ though, so that was pretty cool.
 
 <img src="/static/img/canyonlands/day_2_3.jpg" />
 
-We dropped camp in Horse Canyon, then found a small spring for water and trudged
+We setup camp in Horse Canyon, then found a small spring for water and trudged
 back. We were absolutely destroyed and in bed by 7:45PM.
 
 # Day 3
@@ -118,7 +118,7 @@ back. We were absolutely destroyed and in bed by 7:45PM.
 > "These Goddamned deranged canyon bats" - Eric
 
 We woke up at 5:30 again, in the dark. It was a slower paced morning because we
-didn't have to pack up the rafts. We took our time a little bit. The spring was
+didn't have to pack up the rafts. We took our time and enjoyed the morning. The spring was
 a bit more full this morning so we topped off water before beginning the long
 trek down to the Green.
 
@@ -127,7 +127,8 @@ trek down to the Green.
 Walking through Horse Canyon was much suffering: Soft Sand and heavy packs. Eric
 did a good job of navigating us through the shortest path though, sometimes
 pushing us to bushwhack a little bit, sometimes kicking us through cactuses.
-Kicking a cactus sucks. At least the sun wasn't oppressive early in the morning.
+Kicking a cactus sucks, but is kind of cosmically hilarious. 
+At least the sun wasn't oppressive early in the morning.
 We made pretty good time and got to the end of the canyon after only a few
 hours. We dropped the packs and walked down as far as we could go, which ended
 at a long rappel down to the next chunk of the canyon.
@@ -136,7 +137,7 @@ at a long rappel down to the next chunk of the canyon.
 
 We scrambled up and around into something that's unofficially just called
 "Pre-Horse Canyon" and dropped all the way down to the Green River proper. It
-was a long, funny descent and we have a brief moment of panic when the path
+was a long, funny descent and we had a brief moment of panic when the path
 ended with a sheer 25-foot drop into the water below. Luckily you can just walk
 upriver a bit and put-in without a hilarious [seal launch](https://www.youtube.com/watch?v=szZ3sqZDSfk).
 
@@ -215,7 +216,7 @@ decided to push it and went for a bigger loop.
 We mostly trekked with our own thoughts through weird, deserty alien rock
 formations. The terrain changed wildly, from smooth, water-worn rock with iron
 ladders to drop us into canyons, to overgrown and shady forested floors. At this
-point we'd seen so much wild terrain we were ignorant to the strageness of it all.
+point we'd seen so much wild terrain we were ignorant to the strangeness of it all.
 
 <img src="/static/img/canyonlands/day_5_2.jpg" />
 
@@ -223,7 +224,8 @@ We finally started to see people, too, which was when we really knew it was over
 An older couple we talked to for a while said they were visiting their last
 feature in the canyonlands: they'd seen everything else. They called themselves
 Desert Rats and I really liked that. It was inspiring to see people who'd spent
-so much time in the desert.
+enough time in the desert to literally see it all: Every arch, canyon and
+petroglyph.
 
 <img src="/static/img/canyonlands/day_5_3.jpg" />
 
