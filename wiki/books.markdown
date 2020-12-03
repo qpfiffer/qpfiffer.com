@@ -39,6 +39,7 @@ finish books.
 * [Extreme Alpinism](https://www.amazon.com/Extreme-Alpinism-Climbing-Light-High/dp/0898866545)
 * [The First Fifteen Lives of Harry August](https://en.wikipedia.org/wiki/The_First_Fifteen_Lives_of_Harry_August)
 * [Foundation and Empire](https://en.wikipedia.org/wiki/Foundation_and_Empire)
+* [The Freeze-Frame Revolution](https://www.goodreads.com/book/show/36510759-the-freeze-frame-revolution)
 * [Get In the Van](https://en.wikipedia.org/wiki/Get_in_the_Van)
 * [Gideon the Ninth](https://www.goodreads.com/en/book/show/42036538-gideon-the-ninth)
 * [Glasshouse](https://en.wikipedia.org/wiki/Glasshouse_(novel))
@@ -63,6 +64,7 @@ finish books.
 * Sisyphean - Dempow Torishima
 * [The Sun Also Rises](https://en.wikipedia.org/wiki/The_Sun_Also_Rises)
 * <a href="https://en.wikipedia.org/wiki/Survivor_(Palahniuk_novel\)">Survivor</a>
+* [Starfish](https://www.goodreads.com/book/show/66479.Starfish?from_search=true&from_srp=true&qid=tAj4jfNOsO&rank=3)
 * [The Terror](http://www.amazon.com/The-Terror-Novel-Dan-Simmons/dp/0316008079)
 * [Venus in Furs](https://en.wikipedia.org/wiki/Venus_in_Furs)
 * [Void Star](https://www.amazon.com/Void-Star-Novel-Zachary-Mason-ebook/dp/B01LZUDPGV/)
