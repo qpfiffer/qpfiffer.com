@@ -52,6 +52,7 @@ finish books.
 * Intentional Dissonance - Iain S. Thomas
 * [Kiss or Kill](https://www.amazon.com/dp/B001C4QYGC/) - Mark Twight
 * [Lolita](https://en.wikipedia.org/wiki/Lolita)
+* Maelstrom - Peter Watts
 * Open - Andre Agassi
 * Pattern Recognition - William Gibson
 * [Piercing](http://www.goodreads.com/book/show/14288.Piercing)
