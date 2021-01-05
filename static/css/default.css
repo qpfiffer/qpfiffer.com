@@ -124,3 +124,6 @@ footer img {
 	border-color: black;
 	color: white;
 }
+p.meta .tag {
+	margin-left: 1em;
+}

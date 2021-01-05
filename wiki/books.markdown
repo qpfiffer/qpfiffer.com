@@ -26,12 +26,14 @@ finish books.
 * [Bangkok Tattoo](https://www.amazon.com/Bangkok-Tattoo-Royal-Detective-Novel/dp/1400032911)
 * [Black Hole](http://www.amazon.com/Black-Hole-Novel-Bucky-Sinister/dp/1593766076) +1
 * [Black Man](https://en.wikipedia.org/wiki/Black_Man)
+* <a href="https://en.wikipedia.org/wiki/Black_Sun_(Abbey_novel)">Black Sun</a> - Edward Abbey
 * [The Calling: A Life Rocked by Mountains](http://www.patagonia.com/product/the-calling-a-life-rocked-by-mountains/BK710.html)
 * [Candide](https://en.wikipedia.org/wiki/Candide)
 * [Chris Hoy's Autobiography](https://www.amazon.com/Chris-Hoy-Autobiography/dp/000731132X)
 * [Count Zero](https://en.wikipedia.org/wiki/Count_Zero)
 * [Concrete Island](https://en.wikipedia.org/wiki/Concrete_Island)
 * [Dead Mountain: The Untold True Story of the Dyatlov Pass Incident Hardcover](https://www.amazon.com/Dead-Mountain-Untold-Dyatlov-Incident/dp/1452112746)
+* [Enduring Patagonia](https://www.amazon.com/dp/B000FC1HWS/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) - Greg Crouch
 * [The Case of Charles Dexter Ward](http://en.wikipedia.org/wiki/The_Case_of_Charles_Dexter_Ward)
 * [The Color out of Space](http://en.wikipedia.org/wiki/The_Color_Out_Of_Space)
 * <a href="https://en.wikipedia.org/wiki/Dune_(novel)">Dune</a>
