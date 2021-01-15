@@ -14,4 +14,6 @@ Format is sets by reps @ weight in pounds.
     * Assisted Pull-ups (One-sided): 3x4
     * Two-armed Lock-off: 5x10s
     * Chin-ups: 2x10
+* 2021/01/14:
+    * Weighted Pull-ups: 5x3@35
 ```
