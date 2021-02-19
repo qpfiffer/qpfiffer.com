@@ -794,4 +794,8 @@ Format is sets by reps @ weight in pounds.
 * 2020/08/19:
     * Bench: 5x3@165
     * Meta: I've been lifting but not recording it. I DONT ANSWER TO YOU.
+* 2022/02/18:
+    * Dumbbell Bench Press: 3x8@50
+    * Deadlifts: 2x5@205, 3x5@225
+    * Meta: I miss deadlifts.
 ```
