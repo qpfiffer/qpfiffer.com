@@ -798,4 +798,7 @@ Format is sets by reps @ weight in pounds.
     * Dumbbell Bench Press: 3x8@50
     * Deadlifts: 2x5@205, 3x5@225
     * Meta: I miss deadlifts.
+* 2022/02/25:
+    * Bench: 5x5@135
+    * Deadlifts: 1x8@135, 1x5@225, 4x5@245
 ```
