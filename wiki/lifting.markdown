@@ -804,4 +804,8 @@ Format is sets by reps @ weight in pounds.
 * 2022/03/05:
     * Bench: 5x5@145
     * Deadlifts: 1x8@135, 1x6@205, 5x5@255
+* 2022/03/05:
+    * Bench: 5x5@135
+    * Deadlifts: 4x6@225
+    * Meta: Focusing on form today.
 ```
