@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 from greshunkel.utils import parse_variable, interpolate
 from os import listdir, makedirs, path
 import hashlib, re

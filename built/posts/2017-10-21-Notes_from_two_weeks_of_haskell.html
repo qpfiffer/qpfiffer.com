@@ -59,12 +59,12 @@ Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
 			</div>
 		</header>
 		<div id="main_container">
-			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Notes from Two Weeks of Haskell</h2><p class="meta"><span class="author_name">2017-10-21 by  Quinlan Pfiffer</span><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span><span style="background: linear-gradient(90deg, #6dba82 0%, #f37055 100%);" class="tag">writing</span></p><p>I've been writing Haskell at <code>$WORK</code> for about two weeks now, and it's been pretty fun. I've also learned quite a bit. This is just a place to store some common idioms/things I've learned, and mostly to have a place where I can put some simple, explicit code samples.</p>
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Notes from Two Weeks of Haskell</h2><p class="meta"><span class="author_name">2017-10-21 by  Quinlan Pfiffer</span><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span><span style="background: linear-gradient(90deg, #6dba82 0%, #f37055 100%);" class="tag">writing</span></p><p>I’ve been writing Haskell at <code>$WORK</code> for about two weeks now, and it’s been pretty fun. I’ve also learned quite a bit. This is just a place to store some common idioms/things I’ve learned, and mostly to have a place where I can put some simple, explicit code samples.</p>
 <h2 id="postgresql.simple">PostgreSQL.Simple</h2>
-<p><a href="https://hackage.haskell.org/package/postgresql-simple">PostgreSQL.Simple</a> is a great package started by Bryan O'Sullivan, the guy that primarily wrote <a href="http://book.realworldhaskell.org/read/">Real World Haskell</a>. He also wrote the <a href="http://hackage.haskell.org/package/aeson">Aeson</a> library. They have similarities, and it's pretty obvious.</p>
-<p>This section is mostly because I keep forgetting (ie. haven't practiced enough) how to put things into queries, get things out of the database, serialize them to records, that sort of thing.</p>
+<p><a href="https://hackage.haskell.org/package/postgresql-simple">PostgreSQL.Simple</a> is a great package started by Bryan O’Sullivan, the guy that primarily wrote <a href="http://book.realworldhaskell.org/read/">Real World Haskell</a>. He also wrote the <a href="http://hackage.haskell.org/package/aeson">Aeson</a> library. They have similarities, and it’s pretty obvious.</p>
+<p>This section is mostly because I keep forgetting (ie. haven’t practiced enough) how to put things into queries, get things out of the database, serialize them to records, that sort of thing.</p>
 <h3 id="updating-a-record">Updating a Record</h3>
-<p>Use <code>execute</code> for things that will modify database structures, like <code>UPDATE</code> or <code>INSERT</code>. You'll notice that here we don't have to specify the types on <code>(name, lat, lng, session_id)</code> because they exist in the function declaration and GHC can infer them.</p>
+<p>Use <code>execute</code> for things that will modify database structures, like <code>UPDATE</code> or <code>INSERT</code>. You’ll notice that here we don’t have to specify the types on <code>(name, lat, lng, session_id)</code> because they exist in the function declaration and GHC can infer them.</p>
 <pre><code>update_location_query = &quot;UPDATE location AS loc \
     \SET name = ?, lat = ?, lng = ? \
     \FROM session AS sesh \
@@ -76,7 +76,7 @@ updateLocation session_id name lat lng = do
     conn &lt;- ask
     lift $ execute conn update_location_query (name, lat, lng, session_id)</code></pre>
 <h3 id="selecting-a-bunch-of-records">Selecting a Bunch of Records</h3>
-<p>We use <code>query_</code> here because <code>query_</code> doesn't expect any arguments to interpolate into the SQL query.</p>
+<p>We use <code>query_</code> here because <code>query_</code> doesn’t expect any arguments to interpolate into the SQL query.</p>
 <pre><code>class_query = &quot;SELECT id, name \
     \FROM class \
     \ORDER BY name;&quot;
@@ -84,7 +84,7 @@ updateLocation session_id name lat lng = do
 getClasses :: Connection -&gt; IO [Class]
 getClasses conn = query_ conn class_query</code></pre>
 <h3 id="selecting-just-one-record">Selecting Just One Record</h3>
-<p>This will return a list of one item, but Haskell doesn't know that so it comes back as a list. It works well enough. This also interpolates the class ID into the query.</p>
+<p>This will return a list of one item, but Haskell doesn’t know that so it comes back as a list. It works well enough. This also interpolates the class ID into the query.</p>
 <pre><code>session_query = &quot;SELECT id, timestamp \
     \FROM session \
     \WHERE cls_id = ? \
@@ -97,7 +97,7 @@ getSessionsOfClass conn cls =
   where class_id = (Only $ classId cls) :: Only UUID</code></pre>
 <h2 id="readert">ReaderT</h2>
 <p><a href="https://hackage.haskell.org/package/transformers-0.5.5.0/docs/Control-Monad-Trans-Reader.html#t:ReaderT">ReaderT</a> is really useful, and a great introduction (for me) on how to use a monad transformer stack. I puzzled out a trivial example of using it with <code>PostgreSQL.Simple</code> to pass database connections around.</p>
-<p>These code samples are what I'm actually using. Here a <code>Connection</code> record is embedded inside the <code>ReaderT</code> context so we can use it later on, without explicitly passing around a <code>Connection</code> object. This doesn't have much benefit now, but later on if we need to add extra functionality it will be trivial to rewrite the sections of code using the <code>ReaderT</code>, rather than explicitly redefining each and every type signature of each function that uses the <code>Connection</code>.</p>
+<p>These code samples are what I’m actually using. Here a <code>Connection</code> record is embedded inside the <code>ReaderT</code> context so we can use it later on, without explicitly passing around a <code>Connection</code> object. This doesn’t have much benefit now, but later on if we need to add extra functionality it will be trivial to rewrite the sections of code using the <code>ReaderT</code>, rather than explicitly redefining each and every type signature of each function that uses the <code>Connection</code>.</p>
 <pre><code>main :: IO ()
 main = do
     conn &lt;- connectToDev
@@ -112,7 +112,7 @@ main = do
 updateLocation session_id name lat lng = do
     conn &lt;- ask
     lift $ execute conn update_location_query (name, lat, lng, session_id)</code></pre>
-<p>Here you can see that we're getting the <code>Connection</code> out of the <code>ReaderT</code> by <code>ask</code>ing for it. Neat! Also of note here, is that you have to <code>lift</code> the result of the <code>execute</code> call back into the monad transformer stack. Fun fact here: Because our transformer stack is only one level deep, you can use <code>lift</code> and <code>liftIO</code> interchangably.</p>
+<p>Here you can see that we’re getting the <code>Connection</code> out of the <code>ReaderT</code> by <code>ask</code>ing for it. Neat! Also of note here, is that you have to <code>lift</code> the result of the <code>execute</code> call back into the monad transformer stack. Fun fact here: Because our transformer stack is only one level deep, you can use <code>lift</code> and <code>liftIO</code> interchangably.</p>
 </div></div></div></div>
 
 		</div>

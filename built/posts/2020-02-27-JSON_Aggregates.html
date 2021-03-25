@@ -59,27 +59,27 @@ Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
 			</div>
 		</header>
 		<div id="main_container">
-			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Django Aggregates Over JSONB</h2><p class="meta"><span class="author_name">2020-02-27 by  Quinlan Pfiffer</span><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span><span style="background: linear-gradient(90deg, #a166ab 0%, #a166ab 100%);" class="tag">how-to</span></p><p>I wanted to park this here because it's useful. You can do aggregates over nested JSONB fields in Django via a series of casts, which you can express using only the ORM. Heres a simple examples. This is based on a real-world example where I had to cast the float to an integer, which is a bonus little easter egg.</p>
-<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="im">from</span> django.db.models <span class="im">import</span> Sum, IntegerField, FloatField, TextField
-<span class="im">from</span> django.db.models.functions <span class="im">import</span> Cast
-<span class="im">from</span> django.utils <span class="im">import</span> timezone
-<span class="im">from</span> datetime <span class="im">import</span> timedelta
-
-<span class="kw">class</span> TicketReport:
-    timestamp <span class="op">=</span> models.DatetimeField()
-    tickets <span class="op">=</span> JSONField()
-
-    <span class="kw">def</span> get_ticket_count_30_day(<span class="va">self</span>):
-        qs <span class="op">=</span> obj.report_set<span class="op">\</span>
-                .<span class="bu">filter</span>(timestamp__gt<span class="op">=</span>timezone.now() <span class="op">-</span> timedelta(days<span class="op">=</span><span class="dv">30</span>))<span class="op">\</span>
-                .annotate(numeric_val<span class="op">=</span>Cast(Cast(Cast(<span class="st">&#39;tickets&#39;</span>, TextField()), FloatField()), IntegerField()))<span class="op">\</span>
-                .aggregate(Sum(<span class="st">&#39;numeric_val&#39;</span>))
-        ds <span class="op">=</span> qs[<span class="st">&#39;numeric_val__sum&#39;</span>] <span class="kw">or</span> <span class="dv">0</span>
-        <span class="cf">return</span> ds</code></pre></div>
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Django Aggregates Over JSONB</h2><p class="meta"><span class="author_name">2020-02-27 by  Quinlan Pfiffer</span><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span><span style="background: linear-gradient(90deg, #a166ab 0%, #a166ab 100%);" class="tag">how-to</span></p><p>I wanted to park this here because it’s useful. You can do aggregates over nested JSONB fields in Django via a series of casts, which you can express using only the ORM. Heres a simple examples. This is based on a real-world example where I had to cast the float to an integer, which is a bonus little easter egg.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><a class="sourceLine" id="cb1-1" title="1"><span class="im">from</span> django.db.models <span class="im">import</span> Sum, IntegerField, FloatField, TextField</a>
+<a class="sourceLine" id="cb1-2" title="2"><span class="im">from</span> django.db.models.functions <span class="im">import</span> Cast</a>
+<a class="sourceLine" id="cb1-3" title="3"><span class="im">from</span> django.utils <span class="im">import</span> timezone</a>
+<a class="sourceLine" id="cb1-4" title="4"><span class="im">from</span> datetime <span class="im">import</span> timedelta</a>
+<a class="sourceLine" id="cb1-5" title="5"></a>
+<a class="sourceLine" id="cb1-6" title="6"><span class="kw">class</span> TicketReport:</a>
+<a class="sourceLine" id="cb1-7" title="7">    timestamp <span class="op">=</span> models.DatetimeField()</a>
+<a class="sourceLine" id="cb1-8" title="8">    tickets <span class="op">=</span> JSONField()</a>
+<a class="sourceLine" id="cb1-9" title="9"></a>
+<a class="sourceLine" id="cb1-10" title="10">    <span class="kw">def</span> get_ticket_count_30_day(<span class="va">self</span>):</a>
+<a class="sourceLine" id="cb1-11" title="11">        qs <span class="op">=</span> obj.report_set<span class="op">\</span></a>
+<a class="sourceLine" id="cb1-12" title="12">                .<span class="bu">filter</span>(timestamp__gt<span class="op">=</span>timezone.now() <span class="op">-</span> timedelta(days<span class="op">=</span><span class="dv">30</span>))<span class="op">\</span></a>
+<a class="sourceLine" id="cb1-13" title="13">                .annotate(numeric_val<span class="op">=</span>Cast(Cast(Cast(<span class="st">&#39;tickets&#39;</span>, TextField()), FloatField()), IntegerField()))<span class="op">\</span></a>
+<a class="sourceLine" id="cb1-14" title="14">                .aggregate(Sum(<span class="st">&#39;numeric_val&#39;</span>))</a>
+<a class="sourceLine" id="cb1-15" title="15">        ds <span class="op">=</span> qs[<span class="st">&#39;numeric_val__sum&#39;</span>] <span class="kw">or</span> <span class="dv">0</span></a>
+<a class="sourceLine" id="cb1-16" title="16">        <span class="cf">return</span> ds</a></code></pre></div>
 <p>Assume the JSON looks something like this, and you take part of that value and extract it into the <code>tickets</code> field:</p>
-<div class="sourceCode"><pre class="sourceCode json"><code class="sourceCode json"><span class="fu">{</span>
-  <span class="dt">&quot;tickets&quot;</span><span class="fu">:</span> <span class="fl">2516.0</span>
-<span class="fu">}</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode json"><code class="sourceCode json"><a class="sourceLine" id="cb2-1" title="1"><span class="fu">{</span></a>
+<a class="sourceLine" id="cb2-2" title="2">  <span class="dt">&quot;tickets&quot;</span><span class="fu">:</span> <span class="fl">2516.0</span></a>
+<a class="sourceLine" id="cb2-3" title="3"><span class="fu">}</span></a></code></pre></div>
 <p>You can directly cast the value into an Integer and then aggregate over it.</p>
 </div></div></div></div>
 
