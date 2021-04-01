@@ -1,0 +1,67 @@
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  background: #000;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+.container {
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width: 50%;
+}
+
+.container.left {
+  left: 0;
+}
+
+.container.right {
+  left: 50%;
+}
+
+.container.right::after {
+  left: 0px;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  width: 250px;
+  height: 1px;
+  top: calc(50% - 1px);
+  right: 0px;
+  background: #000;
+  z-index: 1;
+}
+
+.container.right::before {
+  left: 0px;
+  width: 20px;
+}
+
+.container .date {
+  top: calc(50% - 8px);
+  color: #000;
+  z-index: 1;
+}
+.container.left .date {
+  right: -150px;
+}
+.container.right .date {
+  left: -150px;
+}
+.weeks {
+    color: #ff4742;
+}

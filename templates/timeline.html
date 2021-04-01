@@ -1,0 +1,33 @@
+xXx PARENT=templates/base.html xXx
+xXx TITLE xXx
+Timeline
+xXx TTYL xXx
+
+xXx SCRIPTS xXx
+<link rel='stylesheet' type='text/css' href='/static/css/timeline.css'>
+xXx TTYL xXx
+
+xXx META xXx
+<meta name="description" content="Home of xXx SITENAME xXx - Timeline.">
+xXx TTYL xXx
+
+xXx END_SCRIPTS xXx
+xXx TTYL xXx
+
+xXx CONTENT xXx
+<div class="grid grid-pad">
+    <div class="col-1-1">
+        <div class="content">
+            <div class="timeline">
+                xXx LOOP entry TIMELINE_ENTRIES xXx
+                <div class="container xXx entry$containerclass xXx">
+                    <div class="date"><code>xXx entry$date xXx</code></div>
+                    <p class="entry">xXx entry$text xXx</p>
+                    <p><span class="weeks">xXx entry$weeks xXx</span> weeks.</p>
+                </div>
+                xXx BBL xXx
+            </div>
+        </div>
+    </div>
+</div>
+xXx TTYL xXx

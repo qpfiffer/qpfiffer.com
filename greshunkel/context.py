@@ -2,7 +2,22 @@ from datetime import datetime, timezone
 from os import listdir
 import hashlib, subprocess
 
-BASE_CONTEXT = {}
+BASE_CONTEXT = {
+    "TIMELINE_ENTRIES": [
+        {"date": "January 1 2021", "weeks": "15", "text": "Flagstaff, AZ", "containerclass": "left"},
+        {"date": "April 17 2021", "weeks": "6", "text": "Boise, ID", "containerclass": "right"},
+        {"date": "May 31 2021", "weeks": "4", "text": "Mazama, WA", "containerclass": "left"},
+        {"date": "July 4 2021", "weeks": "4", "text": "Squamish", "containerclass": "right"},
+        {"date": "August 2021", "weeks": "4", "text": "Northwest Territories (Nahanni, Cirque of the Unclimbambles)", "containerclass": "left"},
+        {"date": "September 6 2021", "weeks": "5", "text": "Grant's Pass, OR", "containerclass": "right"},
+        {"date": "October 16 2021", "weeks": "5", "text": "Bend, OR", "containerclass": "left"},
+        {"date": "November 25 2021", "weeks": "12", "text": "Geneva, Switzerland", "containerclass": "right"},
+        {"date": "March 1 2022", "weeks": "12", "text": "Norway", "containerclass": "left"},
+        {"date": "June 1 2022", "weeks": "8", "text": "Faroe Islands", "containerclass": "right"},
+        {"date": "August 1 2022", "weeks": "12", "text": "Vancouver Island", "containerclass": "left"},
+        {"date": "November 1 2022", "weeks": "?", "text": "South America", "containerclass": "right"},
+    ]
+}
 
 def get_html_from_markdown(filename, filepath):
     htmlname = "/tmp/{}".format(filename.replace(".markdown", ".html"))
