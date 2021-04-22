@@ -25,4 +25,3 @@ that need to be moved over, and their status.
 * Weechat client
 * Mosh
 * Postgres for anything above
-* PDXB
