@@ -12,6 +12,7 @@ This is my personal wiki. You’ll find a collection of information that I’ve 
 
 *   [Javascript Grievances](/wiki/javascript_grievances.html)
 *   [Power Consumption Notes](/wiki/power.html)
+*   [The Great Migration](/wiki/the_great_migration.html)
 
 ### Physical
 
