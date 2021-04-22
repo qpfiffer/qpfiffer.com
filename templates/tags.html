@@ -1,0 +1,31 @@
+xXx PARENT=templates/base.html xXx
+xXx TITLE xXx
+Home
+xXx TTYL xXx
+
+xXx SCRIPTS xXx
+xXx TTYL xXx
+
+xXx META xXx
+<meta name="description" content="Tags for xXx SITENAME xXx">
+xXx TTYL xXx
+
+xXx END_SCRIPTS xXx
+xXx TTYL xXx
+
+xXx CONTENT xXx
+<div class="grid grid-pad">
+    <div class="col-1-1">
+        <div class="content">
+            <h2>Tags</h2>
+            <ul>
+            xXx LOOP tag POSTS_TAGS xXx
+                <li class="content blog_item">
+                    <code>xXx tag$html xXx</code>
+                </li>
+            xXx BBL xXx
+            </ul>
+        </div>
+    </div>
+</div>
+xXx TTYL xXx

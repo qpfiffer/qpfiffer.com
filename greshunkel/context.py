@@ -1,3 +1,4 @@
+from collections import namedtuple
 from datetime import datetime, timezone
 from os import listdir
 import hashlib, subprocess
@@ -19,6 +20,8 @@ BASE_CONTEXT = {
     ]
 }
 
+Tag = namedtuple("Tag", ["name", "color", "html"])
+
 def get_html_from_markdown(filename, filepath):
     htmlname = "/tmp/{}".format(filename.replace(".markdown", ".html"))
     subprocess.run(["pandoc", "-o", htmlname, filepath])
@@ -29,7 +32,9 @@ def get_html_from_markdown(filename, filepath):
     return all_text
 
 def build_blog_context(default_context, directory, output_path, var_name):
+    tag_str = f"{var_name}_TAGS"
     default_context[var_name] = []
+    default_context[tag_str] = []
 
     for post in listdir(directory):
         if not post.endswith(".markdown"):
@@ -83,16 +88,21 @@ def build_blog_context(default_context, directory, output_path, var_name):
             tags = tags.strip().rstrip().split(",")
             tags_html = ""
             for tag in tags:
+                single_tag_html = ""
                 colors = ["#f79533", "#f37055", "#ef4e7b", "#a166ab", "#5073b8", "#1098ad", "#07b39b", "#6dba82"]
                 hsh = int(hashlib.sha1(tag.encode()).hexdigest(), 16)
                 hsh2 = int(hashlib.sha1(tag[::-1].encode()).hexdigest(), 16)
                 bg_color = 'background: linear-gradient(90deg, {} 0%, {} 100%);'.format(
                         colors[hsh % len(colors)],
                         colors[hsh2 % len(colors)])
-                tags_html += '<span style="{}" class="tag">{}</span>'.format(
+                single_tag_html += '<span style="{}" class="tag">{}</span>'.format(
                         bg_color, tag.strip().rstrip()
                 )
+                tags_html += single_tag_html
                 new_post['tags'] = tags_html
+
+                new_tag = Tag(**{"name": tag, "color": bg_color, "html": single_tag_html})
+                default_context[tag_str].append(new_tag)
         except Exception as e:
             pass
         default_context[var_name].append(new_post)
@@ -100,4 +110,5 @@ def build_blog_context(default_context, directory, output_path, var_name):
     default_context[var_name] = sorted(default_context[var_name], key=lambda x: x["date"], reverse=True)
     limited_name = '{}_LIMITED'.format(var_name)
     default_context[limited_name] = default_context[var_name][:5]
+    default_context[tag_str] = sorted([x._asdict() for x in set(default_context[tag_str])], key=lambda x: x["name"])
     return default_context
