@@ -14,3 +14,7 @@ Various links to things that are helpful.
 * [How to C: 2016](https://matt.sh/howto-c)
 * [Modern C by Jens Gustedt](https://modernc.gforge.inria.fr/)
 * [SEI Cert C Coding Standard](https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard)
+
+# Articles
+
+* [Tail-call in C](https://blog.reverberate.org/2021/04/21/musttail-efficient-interpreters.html)
