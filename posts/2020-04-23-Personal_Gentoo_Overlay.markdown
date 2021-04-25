@@ -29,7 +29,7 @@ files:
 `layout.conf` is pretty simple:
 ```
 masters = gentoo
-thing-manifests = true
+thin-manifests = true
 ```
 
 And `profiles/repo_name` looks like this (for me):
