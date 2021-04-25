@@ -2,10 +2,9 @@
 
 /* TEAM */
 Your title: Quinlan Pfiffer
-Site: qpfiffer@gmail.com, qpfiffer.com
-Twitter: @WAallLY
-Location: Portland, OR
+Site: qpfiffer@gmail.com, shithouse@goatse.cx, qpfiffer.com
+Location: Everywhere
 
 /* SITE */
-  Standards: HTML5, CSS3, Markdown
-  Software: Hakyll
+Standards: HTML5, CSS3, Markdown
+Software: GRESHUNKEL
