@@ -53,6 +53,7 @@ finish books.
 * [Idoru](http://en.wikipedia.org/wiki/Idoru)
 * [In the Miso Soup](https://en.wikipedia.org/wiki/In_the_Miso_Soup)
 * [I Have No Mouth and I Must Scream](http://en.wikipedia.org/wiki/I_Have_No_Mouth,_and_I_Must_Scream)
+* The Invention of Sound - Chuck Palahniuk
 * Intentional Dissonance - Iain S. Thomas
 * [Kiss or Kill](https://www.amazon.com/dp/B001C4QYGC/) - Mark Twight
 * [Lolita](https://en.wikipedia.org/wiki/Lolita)
