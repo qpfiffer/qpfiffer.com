@@ -1,7 +1,7 @@
 ---
 title: Building a Personal Gentoo Overlay
 author: Quinlan Pfiffer
-tags: software, how-to
+tags: gentoo, software, how-to
 ---
 
 I've been running Gentoo again recently, and one of the things I wanted to try
