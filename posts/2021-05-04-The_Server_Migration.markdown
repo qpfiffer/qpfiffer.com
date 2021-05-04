@@ -36,6 +36,7 @@ gentoo-ified. I'll explain that in a later page. Some have [already been
 done.](https://git.sr.ht/~qpfiffer/overlay/tree/master/item/www-misc/wheypi)
 
 Websites:
+
 * [IFF Link Aggregator](https://infoforcefeed.shithouse.tv/)
 * [PDX Burrito Review](https://burrito.shithouse.tv/)
 * [shithouse.tv](https://shithouse.tv/) - includes all the [secret](https://things-we-feel-rather-strongly-about.shithouse.tv/) bumps, too
@@ -46,17 +47,21 @@ Websites:
 * TODO [logproj](https://logproj.shithouse.tv/) - The weird, DIY logging project.
 
 Some older #IFF goodies:
+
 * [infoforcefeed.org](http://infoforcefeed.org/)
 * [Software Development for Arsonists](http://arson.infoforcefeed.org/)
 
 Bots:
+
 * TODO [scooper-bot](https://github.com/infoforcefeed/scooper-bot)
     * Also needs webhooks for automatic deploys.
 
 Historicals:
+
 * TODO [kyoto.io](https://kyoto.shithouse.tv/) - My defunct startup idea
 * TODO [meta.infoforcefeed.org](https://meta.shithouse.tv/) - The old metaforcefeed
   calendar/idea tracker
 
 Misc.
+
 * IRC - autologins, IdleRPG setup
