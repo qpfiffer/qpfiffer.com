@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--
+  ____ ____  _____ ____  _	 _ _   _ _	 _ _  _______ _
+ / ___|  _ \| ____/ ___|| | | | | | | \ | | |/ / ____| |
+| |  _| |_) |  _| \___ \| |_| | | | |  \| | ' /|  _| | |
+| |_| |  _ <| |___ ___) |  _  | |_| | |\  | . \| |___| |___
+ \____|_| \_\_____|____/|_| |_|\___/|_| \_|_|\_\_____|_____|
+
+Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
+-->
+<html>
+	<head>
+		<title>q.pfiffer.org -  Redis Predicate Matching
+</title>
+		<meta charset="UTF-8">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		
+
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" media="all" href="/static/css/simplegrid.css" />
+		<link rel="stylesheet" media="all" href="/static/css/default.css" />
+		    <link rel="stylesheet" href="/static/css/highlight_js/default.css">
+    <script src="/static/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <style>
+        #bg_img {
+            width: 100%;
+            height: 409px;
+            background-size: cover;
+            background-position: center;
+            padding: 2px;
+/* background-image: url(" /static/img/bg.jpg "); */background: rgba(248, 225, 67);background: linear-gradient(90deg, rgba(248, 225, 67, 1) 0%,rgba(72, 121, 17, 2) 100%);        }
+    </style>
+
+
+		<link rel="stylesheet" media="(max-width: 800px)" href="/static/css/mobile.css" />
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+	</head>
+	<body>
+		<header>
+			<h2 id="blog_title"><a href="/">Malevolent Cartography</a></h2>
+			<div class="contact">
+				<p>Write C</p>
+				<p>Drink your coffee black</p>
+				<p>Sleep on the floor</p>
+			</div>
+			<h4>Contact</h4>
+			<div class="contact">
+				<p><i class="fab fa-github"></i> <a href="https://github.com/qpfiffer">github.com/qpfiffer</a></p>
+				<p><i class="far fa-envelope"></i> <a href="mailto:qpfiffer@gmail.com">qpfiffer+qpweb@gmail.com</a></p>
+			</div>
+			<h4>Links</h4>
+			<div class="links">
+				<ul>
+					<li><a href="/blog.html">All Posts</a></li>
+					<li><a href="/tags.html">Tags</a></li>
+					<li><a href="/wiki/nav.html">"Wiki" Nav</a></li>
+				</ul>
+			</div>
+		</header>
+		<div id="main_container">
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Redis Predicate Matching</h2><p class="meta"><span class="author_name">2021-05-13 by  Quinlan Pfiffer</span><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span><span style="background: linear-gradient(90deg, #f79533 0%, #07b39b 100%);" class="tag">redis</span></p><p>Okay, I just found something pretty cool and I didn’t see a good tutorial example anywhere, so maybe someone somewhere will find this useful later. Redis has some really cool <a href="https://redis.io/commands/eval">built-in Lua</a> stuff that is useful if you want to do more with your data than just GET and SET it.</p>
+<p>My specific problem is that we have some data in a Postgres DB, and some in a Redis instance. There is a reason for this I won’t get into, but basically the Redis instance contains real-time information polled every 60 seconds or so, and the user-facing component of our infrastructure needs to query this data in certain circumstances. We have a bunch of hashmaps in Redis more or less like the following:</p>
+<pre><code>localhost:16379&gt; HGETALL x.12345.properties
+ 1) &quot;property_a&quot;
+ 2) &quot;true&quot;
+ 3) &quot;property_b&quot;
+ 4) &quot;True&quot;
+ 5) &quot;property_c&quot;
+ 6) &quot;false&quot;
+...</code></pre>
+<p>I wanted to get all of the hashes matching the key <code>x.*.properties</code> for which one of the properties (let’s use <code>property_a</code> here) is “true”. Enter Lua! I love Lua, it’s quirky and small and great. Heres how we could use it in our specific case:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode lua"><code class="sourceCode lua"><a class="sourceLine" id="cb2-1" title="1"><span class="kw">local</span> cursor <span class="op">=</span> <span class="dv">0</span></a>
+<a class="sourceLine" id="cb2-2" title="2"><span class="kw">local</span> keys <span class="op">=</span> <span class="op">{}</span></a>
+<a class="sourceLine" id="cb2-3" title="3"><span class="cf">repeat</span></a>
+<a class="sourceLine" id="cb2-4" title="4">  <span class="kw">local</span> result <span class="op">=</span> redis<span class="op">.</span>call<span class="op">(</span><span class="st">&#39;SCAN&#39;</span><span class="op">,</span> cursor<span class="op">,</span> <span class="st">&#39;MATCH&#39;</span><span class="op">,</span> <span class="st">&#39;x.*.properties&#39;</span><span class="op">,</span> <span class="st">&#39;COUNT&#39;</span><span class="op">,</span> <span class="cn">ARGV</span><span class="op">[</span><span class="dv">1</span><span class="op">])</span></a>
+<a class="sourceLine" id="cb2-5" title="5">  <span class="kw">local</span> keys <span class="op">=</span> result<span class="op">[</span><span class="dv">2</span><span class="op">]</span></a>
+<a class="sourceLine" id="cb2-6" title="6">  <span class="cf">for</span> <span class="cn">_</span><span class="op">,</span> key <span class="kw">in</span> <span class="fu">ipairs</span><span class="op">(</span>keys<span class="op">)</span> <span class="cf">do</span></a>
+<a class="sourceLine" id="cb2-7" title="7">    <span class="kw">local</span> hash_result <span class="op">=</span> redis<span class="op">.</span>call<span class="op">(</span><span class="st">&#39;HGET&#39;</span><span class="op">,</span> key<span class="op">,</span> <span class="cn">ARGV</span><span class="op">[</span><span class="dv">2</span><span class="op">])</span></a>
+<a class="sourceLine" id="cb2-8" title="8">    <span class="cf">if</span> hash_result <span class="op">==</span> <span class="st">&#39;true&#39;</span> <span class="cf">then</span></a>
+<a class="sourceLine" id="cb2-9" title="9">      <span class="fu">table.insert</span><span class="op">(</span>keys<span class="op">,</span> key<span class="op">)</span></a>
+<a class="sourceLine" id="cb2-10" title="10">    <span class="cf">end</span></a>
+<a class="sourceLine" id="cb2-11" title="11">  <span class="cf">end</span></a>
+<a class="sourceLine" id="cb2-12" title="12">  cursor <span class="op">=</span> <span class="fu">tonumber</span><span class="op">(</span>result<span class="op">[</span><span class="dv">1</span><span class="op">])</span></a>
+<a class="sourceLine" id="cb2-13" title="13">  <span class="cf">until</span> cursor <span class="op">==</span> <span class="dv">0</span></a>
+<a class="sourceLine" id="cb2-14" title="14"><span class="cf">return</span> keys</a></code></pre></div>
+<p>You could then call this script with <code>EVAL</code> like so:</p>
+<pre><code>EVAL &quot;...&quot; 0 1000 property_a</code></pre>
+<p>The 0 is important, so don’t forget it. You can see the remaining <code>1000</code> and <code>property_a</code> arguments are used by the script. The script itself will return all keys in Redis matching <code>x.*.properties</code> for which <code>property_a</code> is <code>true</code>. It’s fast, non-blocking (Uses <a href="https://redis.io/commands/scan">SCAN</a>) and pretty easy to grok. Neat!</p>
+</div></div></div></div>
+
+		</div>
+		<div id="busted_pixel">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUA/wA0XsCoAAAACklEQVR4nGNiAAAABgADNjd8qAAAAABJRU5ErkJggg==">
+		</div>
+		
+		<footer>
+			<div class="grid grid-pad">
+				<div class="col-1-2">
+					<div class="content">
+						<ul>
+							<li>&copy; Copyright 2014-2021, <a href="http://q.pfiffer.org/">Quinlan Pfiffer</a></li>
+							<li><a href="//validator.w3.org/feed/check.cgi?url=http%3A//q.pfiffer.org/feed.xml"><img src="/static/img/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-1-2">
+					<div class="pull-right content">
+						<ul>
+							<li><a href="mailto:qpfiffer@gmail.com">Email</a></li>
+							<li><a id="webring" href='//webring.xxiivv.com/#random' target='_blank'><img src='/static/img/icon.black.svg'/></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-30510579-1']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	
+
+	</body>
+</html>
+<!-- vim: noet ts=4 sw=4:
+-->
