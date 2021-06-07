@@ -78,61 +78,61 @@ thin-manifests = true</code></pre>
 <p>That’s really it. Now you can push it up to some <a href="https://sourcehut.org/">git hosting provider</a>.</p>
 <h1 id="adding-it-to-your-gentoo-box">Adding it to your Gentoo Box</h1>
 <p>The Gentoo developer guide for personal overlays says you need a bunch of random packages to do this, like Layman or Repoman, but I prefer to just change the files myself. The first thing to do is add your new repo to your <code>/etc/portage/repos.conf</code>:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode conf"><code class="sourceCode ini"><a class="sourceLine" id="cb4-1" title="1"><span class="kw">[qpfiffer]</span></a>
-<a class="sourceLine" id="cb4-2" title="2"><span class="dt">location </span><span class="ot">=</span><span class="st"> /var/db/repos/qpfiffer</span></a>
-<a class="sourceLine" id="cb4-3" title="3"><span class="dt">sync-type </span><span class="ot">=</span><span class="st"> git</span></a>
-<a class="sourceLine" id="cb4-4" title="4"><span class="dt">sync-uri </span><span class="ot">=</span><span class="st"> https://git.sr.ht/~qpfiffer/overlay</span></a>
-<a class="sourceLine" id="cb4-5" title="5"><span class="dt">auto-sync </span><span class="ot">=</span><span class="st"> </span><span class="kw">yes</span></a></code></pre></div>
+<pre class="conf"><code>[qpfiffer]
+location = /var/db/repos/qpfiffer
+sync-type = git
+sync-uri = https://git.sr.ht/~qpfiffer/overlay
+auto-sync = yes</code></pre>
 <p>From there you should be able to sync it with the following command:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb5-1" title="1">$ <span class="ex">emaint</span> sync -r qpfiffer</a></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> emaint sync <span class="at">-r</span> qpfiffer</span></code></pre></div>
 <p>If you jumped ahead and added your own packages, you should be able to see them after updating <code>eix</code> (or <code>emerge --search</code> or whatever):</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb6-1" title="1">$ <span class="ex">eix</span> 38-moths</a>
-<a class="sourceLine" id="cb6-2" title="2">[<span class="ex">I</span>] www-misc/38-moths [1]</a>
-<a class="sourceLine" id="cb6-3" title="3">     <span class="ex">Available</span> versions:  (~)<span class="ex">0.4</span></a>
-<a class="sourceLine" id="cb6-4" title="4">     <span class="ex">Installed</span> versions:  0.4(09:01:01 AM 04/03/2020)</a>
-<a class="sourceLine" id="cb6-5" title="5">     <span class="ex">Homepage</span>:            http://38-moths.shithouse.tv/</a>
-<a class="sourceLine" id="cb6-6" title="6">     <span class="ex">Description</span>:         38-Moths micro-web framework</a>
-<a class="sourceLine" id="cb6-7" title="7"></a>
-<a class="sourceLine" id="cb6-8" title="8">[<span class="ex">1</span>] <span class="st">&quot;qpfiffer&quot;</span> /var/db/repos/qpfiffer</a></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> eix 38-moths</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="ex">[I]</span> www-misc/38-moths [1]</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>     <span class="ex">Available</span> versions:  <span class="er">(</span><span class="ex">~</span><span class="kw">)</span><span class="ex">0.4</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>     <span class="ex">Installed</span> versions:  0.4<span class="er">(</span><span class="ex">09:01:01</span> AM 04/03/2020<span class="kw">)</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>     <span class="ex">Homepage:</span>            http://38-moths.shithouse.tv/</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>     <span class="ex">Description:</span>         38-Moths micro-web framework</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="ex">[1]</span> <span class="st">&quot;qpfiffer&quot;</span> /var/db/repos/qpfiffer</span></code></pre></div>
 <h1 id="adding-a-package">Adding a Package</h1>
 <p>Adding a package is pretty simple, but requires knowing about <a href="https://wiki.gentoo.org/wiki/Basic_guide_to_write_Gentoo_Ebuilds"><code>ebuilds</code></a>. There are a ton of resources around ebuilds and a lot of them are out of date, but you can hack one together one pretty easily by poking around in <a href="https://overlays.gentoo.org/">other people’s overlays</a>, following guides and just generally being resourceful.</p>
 <p>At a bare minimum, for a package, you’ll need to add something like the following directory structure to your repository:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb7-1" title="1">└── <span class="ex">www-misc</span></a>
-<a class="sourceLine" id="cb7-2" title="2">    └── <span class="ex">38-moths</span></a>
-<a class="sourceLine" id="cb7-3" title="3">        ├── <span class="ex">38-moths-0.4.ebuild</span></a>
-<a class="sourceLine" id="cb7-4" title="4">        ├── <span class="ex">files</span></a>
-<a class="sourceLine" id="cb7-5" title="5">        │   └── <span class="ex">destdir-0.4.patch</span></a>
-<a class="sourceLine" id="cb7-6" title="6">        ├── <span class="ex">Manifest</span></a>
-<a class="sourceLine" id="cb7-7" title="7">        └── <span class="ex">metadata.xml</span></a></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">└──</span> www-misc</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="ex">└──</span> 38-moths</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>        <span class="ex">├──</span> 38-moths-0.4.ebuild</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>        <span class="ex">├──</span> files</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>        <span class="ex">│  </span> └── destdir-0.4.patch</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>        <span class="ex">├──</span> Manifest</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>        <span class="ex">└──</span> metadata.xml</span></code></pre></div>
 <p>In here you’ll notice a couple things: <code>www-misc/38-moths</code> is the package name that Portage will show you, <code>0.4</code> will be our listed version, we have a single patch (<code>destdir-0.4.patch</code>) and a couple of meta files (<code>Manifest</code> and <code>metadata.xml</code>).</p>
 <p><code>Manifest</code> we’ll get to in a little bit, and <code>metadata.xml</code> you can just go <a href="https://git.sr.ht/~qpfiffer/overlay/tree/master/www-misc/38-moths/metadata.xml">look at</a> because it’s not very interesting. It’s exactly what it says on the box: metadata about the package.</p>
 <p>The ebuild for <code>38-moths</code>, as of right now, looks like this:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode ebuild"><code class="sourceCode bash"><a class="sourceLine" id="cb8-1" title="1"><span class="co"># Copyright 1999-2020 Gentoo Authors</span></a>
-<a class="sourceLine" id="cb8-2" title="2"><span class="co"># Distributed under the terms of the GNU General Public License v2</span></a>
-<a class="sourceLine" id="cb8-3" title="3"><span class="va">EAPI=</span>7</a>
-<a class="sourceLine" id="cb8-4" title="4"></a>
-<a class="sourceLine" id="cb8-5" title="5"><span class="va">DESCRIPTION=</span><span class="st">&quot;38-Moths micro-web framework&quot;</span></a>
-<a class="sourceLine" id="cb8-6" title="6"><span class="va">HOMEPAGE=</span><span class="st">&quot;http://38-moths.shithouse.tv/&quot;</span></a>
-<a class="sourceLine" id="cb8-7" title="7"><span class="va">SRC_URI=</span><span class="st">&quot;https://git.sr.ht/~qpfiffer/ThirtyEight-Moths/archive/v</span><span class="va">${PV}</span><span class="st">.tar.gz&quot;</span></a>
-<a class="sourceLine" id="cb8-8" title="8"></a>
-<a class="sourceLine" id="cb8-9" title="9"><span class="va">LICENSE=</span><span class="st">&quot;MIT&quot;</span></a>
-<a class="sourceLine" id="cb8-10" title="10"><span class="va">SLOT=</span><span class="st">&quot;0&quot;</span></a>
-<a class="sourceLine" id="cb8-11" title="11"><span class="va">KEYWORDS=</span><span class="st">&quot;~amd64&quot;</span></a>
-<a class="sourceLine" id="cb8-12" title="12"><span class="va">IUSE=</span><span class="st">&quot;&quot;</span></a>
-<a class="sourceLine" id="cb8-13" title="13"></a>
-<a class="sourceLine" id="cb8-14" title="14"><span class="va">S=</span><span class="st">&quot;</span><span class="va">${WORKDIR}</span><span class="st">/ThirtyEight-Moths-v</span><span class="va">${PV}</span><span class="st">&quot;</span></a>
-<a class="sourceLine" id="cb8-15" title="15"></a>
-<a class="sourceLine" id="cb8-16" title="16"><span class="va">PATCHES=(</span></a>
-<a class="sourceLine" id="cb8-17" title="17">    <span class="st">&quot;</span><span class="va">${FILESDIR}</span><span class="st">/destdir-0.4.patch&quot;</span></a>
-<a class="sourceLine" id="cb8-18" title="18">)</a>
-<a class="sourceLine" id="cb8-19" title="19"></a>
-<a class="sourceLine" id="cb8-20" title="20"><span class="va">DEPEND=</span><span class="st">&quot;&quot;</span></a>
-<a class="sourceLine" id="cb8-21" title="21"><span class="va">RDEPEND=</span><span class="st">&quot;</span><span class="va">${DEPEND}</span><span class="st">&quot;</span></a>
-<a class="sourceLine" id="cb8-22" title="22"><span class="va">BDEPEND=</span><span class="st">&quot;&quot;</span></a></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode ebuild"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Copyright 1999-2020 Gentoo Authors</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Distributed under the terms of the GNU General Public License v2</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="va">EAPI</span><span class="op">=</span>7</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="va">DESCRIPTION</span><span class="op">=</span><span class="st">&quot;38-Moths micro-web framework&quot;</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="va">HOMEPAGE</span><span class="op">=</span><span class="st">&quot;http://38-moths.shithouse.tv/&quot;</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="va">SRC_URI</span><span class="op">=</span><span class="st">&quot;https://git.sr.ht/~qpfiffer/ThirtyEight-Moths/archive/v</span><span class="va">${PV}</span><span class="st">.tar.gz&quot;</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="va">LICENSE</span><span class="op">=</span><span class="st">&quot;MIT&quot;</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a><span class="va">SLOT</span><span class="op">=</span><span class="st">&quot;0&quot;</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a><span class="va">KEYWORDS</span><span class="op">=</span><span class="st">&quot;~amd64&quot;</span></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a><span class="va">IUSE</span><span class="op">=</span><span class="st">&quot;&quot;</span></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a><span class="va">S</span><span class="op">=</span><span class="st">&quot;</span><span class="va">${WORKDIR}</span><span class="st">/ThirtyEight-Moths-v</span><span class="va">${PV}</span><span class="st">&quot;</span></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a><span class="va">PATCHES</span><span class="op">=</span><span class="va">(</span></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;</span><span class="va">${FILESDIR}</span><span class="st">/destdir-0.4.patch&quot;</span></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a><span class="va">)</span></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a><span class="va">DEPEND</span><span class="op">=</span><span class="st">&quot;&quot;</span></span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a><span class="va">RDEPEND</span><span class="op">=</span><span class="st">&quot;</span><span class="va">${DEPEND}</span><span class="st">&quot;</span></span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a><span class="va">BDEPEND</span><span class="op">=</span><span class="st">&quot;&quot;</span></span></code></pre></div>
 <p>It’s pretty simple, but took a while to figure out. You’ll have to play around with the steps to actually installing a package via Portage, but in general I’ve found the simpler the better.</p>
 <h2 id="generating-the-manifest">Generating the Manifest</h2>
 <p>The last file you’ll need, the <code>Manifest</code>, can actually be generated by <code>emerge</code> which makes it super useful. Rather than writing out all the hashes for files yourself, you can just check out the repository on your own box and then run the following, in the <code>git</code> checkout of your overlay:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb9-1" title="1">$ <span class="ex">emerge</span> 38-moths-0.4.ebuild manifest</a></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> emerge 38-moths-0.4.ebuild manifest</span></code></pre></div>
 <p>This will spit out a shiny-new <code>Manifest</code> file which you can check in to your overlay.</p>
 <h1 id="unmasking-your-packages">Unmasking your packages</h1>
 <p>Gentoo is very stingey about which things are <a href="https://wiki.gentoo.org/wiki/AMD64/FAQ#I_want_to_install_package_foo.2C_but_emerge_says:_.28masked_by:_.7Eamd64_keyword.29">masked</a> and which aren’t. You may have noticed the following line in the <code>.ebuild</code> above:</p>
