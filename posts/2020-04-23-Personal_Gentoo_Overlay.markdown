@@ -143,7 +143,7 @@ yourself, you can just check out the repository on your own box and then run the
 following, in the `git` checkout of your overlay:
 
 ```bash
-$ emerge 38-moths-0.4.ebuild manifest
+$ ebuild 38-moths-0.4.ebuild manifest
 ```
 
 This will spit out a shiny-new `Manifest` file which you can check in to your overlay.
