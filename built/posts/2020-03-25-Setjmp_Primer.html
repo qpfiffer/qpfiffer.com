@@ -64,44 +64,44 @@ Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
 <p>I’m always on the lookout for <a href="https://linux.die.net/man/2/writev">fun</a> and <a href="https://linux.die.net/man/2/posix_fadvise">weird</a> new syscalls, and <a href="https://linux.die.net/man/3/setjmp">setjmp(3)</a> has been in the back of my mind for a while. Reading the <a href="https://en.wikipedia.org/wiki/Setjmp.h">wikipedia page</a> can be tremendously useful here.</p>
 <p>The way I like to think about <code>setjmp</code> and <code>longjmp</code> is that they’re like contextualized gotos, with similarities to <code>fork()</code>. That is: you call <code>setjmp()</code> and evaluate it’s return value in a branch, just like you would with fork, but you can actually re-enter that point from pretty much anywhere you have access to the <code>jmp_buf</code> you defined when initially calling <code>setjmp()</code>. Let’s look at how it’s used in Lair.</p>
 <p>Lair has a very small <code>struct _lair_runtime</code> object associated with each running program that currently only stores exception data. It’s definition is something like this:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">struct</span> _lair_runtime <span class="op">{</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    ERROR_TYPE exception_type<span class="op">;</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">char</span> <span class="op">*</span>exception_msg<span class="op">;</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    jmp_buf exception_buffer<span class="op">;</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">};</span></span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">struct</span> _lair_runtime {</a>
+<a class="sourceLine" id="cb1-2" title="2">    ERROR_TYPE exception_type;</a>
+<a class="sourceLine" id="cb1-3" title="3">    <span class="dt">char</span> *exception_msg;</a>
+<a class="sourceLine" id="cb1-4" title="4">    jmp_buf exception_buffer;</a>
+<a class="sourceLine" id="cb1-5" title="5">};</a></code></pre></div>
 <p>It’ll probably change in the future, but for now it’s sort of like a poor-man’s <code>perror()</code>: You have one exception, and it’s information/message is stored in that runtime object when it happens. The real interesting part to the runtime data is the <code>jmp_buf exception_buffer;</code> though: That’s where the contextual data for the exception is stored. Here’s how it gets setup in the <code>lair_execute()</code> function:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> lair_execute<span class="op">(</span><span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>program<span class="op">,</span> <span class="dt">const</span> <span class="dt">size_t</span> len<span class="op">)</span> <span class="op">{</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">struct</span> _lair_runtime <span class="op">*</span>runtime <span class="op">=</span> _lair_runtime_start<span class="op">();</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>setjmp<span class="op">(</span>runtime<span class="op">-&gt;</span>exception_buffer<span class="op">))</span> <span class="op">{</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="op">(</span>runtime<span class="op">-&gt;</span>exception_msg<span class="op">)</span> <span class="op">{</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>            print_error<span class="op">(</span>runtime<span class="op">-&gt;</span>exception_type<span class="op">,</span> runtime<span class="op">-&gt;</span>exception_msg<span class="op">);</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">goto</span> error<span class="op">;</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="co">/* ... */</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode c"><code class="sourceCode c"><a class="sourceLine" id="cb2-1" title="1"><span class="dt">int</span> lair_execute(<span class="dt">const</span> <span class="dt">char</span> *program, <span class="dt">const</span> <span class="dt">size_t</span> len) {</a>
+<a class="sourceLine" id="cb2-2" title="2">    <span class="kw">struct</span> _lair_runtime *runtime = _lair_runtime_start();</a>
+<a class="sourceLine" id="cb2-3" title="3">    <span class="cf">if</span> (setjmp(runtime-&gt;exception_buffer)) {</a>
+<a class="sourceLine" id="cb2-4" title="4">        <span class="cf">if</span> (runtime-&gt;exception_msg) {</a>
+<a class="sourceLine" id="cb2-5" title="5">            print_error(runtime-&gt;exception_type, runtime-&gt;exception_msg);</a>
+<a class="sourceLine" id="cb2-6" title="6">        }</a>
+<a class="sourceLine" id="cb2-7" title="7">        <span class="cf">goto</span> error;</a>
+<a class="sourceLine" id="cb2-8" title="8">    }</a>
+<a class="sourceLine" id="cb2-9" title="9">    <span class="co">/* ... */</span></a>
+<a class="sourceLine" id="cb2-10" title="10">}</a></code></pre></div>
 <p>This is that conditional evaluation I was talking about before: the first time you evaluate <code>setjmp()</code>, it’ll return <code>0</code> but store it’s current context into the specified <code>jmp_buf</code>. This let’s you do cool things later on, which we’ll talk about shortly. Since it returns <code>0</code> initially, we move on and execute whatever <a href="https://git.sr.ht/~qpfiffer/lair/tree/master/t/minus.den">program</a> we’re trying to run.</p>
 <p>Later on, when we encounter some <a href="https://github.com/munificent/vigil">unforgiveable condition</a> like a syntax error, parsing error, undefined function, etc. we can call this code:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> throw_exception<span class="op">(</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>        <span class="kw">struct</span> _lair_runtime <span class="op">*</span>r<span class="op">,</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        <span class="dt">const</span> ERROR_TYPE err_type<span class="op">,</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>        <span class="dt">const</span> <span class="dt">char</span> <span class="op">*</span>msg<span class="op">)</span> <span class="op">{</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    r<span class="op">-&gt;</span>exception_type <span class="op">=</span> err_type<span class="op">;</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    r<span class="op">-&gt;</span>exception_msg <span class="op">=</span> strdup<span class="op">(</span>msg<span class="op">);</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    longjmp<span class="op">(</span>r<span class="op">-&gt;</span>exception_buffer<span class="op">,</span> <span class="dv">1</span><span class="op">);</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode c"><code class="sourceCode c"><a class="sourceLine" id="cb3-1" title="1"><span class="dt">void</span> throw_exception(</a>
+<a class="sourceLine" id="cb3-2" title="2">        <span class="kw">struct</span> _lair_runtime *r,</a>
+<a class="sourceLine" id="cb3-3" title="3">        <span class="dt">const</span> ERROR_TYPE err_type,</a>
+<a class="sourceLine" id="cb3-4" title="4">        <span class="dt">const</span> <span class="dt">char</span> *msg) {</a>
+<a class="sourceLine" id="cb3-5" title="5">    r-&gt;exception_type = err_type;</a>
+<a class="sourceLine" id="cb3-6" title="6">    r-&gt;exception_msg = strdup(msg);</a>
+<a class="sourceLine" id="cb3-7" title="7"></a>
+<a class="sourceLine" id="cb3-8" title="8">    longjmp(r-&gt;exception_buffer, <span class="dv">1</span>);</a>
+<a class="sourceLine" id="cb3-9" title="9">}</a></code></pre></div>
 <p>There is also a handy <a href="https://git.sr.ht/~qpfiffer/lair/tree/master/src/error.c#L19-25">helper function</a> for checking runtime constraints called <code>check()</code> in Lair that will wrap this in a simpler way, so we can do something like this (as an example):</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>check<span class="op">(</span>r<span class="op">,</span> ast<span class="op">-&gt;</span>indent_level <span class="op">&gt;</span> initial_indent_level<span class="op">,</span> ERR_SYNTAX<span class="op">,</span> <span class="st">&quot;No &#39;True&#39; condition to follow.&quot;</span><span class="op">);</span></span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode c"><code class="sourceCode c"><a class="sourceLine" id="cb4-1" title="1">check(r, ast-&gt;indent_level &gt; initial_indent_level, ERR_SYNTAX, <span class="st">&quot;No &#39;True&#39; condition to follow.&quot;</span>);</a></code></pre></div>
 <p>Anyway, the important thing to notice here is the <code>longjmp()</code> call. <code>longjmp()</code> takes a <code>jmp_buf</code> and a value as an argument. The <code>jmp_buf</code> is important because it tells <code>longjmp()</code> where to go, and the value is important because it tells <code>setjmp()</code> what to return: if you hand <code>longjmp()</code> a <code>1</code>, <code>setjmp()</code> will return <code>1</code> waaaaay back in our initial conditional, which for review is here:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>    <span class="co">/* ... */</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="op">(</span>setjmp<span class="op">(</span>runtime<span class="op">-&gt;</span>exception_buffer<span class="op">))</span> <span class="op">{</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="op">(</span>runtime<span class="op">-&gt;</span>exception_msg<span class="op">)</span> <span class="op">{</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>            print_error<span class="op">(</span>runtime<span class="op">-&gt;</span>exception_type<span class="op">,</span> runtime<span class="op">-&gt;</span>exception_msg<span class="op">);</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">goto</span> error<span class="op">;</span></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="co">/* ... */</span></span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode c"><code class="sourceCode c"><a class="sourceLine" id="cb5-1" title="1">    <span class="co">/* ... */</span></a>
+<a class="sourceLine" id="cb5-2" title="2">    <span class="cf">if</span> (setjmp(runtime-&gt;exception_buffer)) {</a>
+<a class="sourceLine" id="cb5-3" title="3">        <span class="cf">if</span> (runtime-&gt;exception_msg) {</a>
+<a class="sourceLine" id="cb5-4" title="4">            print_error(runtime-&gt;exception_type, runtime-&gt;exception_msg);</a>
+<a class="sourceLine" id="cb5-5" title="5">        }</a>
+<a class="sourceLine" id="cb5-6" title="6">        <span class="cf">goto</span> error;</a>
+<a class="sourceLine" id="cb5-7" title="7">    }</a>
+<a class="sourceLine" id="cb5-8" title="8">    <span class="co">/* ... */</span></a></code></pre></div>
 <p>The only caveat to this is that if you pass <code>longjmp()</code> a <code>0</code>, <code>setjmp()</code> will behave as if it returned <code>1</code>. Basically <code>setjmp()</code> will resolve truthily regardless of what number you pass to <code>longjmp()</code>: You just get to pick what value of truthiness.</p>
 <p>So now that we’ve called <code>longjmp()</code>, our <a href="https://en.wikipedia.org/wiki/Program_counter">instruction pointer</a> is now back at this <code>setjmp()</code> call, except it acts as though it’s returning whatever we handed to <code>longjmp()</code>, which in our case is <code>1</code>. This means we enter the branch, check our <code>exception_msg</code>, print it out and die! Nice. This is much better than just calling <code>exit(1)</code>, now we can run multiple unit tests as black boxes and expect their results.</p>
 <p>This isn’t “real” exception handling yet, but is an excellent starting block. Things to consider when moving forward are:</p>

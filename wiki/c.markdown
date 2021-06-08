@@ -19,3 +19,4 @@ Various links to things that are helpful.
 # Articles
 
 * [Tail-call in C](https://blog.reverberate.org/2021/04/21/musttail-efficient-interpreters.html)
+* [Crazy hot-reload](https://nullprogram.com/blog/2014/12/23/)
