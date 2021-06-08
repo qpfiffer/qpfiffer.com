@@ -16,6 +16,9 @@ Various links to things that are helpful.
 * [SEI Cert C Coding Standard](https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard)
 * [C code (violence)](https://ftrv.se/3)
 
+# Blogs
+* [nullprogram](https://nullprogram.com/tags/c/)
+
 # Articles
 
 * [Tail-call in C](https://blog.reverberate.org/2021/04/21/musttail-efficient-interpreters.html)
