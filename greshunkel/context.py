@@ -5,17 +5,17 @@ import hashlib, subprocess
 
 BASE_CONTEXT = {
     "TIMELINE_ENTRIES": [
-        {"date": "January 1 2021", "weeks": "15", "text": "Flagstaff, AZ", "containerclass": "left"},
-        {"date": "April 17 2021", "weeks": "6", "text": "Boise, ID", "containerclass": "right"},
-        {"date": "May 31 2021", "weeks": "4", "text": "Mazama, WA", "containerclass": "left"},
-        {"date": "July 5 2021", "weeks": "7", "text": "Placerville, CA", "containerclass": "right"},
-        {"date": "September 6 2021", "weeks": "5", "text": "Grant's Pass, OR", "containerclass": "right"},
-        {"date": "October 16 2021", "weeks": "5", "text": "Bend, OR", "containerclass": "left"},
-        {"date": "November 25 2021", "weeks": "12", "text": "Grimentz, Switzerland", "containerclass": "right"},
-        {"date": "March 1 2022", "weeks": "12", "text": "Norway", "containerclass": "left"},
-        {"date": "June 1 2022", "weeks": "8", "text": "Faroe Islands", "containerclass": "right"},
-        {"date": "August 1 2022", "weeks": "12", "text": "Vancouver Island", "containerclass": "left"},
-        {"date": "November 1 2022", "weeks": "?", "text": "South America", "containerclass": "right"},
+        {"date": "January 1 2021", "weeks": "15", "text": "Flagstaff, AZ", "containerclass": "left", "timeclass": "previous"},
+        {"date": "April 17 2021", "weeks": "6", "text": "Boise, ID", "containerclass": "right", "timeclass": "previous"},
+        {"date": "May 31 2021", "weeks": "4", "text": "Winthrop, WA", "containerclass": "left", "timeclass": "current"},
+        {"date": "July 5 2021", "weeks": "7", "text": "Placerville, CA", "containerclass": "right", "timeclass": ""},
+        {"date": "September 6 2021", "weeks": "5", "text": "Grant's Pass, OR", "containerclass": "left", "timeclass": ""},
+        {"date": "October 16 2021", "weeks": "5", "text": "Bend, OR", "containerclass": "right", "timeclass": ""},
+        {"date": "November 25 2021", "weeks": "12", "text": "Grimentz, Switzerland", "containerclass": "left", "timeclass": ""},
+        {"date": "March 1 2022", "weeks": "12", "text": "Norway", "containerclass": "right", "timeclass": ""},
+        {"date": "June 1 2022", "weeks": "8", "text": "Faroe Islands", "containerclass": "left", "timeclass": ""},
+        {"date": "August 1 2022", "weeks": "12", "text": "Vancouver Island", "containerclass": "right", "timeclass": ""},
+        {"date": "November 1 2022", "weeks": "?", "text": "South America", "containerclass": "left", "timeclass": ""},
     ]
 }
 
