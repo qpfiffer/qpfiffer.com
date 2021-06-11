@@ -62,45 +62,45 @@ Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
 		<div id="main_container">
 			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> A Random Python Timezone Bug</h2><p class="meta"><span class="author_name">2020-03-12 by  Quinlan Pfiffer</span><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span><span style="background: linear-gradient(90deg, #6dba82 0%, #f37055 100%);" class="tag">writing</span></p><p>So this one is another interesting Python Timezone thing. It feels like every time I do something with timezones in Python, I think I’ve got them figured out and I clearly don’t. Theres always another thing. This one was interesting though and took a while to figure out. The issue turned out to be not as straight-forward as I thought it would have been.</p>
 <p>Imagine something like this:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><a class="sourceLine" id="cb1-1" title="1"><span class="im">from</span> datetime <span class="im">import</span> datetime, timezone</a>
-<a class="sourceLine" id="cb1-2" title="2"><span class="im">import</span> pytz</a>
-<a class="sourceLine" id="cb1-3" title="3"></a>
-<a class="sourceLine" id="cb1-4" title="4">TIMEZONE <span class="op">=</span> <span class="st">&quot;US/Eastern&quot;</span></a>
-<a class="sourceLine" id="cb1-5" title="5">tz <span class="op">=</span> pytz.timezone(TIMEZONE)</a>
-<a class="sourceLine" id="cb1-6" title="6"></a>
-<a class="sourceLine" id="cb1-7" title="7"><span class="kw">def</span> utc_now():</a>
-<a class="sourceLine" id="cb1-8" title="8">    <span class="cf">return</span> datetime.now(timezone.utc)</a>
-<a class="sourceLine" id="cb1-9" title="9"></a>
-<a class="sourceLine" id="cb1-10" title="10"><span class="kw">def</span> tz_now():</a>
-<a class="sourceLine" id="cb1-11" title="11">    <span class="cf">return</span> convert_to_local(get_utc_now())</a>
-<a class="sourceLine" id="cb1-12" title="12"></a>
-<a class="sourceLine" id="cb1-13" title="13"><span class="kw">def</span> convert_to_local(any_time):</a>
-<a class="sourceLine" id="cb1-14" title="14">    <span class="cf">return</span> any_time.astimezone(tz)</a>
-<a class="sourceLine" id="cb1-15" title="15"></a>
-<a class="sourceLine" id="cb1-16" title="16"><span class="kw">def</span> convert_to_utc(any_time):</a>
-<a class="sourceLine" id="cb1-17" title="17">    <span class="cf">return</span> any_time.astimezone(pytz.utc)</a></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datetime <span class="im">import</span> datetime, timezone</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pytz</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>TIMEZONE <span class="op">=</span> <span class="st">&quot;US/Eastern&quot;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>tz <span class="op">=</span> pytz.timezone(TIMEZONE)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> utc_now():</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> datetime.now(timezone.utc)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tz_now():</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> convert_to_local(get_utc_now())</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> convert_to_local(any_time):</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> any_time.astimezone(tz)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> convert_to_utc(any_time):</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> any_time.astimezone(pytz.utc)</span></code></pre></div>
 <p>With me so far? Simple stuff, and this is all the correct way to do timezones in Python: No <a href="https://docs.python.org/3/library/datetime.html#aware-and-naive-objects">naive timestamps</a>, no <a href="http://pytz.sourceforge.net/#localized-times-and-date-arithmetic">replace</a>, use UTC for computation and localtime for display, etc. Good, let’s keep going:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><a class="sourceLine" id="cb2-1" title="1"><span class="co"># Get the first of the month, in the local time:</span></a>
-<a class="sourceLine" id="cb2-2" title="2">local_first_of_month <span class="op">=</span> tz_now().replace(day<span class="op">=</span><span class="dv">1</span>, hour<span class="op">=</span><span class="dv">0</span>, minute<span class="op">=</span><span class="dv">0</span>,</a>
-<a class="sourceLine" id="cb2-3" title="3">        second<span class="op">=</span><span class="dv">0</span>, microsecond<span class="op">=</span><span class="dv">0</span>)</a>
-<a class="sourceLine" id="cb2-4" title="4"><span class="co"># datetime.datetime(2020, 3, 1, 0, 0,</span></a>
-<a class="sourceLine" id="cb2-5" title="5"><span class="co">#    tzinfo=&lt;DstTzInfo &#39;US/Eastern&#39; EDT-1 day, 20:00:00 DST&gt;)</span></a>
-<a class="sourceLine" id="cb2-6" title="6"></a>
-<a class="sourceLine" id="cb2-7" title="7"><span class="co"># Convert it to utc:</span></a>
-<a class="sourceLine" id="cb2-8" title="8">utc_first_of_month <span class="op">=</span> convert_to_utc(local_first_of_month)</a>
-<a class="sourceLine" id="cb2-9" title="9"><span class="co"># datetime.datetime(2020, 3, 1, 4, 0,</span></a>
-<a class="sourceLine" id="cb2-10" title="10"><span class="co">#    tzinfo=datetime.timezone.utc)</span></a>
-<a class="sourceLine" id="cb2-11" title="11"></a>
-<a class="sourceLine" id="cb2-12" title="12"><span class="co"># Convert it back and ???</span></a>
-<a class="sourceLine" id="cb2-13" title="13">convert_to_local(utc_first_of_month)</a>
-<a class="sourceLine" id="cb2-14" title="14"><span class="co"># datetime.datetime(2020, 2, 29, 23, 0,</span></a>
-<a class="sourceLine" id="cb2-15" title="15"><span class="co">#    tzinfo=&lt;DstTzInfo &#39;US/Eastern&#39; EST-1 day, 19:00:00 STD&gt;)</span></a></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the first of the month, in the local time:</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>local_first_of_month <span class="op">=</span> tz_now().replace(day<span class="op">=</span><span class="dv">1</span>, hour<span class="op">=</span><span class="dv">0</span>, minute<span class="op">=</span><span class="dv">0</span>,</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>        second<span class="op">=</span><span class="dv">0</span>, microsecond<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># datetime.datetime(2020, 3, 1, 0, 0,</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">#    tzinfo=&lt;DstTzInfo &#39;US/Eastern&#39; EDT-1 day, 20:00:00 DST&gt;)</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert it to utc:</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>utc_first_of_month <span class="op">=</span> convert_to_utc(local_first_of_month)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co"># datetime.datetime(2020, 3, 1, 4, 0,</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co">#    tzinfo=datetime.timezone.utc)</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert it back and ???</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>convert_to_local(utc_first_of_month)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="co"># datetime.datetime(2020, 2, 29, 23, 0,</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="co">#    tzinfo=&lt;DstTzInfo &#39;US/Eastern&#39; EST-1 day, 19:00:00 STD&gt;)</span></span></code></pre></div>
 <p>Whoa, wait a minute, what happened there? Why aren’t they the same? Should going between UTC and your local timezone be idempotent? Well, you’d be correct, except that things go a little haywire when you call <code>replace()</code>. <code>replace()</code> will probably work just fine in the vast majority of cases, <em>except</em> when you cross a daylight savings-time boundary. You’ll notice here that the two timestamps have the same timezone name, but differ in Daylight-ness: <code>DST</code> vs. <code>STD</code>.</p>
 <p>The reason it isn’t “idempotent” here is because that doesn’t really make any sense, since you’re crossing a datetime boundary: Though timezones are technically the same, the hour delta between UTC changes because of daylight savings time. This only happens when you do a <code>replace()</code>, because you’re just modifying values on an existing timezone. Fascinating, but REAL annoying. Heres the correct implementation: instead of doing a replace, build the datetime from the ground up:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><a class="sourceLine" id="cb3-1" title="1"><span class="co"># Get the first of the month, in the local time:</span></a>
-<a class="sourceLine" id="cb3-2" title="2">local_first_of_month <span class="op">=</span> datetime(year<span class="op">=</span>this.year, month<span class="op">=</span>this.month, day<span class="op">=</span><span class="dv">1</span>,</a>
-<a class="sourceLine" id="cb3-3" title="3">        hour<span class="op">=</span><span class="dv">0</span>, minute<span class="op">=</span><span class="dv">0</span>, second<span class="op">=</span><span class="dv">0</span>, microsecond<span class="op">=</span><span class="dv">0</span>)</a>
-<a class="sourceLine" id="cb3-4" title="4">local_first_of_month <span class="op">=</span> tz.localize(local_first_of_month)</a></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the first of the month, in the local time:</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>local_first_of_month <span class="op">=</span> datetime(year<span class="op">=</span>this.year, month<span class="op">=</span>this.month, day<span class="op">=</span><span class="dv">1</span>,</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        hour<span class="op">=</span><span class="dv">0</span>, minute<span class="op">=</span><span class="dv">0</span>, second<span class="op">=</span><span class="dv">0</span>, microsecond<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>local_first_of_month <span class="op">=</span> tz.localize(local_first_of_month)</span></code></pre></div>
 <p>This works as you’d expect, and works regardless of when you run the code since you’re not doing a replace on <code>datetime.now()</code>. Good luck out there, soldier.</p>
 </div></div></div></div>
 
