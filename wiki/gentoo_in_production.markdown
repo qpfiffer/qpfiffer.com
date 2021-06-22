@@ -13,3 +13,6 @@ title: Notes for Gentoo in Production
 # Links
 
 * [Gentoo Server How-To](https://github.com/rkruk/gentoo-server-setup)
+* [Portage sets for building Package lists](https://wiki.gentoo.org/wiki//etc/portage/sets)
+* [Random comment on embedding
+  stuff](https://old.reddit.com/r/linux/comments/1iw5b6/til_google_chrome_os_core_is_a_gentoo/cb8pix8/)
