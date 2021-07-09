@@ -18,8 +18,10 @@ thing: Kyrgyzstan bikepacking. This is my personal planning document.
 ### To Do
     * Straighten out Chainring
     * Get new chain
-    * Redo tires
-    * Make sure 
+    * x Redo tires
+    * Check solar panels for charging
+    * Find bike box to get bike to K
+        * Call local shops?
 
 ### To Buy
     * New Chain
@@ -41,11 +43,14 @@ thing: Kyrgyzstan bikepacking. This is my personal planning document.
         * Socks
         * Puffy
     * Sleep System
+        * Drybag frontroll?
     * Bags
         * Framebag
         * Snack Bag
         * Gas tank bag
         * Seat bag
+    * Misc.
+        * Zip-ties
 
 ## Questions
     * Logistics:
