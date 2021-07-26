@@ -19,17 +19,18 @@ thing: Kyrgyzstan bikepacking. This is my personal planning document.
     * Straighten out Chainring
     * Get new chain
     * x Redo tires
-    * Check solar panels for charging
+    * x Check solar panels for charging
     * Find bike box to get bike to K
         * Call local shops?
 
 ### To Buy
     * New Chain
+    * Spare links (powerlinks or whatever)
     * Moloko/H Bars or something
     * New Bike Shoes
-    * Gas tank bag
+    * x Gas tank bag
     * Replacement debit card?
-        * Find in PDX
+        * x Find in PDX
 
 ## Gear
     * Clothes
@@ -57,4 +58,7 @@ thing: Kyrgyzstan bikepacking. This is my personal planning document.
         * How do we transport the bikes?
 
     * Tent or Bivvy?
+        * Tent.
+
     * Do I want to bring the fatbike?
+        * Yes.

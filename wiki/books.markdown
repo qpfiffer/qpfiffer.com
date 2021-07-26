@@ -45,9 +45,9 @@ finish books.
 * [Foundation and Empire](https://en.wikipedia.org/wiki/Foundation_and_Empire)
 * [The Freeze-Frame Revolution](https://www.goodreads.com/book/show/36510759-the-freeze-frame-revolution)
 * [Get In the Van](https://en.wikipedia.org/wiki/Get_in_the_Van)
-* [Gideon the Ninth](https://www.goodreads.com/en/book/show/42036538-gideon-the-ninth)
+* [Gideon the Ninth](https://www.goodreads.com/en/book/show/42036538-gideon-the-ninth) +1
 * [Glasshouse](https://en.wikipedia.org/wiki/Glasshouse_(novel))
-* [Harrow the Ninth](https://en.wikipedia.org/wiki/Harrow_the_Ninth)
+* [Harrow the Ninth](https://en.wikipedia.org/wiki/Harrow_the_Ninth) +1
 * [Haunted](https://en.wikipedia.org/wiki/Haunted_(Palahniuk_novel))
 * [Her Body and Other Parties](https://www.goodreads.com/book/show/33375622-her-body-and-other-parties)
 * [High Rise](https://en.wikipedia.org/wiki/High_Rise)
