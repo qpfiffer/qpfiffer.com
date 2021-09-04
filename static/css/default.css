@@ -127,3 +127,12 @@ footer img {
 p.meta .tag {
 	margin-left: 1em;
 }
+.linktree li {
+	list-style: none;
+	margin-bottom: 2em;
+}
+.linktree li > a {
+	padding: 0.5em;
+	border: 2px solid #ff4742;
+	border-radius: 4px;
+}
