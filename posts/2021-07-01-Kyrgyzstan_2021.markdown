@@ -5,6 +5,11 @@ tags: outside, adventure, bikepacking
 bg-image: /static/img/kyrgyzstan_2021/header.jpg
 ---
 
+<iframe
+src="https://ridewithgps.com/embeds?type=route&id=37427930&sampleGraph=true"
+style="width: 1px; min-width: 100%; height: 700px; border: none;"
+scrolling="no"></iframe>
+
 This year, for our two-ish weeks of vacation, Megan wanted very badly to do the
 [Nahanni adventure](https://www.mountainproject.com/area/105905652/lotus-flower-tower). Again. And it didn't happen- again. This is the third time
 she's been unable to make it work, due to unforseen circumstances or whatever.
@@ -65,6 +70,70 @@ that changed weren't insignificant.
 
 I decided to use the only bike I have, a [Surly Wednesday](https://surlybikes.com/bikes/wednesday) and Megan went with
 her bikepacking rig, a Salsa Woodsmoke (27.5).
+
+# Day 0
+
+After a 15-hour flight to Dubai, and then a 4-hour flight to Bishkek we arrived
+at 4AM local time. The previously-mentioned Lithuanians we were collaborating
+with had pointed out [Iron Horse Nomads](https://ironhorsenomads.com/) to us as our sort of local goto, and
+they arranged for someone to pick us up at the airport. It's always novel to see
+yours (actually Megan's) name on a piece of paper among a dozen others.
+
+A short shuttle ride into a new city, picked up fuel and other things we forgot
+(like the multitool, oops) and assembled bikes. It's always fun to pack all your
+food and such into the bikes, to see how heavy they are. We left later that
+afternoon for the long shuttle ride to our starting point, Kysyl-su on the
+southeast side of lake Issyk-kul.
+
+The jetlag hit me pretty hard on the way there and I mostly
+snoozed the whole ride despite the valiant attempts by our new Lithuanian
+friends to make conversation. We got in around dusk and found the one hotel
+, where we met some latvians who were also there to do the route. They seemed
+impressed at our desire to do the whole thing in ~11 days instead of the
+allocated 20.
+
+Something crazy happened, in that someone actually _stole_ Megan's phone our of
+the car. She couldn't find it, and just then some old guy walked in off the
+street waving her phone around saying (in Kyrgyz) "Is this anyone's phone?"- we
+pulled up the CCTV footage and some rando had walked in and taken it right out
+of the car while we were all standing there distracted, then this other guy got
+it back somehow. It was a weird start to the night. We were a little more
+guarded after that.
+
+We passed out after showers and stashing our bikes and a late, simple dinner of
+rice and eggs. The room + the meal were something like $15.00 USD, I think.
+
+# Day 1
+
+<img src="/static/img/kyrgyzstan_2021/day_1_1.jpg"></img>
+
+We got up early, setup our bikes and got everything ready to go at 6AM. No
+breakfast, just some donut holes that Megan had managed to transport mostly
+un-mangled from the US. One of our Lithuanian friends took some pictures of us
+as we started off into the chilly morning.
+
+It didn't take long before we were out of town and climbing up the valley
+towards Dhzuku pass. Progress was slow, but our bikes were heavy with water and
+food. It was immediately unreal and magical out there. Lots of yurts, horses,
+cows, etc. everywhere. Cars passed us occasionally.
+
+<img src="/static/img/kyrgyzstan_2021/day_1_2.jpg"></img>
+
+We tromped through a few streams, and eventually the trail got steeper and
+narrower, hemming us into the little valley. The trees eventually disappeared
+and a few lakes made their appearance. A man with golden teeth driving a
+Mitsubishi Delica flew by us and camped somewhere up the road before it became
+more or less impassable.
+
+<img src="/static/img/kyrgyzstan_2021/day_1_3.jpg"></img>
+
+After a few hours of soul-crushing hike-a-bike at `11,200ft` we decided to call
+it a day. We were tired of splattering the bikes with cowshit and picked a nice
+spot next to a stream before the final hellish push up the pass. We'd done 37
+miles and about 6k feet of climbing- under our goal of 50-a-day but we knew the
+first day would be tough.
+
+<img src="/static/img/kyrgyzstan_2021/day_1_4.jpg"></img>
 
 <hr>
 
