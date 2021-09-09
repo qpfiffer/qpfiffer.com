@@ -1,9 +1,11 @@
 ---
-title: Kyrgyzstan 2021
+title: Kyrgyzstan 2021 Part 1
 author: Quinlan Pfiffer
 tags: outside, adventure, bikepacking
 bg-image: /static/img/kyrgyzstan_2021/header.jpg
 ---
+
+[Part 2.](/posts/2021-09-08-Kyrgyzstan_2021_2.html)
 
 <iframe
 src="https://ridewithgps.com/embeds?type=route&id=37427930&sampleGraph=true"
@@ -234,6 +236,42 @@ more miles on the highway and ended at probably the best campsite of the trip,
 right on the river in a beautiful valley.
 
 <img src="/static/img/kyrgyzstan_2021/day_3_5.jpg"></img>
+
+# Day 4
+
+Our slowest day to get out of camp, we spent a bunch of time waiting for the sun
+and drying out some of our gear. Luckily both happened. It was a really nice morning, 
+but it took us almost three hours to get up and away.
+
+<img src="/static/img/kyrgyzstan_2021/day_4_1.jpg"></img>
+
+We followed rolling hills in the sun along an increasingly closed-in gorge-
+definitely some Class IV/V sections in there. It'd be a fun descent I think, if
+your skills were up to snuff. I'd like to come back here for sure.
+
+Once we made it out of the valley, it was onto large, expansive grassland and
+less fun riding. Mostly just dusty, forever-flat roads where we were repeatedly
+blasted by the trucks going by. Not quite as engaging. We made it all the way to
+Naryn in the early afternoon where we resupplied and had a real meal. I even had
+service, though I didn't really want it.
+
+We left later immediately on to some pavement and a pretty steep, long climb up
+the side of the highway. We were on roads for a little while after this so time
+flew by, and then we had the best descent, during golden hour, ever.
+
+<img src="/static/img/kyrgyzstan_2021/day_4_2.jpg"></img>
+
+We rolled forever downhill, on really smooth roads. It was nice after the long
+slog earlier. This eventually gave way into us losing the trail and mucking
+around until dark, but it was good while it lasted.
+
+We blindly trusted another little campspot on GaiaGPS since it'd found us our
+beautiful river one, but this turned out to be nothing- we used it anyway. Right
+on the side of the road. Kind of noisy all night but we were so tired we didn't
+care. We'd put in 63 miles and it felt good to be above our needed daily average 
+for once.
+
+[Continued over at part 2.](/posts/2021-09-08-Kyrgyzstan_2021_2.html)
 
 <hr>
 
