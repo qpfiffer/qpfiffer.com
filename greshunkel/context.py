@@ -11,12 +11,7 @@ BASE_CONTEXT = {
         {"date": "July 5 2021", "weeks": "7", "text": "Placerville, CA", "containerclass": "right", "timeclass": "previous"},
         {"date": "August 19 2021", "weeks": "3", "text": "Kyrgyzstan", "containerclass": "right", "timeclass": "previous"},
         {"date": "September 6 2021", "weeks": "5", "text": "Grant's Pass, OR", "containerclass": "left", "timeclass": "current"},
-        {"date": "October 16 2021", "weeks": "5", "text": "Bend, OR", "containerclass": "right", "timeclass": ""},
-        {"date": "November 25 2021", "weeks": "12", "text": "Grimentz, Switzerland", "containerclass": "left", "timeclass": ""},
-        {"date": "March 1 2022", "weeks": "12", "text": "Norway", "containerclass": "right", "timeclass": ""},
-        {"date": "June 1 2022", "weeks": "8", "text": "Faroe Islands", "containerclass": "left", "timeclass": ""},
-        {"date": "August 1 2022", "weeks": "12", "text": "Vancouver Island", "containerclass": "right", "timeclass": ""},
-        {"date": "November 1 2022", "weeks": "?", "text": "South America", "containerclass": "left", "timeclass": ""},
+        {"date": "October 1 2021", "weeks": "?", "text": "?", "containerclass": "right", "timeclass": ""},
     ]
 }
 
