@@ -9,7 +9,7 @@ The Chetco is an amazing, locked in, difficult-to-access river in the Kalmiopsis
 Wilderness. This document is a collection of what I've found and data needed to
 run it.
 
-#E The Gage
+## The Gage
 
 A few reports I've seen have said 600 at [this gage](https://waterdata.usgs.gov/or/nwis/uv?site_no=14400000)
 will mean you have around 100CFS at the Little Chetco "Magic Gorge" section.
