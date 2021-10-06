@@ -23,6 +23,7 @@ finish books.
 * [A Deepness in the Sky](https://en.wikipedia.org/wiki/A_Deepness_in_the_Sky)
 * [Ajax Penumbra 1969](http://www.amazon.com/Ajax-Penumbra-1969-Kindle-Single-ebook/dp/B00EWZC8QI)
 * [Alone](https://en.wikipedia.org/wiki/Richard_E._Byrd)
+* [The Art of Resilience](https://www.goodreads.com/book/show/45444045-the-art-of-resilience)
 * [There Is No Antimemetics Division](https://www.goodreads.com/en/book/show/54870256-there-is-no-antimemetics-division)
 * [Bangkok Tattoo](https://www.amazon.com/Bangkok-Tattoo-Royal-Detective-Novel/dp/1400032911)
 * [Black Hole](http://www.amazon.com/Black-Hole-Novel-Bucky-Sinister/dp/1593766076) +1
@@ -43,7 +44,7 @@ finish books.
 * [Extreme Alpinism](https://www.amazon.com/Extreme-Alpinism-Climbing-Light-High/dp/0898866545)
 * [The First Fifteen Lives of Harry August](https://en.wikipedia.org/wiki/The_First_Fifteen_Lives_of_Harry_August)
 * [Foundation and Empire](https://en.wikipedia.org/wiki/Foundation_and_Empire)
-* [The Freeze-Frame Revolution](https://www.goodreads.com/book/show/36510759-the-freeze-frame-revolution)
+* [The Freeze-Frame Revolution](https://www.goodreads.com/book/show/36510759-the-freeze-frame-revolution) +1
 * [Get In the Van](https://en.wikipedia.org/wiki/Get_in_the_Van)
 * [Gideon the Ninth](https://www.goodreads.com/en/book/show/42036538-gideon-the-ninth) +1
 * [Glasshouse](https://en.wikipedia.org/wiki/Glasshouse_(novel))
