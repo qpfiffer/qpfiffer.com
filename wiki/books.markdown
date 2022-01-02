@@ -67,7 +67,7 @@ finish books.
 * Pattern Recognition - William Gibson
 * [Piercing](http://www.goodreads.com/book/show/14288.Piercing)
 * <a href="https://en.wikipedia.org/wiki/Piranesi_(novel)">Piranesi</a>
-* [Rant: An Oral Biography of Buster Casey](https://en.wikipedia.org/wiki/Rant_(novel))
+* <a href="(https://en.wikipedia.org/wiki/Rant_(novel))">Rant: An Oral Biography of Buster Casey</a>
 * [REAMDE](http://www.amazon.com/Reamde-A-Novel-Neal-Stephenson/dp/0062191497)
 * [S](https://en.wikipedia.org/wiki/S._(Dorst_novel))
 * [Skullcrack City](http://www.amazon.com/Skullcrack-City-Jeremy-Robert-Johnson/dp/1621051714)
@@ -75,9 +75,10 @@ finish books.
 * [Siddartha](https://en.wikipedia.org/wiki/Siddhartha_(novel))
 * Sisyphean - Dempow Torishima
 * [The Sun Also Rises](https://en.wikipedia.org/wiki/The_Sun_Also_Rises)
-* <a href="https://en.wikipedia.org/wiki/Survivor_(Palahniuk_novel\)">Survivor</a>
+* <a href="https://en.wikipedia.org/wiki/Survivor_(Palahniuk_novel)">Survivor</a>
 * [Starfish](https://www.goodreads.com/book/show/66479.Starfish?from_search=true&from_srp=true&qid=tAj4jfNOsO&rank=3)
 * [The Terror](http://www.amazon.com/The-Terror-Novel-Dan-Simmons/dp/0316008079)
+* <a href="https://en.wikipedia.org/wiki/Tropic_of_Cancer_(novel)">Tropic of Cancer - Henry Miller</a>
 * [Venus in Furs](https://en.wikipedia.org/wiki/Venus_in_Furs)
 * [Void Star](https://www.amazon.com/Void-Star-Novel-Zachary-Mason-ebook/dp/B01LZUDPGV/)
 * [We Live Inside You](http://www.amazon.com/Live-Inside-Jeremy-Robert-Johnson/dp/1933929065)
