@@ -1,5 +1,5 @@
 #!/bin/bash -e
-./build.py
+#./build.py
 ./parse_lifts.py
 rsync -Pavz built/* shithouse.tv:/var/www/qpfiffer.com/ &
 rsync -Pavz static/lifts.csv shithouse.tv:/var/www/qpfiffer.com/static/ &
