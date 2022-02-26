@@ -68,6 +68,7 @@ finish books.
 * Pattern Recognition - William Gibson
 * [Piercing](http://www.goodreads.com/book/show/14288.Piercing)
 * <a href="https://en.wikipedia.org/wiki/Piranesi_(novel)">Piranesi</a>
+* Powder Days - Heather Hansman
 * <a href="(https://en.wikipedia.org/wiki/Rant_(novel))">Rant: An Oral Biography of Buster Casey</a>
 * [REAMDE](http://www.amazon.com/Reamde-A-Novel-Neal-Stephenson/dp/0062191497)
 * [S](https://en.wikipedia.org/wiki/S._(Dorst_novel))
