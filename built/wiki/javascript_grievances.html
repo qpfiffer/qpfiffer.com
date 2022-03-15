@@ -81,7 +81,7 @@ example(a, c=5)</code></pre>
 <ul>
 <li>Bookshelf is failing to fetch() a related record on a model, even though it is clearly in the database with the correct ID. Whats going on? I have no idea, no error is thrown. It just returns nothing. I can’t step into the function because I am awaiting it, so it just steps into the runtime’s active hooks thing.</li>
 <li>Even with long stack traces enabled, stack traces are completely useless. Problem: Some SQL query somewhere is throwing and error. Problem: I have no idea where. The solution SHOULD be I just look at the stacktrace and see where the call originates, but javascript is nondeterministic or something and completely useless.</li>
-<li>Programmer goes to see doctor, says he is depressed. Says he is tired of watching errors dissapear into nameless promise drain queues that destroy callstacks and remove context. Doctor says, why not wrap your code in a try catch? Programmer bursts into tears, <code>But doctor, I already wrap every single line in try catch blocks!</code></li>
+<li>Programmer goes to see doctor, says he is depressed. Says he is tired of watching errors dissapear into nameless promise drain queues that destroy callstacks and remove context. Doctor says, why not wrap your code in a try catch? Programmer bursts into tears, <code>But doctor, I already wrap every single   line in try catch blocks!</code></li>
 <li>Today Jest was doing that thing where it truncates my tables before the test is done. Turns out I was calling a method that didn’t exist on a class. The error was completely irrelevant to what was actually happening. I spent an hour and found the bug by stepping through the code line by line.</li>
 </ul>
 </div></div></div></div>
