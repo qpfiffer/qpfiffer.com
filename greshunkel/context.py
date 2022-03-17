@@ -65,7 +65,7 @@ def build_blog_context(default_context, directory, output_path, var_name):
 
         new_post['content'] = get_html_from_markdown(filename, filepath)
         new_post['preview'] = new_post['content'][:300] + "&hellip;"
-        new_post['link'] = "{}{}".format(output_path, post.replace("markdown", "html"))
+        new_post['link'] = "/{}{}".format(output_path, post.replace("markdown", "html"))
         new_post['filename'] = post
         split_post = post.split("-")[:3]
         new_post['date'] = "-".join(split_post)
@@ -96,8 +96,8 @@ def build_blog_context(default_context, directory, output_path, var_name):
                 bg_color = 'background: linear-gradient(90deg, {} 0%, {} 100%);'.format(
                         colors[hsh % len(colors)],
                         colors[hsh2 % len(colors)])
-                single_tag_html += '<span style="{}" class="tag">{}</span>'.format(
-                        bg_color, tag.strip().rstrip()
+                single_tag_html += '<a href="/tags/{}.html"><span style="{}" class="tag">{}</span></a>'.format(
+                        tag, bg_color, tag.strip().rstrip()
                 )
                 tags_html += single_tag_html
                 new_post['tags'] = tags_html
