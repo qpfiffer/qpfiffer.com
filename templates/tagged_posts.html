@@ -1,13 +1,13 @@
 xXx PARENT=templates/base.html xXx
 xXx TITLE xXx
-Tags for xXx SITENAME xXx
+Posts for Tag xXx TAGNAME xXx
 xXx TTYL xXx
 
 xXx SCRIPTS xXx
 xXx TTYL xXx
 
 xXx META xXx
-<meta name="description" content="Tags for xXx SITENAME xXx">
+<meta name="description" content="Posts for tag xXx TAGNAME xXx">
 xXx TTYL xXx
 
 xXx END_SCRIPTS xXx
@@ -17,11 +17,11 @@ xXx CONTENT xXx
 <div class="grid grid-pad">
     <div class="col-1-1">
         <div class="content">
-            <h2>Tags</h2>
+            <h2>Posts tagged with xXx TAGNAME xXx</h2>
             <ul>
-            xXx LOOP tag POSTS_TAGS xXx
+            xXx LOOP post POSTS_WITH_TAG xXx
                 <li class="content blog_item">
-                    <a href="/tags/xXx tag$name xXx.html"><code>xXx tag$html xXx</code></a>
+                    <code>xXx post$date xXx</code> - xXx post$tags xXx<a href="xXx post$link xXx">xXx post$title xXx &raquo;</a>
                 </li>
             xXx BBL xXx
             </ul>

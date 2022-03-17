@@ -86,7 +86,9 @@ def build_blog_context(default_context, directory, output_path, var_name):
             tags = new_post['tags']
             tags = tags.strip().rstrip().split(",")
             tags_html = ""
+            tag_names = []
             for tag in tags:
+                tag = tag.strip().rstrip()
                 single_tag_html = ""
                 colors = ["#f79533", "#f37055", "#ef4e7b", "#a166ab", "#5073b8", "#1098ad", "#07b39b", "#6dba82"]
                 hsh = int(hashlib.sha1(tag.encode()).hexdigest(), 16)
@@ -101,7 +103,9 @@ def build_blog_context(default_context, directory, output_path, var_name):
                 new_post['tags'] = tags_html
 
                 new_tag = Tag(**{"name": tag, "color": bg_color, "html": single_tag_html})
+                tag_names.append(tag)
                 default_context[tag_str].append(new_tag)
+            new_post['tag_names'] = tag_names
         except Exception as e:
             pass
         default_context[var_name].append(new_post)

@@ -8,6 +8,8 @@ WIKI_DIR = "wiki/"
 TEMPLATE_DIR = "templates/"
 BLOGPOST_FILE = "blog_post.html"
 BLOGPOST_TEMPLATE = TEMPLATE_DIR + BLOGPOST_FILE
+TAGGED_POSTS_FILE = "tagged_posts.html"
+TAGGED_POSTS_TEMPLATE = TEMPLATE_DIR + TAGGED_POSTS_FILE
 BUILD_DIR = "built/"
 
 DOCUMENTATION_FILE = "documentation.html"
@@ -243,7 +245,7 @@ def parse_file(context, radical_file):
 
 def main(context):
     all_templates = []
-    required_dirs = ['./built', './built/posts', './built/wiki']
+    required_dirs = ['./built', './built/posts', './built/wiki', './built/tags']
 
     for dirn in required_dirs:
         if not path.exists(dirn):
@@ -251,7 +253,7 @@ def main(context):
 
     for radical_file in listdir(TEMPLATE_DIR):
         # We don't want to render the blog_post template by itself, or the documentation.
-        if TEMPLATE_DIR + radical_file in [BLOGPOST_TEMPLATE, DOCUMENTATION_TEMPLATE]:
+        if TEMPLATE_DIR + radical_file in [BLOGPOST_TEMPLATE, DOCUMENTATION_TEMPLATE, TAGGED_POSTS_TEMPLATE]:
             continue
         if not radical_file.endswith(".html"):
             continue
@@ -277,6 +279,12 @@ def main(context):
         context['dumb_meta'] = [post]
         post_meta = parse_file(context, BLOGPOST_FILE)
         _render_file(post_meta, context, output_filename="posts/" + post['built_filename'])
+
+    for tag in context['POSTS_TAGS']:
+        context['tag'] = [tag]
+        context['POSTS_WITH_TAG'] = [x for x in context['POSTS'] if tag['name'] in x.get('tag_names', [])]
+        post_meta = parse_file(context, TAGGED_POSTS_FILE)
+        _render_file(post_meta, context, output_filename=f'tags/{tag["name"]}.html')
 
     for post in context['WIKI_POSTS']:
         context['dumb_meta'] = [post]
