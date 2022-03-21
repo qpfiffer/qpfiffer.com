@@ -1,7 +1,7 @@
 ---
 title: Bcache and LVM non-destructive setup
 author: Quinlan Pfiffer
-bg-image: ../static/img/12_09_2013.jpg
+bg-image: /static/img/12_09_2013.jpg
 bg-img-src: http://www.flickr.com/photos/104820964@N07/11296545115/
 tags: software, how-to
 ---

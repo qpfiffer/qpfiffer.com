@@ -1,7 +1,7 @@
 ---
 title: 2018 In Review
 author: Quinlan Pfiffer
-bg-image: ../static/img/the_sprint.jpg
+bg-image: /static/img/the_sprint.jpg
 bg-img-src: https://www.facebook.com/quinlan.pfiffer.1
 tags: year-end-review
 ---

@@ -1,7 +1,7 @@
 ---
 title: Hong Kong Day 0
 author: Quinlan Pfiffer
-bg-image: ../static/img/10_21_2013.jpg
+bg-image: /static/img/10_21_2013.jpg
 bg-img-src: http://www.flickr.com/photos/104820964@N07/10565692035/
 tags: travel
 ---

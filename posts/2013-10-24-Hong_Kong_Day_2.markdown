@@ -1,7 +1,7 @@
 ---
 title: Hong Kong Day 2
 author: Quinlan Pfiffer
-bg-image: ../static/img/10_23_2013.jpg
+bg-image: /static/img/10_23_2013.jpg
 bg-img-src: http://www.flickr.com/photos/104820964@N07/10565977533/
 tags: travel
 ---

@@ -1,7 +1,7 @@
 ---
 title: Simple image and audio wth FFMPEG
 author: Quinlan Pfiffer
-bg-image: ../static/img/07_18_2015.jpg
+bg-image: /static/img/07_18_2015.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/16941897023/
 tags: software, how-to
 ---

@@ -1,7 +1,7 @@
 ---
 title: Hong Kong Day 1
 author: Quinlan Pfiffer
-bg-image: ../static/img/10_22_2013.jpg
+bg-image: /static/img/10_22_2013.jpg
 bg-img-src: http://www.flickr.com/photos/104820964@N07/10565842326/
 tags: travel
 ---

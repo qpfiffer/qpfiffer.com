@@ -1,8 +1,11 @@
 ---
 title: A Canyonlands Figure-8
 author: Quinlan Pfiffer
+bg-image: /static/img/canyonlands/bg.jpg
 tags: travel, adventure, packrafting, writing
 ---
+
+**Questions? Email me <a href="email:qpfiffer@gmail.com">here at qpfiffer@gmail.com</a>**
 
 <iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/4079564443/embed/70175450498d961222e3b12856e2d5de630cc8de'></iframe>
 
@@ -69,7 +72,7 @@ dollhouse](https://thetrekplanner.com/canyonlands-the-dollhouse-granaries/). The
 hike up was pretty steep, something like 2500 feet, but it was worth it without
 packs.
 
-After exploring for a while and failing to find the actual Granary,
+After exploring for a while and failing to find the actual Anasazi Granary,
 we headed back down to camp and to sleep, going to bed pretty early. My notes
 mention something about a "Flotilla of Scum", which was a reference to the
 random collections of pond scum and foam on the river.
@@ -80,8 +83,8 @@ random collections of pond scum and foam on the river.
 
 Day two was a hard day for me. We agreed to wake up at 5:30 every morning just so
 we'd have time to hike before the sun totally destroyed us. It was actually
-really nice to get into the rhythm, it definitely set the expectation for the
-how the day was going to. Eric is an efficient machine at packing, and I liked to eat oatmeal, so we
+really nice to get into the rhythm, it definitely set the expectation for
+how the day was going to go, too. Eric is an efficient machine at packing, and I like to eat oatmeal, so we
 usually wouldn't leave camp before 7:00 or so.
 
 Starting our hike with the same 2500 foot climb as the previous day, but with our

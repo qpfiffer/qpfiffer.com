@@ -1,7 +1,7 @@
 ---
 title: Street Fightin
 author: Quinlan Pfiffer
-bg-image: ../static/img/09_06_2014.jpg
+bg-image: /static/img/09_06_2014.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/14970120107/
 tags: travel
 ---

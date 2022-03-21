@@ -1,7 +1,7 @@
 ---
 title: Escape Sling
 author: Quinlan Pfiffer
-bg-image: ../static/img/08_26_2014.jpg
+bg-image: /static/img/08_26_2014.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/14841692188
 tags: travel
 ---

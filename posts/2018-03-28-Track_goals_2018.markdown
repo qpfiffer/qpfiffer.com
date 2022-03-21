@@ -1,7 +1,7 @@
 ---
 title: Cycling Goals 2018
 author: Quinlan Pfiffer
-bg-image: ../static/img/track.jpg
+bg-image: /static/img/track.jpg
 bg-img-src: https://www.instagram.com/p/BXdcs2ZhDr2/
 tags: fitness, bikes
 ---

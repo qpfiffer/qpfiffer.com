@@ -1,7 +1,7 @@
 ---
 title: Camping Checklist
 author: Quinlan Pfiffer
-bg-image: ../static/img/04_25_2016.jpg
+bg-image: /static/img/04_25_2016.jpg
 bg-img-src: https://www.flickr.com/photos/104820964@N07/26640199665/
 tags: outside, checklist
 ---
