@@ -5,9 +5,11 @@ bg-image: /static/img/canyonlands/bg.jpg
 tags: travel, adventure, packrafting, writing
 ---
 
+<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/4079564443/embed/70175450498d961222e3b12856e2d5de630cc8de'></iframe>
+
 **Questions? Email me <a href="email:qpfiffer@gmail.com">here at qpfiffer@gmail.com</a>**
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/4079564443/embed/70175450498d961222e3b12856e2d5de630cc8de'></iframe>
+**Eric over at [packrafting adventures](https://www.packraftingadventures.com/) designed and put this trip together.**
 
 This July, I decided to finally take a [Swiftwater Safety Course](https://swiftwatersafetyinstitute.com/ssi-courses/packraft-specific-training/) and up my safety game on whitewater.
 The course ended up being really underwhelming, but I got to meet a few cool
