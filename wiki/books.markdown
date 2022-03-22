@@ -51,7 +51,7 @@ finish books.
 * [The Freeze-Frame Revolution](https://www.goodreads.com/book/show/36510759-the-freeze-frame-revolution) +1
 * [Get In the Van](https://en.wikipedia.org/wiki/Get_in_the_Van)
 * [Gideon the Ninth](https://www.goodreads.com/en/book/show/42036538-gideon-the-ninth) +1
-* [Glasshouse](https://en.wikipedia.org/wiki/Glasshouse_(novel))
+* [Glasshouse](https://en.wikipedia.org/wiki/Glasshouse_(novel)) +1
 * [Harrow the Ninth](https://en.wikipedia.org/wiki/Harrow_the_Ninth) +1
 * [Haunted](https://en.wikipedia.org/wiki/Haunted_(Palahniuk_novel))
 * [Her Body and Other Parties](https://www.goodreads.com/book/show/33375622-her-body-and-other-parties)
@@ -82,5 +82,6 @@ finish books.
 * [The Terror](http://www.amazon.com/The-Terror-Novel-Dan-Simmons/dp/0316008079)
 * <a href="https://en.wikipedia.org/wiki/Tropic_of_Cancer_(novel)">Tropic of Cancer - Henry Miller</a>
 * [Venus in Furs](https://en.wikipedia.org/wiki/Venus_in_Furs)
+* Virtual Light - William Gibson
 * [Void Star](https://www.amazon.com/Void-Star-Novel-Zachary-Mason-ebook/dp/B01LZUDPGV/)
 * [We Live Inside You](http://www.amazon.com/Live-Inside-Jeremy-Robert-Johnson/dp/1933929065)
