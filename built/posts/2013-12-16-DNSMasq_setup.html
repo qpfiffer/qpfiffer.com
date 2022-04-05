@@ -61,24 +61,40 @@ background-image: url("  /static/img/12_16_2013.jpg ");/* background-color: rgba
 			</div>
 		</header>
 		<div id="main_container">
-			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href=" http//www.flickr.com/photos/104820964@N07/10920448963/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Sane dnsmasq setup</h2><p class="meta"><span class="author_name">2013-12-16 by  Quinlan Pfiffer</span><a href="/tags/software.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span></a><a href="/tags/how-to.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #ef4e7b 100%);" class="tag">how-to</span></a></p><p><a href="http://www.thekelleys.org.uk/dnsmasq/doc.html">Dnsmasq</a> is a slick little piece of software that acts as both a DHCP and DNS server. However, it’s annoying to setup if you don’t know what you’re going for.</p>
-<p>My common use case is that I have an internal network behind dnsmasq and an external network of computers all using the same domain. Ideally, what I’d like to happen is that I can ping a computer and have it attempt to resolve first locally and then as a subdomain on the external network.</p>
-<p>This isn’t as hard to do as it seems, and you can actually get it working under windows as well.</p>
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href=" http//www.flickr.com/photos/104820964@N07/10920448963/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Sane dnsmasq setup</h2><p class="meta"><span class="author_name">2013-12-16 by  Quinlan Pfiffer</span><a href="/tags/software.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span></a><a href="/tags/how-to.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #ef4e7b 100%);" class="tag">how-to</span></a></p><p><a href="http://www.thekelleys.org.uk/dnsmasq/doc.html">Dnsmasq</a>
+is a slick little piece of software that acts as both a DHCP and DNS
+server. However, it’s annoying to setup if you don’t know what you’re
+going for.</p>
+<p>My common use case is that I have an internal network behind dnsmasq
+and an external network of computers all using the same domain. Ideally,
+what I’d like to happen is that I can ping a computer and have it
+attempt to resolve first locally and then as a subdomain on the external
+network.</p>
+<p>This isn’t as hard to do as it seems, and you can actually get it
+working under windows as well.</p>
 <ol type="1">
-<li>First of all you need to setup your domain. I’ll be using <code>shithouse.tv</code> because thats what I actually use. You’re going to need to subdivide your physical locations into domains, I use <code>shithouse.tv</code>.</li>
+<li>First of all you need to setup your domain. I’ll be using
+<code>shithouse.tv</code> because thats what I actually use. You’re
+going to need to subdivide your physical locations into domains, I use
+<code>shithouse.tv</code>.</li>
 <li>Assign your domain to the network you want to use it.</li>
 </ol>
 <pre><code>    domain=apartment.shithouse.tv</code></pre>
 <ol type="1">
-<li>If you’re using dnsmasq for DHCP, you’ll want to set that up too</li>
+<li>If you’re using dnsmasq for DHCP, you’ll want to set that up
+too</li>
 </ol>
 <pre><code>    dhcp-range=10.1.10.100,10.1.10.200,255.255.255.0,12h</code></pre>
-<p>This will give 12 hour leases to people between 10.1.10.100-200. 1. If your dnsmasq server is not your router, you’ll want to tell computers getting your leases from you that you aren’t:</p>
+<p>This will give 12 hour leases to people between 10.1.10.100-200. 1.
+If your dnsmasq server is not your router, you’ll want to tell computers
+getting your leases from you that you aren’t:</p>
 <pre><code>    dhcp-option=3,10.1.10.1</code></pre>
-<p>10.1.10.1 is my gateway. 1. Set expand-hosts (this sets the ‘search’ option in <code>/etc/hosts</code>):</p>
+<p>10.1.10.1 is my gateway. 1. Set expand-hosts (this sets the ‘search’
+option in <code>/etc/hosts</code>):</p>
 <pre><code>    expand-hosts</code></pre>
 <ol type="1">
-<li>Set some external DNS, unless you have your own (I use google’s):</li>
+<li>Set some external DNS, unless you have your own (I use
+google’s):</li>
 </ol>
 <pre><code>    server=8.8.8.8
     server=8.8.4.4</code></pre>
@@ -91,10 +107,17 @@ background-image: url("  /static/img/12_16_2013.jpg ");/* background-color: rgba
 <pre><code>
 For the full configuration file:
 </code></pre>
-<p>domain-needed domain=shithouse.com server=8.8.8.8 server=8.8.4.4 expand-hosts dhcp-range=10.1.10.100,10.1.10.200,255.255.255.0,12h dhcp-option=3,10.1.10.1 # Set the default gateway to the actual router, not us dhcp-authoritative cache-size=0</p>
+<p>domain-needed domain=shithouse.com server=8.8.8.8 server=8.8.4.4
+expand-hosts dhcp-range=10.1.10.100,10.1.10.200,255.255.255.0,12h
+dhcp-option=3,10.1.10.1 # Set the default gateway to the actual router,
+not us dhcp-authoritative cache-size=0</p>
 <p>````</p>
-<p>Dropping this into <code>/etc/dnsmasq.conf</code> will allow me to ping external servers, and to resolve local computers. I can ping test.shithouse.tv, test.apartment.shithouse.tv and test and the all resolve to the same place.</p>
-<p>I mostly figured this out while messing around, so optimizations welcome.</p>
+<p>Dropping this into <code>/etc/dnsmasq.conf</code> will allow me to
+ping external servers, and to resolve local computers. I can ping
+test.shithouse.tv, test.apartment.shithouse.tv and test and the all
+resolve to the same place.</p>
+<p>I mostly figured this out while messing around, so optimizations
+welcome.</p>
 </div></div></div></div>
 
 		</div>

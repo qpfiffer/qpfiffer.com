@@ -61,23 +61,83 @@ background-image: url("  /static/img/2017_09_30.jpg ");/* background-color: rgba
 			</div>
 		</header>
 		<div id="main_container">
-			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href=" https//www.flickr.com/photos/104820964@N07/36709791114/in/datetaken-public/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Lets Talk About a Bug</h2><p class="meta"><span class="author_name">2017-09-30 by  Quinlan Pfiffer</span><a href="/tags/software.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span></a><a href="/tags/writing.html"><span style="background: linear-gradient(90deg, #a166ab 0%, #6dba82 100%);" class="tag">writing</span></a></p><p>Let’s talk about a bug. I’ve wanted to write this one up for a while so here goes.</p>
-<h3 id="symptom-were-out-of-money.-in-the-stripe-account.">Symptom: We’re out of money. In the Stripe account.</h3>
-<p>Well that’s weird. Why are we out of money? For some context, I work for a market-to-market startup that has customers paying for other people to sign up for group classes, and then the person teaching the classes gets paid. We (the startup) take a cut of that. Simple. See: Uber, Etsy, Lyft, etc.</p>
-<p>We have to have a constant balance in the Stripe account to make sure that we can do promos or coupons. This helps us incentivize people to use the platform. Makes sense, right? Well, today we’re out of money.</p>
-<p>Anyway, we’re out of money. Usually no big deal, we’ll just top it up and be on our way, but this time is suspicious because we <em>just</em> topped up, and we’re out again already. Interesting. Let’s dig further.</p>
-<h3 id="symptom-looks-like-someone-has-way-more-money-in-their-stripe-connected-account-than-they-should.">Symptom: Looks like someone has WAY more money in their <a href="https://stripe.com/connect">Stripe Connected account</a> than they should.</h3>
-<p>Well, thats weird. Looks like this particular person has gotten the same $20.00 payment over and over and over again for the last three days. This sucks, but it isn’t bad since the way our system is written, it protects us from actually losing all of that money. The system controlling actual payouts from Stripe -&gt; (Real World Bank) panics and cowardly refuses to do anything if it detects something is amiss.</p>
-<p>Immediately this smells like a bad cron job. The same thing happening over and over and over again? Very smelly. Luckily for us, we really only have two different cron jobs that could’ve done this. One is pretty simple, and the other is slightly more complex. I’m hoping it’s the simpler one.</p>
-<h3 id="symptom-weird-errors-being-thrown-from-one-of-the-cron-jobs">Symptom: Weird errors being thrown from one of the cron jobs</h3>
-<p>After digging through the simple cron job and finding nothing (well that’s good at least) I start digging through logs. We use <a href="https://aws.amazon.com/lambda/">AWS Lambda</a> so “digging through logs” kinda sucks. At this point, I also hadn’t yet realized that our secondary exception logging service, <a href="https://sentry.io/iat-labs/">Sentry</a>, didn’t work correctly in the cron-style job execution environment we were using. Since no one was emailing me, I thought everything was fine.</p>
-<p>The cron-style asynchronous execution environment probably deserves some explaining. To manage deployments to Lambda, we use a Python tool called <a href="https://github.com/Miserlou/Zappa">Zappa</a>. Zappa is pretty cool, and recently added the ability to schedule cron jobs using the official Lambda cron scheduler <a href="http://docs.aws.amazon.com/lambda/latest/dg/with-scheduled-events.html">thing</a>. Neat. This is perfect for us, since it allows us to set up a simple job, inside of our lambda, that has access to all of the environment variables and Django models and whatever else we need to make sure things get done.</p>
-<p>All you have to do is define a job in your <code>zappa_settings.json</code> file and you’re good to go. Dead simple. Let’s move on.</p>
-<h3 id="symptom-the-transactions-were-seeing-in-stripe-are-not-in-our-database">Symptom: The transactions we’re seeing in stripe are not in our database</h3>
-<p>Well, that’s certainly weird. EVERYTHING that touches stripe in the codebase is logged and frozen to a corresponding model. I save everything, nothing get’s deleted. It’s money so we try to be as safe as possible.</p>
-<p>Not seeing ANY sort of model with corresponding <code>stripe_transaction_id</code>s is very weird and kind of scary. How could that happen? Then I remember a lot of our cron job’s code is wrapped inside a single, big atomic transaction. Hmmm. That’s a big clue.</p>
-<h3 id="symptom-the-errors-being-thrown-have-nothing-to-do-with-the-account-were-investigating">Symptom: The errors being thrown have nothing to do with the account we’re investigating</h3>
-<p>Well, that’s weird but I guess it’s okay. Let’s take a look at the code to see what’s going on. After some digging I notice this bit of code, in our cron job (code is simplified):</p>
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href=" https//www.flickr.com/photos/104820964@N07/36709791114/in/datetaken-public/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Lets Talk About a Bug</h2><p class="meta"><span class="author_name">2017-09-30 by  Quinlan Pfiffer</span><a href="/tags/software.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span></a><a href="/tags/writing.html"><span style="background: linear-gradient(90deg, #a166ab 0%, #6dba82 100%);" class="tag">writing</span></a></p><p>Let’s talk about a bug. I’ve wanted to write this one up for a while
+so here goes.</p>
+<h3 id="symptom-were-out-of-money.-in-the-stripe-account.">Symptom:
+We’re out of money. In the Stripe account.</h3>
+<p>Well that’s weird. Why are we out of money? For some context, I work
+for a market-to-market startup that has customers paying for other
+people to sign up for group classes, and then the person teaching the
+classes gets paid. We (the startup) take a cut of that. Simple. See:
+Uber, Etsy, Lyft, etc.</p>
+<p>We have to have a constant balance in the Stripe account to make sure
+that we can do promos or coupons. This helps us incentivize people to
+use the platform. Makes sense, right? Well, today we’re out of
+money.</p>
+<p>Anyway, we’re out of money. Usually no big deal, we’ll just top it up
+and be on our way, but this time is suspicious because we <em>just</em>
+topped up, and we’re out again already. Interesting. Let’s dig
+further.</p>
+<h3
+id="symptom-looks-like-someone-has-way-more-money-in-their-stripe-connected-account-than-they-should.">Symptom:
+Looks like someone has WAY more money in their <a
+href="https://stripe.com/connect">Stripe Connected account</a> than they
+should.</h3>
+<p>Well, thats weird. Looks like this particular person has gotten the
+same $20.00 payment over and over and over again for the last three
+days. This sucks, but it isn’t bad since the way our system is written,
+it protects us from actually losing all of that money. The system
+controlling actual payouts from Stripe -&gt; (Real World Bank) panics
+and cowardly refuses to do anything if it detects something is
+amiss.</p>
+<p>Immediately this smells like a bad cron job. The same thing happening
+over and over and over again? Very smelly. Luckily for us, we really
+only have two different cron jobs that could’ve done this. One is pretty
+simple, and the other is slightly more complex. I’m hoping it’s the
+simpler one.</p>
+<h3
+id="symptom-weird-errors-being-thrown-from-one-of-the-cron-jobs">Symptom:
+Weird errors being thrown from one of the cron jobs</h3>
+<p>After digging through the simple cron job and finding nothing (well
+that’s good at least) I start digging through logs. We use <a
+href="https://aws.amazon.com/lambda/">AWS Lambda</a> so “digging through
+logs” kinda sucks. At this point, I also hadn’t yet realized that our
+secondary exception logging service, <a
+href="https://sentry.io/iat-labs/">Sentry</a>, didn’t work correctly in
+the cron-style job execution environment we were using. Since no one was
+emailing me, I thought everything was fine.</p>
+<p>The cron-style asynchronous execution environment probably deserves
+some explaining. To manage deployments to Lambda, we use a Python tool
+called <a href="https://github.com/Miserlou/Zappa">Zappa</a>. Zappa is
+pretty cool, and recently added the ability to schedule cron jobs using
+the official Lambda cron scheduler <a
+href="http://docs.aws.amazon.com/lambda/latest/dg/with-scheduled-events.html">thing</a>.
+Neat. This is perfect for us, since it allows us to set up a simple job,
+inside of our lambda, that has access to all of the environment
+variables and Django models and whatever else we need to make sure
+things get done.</p>
+<p>All you have to do is define a job in your
+<code>zappa_settings.json</code> file and you’re good to go. Dead
+simple. Let’s move on.</p>
+<h3
+id="symptom-the-transactions-were-seeing-in-stripe-are-not-in-our-database">Symptom:
+The transactions we’re seeing in stripe are not in our database</h3>
+<p>Well, that’s certainly weird. EVERYTHING that touches stripe in the
+codebase is logged and frozen to a corresponding model. I save
+everything, nothing get’s deleted. It’s money so we try to be as safe as
+possible.</p>
+<p>Not seeing ANY sort of model with corresponding
+<code>stripe_transaction_id</code>s is very weird and kind of scary. How
+could that happen? Then I remember a lot of our cron job’s code is
+wrapped inside a single, big atomic transaction. Hmmm. That’s a big
+clue.</p>
+<h3
+id="symptom-the-errors-being-thrown-have-nothing-to-do-with-the-account-were-investigating">Symptom:
+The errors being thrown have nothing to do with the account we’re
+investigating</h3>
+<p>Well, that’s weird but I guess it’s okay. Let’s take a look at the
+code to see what’s going on. After some digging I notice this bit of
+code, in our cron job (code is simplified):</p>
 <pre><code>def payout_cron_job():
     with transaction.atomic():
         for account in managed_accounts:
@@ -89,21 +149,62 @@ background-image: url("  /static/img/2017_09_30.jpg ");/* background-color: rgba
             payment.payed_out_timestamp = timezone.now()
             # ...
             notify_user_of_payout(...)</code></pre>
-<p>After looking at this code, and thinking about the last symptom we saw, I figured out why we were erroring out. The error itself had something to do with an incorrect email. This was fine, and easy to fix, so I did. I also made the notification code more error-safe. No problem. The actual issue here is how we are handling the transaction.</p>
-<p>Wrapping all accounts in one big transaction means the entire thing fails when any one of those side-effecty, third-party calls fails. This could mean either a Stripe call failed (bad card, not enough money, no bank account details, etc.) or the <code>notify_user_of_payout</code> call fails (bad email, not device token for a push notification, etc). Any one of these 3rd party calls could blow up the hole thing and roll back the transaction. Not awesome.</p>
-<p>Since those 3rd party calls control things outside of our database, they don’t get rolled back when OUR database does. This sucks. This means that even though someone might successfully get paid out, anyone that blows up the transaction while we’re looping through all of the <code>managed_accounts</code> will mean we have no record of them getting paid out. Nice.</p>
+<p>After looking at this code, and thinking about the last symptom we
+saw, I figured out why we were erroring out. The error itself had
+something to do with an incorrect email. This was fine, and easy to fix,
+so I did. I also made the notification code more error-safe. No problem.
+The actual issue here is how we are handling the transaction.</p>
+<p>Wrapping all accounts in one big transaction means the entire thing
+fails when any one of those side-effecty, third-party calls fails. This
+could mean either a Stripe call failed (bad card, not enough money, no
+bank account details, etc.) or the <code>notify_user_of_payout</code>
+call fails (bad email, not device token for a push notification, etc).
+Any one of these 3rd party calls could blow up the hole thing and roll
+back the transaction. Not awesome.</p>
+<p>Since those 3rd party calls control things outside of our database,
+they don’t get rolled back when OUR database does. This sucks. This
+means that even though someone might successfully get paid out, anyone
+that blows up the transaction while we’re looping through all of the
+<code>managed_accounts</code> will mean we have no record of them
+getting paid out. Nice.</p>
 <p>The better code looks more like this:</p>
 <pre><code>def payout_cron_job():
     for account in managed_accounts:
         with transaction.atomic():
             # ...</code></pre>
-<p>We create a new transaction for each account we loop through, therefore isolating them from each-other. In the future, we’ll also have a promise-style Transaction chain that can control commits and roll-backs on 3rd-party incumbents. That way, if the stripe transaction fails for one person, we could roll-back all of them. That’d be pretty nice.</p>
-<p>So now that we’ve fixed our cron job, we have to figure out why it failed and then <em>kept</em> failing. The cron job only runs every hour, so why was the errant user getting money ever four minutes? To figure that out, we have to dig into the Lambda documentation a little bit.</p>
-<h3 id="symptom-cron-job-fails-and-loops-and-keeps-failing-forever">Symptom: Cron job fails and loops and keeps failing FOREVER</h3>
-<p>I remembered reading something about a <a href="https://en.wikipedia.org/wiki/Dead_letter_queue">dead letter queue</a> in the lambda documentation. If you don’t know what that is, a quick definition is that whenever a job or message processor fails to finish processing a message (in this case a job), the queue doesn’t remove that message/job. So, in our case since the job itself kept failing, amazon kept telling it to execute. Usually a good idea, if your errors are freaks of nature and prone to temporal resolution.</p>
-<p>So, that’s what happened here. Our task kept going, partially succeeding, erroring out and then dying. Amazon, faithful executor that it is, decided to keep retrying. This meant that the same account kept getting paid out every execution, eg. every four minutes.</p>
-<h3 id="fix-reverse-all-the-bad-transactions">Fix: Reverse all the bad transactions</h3>
-<p>After finally putting these pieces together I deployed the fixed code and explained what had happened to my co-workers. They left me the task of fixing all of the bad transactions myself. Just punishment for some irresponsible code, I’d say. Worth it, for such a combo of small errors leading to such a catastrophic bug.</p>
+<p>We create a new transaction for each account we loop through,
+therefore isolating them from each-other. In the future, we’ll also have
+a promise-style Transaction chain that can control commits and
+roll-backs on 3rd-party incumbents. That way, if the stripe transaction
+fails for one person, we could roll-back all of them. That’d be pretty
+nice.</p>
+<p>So now that we’ve fixed our cron job, we have to figure out why it
+failed and then <em>kept</em> failing. The cron job only runs every
+hour, so why was the errant user getting money ever four minutes? To
+figure that out, we have to dig into the Lambda documentation a little
+bit.</p>
+<h3
+id="symptom-cron-job-fails-and-loops-and-keeps-failing-forever">Symptom:
+Cron job fails and loops and keeps failing FOREVER</h3>
+<p>I remembered reading something about a <a
+href="https://en.wikipedia.org/wiki/Dead_letter_queue">dead letter
+queue</a> in the lambda documentation. If you don’t know what that is, a
+quick definition is that whenever a job or message processor fails to
+finish processing a message (in this case a job), the queue doesn’t
+remove that message/job. So, in our case since the job itself kept
+failing, amazon kept telling it to execute. Usually a good idea, if your
+errors are freaks of nature and prone to temporal resolution.</p>
+<p>So, that’s what happened here. Our task kept going, partially
+succeeding, erroring out and then dying. Amazon, faithful executor that
+it is, decided to keep retrying. This meant that the same account kept
+getting paid out every execution, eg. every four minutes.</p>
+<h3 id="fix-reverse-all-the-bad-transactions">Fix: Reverse all the bad
+transactions</h3>
+<p>After finally putting these pieces together I deployed the fixed code
+and explained what had happened to my co-workers. They left me the task
+of fixing all of the bad transactions myself. Just punishment for some
+irresponsible code, I’d say. Worth it, for such a combo of small errors
+leading to such a catastrophic bug.</p>
 </div></div></div></div>
 
 		</div>

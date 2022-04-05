@@ -61,7 +61,8 @@ background-image: url(" /static/img/bg.jpg ");/* background-color: rgba(230, 27,
 			</div>
 		</header>
 		<div id="main_container">
-			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> The Great Server Migration</h2><p class="meta"><span class="author_name">2021-05-04 by  Quinlan Pfiffer</span><a href="/tags/software.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span></a><a href="/tags/gentoo.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #a166ab 100%);" class="tag">gentoo</span></a></p><p>It’s time. My old Digital Ocean server, used for everything, was getting old, crufty and scary.</p>
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> The Great Server Migration</h2><p class="meta"><span class="author_name">2021-05-04 by  Quinlan Pfiffer</span><a href="/tags/software.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span></a><a href="/tags/gentoo.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #a166ab 100%);" class="tag">gentoo</span></a></p><p>It’s time. My old Digital Ocean server, used for everything, was
+getting old, crufty and scary.</p>
 <pre><code>142 packages can be updated.
 109 updates are security updates.
 
@@ -77,36 +78,51 @@ SUPPORT_URL=&quot;http://help.ubuntu.com/&quot;
 BUG_REPORT_URL=&quot;http://bugs.launchpad.net/ubuntu/&quot;
 VERSION_CODENAME=xenial
 UBUNTU_CODENAME=xenial</code></pre>
-<p>Not great. Thats really old. Theres a TON of stuff on there though, but it’s time. So I spun up a Gentoo box on Linode and got to work. Heres more or less a list of services that live (or will soon live) on the new box:</p>
+<p>Not great. Thats really old. Theres a TON of stuff on there though,
+but it’s time. So I spun up a Gentoo box on Linode and got to work.
+Heres more or less a list of services that live (or will soon live) on
+the new box:</p>
 <h2 id="services">Services</h2>
-<p>As much as possible, the ones that require daemons or servers will be gentoo-ified. I’ll explain that in a later page. Some have <a href="https://git.sr.ht/~qpfiffer/overlay/tree/master/item/www-misc/wheypi">already been done.</a></p>
+<p>As much as possible, the ones that require daemons or servers will be
+gentoo-ified. I’ll explain that in a later page. Some have <a
+href="https://git.sr.ht/~qpfiffer/overlay/tree/master/item/www-misc/wheypi">already
+been done.</a></p>
 <p>Websites:</p>
 <ul>
-<li><a href="https://infoforcefeed.shithouse.tv/">IFF Link Aggregator</a></li>
+<li><a href="https://infoforcefeed.shithouse.tv/">IFF Link
+Aggregator</a></li>
 <li><a href="https://burrito.shithouse.tv/">PDX Burrito Review</a></li>
-<li><a href="https://shithouse.tv/">shithouse.tv</a> - includes all the <a href="https://things-we-feel-rather-strongly-about.shithouse.tv/">secret</a> bumps, too</li>
+<li><a href="https://shithouse.tv/">shithouse.tv</a> - includes all the
+<a
+href="https://things-we-feel-rather-strongly-about.shithouse.tv/">secret</a>
+bumps, too</li>
 <li><a href="https://q.pfiffer.org/">q.pfiffer.org</a></li>
 <li><a href="https://olegdb.org/">OlegDB Homepage</a></li>
 <li><a href="https://wheypi.shithouse.tv/">WheyPI</a></li>
 <li><a href="https://groading.com/">groading.com</a></li>
-<li>TODO <a href="https://logproj.shithouse.tv/">logproj</a> - The weird, DIY logging project.</li>
+<li>TODO <a href="https://logproj.shithouse.tv/">logproj</a> - The
+weird, DIY logging project.</li>
 </ul>
 <p>Some older #IFF goodies:</p>
 <ul>
 <li><a href="http://infoforcefeed.org/">infoforcefeed.org</a></li>
-<li><a href="http://arson.infoforcefeed.org/">Software Development for Arsonists</a></li>
+<li><a href="http://arson.infoforcefeed.org/">Software Development for
+Arsonists</a></li>
 </ul>
 <p>Bots:</p>
 <ul>
-<li>TODO <a href="https://github.com/infoforcefeed/scooper-bot">scooper-bot</a>
+<li>TODO <a
+href="https://github.com/infoforcefeed/scooper-bot">scooper-bot</a>
 <ul>
 <li>Also needs webhooks for automatic deploys.</li>
 </ul></li>
 </ul>
 <p>Historicals:</p>
 <ul>
-<li>TODO <a href="https://kyoto.shithouse.tv/">kyoto.io</a> - My defunct startup idea</li>
-<li>TODO <a href="https://meta.shithouse.tv/">meta.infoforcefeed.org</a> - The old metaforcefeed calendar/idea tracker</li>
+<li>TODO <a href="https://kyoto.shithouse.tv/">kyoto.io</a> - My defunct
+startup idea</li>
+<li>TODO <a href="https://meta.shithouse.tv/">meta.infoforcefeed.org</a>
+- The old metaforcefeed calendar/idea tracker</li>
 </ul>
 <p>Misc.</p>
 <ul>

@@ -63,11 +63,33 @@ background-image: url(" /static/img/bg.jpg ");/* background-color: rgba(230, 206
 		<div id="main_container">
 			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Augment vs. Rewrite</h2><p class="meta"><span class="author_name">2017-12-05 by  Quinlan Pfiffer</span><a href="/tags/software.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span></a><a href="/tags/writing.html"><span style="background: linear-gradient(90deg, #a166ab 0%, #6dba82 100%);" class="tag">writing</span></a></p><p>I’m putting this here because I don’t want to lose it.</p>
 <h1 id="the-argument">The Argument</h1>
-<p>I’ve been thinking about us doing a whole rewrite of the back end, and I’m not sure it’s the best idea. I feel that rewriting the whole thing just to target a more GraphQL centered approach to the frontend is irresponsible, and discards a lot of the real world things that we’ve learned about what this app requires, and how people interact with it. In addition, it is <a href="https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/">almost always a bad idea.</a></p>
-<p>That said, I do believe there are some older/cruftier portions of the backend that could use a good scrubbing, and I think those should be scrubbed. What I don’t think we should do is discard a medium-sized, unit and production tested codebase to start from scratch.</p>
-<p>Handling support requests every day and interacting with the frontline really puts the app into perspective. Continuing to support an existing app that we know is going to be retired is fruitless, and takes away time from working on the backend, even though there are really good ideas coming from the host/support/user interactions that I either have to drop on the ground or shoehorn into an app that isn’t going anywhere.</p>
-<p>A full rewrite, in addition to possibly suffering from <a href="https://en.wikipedia.org/wiki/Second-system_effect">second-system syndrome</a> will open up the possiblity for <a href="http://state.shithouse.tv/">entirely new bugs.</a> There is a value in having a tested codebase, even partially so.</p>
-<p>Therefore what I think we should do instead of a full rewrite, is to augment the backend, or at least take parts of the existing codebase and reuse them.</p>
+<p>I’ve been thinking about us doing a whole rewrite of the back end,
+and I’m not sure it’s the best idea. I feel that rewriting the whole
+thing just to target a more GraphQL centered approach to the frontend is
+irresponsible, and discards a lot of the real world things that we’ve
+learned about what this app requires, and how people interact with it.
+In addition, it is <a
+href="https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/">almost
+always a bad idea.</a></p>
+<p>That said, I do believe there are some older/cruftier portions of the
+backend that could use a good scrubbing, and I think those should be
+scrubbed. What I don’t think we should do is discard a medium-sized,
+unit and production tested codebase to start from scratch.</p>
+<p>Handling support requests every day and interacting with the
+frontline really puts the app into perspective. Continuing to support an
+existing app that we know is going to be retired is fruitless, and takes
+away time from working on the backend, even though there are really good
+ideas coming from the host/support/user interactions that I either have
+to drop on the ground or shoehorn into an app that isn’t going
+anywhere.</p>
+<p>A full rewrite, in addition to possibly suffering from <a
+href="https://en.wikipedia.org/wiki/Second-system_effect">second-system
+syndrome</a> will open up the possiblity for <a
+href="http://state.shithouse.tv/">entirely new bugs.</a> There is a
+value in having a tested codebase, even partially so.</p>
+<p>Therefore what I think we should do instead of a full rewrite, is to
+augment the backend, or at least take parts of the existing codebase and
+reuse them.</p>
 </div></div></div></div>
 
 		</div>

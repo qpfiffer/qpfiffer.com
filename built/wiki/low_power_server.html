@@ -61,31 +61,68 @@ background-image: url("  ../static/img/low_power.jpg ");/* background-color: rgb
 			</div>
 		</header>
 		<div id="main_container">
-			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href=" https//drive.google.com/file/d/0B8hltkS8-lFqSG80bVZ4SnNlQjQ/edit?usp=sharing" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Low Power Server Build</h2><p class="meta"><span class="author_name">low_power_server.markdown by NO AUTHOR</span></p><p>My current homeserver is an ancient thing I’ve assembled out of hodgepodge parts and pieces. Inspired by <a href="http://www.codinghorror.com/blog/2013/09/the-2013-htpc-build.html">this post</a> by <a href="http://www.codinghorror.com/blog/2004/02/about-me.html">Jeff Atwood</a> I decided to see how much my current home server costs to run.</p>
-<p>I pay for <a href="http://www.portlandgeneral.com/default.aspx">PGE</a>‘s ’clean energy’ program, which means I get energy only from renewable resources for an extra 0.03 or so cents a month. Not bad at all. Currenty kilowatt hours cost about $0.1093 USD. Knowing this we compute the power draw of the current server per day per month go get an approximate cost to run:</p>
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href=" https//drive.google.com/file/d/0B8hltkS8-lFqSG80bVZ4SnNlQjQ/edit?usp=sharing" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Low Power Server Build</h2><p class="meta"><span class="author_name">low_power_server.markdown by NO AUTHOR</span></p><p>My current homeserver is an ancient thing I’ve assembled out of
+hodgepodge parts and pieces. Inspired by <a
+href="http://www.codinghorror.com/blog/2013/09/the-2013-htpc-build.html">this
+post</a> by <a
+href="http://www.codinghorror.com/blog/2004/02/about-me.html">Jeff
+Atwood</a> I decided to see how much my current home server costs to
+run.</p>
+<p>I pay for <a
+href="http://www.portlandgeneral.com/default.aspx">PGE</a>‘s ’clean
+energy’ program, which means I get energy only from renewable resources
+for an extra 0.03 or so cents a month. Not bad at all. Currenty kilowatt
+hours cost about $0.1093 USD. Knowing this we compute the power draw of
+the current server per day per month go get an approximate cost to
+run:</p>
 <pre><code>115 watts an hour (damn!)
 115 * 24 = 2760 watts a day
 2760 * 30 = 82,800 watt hours a month
 82.8 * 0.1093 = $9.05 a month</code></pre>
-<p>$9.05 is a lot to pay for a single server to run 24/7. It’s time for an upgrade. So, taking Jeff’s list I improved upon it slightly and added a new case. The current ideal parts list:</p>
+<p>$9.05 is a lot to pay for a single server to run 24/7. It’s time for
+an upgrade. So, taking Jeff’s list I improved upon it slightly and added
+a new case. The current ideal parts list:</p>
 <ul>
-<li><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16811352027">Fractal Design’s Node 304 Mini-ITX Case</a></li>
-<li><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16813157374">ASRock Z87E-ITX Mini-ITX Motherboard</a></li>
-<li><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820231461">G.Skill Sniper Low Voltage Series 8GB Ram Kit</a></li>
-<li><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16819116947">Dual-Core Haswell i3-4130T</a></li>
+<li><a
+href="http://www.newegg.com/Product/Product.aspx?Item=N82E16811352027">Fractal
+Design’s Node 304 Mini-ITX Case</a></li>
+<li><a
+href="http://www.newegg.com/Product/Product.aspx?Item=N82E16813157374">ASRock
+Z87E-ITX Mini-ITX Motherboard</a></li>
+<li><a
+href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820231461">G.Skill
+Sniper Low Voltage Series 8GB Ram Kit</a></li>
+<li><a
+href="http://www.newegg.com/Product/Product.aspx?Item=N82E16819116947">Dual-Core
+Haswell i3-4130T</a></li>
 </ul>
-<p>I’m not sure how the low voltage ram will affect performance, but I am excited to find out. Another notable addition is the upgraded motherboard, which has 6 sata ports as opposed to 4, and supports the low voltage ram. It also Intel’s <a href="http://www.intel.com/content/www/us/en/gaming/extreme-memory-profile-xmp.html">XMP</a> stuff.</p>
-<p>The Node 304 has six drivebays, which is kind of ridiculous for a mini-ITX case, but I have a need for at least four drivebays (<a href="http://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_5">RAID 5</a> is awesome). We’ll see if I’ll be able to jam everything I want into it.</p>
-<p>All of this at full price costs around $450.96, plus shipping. That makes the ROI for power usage (assuming Jeff’s power usage is correct) pretty terrible. Luckily, black friday/cyber monday is coming up and I’m hoping I can knock $100-$200 of off the final price. We’ll see.</p>
+<p>I’m not sure how the low voltage ram will affect performance, but I
+am excited to find out. Another notable addition is the upgraded
+motherboard, which has 6 sata ports as opposed to 4, and supports the
+low voltage ram. It also Intel’s <a
+href="http://www.intel.com/content/www/us/en/gaming/extreme-memory-profile-xmp.html">XMP</a>
+stuff.</p>
+<p>The Node 304 has six drivebays, which is kind of ridiculous for a
+mini-ITX case, but I have a need for at least four drivebays (<a
+href="http://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_5">RAID
+5</a> is awesome). We’ll see if I’ll be able to jam everything I want
+into it.</p>
+<p>All of this at full price costs around $450.96, plus shipping. That
+makes the ROI for power usage (assuming Jeff’s power usage is correct)
+pretty terrible. Luckily, black friday/cyber monday is coming up and I’m
+hoping I can knock $100-$200 of off the final price. We’ll see.</p>
 <h1 id="the-build">The Build</h1>
 <ul>
 <li>Final price of the Node 304: $54.99</li>
 </ul>
 <h1 id="update-november-2017">Update November 2017</h1>
 <ul>
-<li><a href="http://www.fractal-design.com/home/product/cases/node-series/node-804">Node 804 Case</a></li>
+<li><a
+href="http://www.fractal-design.com/home/product/cases/node-series/node-804">Node
+804 Case</a></li>
 <li>16GB of ECC DDR3</li>
-<li><a href="https://www.amazon.com/gp/product/B002RL8I7M/">LSI SAS9211-8I RAID Card setup pass-through</a></li>
+<li><a href="https://www.amazon.com/gp/product/B002RL8I7M/">LSI
+SAS9211-8I RAID Card setup pass-through</a></li>
 <li>A bunch of 3TB SAS drives</li>
 </ul>
 </div></div></div></div>

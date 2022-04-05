@@ -61,9 +61,23 @@ background-image: url("  /static/img/bg-gradient.png ");/* background-color: rgb
 			</div>
 		</header>
 		<div id="main_container">
-			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href=" https//google.com/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Python 2 Threading Primitives, Locks and Events</h2><p class="meta"><span class="author_name">2019-12-03 by  Quinlan Pfiffer</span><a href="/tags/software.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span></a><a href="/tags/how-to.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #ef4e7b 100%);" class="tag">how-to</span></a></p><p>Recently I’ve had to deal with some inter-process communication in Python 2.7, in which I had several threads sharing data. I figured doing a brain-dump of some of this data would be useful for me in the future as well as anyone else wandering by.</p>
-<p>In this specific instance, I’m retrieving frames from a camera of some sort, pulling them in over a websocket, then passing them on to an OpenCV processor. Nothing crazy, but the websocket server couldn’t be blocked by the OpenCV processor, so threads were introduced. Really just two.</p>
-<p>The primary things we care about here are <a href="https://docs.python.org/2/library/threading.html#event-objects">thread events</a> and <a href="https://docs.python.org/2/library/thread.html#thread.allocate_lock">thread locks.</a>. I wrote this when I was dealing with Python 2, but I don’t see why you couldn’t do this stuff in 3+. In general, use <code>asyncio</code> in favor of threads and locks and processes and whatever. Easier to think about.</p>
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href=" https//google.com/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Python 2 Threading Primitives, Locks and Events</h2><p class="meta"><span class="author_name">2019-12-03 by  Quinlan Pfiffer</span><a href="/tags/software.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span></a><a href="/tags/how-to.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #ef4e7b 100%);" class="tag">how-to</span></a></p><p>Recently I’ve had to deal with some inter-process communication in
+Python 2.7, in which I had several threads sharing data. I figured doing
+a brain-dump of some of this data would be useful for me in the future
+as well as anyone else wandering by.</p>
+<p>In this specific instance, I’m retrieving frames from a camera of
+some sort, pulling them in over a websocket, then passing them on to an
+OpenCV processor. Nothing crazy, but the websocket server couldn’t be
+blocked by the OpenCV processor, so threads were introduced. Really just
+two.</p>
+<p>The primary things we care about here are <a
+href="https://docs.python.org/2/library/threading.html#event-objects">thread
+events</a> and <a
+href="https://docs.python.org/2/library/thread.html#thread.allocate_lock">thread
+locks.</a>. I wrote this when I was dealing with Python 2, but I don’t
+see why you couldn’t do this stuff in 3+. In general, use
+<code>asyncio</code> in favor of threads and locks and processes and
+whatever. Easier to think about.</p>
 <p>Heres something similar to what I ended up writing:</p>
 <pre><code>import thread, threading
 
@@ -112,9 +126,25 @@ def main():
 
 if __name__ == &#39;__main__&#39;:
     main()</code></pre>
-<p>This is more or less what I have. I haven’t tested the above code, but the point is you have a Server of some sort operating independently of a processor of some other sort. Later on I might write another post detailing how you might do this with a <a href="http://man7.org/linux/man-pages/man2/pipe.2.html">UNIX pipe</a> instead of this Locking/Event style, but we can talk about that when the time comes. Or doesn’t. Whatever.</p>
-<p>The fancy (but still basic) thing here is the event, and the lock. You can use the event to avoid spinlocking (eg. <code>while not frame: ...</code>), and instead only wake up your expensive processing Thread when it has something to do. Remember, <code>sleep()</code> is a sign that you’re being lazy!</p>
-<p>One thread will call <code>event.set()</code> when it is done operating on the shared resource, then back off. The next thread will then wake up and wait to acquire the lock, so it can operate on the shared resource, doing it’s thing, and then calling <code>event.clear()</code>. This ends up working really nicely because each thread only works when it can, no one is stepping on anyone elses toes and it all just works out.</p>
+<p>This is more or less what I have. I haven’t tested the above code,
+but the point is you have a Server of some sort operating independently
+of a processor of some other sort. Later on I might write another post
+detailing how you might do this with a <a
+href="http://man7.org/linux/man-pages/man2/pipe.2.html">UNIX pipe</a>
+instead of this Locking/Event style, but we can talk about that when the
+time comes. Or doesn’t. Whatever.</p>
+<p>The fancy (but still basic) thing here is the event, and the lock.
+You can use the event to avoid spinlocking (eg.
+<code>while not frame: ...</code>), and instead only wake up your
+expensive processing Thread when it has something to do. Remember,
+<code>sleep()</code> is a sign that you’re being lazy!</p>
+<p>One thread will call <code>event.set()</code> when it is done
+operating on the shared resource, then back off. The next thread will
+then wake up and wait to acquire the lock, so it can operate on the
+shared resource, doing it’s thing, and then calling
+<code>event.clear()</code>. This ends up working really nicely because
+each thread only works when it can, no one is stepping on anyone elses
+toes and it all just works out.</p>
 </div></div></div></div>
 
 		</div>

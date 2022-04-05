@@ -62,23 +62,34 @@ background-image: url(" /static/img/bg.jpg ");/* background-color: rgba(42, 249,
 		</header>
 		<div id="main_container">
 			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> MulletCache</h2><p class="meta"><span class="author_name">2020-04-03 by  Quinlan Pfiffer</span><a href="/tags/software.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span></a></p><h1 id="introduction">Introduction</h1>
-<p>Herein a novel idea for multi-nodal caching is proposed. The main problem solved by this idea is thus: Home storage is cheap, cloud storage is expensive. The project’s name is MulletCache.</p>
+<p>Herein a novel idea for multi-nodal caching is proposed. The main
+problem solved by this idea is thus: Home storage is cheap, cloud
+storage is expensive. The project’s name is MulletCache.</p>
 <h1 id="what-is-it">What is it?</h1>
-<p>MulletCache consist of at least one remote node (the business node) and one local node (the party node). The party node has a maximum cache size allowance, which should be roughly the size of your on-disk availability. The business node has no cache size, it just serves any file requested from it.</p>
+<p>MulletCache consist of at least one remote node (the business node)
+and one local node (the party node). The party node has a maximum cache
+size allowance, which should be roughly the size of your on-disk
+availability. The business node has no cache size, it just serves any
+file requested from it.</p>
 <pre><code>       Home                 Cloud
 +----------------+      +------------+                         +--------------+
 |                |      |            |    Request for Asset    |              |    HTTP Request
 |   Party Node   |      |  Bzns Node | &lt;---------------------+ | HTTP Service | &lt;----------------+
 |                |      |            |                         |              |
 +----------------+      +------------+                         +--------------+</code></pre>
-<p>The party node will handle any incoming request for a file, check it’s internal LRU cache (and by proxy the local filesystem), and request any file it doesn’t have from the business node.</p>
+<p>The party node will handle any incoming request for a file, check
+it’s internal LRU cache (and by proxy the local filesystem), and request
+any file it doesn’t have from the business node.</p>
 <pre><code>       Home                 Cloud
 +----------------+  RX  +------------+                         +--------------+
 |                &lt;------+            |    Request for Asset    |              |    HTTP Request
 |   Party Node   |      |  Bzns Node | &lt;---------------------+ | HTTP Service | &lt;----------------+
 |                +------&gt;            |                         |              |
 +----------------+  TX  +------------+                         +--------------+</code></pre>
-<p>The Party node can be configured in either write-back or write-through configurations, depending on speed vs. safety requirements. Heres example pseudo-code for the party node’s asset handler routine:</p>
+<p>The Party node can be configured in either write-back or
+write-through configurations, depending on speed vs. safety
+requirements. Heres example pseudo-code for the party node’s asset
+handler routine:</p>
 <pre><code>def fetch_file(requester, filename):
     if file_present_locally(filename):
         requester.send_file(file)
@@ -97,9 +108,13 @@ background-image: url(" /static/img/bg.jpg ");/* background-color: rgba(42, 249,
 <h1 id="caveats">Caveats</h1>
 <ul>
 <li>All communications channels between nodes must be encrypted.</li>
-<li>The business node must connect to the party node: The party is in the cloud, so the business must connect up to <em>it</em>. This keeps us from having to do any port shenanigans on the home router.</li>
-<li>The business node must be configurable to connect to multiple parties.</li>
-<li>Protocol between the whole mullet TBD: Probably checksum, filename and file contents.</li>
+<li>The business node must connect to the party node: The party is in
+the cloud, so the business must connect up to <em>it</em>. This keeps us
+from having to do any port shenanigans on the home router.</li>
+<li>The business node must be configurable to connect to multiple
+parties.</li>
+<li>Protocol between the whole mullet TBD: Probably checksum, filename
+and file contents.</li>
 <li>The interface to the party node must be through FUSE.</li>
 </ul>
 </div></div></div></div>

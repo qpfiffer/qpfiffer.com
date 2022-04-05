@@ -61,10 +61,17 @@ background-image: url(" /static/img/bg.jpg ");/* background-color: rgba(193, 157
 			</div>
 		</header>
 		<div id="main_container">
-			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Building a Personal Gentoo Overlay</h2><p class="meta"><span class="author_name">2020-04-23 by  Quinlan Pfiffer</span><a href="/tags/gentoo.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #a166ab 100%);" class="tag">gentoo</span></a><a href="/tags/software.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span></a><a href="/tags/how-to.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #ef4e7b 100%);" class="tag">how-to</span></a></p><p>I’ve been running Gentoo again recently, and one of the things I wanted to try out was building a <a href="https://wiki.gentoo.org/wiki/Custom_repository">personal overlay.</a> The information here is cobbled together from things I learned personally, looking at the <a href="https://overlays.gentoo.org/">gentoo developer overlays</a>, and just trying stuff until it worked.</p>
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Building a Personal Gentoo Overlay</h2><p class="meta"><span class="author_name">2020-04-23 by  Quinlan Pfiffer</span><a href="/tags/gentoo.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #a166ab 100%);" class="tag">gentoo</span></a><a href="/tags/software.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span></a><a href="/tags/how-to.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #ef4e7b 100%);" class="tag">how-to</span></a></p><p>I’ve been running Gentoo again recently, and one of the things I
+wanted to try out was building a <a
+href="https://wiki.gentoo.org/wiki/Custom_repository">personal
+overlay.</a> The information here is cobbled together from things I
+learned personally, looking at the <a
+href="https://overlays.gentoo.org/">gentoo developer overlays</a>, and
+just trying stuff until it worked.</p>
 <p>Note: In this document my repo name will be <em>qpfiffer</em>.</p>
 <h1 id="the-bare-minimum">The Bare Minimum</h1>
-<p>Start a git repository somewhere on your machine, and add, at least, these files:</p>
+<p>Start a git repository somewhere on your machine, and add, at least,
+these files:</p>
 <pre><code>.
 ├── LICENSE
 ├── metadata
@@ -76,18 +83,27 @@ background-image: url(" /static/img/bg.jpg ");/* background-color: rgba(193, 157
 thin-manifests = true</code></pre>
 <p>And <code>profiles/repo_name</code> looks like this (for me):</p>
 <pre><code>qpfiffer</code></pre>
-<p>That’s really it. Now you can push it up to some <a href="https://sourcehut.org/">git hosting provider</a>.</p>
+<p>That’s really it. Now you can push it up to some <a
+href="https://sourcehut.org/">git hosting provider</a>.</p>
 <h1 id="adding-it-to-your-gentoo-box">Adding it to your Gentoo Box</h1>
-<p>The Gentoo developer guide for personal overlays says you need a bunch of random packages to do this, like Layman or Repoman, but I prefer to just change the files myself. The first thing to do is add your new repo to your <code>/etc/portage/repos.conf</code>:</p>
+<p>The Gentoo developer guide for personal overlays says you need a
+bunch of random packages to do this, like Layman or Repoman, but I
+prefer to just change the files myself. The first thing to do is add
+your new repo to your <code>/etc/portage/repos.conf</code>:</p>
 <pre class="conf"><code>[qpfiffer]
 location = /var/db/repos/qpfiffer
 sync-type = git
 sync-uri = https://git.sr.ht/~qpfiffer/overlay
 auto-sync = yes</code></pre>
-<p>From there you should be able to sync it with the following command:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> emaint sync <span class="at">-r</span> qpfiffer</span></code></pre></div>
-<p>If you jumped ahead and added your own packages, you should be able to see them after updating <code>eix</code> (or <code>emerge --search</code> or whatever):</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> eix 38-moths</span>
+<p>From there you should be able to sync it with the following
+command:</p>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> emaint sync <span class="at">-r</span> qpfiffer</span></code></pre></div>
+<p>If you jumped ahead and added your own packages, you should be able
+to see them after updating <code>eix</code> (or
+<code>emerge --search</code> or whatever):</p>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> eix 38-moths</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="ex">[I]</span> www-misc/38-moths [1]</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>     <span class="ex">Available</span> versions:  <span class="er">(</span><span class="ex">~</span><span class="kw">)</span><span class="ex">0.4</span></span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>     <span class="ex">Installed</span> versions:  0.4<span class="er">(</span><span class="ex">09:01:01</span> AM 04/03/2020<span class="kw">)</span></span>
@@ -96,19 +112,36 @@ auto-sync = yes</code></pre>
 <span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="ex">[1]</span> <span class="st">&quot;qpfiffer&quot;</span> /var/db/repos/qpfiffer</span></code></pre></div>
 <h1 id="adding-a-package">Adding a Package</h1>
-<p>Adding a package is pretty simple, but requires knowing about <a href="https://wiki.gentoo.org/wiki/Basic_guide_to_write_Gentoo_Ebuilds"><code>ebuilds</code></a>. There are a ton of resources around ebuilds and a lot of them are out of date, but you can hack one together one pretty easily by poking around in <a href="https://overlays.gentoo.org/">other people’s overlays</a>, following guides and just generally being resourceful.</p>
-<p>At a bare minimum, for a package, you’ll need to add something like the following directory structure to your repository:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">└──</span> www-misc</span>
+<p>Adding a package is pretty simple, but requires knowing about <a
+href="https://wiki.gentoo.org/wiki/Basic_guide_to_write_Gentoo_Ebuilds"><code>ebuilds</code></a>.
+There are a ton of resources around ebuilds and a lot of them are out of
+date, but you can hack one together one pretty easily by poking around
+in <a href="https://overlays.gentoo.org/">other people’s overlays</a>,
+following guides and just generally being resourceful.</p>
+<p>At a bare minimum, for a package, you’ll need to add something like
+the following directory structure to your repository:</p>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">└──</span> www-misc</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="ex">└──</span> 38-moths</span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>        <span class="ex">├──</span> 38-moths-0.4.ebuild</span>
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>        <span class="ex">├──</span> files</span>
 <span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>        <span class="ex">│  </span> └── destdir-0.4.patch</span>
 <span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>        <span class="ex">├──</span> Manifest</span>
 <span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>        <span class="ex">└──</span> metadata.xml</span></code></pre></div>
-<p>In here you’ll notice a couple things: <code>www-misc/38-moths</code> is the package name that Portage will show you, <code>0.4</code> will be our listed version, we have a single patch (<code>destdir-0.4.patch</code>) and a couple of meta files (<code>Manifest</code> and <code>metadata.xml</code>).</p>
-<p><code>Manifest</code> we’ll get to in a little bit, and <code>metadata.xml</code> you can just go <a href="https://git.sr.ht/~qpfiffer/overlay/tree/master/www-misc/38-moths/metadata.xml">look at</a> because it’s not very interesting. It’s exactly what it says on the box: metadata about the package.</p>
-<p>The ebuild for <code>38-moths</code>, as of right now, looks like this:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode ebuild"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Copyright 1999-2020 Gentoo Authors</span></span>
+<p>In here you’ll notice a couple things: <code>www-misc/38-moths</code>
+is the package name that Portage will show you, <code>0.4</code> will be
+our listed version, we have a single patch
+(<code>destdir-0.4.patch</code>) and a couple of meta files
+(<code>Manifest</code> and <code>metadata.xml</code>).</p>
+<p><code>Manifest</code> we’ll get to in a little bit, and
+<code>metadata.xml</code> you can just go <a
+href="https://git.sr.ht/~qpfiffer/overlay/tree/master/www-misc/38-moths/metadata.xml">look
+at</a> because it’s not very interesting. It’s exactly what it says on
+the box: metadata about the package.</p>
+<p>The ebuild for <code>38-moths</code>, as of right now, looks like
+this:</p>
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode ebuild"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Copyright 1999-2020 Gentoo Authors</span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Distributed under the terms of the GNU General Public License v2</span></span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="va">EAPI</span><span class="op">=</span>7</span>
 <span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -130,26 +163,49 @@ auto-sync = yes</code></pre>
 <span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a><span class="va">DEPEND</span><span class="op">=</span><span class="st">&quot;&quot;</span></span>
 <span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a><span class="va">RDEPEND</span><span class="op">=</span><span class="st">&quot;</span><span class="va">${DEPEND}</span><span class="st">&quot;</span></span>
 <span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a><span class="va">BDEPEND</span><span class="op">=</span><span class="st">&quot;&quot;</span></span></code></pre></div>
-<p>It’s pretty simple, but took a while to figure out. You’ll have to play around with the steps to actually installing a package via Portage, but in general I’ve found the simpler the better.</p>
+<p>It’s pretty simple, but took a while to figure out. You’ll have to
+play around with the steps to actually installing a package via Portage,
+but in general I’ve found the simpler the better.</p>
 <h2 id="generating-the-manifest">Generating the Manifest</h2>
-<p>The last file you’ll need, the <code>Manifest</code>, can actually be generated by <code>emerge</code> which makes it super useful. Rather than writing out all the hashes for files yourself, you can just check out the repository on your own box and then run the following, in the <code>git</code> checkout of your overlay:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> ebuild 38-moths-0.4.ebuild manifest</span></code></pre></div>
-<p>This will spit out a shiny-new <code>Manifest</code> file which you can check in to your overlay.</p>
+<p>The last file you’ll need, the <code>Manifest</code>, can actually be
+generated by <code>emerge</code> which makes it super useful. Rather
+than writing out all the hashes for files yourself, you can just check
+out the repository on your own box and then run the following, in the
+<code>git</code> checkout of your overlay:</p>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> ebuild 38-moths-0.4.ebuild manifest</span></code></pre></div>
+<p>This will spit out a shiny-new <code>Manifest</code> file which you
+can check in to your overlay.</p>
 <h1 id="unmasking-your-packages">Unmasking your packages</h1>
-<p>Gentoo is very stingey about which things are <a href="https://wiki.gentoo.org/wiki/AMD64/FAQ#I_want_to_install_package_foo.2C_but_emerge_says:_.28masked_by:_.7Eamd64_keyword.29">masked</a> and which aren’t. You may have noticed the following line in the <code>.ebuild</code> above:</p>
+<p>Gentoo is very stingey about which things are <a
+href="https://wiki.gentoo.org/wiki/AMD64/FAQ#I_want_to_install_package_foo.2C_but_emerge_says:_.28masked_by:_.7Eamd64_keyword.29">masked</a>
+and which aren’t. You may have noticed the following line in the
+<code>.ebuild</code> above:</p>
 <pre><code>KEYWORDS=&quot;~amd64&quot;</code></pre>
-<p>This means that the package isn’t production ready. This is a good thing, because it shows others that maybe your code isn’t ready. It’s up to you whether or not you want your code to be distributed this way.</p>
+<p>This means that the package isn’t production ready. This is a good
+thing, because it shows others that maybe your code isn’t ready. It’s up
+to you whether or not you want your code to be distributed this way.</p>
 <p>To unmask, you can either do two things:</p>
 <ol type="1">
 <li>Change the keyword to <code>amd64</code></li>
 <li>Allow the package to be merged on your system</li>
 </ol>
-<p>In general I prefer the latter, because it’s on a machine-to-machine basis whether or not your package should me merged if it’s not quite production-ready. To do this, you can add the following to a file in your <code>/etc/porage/package.accept_keywords</code> directory:</p>
+<p>In general I prefer the latter, because it’s on a machine-to-machine
+basis whether or not your package should me merged if it’s not quite
+production-ready. To do this, you can add the following to a file in
+your <code>/etc/porage/package.accept_keywords</code> directory:</p>
 <pre class="/etc/portage/package.accept_keywords/qpfiffer"><code>=www-misc/38-moths-0.4::qpfiffer ~amd64</code></pre>
-<p>This will specifically allow the package to be merged, and no other packages/versions.</p>
+<p>This will specifically allow the package to be merged, and no other
+packages/versions.</p>
 <h1 id="conclusion">Conclusion</h1>
-<p>From here, if everything went as planned, you can re-sync your overlay to your gentoo box and then <code>emerge</code> your heart away.</p>
-<p>That’s it! Ebuilds might be covered in a later post, but for now that’s all you need to get started setting up your own overlay. I’m learning this as I go, so please <a href="mailto:qpfiffer+overlay@gmail.com">drop me a line</a> if something looks out of place or there are corrections. Happy hacking.</p>
+<p>From here, if everything went as planned, you can re-sync your
+overlay to your gentoo box and then <code>emerge</code> your heart
+away.</p>
+<p>That’s it! Ebuilds might be covered in a later post, but for now
+that’s all you need to get started setting up your own overlay. I’m
+learning this as I go, so please <a
+href="mailto:qpfiffer+overlay@gmail.com">drop me a line</a> if something
+looks out of place or there are corrections. Happy hacking.</p>
 </div></div></div></div>
 
 		</div>

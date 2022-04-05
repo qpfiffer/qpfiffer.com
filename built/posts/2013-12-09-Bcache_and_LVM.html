@@ -61,21 +61,50 @@ background-image: url("  /static/img/12_09_2013.jpg ");/* background-color: rgba
 			</div>
 		</header>
 		<div id="main_container">
-			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href=" http//www.flickr.com/photos/104820964@N07/11296545115/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Bcache and LVM non-destructive setup</h2><p class="meta"><span class="author_name">2013-12-09 by  Quinlan Pfiffer</span><a href="/tags/software.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span></a><a href="/tags/how-to.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #ef4e7b 100%);" class="tag">how-to</span></a></p><p>The filesystem-caching tool <a href="http://bcache.evilpiepirate.org/">bcache</a> was recently added to the linux kernel in 3.10. What it allows you to do is cache both reads and writes on an intermediate device for great system performance. I figured now would be a good time to play with it since I managed to pick up a <a href="http://www.ebay.com/itm/Lot-of-5-InnoDisk-FiD-4GB-2-5-SSD-SATA-100000-Serial-ATA-II-Solid-State-Drive-/321259425108?ssPageName=ADME:B:EOIBSA:US:3160">lot of 4GB SSDs on ebay.</a></p>
-<p>The <a href="http://evilpiepirate.org/git/linux-bcache.git/tree/Documentation/bcache.txt?h=bcache-dev#n40">few</a> <a href="https://wiki.archlinux.org/index.php/Bcache">tutorials</a> I’ve found suggest that the drives (mechanical and cache) need to be formatted before use. This isn’t really ideal for my setup. Into <a href="https://github.com/g2p/blocks">blocks.</a></p>
-<p>Blocks is a Python 3.3 utility to convert existing block devices and LVMs to bcache devices. It has a <a href="https://github.com/g2p/blocks/blob/master/README.md">pretty good readme</a> which I sugges you at least skim.</p>
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href=" http//www.flickr.com/photos/104820964@N07/11296545115/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Bcache and LVM non-destructive setup</h2><p class="meta"><span class="author_name">2013-12-09 by  Quinlan Pfiffer</span><a href="/tags/software.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span></a><a href="/tags/how-to.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #ef4e7b 100%);" class="tag">how-to</span></a></p><p>The filesystem-caching tool <a
+href="http://bcache.evilpiepirate.org/">bcache</a> was recently added to
+the linux kernel in 3.10. What it allows you to do is cache both reads
+and writes on an intermediate device for great system performance. I
+figured now would be a good time to play with it since I managed to pick
+up a <a
+href="http://www.ebay.com/itm/Lot-of-5-InnoDisk-FiD-4GB-2-5-SSD-SATA-100000-Serial-ATA-II-Solid-State-Drive-/321259425108?ssPageName=ADME:B:EOIBSA:US:3160">lot
+of 4GB SSDs on ebay.</a></p>
+<p>The <a
+href="http://evilpiepirate.org/git/linux-bcache.git/tree/Documentation/bcache.txt?h=bcache-dev#n40">few</a>
+<a href="https://wiki.archlinux.org/index.php/Bcache">tutorials</a> I’ve
+found suggest that the drives (mechanical and cache) need to be
+formatted before use. This isn’t really ideal for my setup. Into <a
+href="https://github.com/g2p/blocks">blocks.</a></p>
+<p>Blocks is a Python 3.3 utility to convert existing block devices and
+LVMs to bcache devices. It has a <a
+href="https://github.com/g2p/blocks/blob/master/README.md">pretty good
+readme</a> which I sugges you at least skim.</p>
 <h3 id="create-cache-device">Create Cache Device</h3>
-<p>First of all you’re going to need that actual caching device to be setup first.</p>
+<p>First of all you’re going to need that actual caching device to be
+setup first.</p>
 <pre><code>make-bcache -C /dev/md1</code></pre>
-<p>My device is <code>/dev/md1</code>, because I threw two of the SSDs I recieved into a mirrored raid. This command also has the side effect of creating a new bcache set. The UUID for this set is spit out as the <code>Set UUID:</code> output. Mine happens to be <code>c4f68165-bf87-4d29-8e8e-3f3338deb3f9</code>.</p>
+<p>My device is <code>/dev/md1</code>, because I threw two of the SSDs I
+recieved into a mirrored raid. This command also has the side effect of
+creating a new bcache set. The UUID for this set is spit out as the
+<code>Set UUID:</code> output. Mine happens to be
+<code>c4f68165-bf87-4d29-8e8e-3f3338deb3f9</code>.</p>
 <h3 id="convert-existing-device">Convert Existing Device</h3>
-<p>From here it’s a rather trivial matter. Supposedly. I downloaded and installed blocks, and then ran:</p>
+<p>From here it’s a rather trivial matter. Supposedly. I downloaded and
+installed blocks, and then ran:</p>
 <pre><code>blocks to-bcache --join=c4f68165-bf87-4d29-8e8e-3f3338deb3f9 /dev/volumegroup/logical_volume</code></pre>
-<p>which will do some wizardry and resize and convert the device to a bcache backing device. Or it’s supposed to. <a href="https://github.com/g2p/blocks/issues/6">Doesn’t quite work yet.</a>.</p>
-<p>I’ll finish this post once I either get it working or get a response back from the blocks author.</p>
-<p><strong>Update:</strong> My specific issue was fixed as of <a href="https://github.com/g2p/blocks/issues/8">here.</a> After updating blocks and making sure everything was working perfectly I ran:</p>
+<p>which will do some wizardry and resize and convert the device to a
+bcache backing device. Or it’s supposed to. <a
+href="https://github.com/g2p/blocks/issues/6">Doesn’t quite work
+yet.</a>.</p>
+<p>I’ll finish this post once I either get it working or get a response
+back from the blocks author.</p>
+<p><strong>Update:</strong> My specific issue was fixed as of <a
+href="https://github.com/g2p/blocks/issues/8">here.</a> After updating
+blocks and making sure everything was working perfectly I ran:</p>
 <pre><code>python3.3 -m blocks to-bcache --join=c4f68165-bf87-4d29-8e8e-3f3338deb3f9 /dev/vg/lvm</code></pre>
-<p>which successfully completed. After that I had a <code>/dev/bcache0</code> to mount. Props to <a href="https://github.com/g2p">g2p</a>.</p>
+<p>which successfully completed. After that I had a
+<code>/dev/bcache0</code> to mount. Props to <a
+href="https://github.com/g2p">g2p</a>.</p>
 </div></div></div></div>
 
 		</div>
