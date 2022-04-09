@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--
+  ____ ____  _____ ____  _	 _ _   _ _	 _ _  _______ _
+ / ___|  _ \| ____/ ___|| | | | | | | \ | | |/ / ____| |
+| |  _| |_) |  _| \___ \| |_| | | | |  \| | ' /|  _| | |
+| |_| |  _ <| |___ ___) |  _  | |_| | |\  | . \| |___| |___
+ \____|_| \_\_____|____/|_| |_|\___/|_| \_|_|\_\_____|_____|
+
+Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
+-->
+<html>
+	<head>
+		<title>q.pfiffer.org -  ReverseGPX, A Weekend Project
+</title>
+		<meta charset="UTF-8">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		
+
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" media="all" href="/static/css/simplegrid.css" />
+		<link rel="stylesheet" media="all" href="/static/css/default.css" />
+		    <link rel="stylesheet" href="/static/css/highlight_js/default.css">
+    <script src="/static/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <style>
+        #bg_img {
+            width: 100%;
+            height: 409px;
+            background-size: cover;
+            background-position: center;
+            padding: 2px;
+background-image: url(" /static/img/bg.jpg ");/* background-color: rgba(197, 93, 101);background: linear-gradient(90deg, rgba(197, 93, 101, 1) 0%,rgba(209, 193, 193, 2) 100%); */        }
+    </style>
+
+
+		<link rel="stylesheet" media="(max-width: 800px)" href="/static/css/mobile.css" />
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+	</head>
+	<body>
+		<header>
+			<h2 id="blog_title"><a href="/">Malevolent Cartography</a></h2>
+			<div class="contact">
+				<p>Write C</p>
+				<p>Drink your coffee black</p>
+				<p>Sleep on the floor</p>
+				<p>Burn your rolling luggage</p>
+			</div>
+			<h4>Contact</h4>
+			<div class="contact">
+				<p><i class="fab fa-github"></i> <a href="https://github.com/qpfiffer">github.com/qpfiffer</a></p>
+				<p><i class="far fa-envelope"></i> <a href="mailto:qpfiffer@gmail.com">qpfiffer+qpweb@gmail.com</a></p>
+			</div>
+			<h4>Links</h4>
+			<div class="links">
+				<ul>
+					<li><a href="/blog.html">All Posts</a></li>
+					<li><a href="/tags.html">Tags</a></li>
+					<li><a href="/wiki/nav.html">"Wiki" Nav</a></li>
+				</ul>
+			</div>
+		</header>
+		<div id="main_container">
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href=" https//google.com/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> ReverseGPX, A Weekend Project</h2><p class="meta"><span class="author_name">2022-04-09 by  Quinlan Pfiffer</span><a href="/tags/programming.html"><span style="background: linear-gradient(90deg, #ef4e7b 0%, #f79533 100%);" class="tag">programming</span></a><a href="/tags/gentoo.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #a166ab 100%);" class="tag">gentoo</span></a><a href="/tags/c.html"><span style="background: linear-gradient(90deg, #5073b8 0%, #5073b8 100%);" class="tag">c</span></a><a href="/tags/software.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span></a></p><p>For a while now, I’ve noticed that theres no good tool online to flip
+<a href="https://en.wikipedia.org/wiki/GPS_Exchange_Format">GPX
+files</a> around. <a href="https://gpx.studio/">gpx.studio</a> exists
+but it’s big and clunky and graphical, and does a lot more than what I
+want. There are also a handful of weird java tools and random code in
+GitHub repos, but nothing simple and concise. This need actually comes
+up a lot for me: Say I need to reverse a bikepacking route, or create a
+route from a track that was done the wrong way, or who knows. Theres not
+a simple, easy, fast way to do it.</p>
+<p>So now that I’m unemployed and wandering the earth like a Wraith, I
+finally got around to building <a
+href="https://reversegpx.com/">ReverseGPX.com</a>. The concept is
+simple: You upload a file, wait for a second while it does it’s thing,
+and you get back the same file but the timestamps and trackpoint order
+is reversed. It’s simple and bespoke and <em>fast</em>. Theres no
+fucking around with a javascript map or sliders or anything, it just
+does what it says. I figured I’d talk a little bit about how it’s built
+and dpeloyed, since it’s done with my own particular brand of
+brain-damage.</p>
+<h2 id="the-code">The Code</h2>
+<p>I hacked it together in a rainy weekend at a hostel here in Pucón,
+Chile. The frontend is written in Python3 using the <a
+href="https://sanic.dev/en/">Sanic</a> framework because I’m familiar
+with it. It’s mostly uninteresting. It serves up some HTML and ingests
+files, making sure they’re mostly benign. Theres some ugly vanilla
+Javascript and inline CSS because I don’t <a
+href="https://qp-nodeps.shithouse.tv/">need any frontend
+dependencies.</a></p>
+<h2 id="the-file-daemon">The File Daemon</h2>
+<p>The interesting part is the bespoke C file-processing daemon, that
+reads more like a script. You can <a
+href="https://git.sr.ht/~qpfiffer/reversegpx/tree/master/item/reversed/main.c">check
+it out for yourself here.</a> It’s almost one file, but I needed to add
+in my vector library to handle arbitrary lists. This one <em>does</em>
+use dependencies, because I didn’t want to mess around with parsing XML.
+LibXML2 does that job, and was fun to try and figure out. It’s not a bad
+library, and more than enough for what I’m doing.</p>
+<p>The daemon itself reverses two things: The node order, and the
+timestamps in those nodes. So far I haven’t found a GPX file that messes
+it up, but I’m sure they exist. I haven’t even bothered to really check
+it for memory leaks, since it’s short-lived and just called by inotify.
+It uses the filesystem for processing.</p>
+<h2 id="deployment">Deployment</h2>
+<p>For now it’s using the classic bombproof running-in-tmux deployment
+method, which I’ve found to be one of the best ways to just get
+something going. Eventually I’ll get around to sticking it into my <a
+href="/posts/2020-04-23-Personal_Gentoo_Overlay.html">private
+Overlay</a>, but for now it’s just quietly chugging along in the
+backround and it’s very easy to keep an eye on it, so I’m not too
+worried.</p>
+<p>If you do find a bug in it, please <a
+href="mailto:qpfiffer@gmail.com">email me here</a>. I’m very interested
+in finding things that break it, since it’s a very simple and basic
+utility.</p>
+</div></div></div></div>
+
+		</div>
+		<div id="busted_pixel">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUA/wA0XsCoAAAACklEQVR4nGNiAAAABgADNjd8qAAAAABJRU5ErkJggg==">
+		</div>
+		
+		<footer>
+			<div class="grid grid-pad">
+				<div class="col-1-2">
+					<div class="content">
+						<ul>
+							<li>&copy; Copyright 2014-2021, <a href="http://q.pfiffer.org/">Quinlan Pfiffer</a></li>
+							<li><a href="//validator.w3.org/feed/check.cgi?url=http%3A//q.pfiffer.org/feed.xml"><img src="/static/img/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-1-2">
+					<div class="pull-right content">
+						<ul>
+							<li><a href="mailto:qpfiffer@gmail.com">Email</a></li>
+							<li><a id="webring" href='//webring.xxiivv.com/#random' target='_blank'><img src='/static/img/icon.black.svg'/></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-30510579-1']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	
+
+	</body>
+</html>
+<!-- vim: noet ts=4 sw=4:
+-->
