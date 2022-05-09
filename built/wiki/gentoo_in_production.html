@@ -61,7 +61,37 @@ background-image: url(" /static/img/bg.jpg ");/* background-color: rgba(222, 87,
 			</div>
 		</header>
 		<div id="main_container">
-			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Notes for Gentoo in Production</h2><p class="meta"><span class="author_name">gentoo_in_production.markdown by NO AUTHOR</span></p><h1 id="steps">Steps</h1>
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Notes for Gentoo in Production</h2><p class="meta"><span class="author_name">gentoo_in_production.markdown by NO AUTHOR</span></p><h1 id="the-plan">The Plan</h1>
+<p>Use Wireguard to stick all services together.</p>
+<h2 id="storage-server">Storage Server</h2>
+<ul>
+<li>Backups of VPS</li>
+<li>Automated backups of laptop</li>
+<li>MZBH</li>
+<li>git hosting (git.sr.ht?)</li>
+<li>Overlay hosting</li>
+<li>MinIO file hosting</li>
+</ul>
+<h2 id="build-server">Build Server</h2>
+<ul>
+<li>Nightly builds of Node project
+<ul>
+<li>Should logpurge them unless they’re starred</li>
+<li>Should have cron output attached to builds</li>
+</ul></li>
+</ul>
+<h2 id="vps">VPS</h2>
+<ul>
+<li>Status page for all services</li>
+<li>All external stuff</li>
+</ul>
+<h2 id="real-world-nodes">Real-world Nodes</h2>
+<ul>
+<li>Raspberry Pis with Hardened MUSL, minimal builds</li>
+<li>Admin page</li>
+<li>WiFi compromiser thing- Handshakes, automated connections, etc.</li>
+</ul>
+<h1 id="steps">Steps</h1>
 <ol type="1">
 <li>Use an external <a
 href="https://wiki.gentoo.org/wiki/Binary_package_guide">binhost</a></li>
@@ -79,6 +109,8 @@ sets for building Package lists</a></li>
 <li><a
 href="https://old.reddit.com/r/linux/comments/1iw5b6/til_google_chrome_os_core_is_a_gentoo/cb8pix8/">Random
 comment on embedding stuff</a></li>
+<li><a href="https://github.com/mck-sbs/gentoo-rpi-64-bit">rPI
+64-bit</a></li>
 </ul>
 </div></div></div></div>
 
