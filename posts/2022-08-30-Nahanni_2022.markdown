@@ -1,0 +1,63 @@
+---
+title: South Nahanni 2022
+author: Quinlan Pfiffer
+tags: outside, adventure, whitewater, packrafting
+bg-image: /static/img/nahanni_2022/header.jpg
+---
+
+<!-- [Part 2.](/posts/2021-09-08-Kyrgyzstan_2021_2.html) -->
+
+<iframe
+src="https://ridewithgps.com/embeds?type=route&id=101495270&sampleGraph=true"
+style="width: 1px; min-width: 100%; height: 700px; border: none;"
+scrolling="no"></iframe>
+
+So it finally happened. This year, after several years of set-backs and
+showstoppers, it finally happened: The logistics gods all aligned and we were
+able to put together a one-in-a-lifetime river trip down the South Nahanni. I
+won't go into the background about why this place is so special, but I encourage
+you to read our [primary inspiration](http://tom.grundy.tripod.com/basedir/nahanni.html)
+and to check out what [Wikipedia](https://en.wikipedia.org/wiki/South_Nahanni_River) 
+has to say about the Nahanni.
+
+To start with, it's a seldom-visited, storied destination with some rather <a
+href="https://en.wikipedia.org/wiki/Virginia_Falls_(Northwest_Territories)">rather
+famous landmarks.</a> The whitewater isn't really anything to worry about since
+it's primarily a canoe trip destination, but it was still something to think about.
+
+In addition, one of the [50 classic climbs of north america](https://en.wikipedia.org/wiki/Fifty_Classic_Climbs_of_North_America)
+is right along the river, the famed [Lotus Flower Tower.](https://www.mountainproject.com/area/105905652/lotus-flower-tower) M has
+had her on this objective for a really long time, and it's a phenomonal
+multisport trip: Paddle for a while, climb for a while, paddle out. The route's
+difficulty is supposedly in the range of us mere mortals, too, so the trip
+needed to happen. It's perfect!
+
+# Training, Logistics and Testing
+
+## Logistics
+
+I think this trip had more logistics to solve than any other trip I've done.
+Just look at the numbers:
+
+* Permits to buy for six people
+* Shuttles for six people (10 hours of driving from the take-out to the put-in)
+* 25 hours of driving just to get up to the take-out from Portland
+* Food for 22-25 days
+* A plane to shuttle in our climbing gear and additional food
+* The logistics of the climb itself
+
+## Training
+
+## Testing
+
+# Day 0
+
+# Day 1
+
+<img src="/static/img/kyrgyzstan_2021/day_1_1.jpg"></img>
+
+# Day 2
+
+<img src="/static/img/kyrgyzstan_2021/day_2_1.jpg"></img>
+
+<!-- [Continued over at part 2.](/posts/2021-09-08-Kyrgyzstan_2021_2.html) -->
