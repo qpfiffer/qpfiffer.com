@@ -23,6 +23,7 @@ finish books.
 * [A Deepness in the Sky](https://en.wikipedia.org/wiki/A_Deepness_in_the_Sky)
 * [Ajax Penumbra 1969](http://www.amazon.com/Ajax-Penumbra-1969-Kindle-Single-ebook/dp/B00EWZC8QI)
 * [Alone](https://en.wikipedia.org/wiki/Richard_E._Byrd)
+* Altered Carbon - Richard K. Morgan +1
 * [The Art of Resilience](https://www.goodreads.com/book/show/45444045-the-art-of-resilience)
 * [There Is No Antimemetics Division](https://www.goodreads.com/en/book/show/54870256-there-is-no-antimemetics-division)
 * [Bangkok Tattoo](https://www.amazon.com/Bangkok-Tattoo-Royal-Detective-Novel/dp/1400032911)
@@ -62,8 +63,10 @@ finish books.
 * The Invention of Sound - Chuck Palahniuk
 * Intentional Dissonance - Iain S. Thomas
 * [Kiss or Kill](https://www.amazon.com/dp/B001C4QYGC/) - Mark Twight
+* The Lies of Locke Lamora - Scott Lynch
 * [Lolita](https://en.wikipedia.org/wiki/Lolita)
 * Maelstrom - Peter Watts
+* Never Turn Back (Blackadar Biography) - Ron Watters
 * Open - Andre Agassi
 * Pattern Recognition - William Gibson
 * [Piercing](http://www.goodreads.com/book/show/14288.Piercing)
