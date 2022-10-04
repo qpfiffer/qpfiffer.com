@@ -1,7 +1,7 @@
 ---
 title: South Nahanni 2022&#58; The Cirque of the Unclimbables
 author: Quinlan Pfiffer
-tags: outside, adventure, whitewater, packrafting
+tags: outside, adventure, climbing
 bg-image: /static/img/nahanni_2022/header2.jpg
 ---
 
