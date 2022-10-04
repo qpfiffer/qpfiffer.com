@@ -1,0 +1,101 @@
+---
+title: Oregon Outback 2018
+author: Quinlan Pfiffer
+bg-image: /static/img/outback_2018.jpg
+tags: outside, checklist
+---
+
+The [Oregon Outback](http://www.bikepacking.com/routes/oregon-outback/) is something
+I've got kind of a history with. I tried it backward back in 2016, during
+winter, and failed it. There was a lot of snow, and dirt-touring in the winter
+is kind of brutal. In addition, when you go backwards you end up gaining a bunch
+of elevation instead of losing it, over the course of the ride. Add post-holing
+through snow in eastern Oregon and you end up with a recipe for low morale.
+
+# Preparation
+
+This was all stuff I wrote before the outback happened. Mostly a gear list, what
+to bring, make ore repair, that kind of thing.
+
+* Look for PVC cage things (are any left?)
+* Change grips
+* Nix Handlebar bag? Deadweight.
+* Add water bottle cages to fork
+* Actually fix framebag
+* Tubeless?
+
+## When
+
+September 4th - 9th, 2018
+
+Train departs PDX at 2:50PM and (hopefully) gets to klamath falls by 9:50PM. The
+ideal would be to get in and slam out 20-30 miles before sleeping on the trail
+somewhere.
+
+Ride the outback.
+
+Ride to [the Dalles](https://ridewithgps.com/routes/5005647) and take the
+greyhound back to PDX.
+
+## Gear Checklist
+
+* Karate Monkey, ofc
+* Framebag
+    * Can opener
+    * Toolkit
+        * Pliers
+        * Multitool
+        * Tire Levers
+        * Spare Chain Links
+        * Pump
+        * Spare Tube
+        * Zipties
+    * Food
+    * Baby wipes/aquaphor
+    * Filter
+    * Spot tracker
+
+* Saddle Bag
+    * Bivvy
+    * Cooking Stuff
+        * Stove
+        * Bowl
+        * Spork
+        * Lighter
+
+* Handlebars
+    * Bike Lights
+        * Front and rear
+    * Tent Poles
+    * Quick access bag
+        * Toothbrush/toothpaste
+        * Ibuprofen
+        * Salt Tablets
+        * Water filter
+        * Skratch Packets
+        * Spot tracker
+        * Knife
+        * Headlamp
+        * USB Battery
+            * iPhone cable
+            * Regular USB Cable
+        * Solar Panel
+        * Kindle
+        * Aquaphor
+    * Sleeping Bag
+
+* Gastank
+    * Phone
+    * Wallet
+    * Keys
+
+* Unbagged/Misc.
+    * Cycling GPS Thing
+    * Two Water Bottles
+    * Water Bladder
+    * Clothing
+        * Two Pairs Socks
+        * Shirt
+        * Shorts
+        * Helmet
+        * Sunglasses

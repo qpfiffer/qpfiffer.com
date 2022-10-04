@@ -1,0 +1,12 @@
+---
+title: Initial Post
+author: Quinlan Pfiffer
+---
+
+This is the first post. From here I'll probably be writing about tech stuff,
+things I've done or want to do, whatever. I really just need something kind of
+meaty to test the layout and to make sure everything is set up correctly.
+
+The barrier to entry on this wasn't too bad, Hakyll is pretty nice. I haven't
+needed to add any javascript for anything the process looks pretty painless
+should I ever need to.

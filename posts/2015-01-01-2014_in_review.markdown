@@ -1,0 +1,157 @@
+---
+title: 2014 In Review
+author: Quinlan Pfiffer
+bg-image: /static/img/1_1_2014.jpg
+bg-img-src: https://www.flickr.com/photos/104820964@N07/15221633500/
+tags: year-end-review
+---
+Accomplishments
+===============
+
+* Passed Chinese 101, 102, 103 and 201 with flying colors. Helped start and
+  maintain the [PCC Chinese Club.](http://chinesepcc.club/) Met a lot of cool
+  people in chinese class. Good year for language learning.
+* Spent almost a month in Taiwan, alone. One of my most valuable experiences of
+  2014.
+* Wrote more C this year than any other time. Ever.
+* Wrote some Erlang. Nice language, don't like the VM.
+* Put a [ton of work](https://github.com/infoforcefeed/OlegDB/commits?author=qpfiffer)
+  into [OlegDB](https://olegdb.org/). Ended up creating
+  [GRESHUNKEL](https://github.com/infoforcefeed/OlegDB-Website/tree/master/greshunkel)
+  to build and power the website, which has now infected many of my other projects.
+* Attempted to [implement a language, Den.](https://github.com/qpfiffer/lair)
+  Turns out I hate parsing things.
+* Took the Xbox-live syntax from the GRESHUNKEL static generator, ported it to C
+  and released it as a [stand-alone library.](https://github.com/qpfiffer/gshkl)
+* Had a handful of people break my IRC link aggregators:
+    - ["Bruteforcing the Devil"](https://blog.passcod.name/2014/jun/05/bruteforcing-the-devil)
+    - A guy named Bearst sent in some security patches regarding CSRF, Oleg.
+      Thanks, Bearst!
+* Wrote a handful of C++, got a recruiting email from Google for it. Neat.
+* Okay year for book reading, I wish I'd read more books. Taiwan was great for
+  reading.
+    - [Black Man](https://en.wikipedia.org/wiki/Black_Man)
+    - [Idoru](http://en.wikipedia.org/wiki/Idoru)
+    - [In the Miso Soup](https://en.wikipedia.org/wiki/In_the_Miso_Soup)
+    - [Piercing](http://www.goodreads.com/book/show/14288.Piercing)
+    - [Lolita](https://en.wikipedia.org/wiki/Lolita) (Been on my list forever)
+    - [High Rise](https://en.wikipedia.org/wiki/High_Rise) (reread)
+    - [Oblivion: Stories](http://en.wikipedia.org/wiki/Oblivion:_Stories)
+* NEOTOKYO&deg; was released on steam, was a good revival for the community.
+  Played a lot this year.
+* Didn't make the '10,000 Commits by the end of the year' goal:
+
+```
+2014-03-06 13:42:12     jnerula Guys if I hit 10,000 commits in a year
+2014-03-06 13:42:14     jnerula what happens
+2014-03-06 13:43:23     coalbe  nothing.
+2014-03-06 13:44:11     coalbe  muda bro.
+2014-03-06 13:46:31     vhost-  yeah, muda
+2014-03-06 13:47:21     vhost-  jnerula: it's on
+2014-03-06 13:47:33     vhost-  10,000 commits by december 31st
+2014-03-06 13:47:45     vhost-  IFF challenge
+2014-03-06 13:48:07     vhost-  winner gets a linode vps for 6 months?
+2014-03-06 13:48:20     vhost-  they have to be good commits too
+2014-03-06 13:48:27     vhost-  not just bullshit or blanks
+```
+
+* Shipped a laptop to Italy for a [friend.](https://github.com/hamcha)
+* Had some backup crises, didn't learn my lesson.
+* Quit my job, started freelancing for some [cool people.](http://survantjames.com/)
+* Gave a talk at PDXByte on some [technology we use in OlegDB.](https://www.youtube.com/watch?v=BFaew_H1psQ)
+* Took too many [photos](https://www.flickr.com/photos/104820964@N07/) to easily count.
+
+Side-Projects
+=============
+
+### Succeeded (for some definitions of the word)
+* [OlegDB](https://olegdb.org/) - I don't care what you say, best thing of 2014.
+* [waifu.xyz](https://github.com/qpfiffer/waifu.xyz) - Somehow spent enough time
+  on this to have almost 300 commits. It's a webserver, templating language,
+  webm-scraping, OlegDB-testing megamachine that basically downloads webms from
+  4chan and does some basic analysis on them. Hilarious. Works really well for
+  what it is, still needs some love. I'm really happy with this project.
+* [GRESHUNKEL](https://github.com/infoforcefeed/OlegDB-Website) - The static
+  site generator that I will use for the rest of my life. Hilariously awful,
+  it's probably the first thing utilizing antagonistic design principals.
+* [BashDB](https://github.com/qpfiffer/BashDB) - Mostly a joke, just to see if I
+  could.
+* [DBM Source Code](https://github.com/qpfiffer/Unix-v7-DBM) - Not really a
+  sideproject, I just dug up the old v7 DBM code and put it online because I got
+  tired of wondering what it looked like.
+* [IRC-Nick-Graph](https://github.com/qpfiffer/IRC-Nick-Graph) - C++ project I
+  spent a couple of weekends on to build a graph of Usernames -> Aliases from
+  IRC logs. Started after I read the User -> Role permission graph in the
+  MongoDB sourcecode. Works pretty well. Don't really need to touch it again.
+* [chinesepcc.club](https://github.com/qpfiffer/chinesepcc.club) - Website for
+  the Chinese PCC Club. Built with Greshunkel. Works well.
+* [gshkl](https://github.com/qpfiffer/gshkl) - C port of the greshunkel
+  templating language.
+
+### Limbo
+* [lair](https://github.com/qpfiffer/lair) - My interpreter for the Den
+  language. Turns out I hate making languages.
+* [#metaforcefeed](https://github.com/qpfiffer/metaforcefeed) - Originally a
+  generic Reddit-like system to track ideas and test OlegDB. It's currently
+  broken because Oleg did something weird to it's datafiles and I haven't reverse
+  engineered it yet.
+* [shithouse.tv](https://github.com/qpfiffer/shithouse.tv) - Probably my most
+  popular project of 2014. Just puts images on a page with a background color.
+  Needs some love to support tags and webms.
+* [mttp](https://github.com/qpfiffer/mttp) - The HTTP server that powered OlegDB
+  before we switched to Go. It doesn't compile right now but I didn't want to
+  lose the code. May use it again someday.
+
+### Failed
+* [waifu.coffee](https://github.com/qpfiffer/waifu.coffee) - Was going to be a
+  reverse-image search engine thing. Ended up getting mired in the image format
+  bullshit (Do I write my own jpeg parser? What about PNGs?). I might get back
+  to it someday.
+* [kyoto-pantry](https://github.com/qpfiffer/kyotopantry) - Userspace file
+  deduplication. Got mired in the actual implementation of min-hashing and
+  efficient chunk differentiation. Dunno if I ever want to finish this one.
+* [agdyne](https://github.com/qpfiffer/agdyne) - Evolved from the IRC-Nick-Graph
+  project, was going to be a graph database. Didn't go far, got fed-up with
+  needing to build a query language.
+
+
+Regrets
+=======
+
+* Didn't write much Haskell this year.
+* Didn't box much at all this year. Really regret this one, it was my favorite
+  thing from 2013.
+* Didn't finish all the side-projects I started. Didn't finish the ones from
+  last year.
+* Didn't really work on kyoto.io at all.
+* Didn't read as much as I wanted to.
+
+Goals from Last Year
+====================
+
+* Failed: Get a driver's license
+* Success: Get a comfortable grasp on Mandarin
+* Failed: Start writing Haskell for someone, for money
+* Success: More travelling (Singapore, Murmansk, Tokyo)
+* Failed: Keep boxing (work on footwork)
+* Failed: Start a business and make some money on the side
+* Failed: Place in fpcomplete monthly contest.
+
+Goals for 2015
+==============
+
+* More mandarin.
+* More boxing. Get back to it.
+* Travel to mainland china (Shenzhen, Shanghai)
+* Driver's License (Yeah right)
+* Travel to Japan
+* Drink less
+* Figure out whether freelancing is a good idea or not
+* Read more books
+
+Random Stats
+============
+
+* Weight: ~140lb
+* Books read: 7
+* Commits: 2,376 
