@@ -87,4 +87,5 @@ finish books.
 * [Venus in Furs](https://en.wikipedia.org/wiki/Venus_in_Furs)
 * Virtual Light - William Gibson
 * [Void Star](https://www.amazon.com/Void-Star-Novel-Zachary-Mason-ebook/dp/B01LZUDPGV/)
+* The Way of Kings - Brandon Sanderson
 * [We Live Inside You](http://www.amazon.com/Live-Inside-Jeremy-Robert-Johnson/dp/1933929065)
