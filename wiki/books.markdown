@@ -45,8 +45,8 @@ finish books.
 * <a href="https://en.wikipedia.org/wiki/Dune_(novel)">Dune</a>
 * [Exhalations](https://en.wikipedia.org/wiki/Exhalation:_Stories)
 * [Extreme Alpinism](https://www.amazon.com/Extreme-Alpinism-Climbing-Light-High/dp/0898866545)
-* [The Feral
-  Detective](https://www.amazon.com/Feral-Detective-Novel-Jonathan-Lethem/dp/0062859064)
+* [The Feral Detective](https://www.amazon.com/Feral-Detective-Novel-Jonathan-Lethem/dp/0062859064)
+* Feeding the Rat - A. Alvarez
 * [The First Fifteen Lives of Harry August](https://en.wikipedia.org/wiki/The_First_Fifteen_Lives_of_Harry_August)
 * [Foundation and Empire](https://en.wikipedia.org/wiki/Foundation_and_Empire)
 * [The Freeze-Frame Revolution](https://www.goodreads.com/book/show/36510759-the-freeze-frame-revolution) +1
