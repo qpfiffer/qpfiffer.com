@@ -34,7 +34,7 @@ Javascript and inline CSS because I don't [need any frontend dependencies.](http
 ## The File Daemon
 
 The interesting part is the bespoke C file-processing daemon, that reads more
-like a script. You can [check it out for yourself here.](https://git.sr.ht/~qpfiffer/reversegpx/tree/master/item/reversed/main.c)
+like a script. You can [check it out for yourself here.](https://git.sr.ht/~qpfiffer/reversegpx/tree/master/item/reversed/src/reversed.c)
 It's almost one file, but I needed to add in my vector library to handle
 arbitrary lists. This one _does_ use dependencies, because I didn't want to mess
 around with parsing XML. LibXML2 does that job, and was fun to try and figure
