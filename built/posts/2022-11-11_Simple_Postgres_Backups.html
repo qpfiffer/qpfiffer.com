@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--
+  ____ ____  _____ ____  _	 _ _   _ _	 _ _  _______ _
+ / ___|  _ \| ____/ ___|| | | | | | | \ | | |/ / ____| |
+| |  _| |_) |  _| \___ \| |_| | | | |  \| | ' /|  _| | |
+| |_| |  _ <| |___ ___) |  _  | |_| | |\  | . \| |___| |___
+ \____|_| \_\_____|____/|_| |_|\___/|_| \_|_|\_\_____|_____|
+
+Proudly generated with GRESHUNKEL, a static site generator for the dead inside.
+-->
+<html>
+	<head>
+		<title>q.pfiffer.org -  Simple Postgres Backups
+</title>
+		<meta charset="UTF-8">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		
+
+		<!-- <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+		<link rel="stylesheet" media="all" href="/static/css/simplegrid.css" />
+		<link rel="stylesheet" media="all" href="/static/css/default.css" />
+		    <link rel="stylesheet" href="/static/css/highlight_js/default.css">
+    <script src="/static/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <style>
+        #bg_img {
+            width: 100%;
+            height: 409px;
+            background-size: cover;
+            background-position: center;
+            padding: 2px;
+background-image: url(" /static/img/bg.jpg ");/* background-color: rgba(133, 186, 7);background: linear-gradient(90deg, rgba(133, 186, 7, 1) 0%,rgba(84, 247, 166, 2) 100%); */        }
+    </style>
+
+
+		<link rel="stylesheet" media="(max-width: 800px)" href="/static/css/mobile.css" />
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+	</head>
+	<body>
+		<header>
+			<h2 id="blog_title"><a href="/">Malevolent Cartography</a></h2>
+			<div class="contact">
+				<p>Write C</p>
+				<p>Drink your coffee black</p>
+				<p>Sleep on the floor</p>
+				<p>Burn your rolling luggage</p>
+			</div>
+			<h4>Contact</h4>
+			<div class="contact">
+				<p><i class="fab fa-github"></i> <a href="https://github.com/qpfiffer">github.com/qpfiffer</a></p>
+				<p><i class="far fa-envelope"></i> <a href="mailto:qpfiffer@gmail.com">qpfiffer+qpweb@gmail.com</a></p>
+				<p><i class="far fa-file"></i> <a href="/resume/">Resume</a></p>
+			</div>
+			<h4>Links</h4>
+			<div class="links">
+				<ul>
+					<li><a href="/blog.html">All Posts</a></li>
+					<li><a href="/tags.html">Tags</a></li>
+					<li><a href="/wiki/nav.html">"Wiki" Nav</a></li>
+				</ul>
+			</div>
+		</header>
+		<div id="main_container">
+			<div id="bg_img"><div id="meta_container"><a id="bg_img_source" href="http://www.flickr.com/photos/104820964@N07/11595685883/" title="Image Source"></a></div></div><div class="blog_container"><div class="grid grid-pad"><div class="col-1-1"><div class="language-bash content"><h2 class="post_title"> Simple Postgres Backups</h2><p class="meta"><span class="author_name">2022-11-11_Simple_Postgres_Backups.markdown by  Quinlan Pfiffer</span><a href="/tags/software.html"><span style="background: linear-gradient(90deg, #1098ad 0%, #f37055 100%);" class="tag">software</span></a><a href="/tags/postgres.html"><span style="background: linear-gradient(90deg, #a166ab 0%, #f37055 100%);" class="tag">postgres</span></a></p><p>You’ll need Postgres installed somewhere, and my favorite program
+ever, <a href="https://github.com/nijotz/logpurge">logpurge.</a></p>
+<ol type="1">
+<li>Create a <code>backup.sh</code> script that looks like this:</li>
+</ol>
+<pre><code>#!/bin/bash
+
+pg_dump -Fc mzbh &gt; /var/backups/db_backups/db-$(date &#39;+%Y-%m-%d_%H:%M:%S&#39;).gz
+logpurge -y -d /var/backups/db_backups/</code></pre>
+<p>This will tell Postgres to dump to gzip’d files that look something
+like <code>db-2022-11-11_19:41:57.gz</code>. It will also run
+<code>logpurge</code> in that directory, which will keep more recent
+backups but delete older ones, keeping some around for access,
+logarithmically.</p>
+<ol start="2" type="1">
+<li>Setup a cron job like so:</li>
+</ol>
+<pre><code>$ crontab -e
+17 2 * * * /var/backups/db_backups/backup.sh</code></pre>
+<p>This will run your backup nightly at 2:17 AM. And you’re done! You
+could add a neat little monitoring hook like <a
+href="https://deadmanssnitch.com/">Deadman’s Snitch</a> if you wanted to
+get really fancy.</p>
+</div></div></div></div>
+
+		</div>
+		<div id="busted_pixel">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUA/wA0XsCoAAAACklEQVR4nGNiAAAABgADNjd8qAAAAABJRU5ErkJggg==">
+		</div>
+		
+		<footer>
+			<div class="grid grid-pad">
+				<div class="col-1-2">
+					<div class="content">
+						<ul>
+							<li>&copy; Copyright 2014-2022, <a href="http://q.pfiffer.org/">Quinlan Pfiffer</a></li>
+							<li><a href="//validator.w3.org/feed/check.cgi?url=http%3A//q.pfiffer.org/feed.xml"><img src="/static/img/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-1-2">
+					<div class="pull-right content">
+						<ul>
+							<li><a href="mailto:qpfiffer@gmail.com">Email</a></li>
+							<li><a id="webring" href='//webring.xxiivv.com/#random' target='_blank'><img src='/static/img/icon.black.svg'/></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-30510579-1']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	
+
+	</body>
+</html>
+<!-- vim: noet ts=4 sw=4:
+-->

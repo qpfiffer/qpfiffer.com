@@ -21,6 +21,7 @@ finish books.
 * [The Abominable](http://www.amazon.com/The-Abominable-Novel-Dan-Simmons/dp/0316198838)
 * [Accelerando](https://en.wikipedia.org/wiki/Accelerando)
 * [A Deepness in the Sky](https://en.wikipedia.org/wiki/A_Deepness_in_the_Sky)
+* Agency - William Gibson
 * [Ajax Penumbra 1969](http://www.amazon.com/Ajax-Penumbra-1969-Kindle-Single-ebook/dp/B00EWZC8QI)
 * [Alone](https://en.wikipedia.org/wiki/Richard_E._Byrd)
 * Altered Carbon - Richard K. Morgan +1
@@ -67,6 +68,7 @@ finish books.
 * [Lolita](https://en.wikipedia.org/wiki/Lolita)
 * Maelstrom - Peter Watts
 * Never Turn Back (Blackadar Biography) - Ron Watters
+* Nona the Ninth - Tamsyn Muir
 * Open - Andre Agassi
 * Pattern Recognition - William Gibson
 * [Piercing](http://www.goodreads.com/book/show/14288.Piercing)
