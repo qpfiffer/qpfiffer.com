@@ -108,6 +108,58 @@ def _loop_context_interpolate(variable, loop_variable, current_item, i, context)
     # All else fails try to use the dict variable
     return current_item[variable[1]]
 
+def _render_unless(unless_obj, context):
+    unless_str = unless_obj["unless_str"]
+    has_not = unless_obj["has_not"]
+    unless_variable = unless_obj["unless_variable"]
+    #outer_unless_variable = unless_obj["outer_unless_variable"]
+
+    temp_unless_str = ""
+    regex = re.compile("xXx (?P<variable>[a-zA-Z_0-9\-\$]+) xXx")
+    wombat = re.compile("xXx LOOP (?P<variable>[a-zA-S_\-]+) (?P<fancy_list>[a-zA-S_\-\$]+) xXx(?P<subloop>.*)xXx BBL xXx")
+    condies = re.compile("yYy UNLESS (?P<not>(NOT )?)(?P<variable>[a-zA-S_\-]+) yYy(?P<subconditional>.*)yYy ENDLESS yYy")
+    shattered_loops = wombat.split(unless_str)
+    shattered_condies = wombat.split(unless_str)
+
+    if len(shattered_loops) != 1:
+        print("BEEP BEEP BEEP SUBLOOP DETECTED")
+
+    if len(shattered_condies) != 1:
+        print("BOOP BOOP BOOP SUBCONDIE DETECTED")
+
+    # Lookit these higher order functions, godDAMN
+    def loop_func(x):
+        if x == 'i':
+            return str(i)
+        elif x == "BBL":
+            return ""
+        elif x == loop_variable:
+            return str(thing)
+        elif "$" in x and x in regex.findall(loop_str):
+            #fUcK
+            y = x.split("$")
+            if y[0] == loop_variable and y[1].isdigit():
+                return thing[int(y[1])]
+            return _loop_context_interpolate(y, loop_variable, thing, i, context)
+        return x
+    import pdb; pdb.set_trace()
+    broken_man = regex.split(shattered_loops[0])
+    for chunk in broken_man:
+        bro = loop_func(chunk)
+        temp_loop_str = temp_loop_str + "".join(bro)
+    if len(shattered_loops) != 1:
+        # HACKIEST SHIT THAT EVER HACKED
+        # TODO: If it ain't broke, don't fix it
+        context[shattered_loops[2]] = thing["params"]
+        temp_loop_str = temp_loop_str + _render_loop(loop_obj["loop_subloop"], context)
+        if shattered_loops[4] != "":
+            broken_man = regex.split(shattered_loops[4])
+            for chunk in broken_man:
+                bro = loop_func(chunk)
+                temp_loop_str = temp_loop_str + "".join(bro)
+
+    return temp_loop_str
+
 def _render_loop(loop_obj, context):
     loop_list = loop_obj["loop_list"]
     loop_str = loop_obj["loop_str"]
@@ -117,9 +169,15 @@ def _render_loop(loop_obj, context):
     temp_loop_str = ""
     regex = re.compile("xXx (?P<variable>[a-zA-Z_0-9\-\$]+) xXx")
     wombat = re.compile("xXx LOOP (?P<variable>[a-zA-S_\-]+) (?P<fancy_list>[a-zA-S_\-\$]+) xXx(?P<subloop>.*)xXx BBL xXx")
+    condies = re.compile("yYy UNLESS (?P<not>(NOT )?)(?P<variable>[a-zA-S_\-]+) yYy(?P<subconditional>.*)yYy ENDLESS yYy")
     shattered_loops = wombat.split(loop_str)
+    shattered_condies = wombat.split(loop_str)
+
     if len(shattered_loops) != 1:
         print("BEEP BEEP BEEP SUBLOOP DETECTED")
+
+    if len(shattered_loops) != 1:
+        print("BOOP BOOP BOOP SUBCONDIE DETECTED")
 
     i = 0
     for thing in context[loop_list]:
@@ -172,6 +230,10 @@ def parse_file(context, radical_file):
 
     loop_stack = None
     active_loops = 0
+
+    unless_stack = None
+    active_unless = 0
+
     for line in tfile:
         stripped = line.strip()
         if "xXx" in stripped and "=" in stripped.split("xXx")[1]:
@@ -183,6 +245,27 @@ def parse_file(context, radical_file):
             block_str = ""
             block_name = ""
             end_str = ""
+        elif "yYy UNLESS" in stripped:
+            has_not = False
+            variable = stripped.split("yYy")[1].strip().replace("UNLESS ", "").split(" ")
+            if variable[0] == "NOT":
+                has_not = True
+                variable = variable[1]
+            else:
+                variable = variable[0]
+            active_unless = active_unless + 1
+
+            print("We've entered cow patty {}!".format(variable))
+            if unless_stack is None:
+                unless_stack = {
+                    "unless_depth": active_unless,
+                    "unless_variable": variable,
+                    "has_not": has_not,
+                    "unless_str": "",
+                    "unless_subunless": None
+                }
+            else:
+                raise Exception("Unless in unless not supported, bro")
         # We LoOpIn BaBy
         elif "xXx LOOP " in stripped:
             variables = stripped.split("xXx")[1].strip().replace("LOOP ", "").split(" ")
@@ -211,6 +294,14 @@ def parse_file(context, radical_file):
                         recurse_bro(item["loop_subloop"])
                 recurse_bro(loop_stack)
 
+        elif "yYy ENDLESS yYy" == stripped:
+            active_unless = active_unless - 1
+            if active_unless == 0:
+                temp_unless_str = _render_unless(unless_stack, context)
+                # AsSuMe WeRe In A bLoCk
+                block_str = block_str + temp_unless_str
+                # wE DoNe LoOpIn NoW
+                unless_stack = None
         elif "xXx BBL xXx" == stripped:
             active_loops = active_loops - 1
             if active_loops == 0:
@@ -228,7 +319,7 @@ def parse_file(context, radical_file):
             block_name = lstripped[1].strip()
             block_str = lstripped[0]
             end_str = lstripped[2]
-        if active_loops == 0 and reading_block is True and "xXx" not in stripped:
+        if active_loops == 0 and active_unless == 0 and reading_block is True and "xXx" not in stripped and "yYy" not in stripped:
             block_str = block_str + line
         if active_loops > 0:
             def recurse_bro(item):
