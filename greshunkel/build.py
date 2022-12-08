@@ -143,11 +143,11 @@ def _render_unless(unless_obj, context):
             return _loop_context_interpolate(y, loop_variable, thing, i, context)
         return x
     import pdb; pdb.set_trace()
-    broken_man = regex.split(shattered_loops[0])
+    broken_man = regex.split(shattered_condies[0])
     for chunk in broken_man:
         bro = loop_func(chunk)
         temp_loop_str = temp_loop_str + "".join(bro)
-    if len(shattered_loops) != 1:
+    if len(shattered_condies) != 1:
         # HACKIEST SHIT THAT EVER HACKED
         # TODO: If it ain't broke, don't fix it
         context[shattered_loops[2]] = thing["params"]
@@ -321,6 +321,16 @@ def parse_file(context, radical_file):
             end_str = lstripped[2]
         if active_loops == 0 and active_unless == 0 and reading_block is True and "xXx" not in stripped and "yYy" not in stripped:
             block_str = block_str + line
+        if active_unless > 0:
+            def recurse_bro(item):
+                if item is not None:
+                    if item["unless_depth"] <= active_unless:
+                        if "yYy UNLESS" in stripped and item["unless_depth"] != active_unless:
+                            item["unless_str"] = item["unless_str"] + stripped
+                        elif "yYy UNLESS" not in stripped:
+                            item["unless_str"] = item["unless_str"] + stripped
+                        recurse_bro(item["unless_subunless"])
+            recurse_bro(unless_stack)
         if active_loops > 0:
             def recurse_bro(item):
                 if item is not None:
