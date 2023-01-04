@@ -67,16 +67,20 @@ finish books.
 * The Lies of Locke Lamora - Scott Lynch
 * [Lolita](https://en.wikipedia.org/wiki/Lolita)
 * Maelstrom - Peter Watts
+* The Metamorphosis of Prime Intellect
 * Never Turn Back (Blackadar Biography) - Ron Watters
 * Nona the Ninth - Tamsyn Muir
 * Open - Andre Agassi
 * Pattern Recognition - William Gibson
 * [Piercing](http://www.goodreads.com/book/show/14288.Piercing)
+* The Pirate Hunters - Robert Kurson
 * <a href="https://en.wikipedia.org/wiki/Piranesi_(novel)">Piranesi</a>
 * Powder Days - Heather Hansman
 * <a href="(https://en.wikipedia.org/wiki/Rant_(novel))">Rant: An Oral Biography of Buster Casey</a>
 * [REAMDE](http://www.amazon.com/Reamde-A-Novel-Neal-Stephenson/dp/0062191497)
+* The Revisionaries - AR Moxon
 * [S](https://en.wikipedia.org/wiki/S._(Dorst_novel))
+* Shadow Divers - Robert Kurson
 * [Skullcrack City](http://www.amazon.com/Skullcrack-City-Jeremy-Robert-Johnson/dp/1621051714)
 * [Shibumi](https://en.wikipedia.org/wiki/Shibumi_(novel))
 * [Siddartha](https://en.wikipedia.org/wiki/Siddhartha_(novel))
