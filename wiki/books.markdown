@@ -15,7 +15,7 @@ good idea of the kind of books I want to read.
 ### Reading
 
 The following list is not even close to complete, I'll update it as I start to
-finish books.
+finish books. `(A)` denotes an audiobook.
 
 ### Read
 * [The Abominable](http://www.amazon.com/The-Abominable-Novel-Dan-Simmons/dp/0316198838)
@@ -43,6 +43,7 @@ finish books.
 * [Enduring Patagonia](https://www.amazon.com/dp/B000FC1HWS/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) - Greg Crouch
 * [The Case of Charles Dexter Ward](http://en.wikipedia.org/wiki/The_Case_of_Charles_Dexter_Ward)
 * [The Color out of Space](http://en.wikipedia.org/wiki/The_Color_Out_Of_Space)
+* The Devil and the Dark Water - Stuart Turton (A)
 * <a href="https://en.wikipedia.org/wiki/Dune_(novel)">Dune</a>
 * [Exhalations](https://en.wikipedia.org/wiki/Exhalation:_Stories)
 * [Extreme Alpinism](https://www.amazon.com/Extreme-Alpinism-Climbing-Light-High/dp/0898866545)
@@ -80,10 +81,12 @@ finish books.
 * [REAMDE](http://www.amazon.com/Reamde-A-Novel-Neal-Stephenson/dp/0062191497)
 * The Revisionaries - AR Moxon
 * [S](https://en.wikipedia.org/wiki/S._(Dorst_novel))
+* The Seven and a Half Deaths of Evelyn Hardcastle - Stuart Turton (A)
 * Shadow Divers - Robert Kurson
 * [Skullcrack City](http://www.amazon.com/Skullcrack-City-Jeremy-Robert-Johnson/dp/1621051714)
 * [Shibumi](https://en.wikipedia.org/wiki/Shibumi_(novel))
 * [Siddartha](https://en.wikipedia.org/wiki/Siddhartha_(novel))
+* The Sisters Brothers - Patrick DeWitt (A)
 * Sisyphean - Dempow Torishima
 * [The Sun Also Rises](https://en.wikipedia.org/wiki/The_Sun_Also_Rises)
 * <a href="https://en.wikipedia.org/wiki/Survivor_(Palahniuk_novel)">Survivor</a>
