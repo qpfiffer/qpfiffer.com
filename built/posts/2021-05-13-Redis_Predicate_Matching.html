@@ -88,20 +88,20 @@ have a bunch of hashmaps in Redis more or less like the following:</p>
 quirky and small and great. Heres how we could use it in our specific
 case:</p>
 <div class="sourceCode" id="cb2"><pre
-class="sourceCode lua"><code class="sourceCode lua"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">local</span> cursor <span class="op">=</span> <span class="dv">0</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="kw">local</span> keys <span class="op">=</span> <span class="op">{}</span></span>
+class="sourceCode lua"><code class="sourceCode lua"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">local</span> <span class="va">cursor</span> <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="kw">local</span> <span class="va">keys</span> <span class="op">=</span> <span class="op">{}</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="cf">repeat</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">local</span> result <span class="op">=</span> redis<span class="op">.</span>call<span class="op">(</span><span class="st">&#39;SCAN&#39;</span><span class="op">,</span> cursor<span class="op">,</span> <span class="st">&#39;MATCH&#39;</span><span class="op">,</span> <span class="st">&#39;x.*.properties&#39;</span><span class="op">,</span> <span class="st">&#39;COUNT&#39;</span><span class="op">,</span> <span class="cn">ARGV</span><span class="op">[</span><span class="dv">1</span><span class="op">])</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="kw">local</span> keys <span class="op">=</span> result<span class="op">[</span><span class="dv">2</span><span class="op">]</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> <span class="cn">_</span><span class="op">,</span> key <span class="kw">in</span> <span class="fu">ipairs</span><span class="op">(</span>keys<span class="op">)</span> <span class="cf">do</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">local</span> hash_result <span class="op">=</span> redis<span class="op">.</span>call<span class="op">(</span><span class="st">&#39;HGET&#39;</span><span class="op">,</span> key<span class="op">,</span> <span class="cn">ARGV</span><span class="op">[</span><span class="dv">2</span><span class="op">])</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> hash_result <span class="op">==</span> <span class="st">&#39;true&#39;</span> <span class="cf">then</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>      <span class="fu">table.insert</span><span class="op">(</span>keys<span class="op">,</span> key<span class="op">)</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">local</span> <span class="va">result</span> <span class="op">=</span> <span class="va">redis</span><span class="op">.</span>call<span class="op">(</span><span class="st">&#39;SCAN&#39;</span><span class="op">,</span> <span class="va">cursor</span><span class="op">,</span> <span class="st">&#39;MATCH&#39;</span><span class="op">,</span> <span class="st">&#39;x.*.properties&#39;</span><span class="op">,</span> <span class="st">&#39;COUNT&#39;</span><span class="op">,</span> <span class="cn">ARGV</span><span class="op">[</span><span class="dv">1</span><span class="op">])</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="kw">local</span> <span class="va">keys</span> <span class="op">=</span> <span class="va">result</span><span class="op">[</span><span class="dv">2</span><span class="op">]</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> <span class="cn">_</span><span class="op">,</span> <span class="va">key</span> <span class="kw">in</span> <span class="fu">ipairs</span><span class="op">(</span><span class="va">keys</span><span class="op">)</span> <span class="cf">do</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">local</span> <span class="va">hash_result</span> <span class="op">=</span> <span class="va">redis</span><span class="op">.</span>call<span class="op">(</span><span class="st">&#39;HGET&#39;</span><span class="op">,</span> <span class="va">key</span><span class="op">,</span> <span class="cn">ARGV</span><span class="op">[</span><span class="dv">2</span><span class="op">])</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="va">hash_result</span> <span class="op">==</span> <span class="st">&#39;true&#39;</span> <span class="cf">then</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>      <span class="fu">table.insert</span><span class="op">(</span><span class="va">keys</span><span class="op">,</span> <span class="va">key</span><span class="op">)</span></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">end</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  <span class="cf">end</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  cursor <span class="op">=</span> <span class="fu">tonumber</span><span class="op">(</span>result<span class="op">[</span><span class="dv">1</span><span class="op">])</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="cf">until</span> cursor <span class="op">==</span> <span class="dv">0</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="cf">return</span> keys</span></code></pre></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="va">cursor</span> <span class="op">=</span> <span class="fu">tonumber</span><span class="op">(</span><span class="va">result</span><span class="op">[</span><span class="dv">1</span><span class="op">])</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="cf">until</span> <span class="va">cursor</span> <span class="op">==</span> <span class="dv">0</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="cf">return</span> <span class="va">keys</span></span></code></pre></div>
 <p>You could then call this script with <code>EVAL</code> like so:</p>
 <pre><code>EVAL &quot;...&quot; 0 1000 property_a</code></pre>
 <p>The 0 is important, so don’t forget it. You can see the remaining
@@ -123,7 +123,7 @@ Neat!</p>
 				<div class="col-1-2">
 					<div class="content">
 						<ul>
-							<li>&copy; Copyright 2014-2022, <a href="http://q.pfiffer.org/">Quinlan Pfiffer</a></li>
+							<li>&copy; Copyright 2014-2023, <a href="http://q.pfiffer.org/">Quinlan Pfiffer</a></li>
 							<li><a href="//validator.w3.org/feed/check.cgi?url=http%3A//q.pfiffer.org/feed.xml"><img src="/static/img/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a></li>
 						</ul>
 					</div>

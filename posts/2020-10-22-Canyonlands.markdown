@@ -136,7 +136,8 @@ Kicking a cactus sucks, but is kind of cosmically hilarious.
 At least the sun wasn't oppressive early in the morning.
 We made pretty good time and got to the end of the canyon after only a few
 hours. We dropped the packs and walked down as far as we could go, which ended
-at a long rappel down to the next chunk of the canyon.
+at a long drop down to the next chunk of the canyon. From here we turned around
+and went back to our packs before ascending up and over the plateau.
 
 <img src="/static/img/canyonlands/day_3_2.jpg" />
 
