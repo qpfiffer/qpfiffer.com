@@ -2,7 +2,7 @@
 title: The Wild and Scenic Project
 author: Quinlan Pfiffer
 tags: outside, adventure, packrafting, whitewater, kayaking
-bg-image: /statc/img/ws_project.jpg
+bg-image: /static/img/ws_project.jpg
 ---
 
 # Whats the project?
