@@ -50,8 +50,8 @@ are the rivers and their status for my little project. I'll do write-ups for the
 * <span class="fail">Not Done</span> Donner und Blitzen River
 * <span class="fail">Not Done</span> Eagle Creek (Mt. Hood National Forest)
 * <span class="fail">Not Done</span> Eagle Creek (Wallowa-Whitman National Forest)
-* <span class="fail">Not Done</span> Elk Creek
-* <span class="fail">Not Done</span> Elk River
+* <span class="fail">Not Done</span> <a href="https://www.americanwhitewater.org/content/River/view/river-detail/5426/main">Elk Creek</a>
+* <span class="fail">Not Done</span> <a href="https://www.americanwhitewater.org/content/River/view/river-detail/1510/main">Elk River</a>
 * <span class="fail">Not Done</span> Elkhorn Creek
 * <span class="fail">Not Done</span> Fifteenmile Creek
 * <span class="suc">Done</span> Fish Creek - Not a full descent, but a good mile or so of it.
