@@ -106,3 +106,95 @@ are the rivers and their status for my little project. I'll do write-ups for the
 * <span class="fail">Not Done</span> Wildhorse & Kiger Creeks
 * <span class="fail">Not Done</span> Willamette River (North Fork Middle Fork)
 * <span class="fail">Not Done</span> Zigzag River
+
+# Packing List
+
+* Backpack
+    * Drybag(s)
+
+* Clothes
+    * Sunglasses
+    * Hat
+    * Hiking clothes
+        * Rainjacket
+        * Sun hoodie
+    * Paddling clothes
+        * Long warm base layer
+        * Pants
+        * Wool socks
+        * Optional: Warm mid-layer
+        * Optional: Wool tights
+    * Sleeping clothes/Camp clothes
+        * Puffy jacket
+        * Beanie
+        * Optional: Wool tights
+    * Crocs!
+    * Hiking/Paddling shoes
+
+* Boat
+    * Drybag(s)
+    * Cargo/tube Bags
+    * Pump
+    * Repair kit
+    * Inflation Bag
+    * Paddle
+    * Coaming
+    * Sprayskirt
+    * PFD
+    * Drysuit
+    * Helmet
+    * Throwbag
+    * Paddle
+    * Lap bag
+    * Way to keep phone dry
+        * Zip-loc?
+    * Optional: Poagies
+    * Optional: Storm cap
+    * Optional: Spare paddle
+
+* Sleep kit
+    * Sleeping pad OR Hammock
+        * Animalist pad or other foam
+    * Quilt
+    * Bivy
+    * Ground tarp
+
+* Food
+    * Meals
+    * Snacks
+    * Coffee
+
+* Misc.
+    * Water bottle
+        * Nalgene or regular 1L bottle
+    * Filter/Purification stuff
+    * Spork
+    * Lighter
+    * Stove
+    * Small knife
+    * Gas
+    * Toothbrush/Paste (or powder)
+    * Poop shovel/Wagbags
+    * Wallet
+    * First-aid Kit
+        * Sunscreen
+        * Lip balm (make sure also sunproof)
+        * Ibuprofen
+        * Salt Tablets
+        * Band-aids
+        * Nut butter/Aquaphor
+
+* Electronics
+    * Sattelite comms device
+    * Gopro
+    * Phone with route/maps downloaded
+    * Watch
+    * USB Battery
+    * USB Cables for charging
+        * Gopro
+        * Headlamp
+        * Phone
+        * Watch
+    * Headlamp
+    * Optional: Earbuds
+    * Optional: Solar panel
