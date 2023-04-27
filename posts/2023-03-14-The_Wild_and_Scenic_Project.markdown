@@ -35,7 +35,8 @@ informitive, if anything.
 
 # What are the rivers?
 
-[Very useful gage](https://www.nwrfc.noaa.gov/rfc/).
+* [Very useful gage.](https://www.nwrfc.noaa.gov/rfc/)
+* [Complete Oregon list.](http://www.oregonwildandscenic.com/)
 
 [Here](https://www.rivers.gov/oregon.php) is the megalink to all of them. Here
 are the rivers and their status for my little project. I'll do write-ups for the bigger ones.
@@ -56,7 +57,7 @@ are the rivers and their status for my little project. I'll do write-ups for the
 * <span class="fail">Not Done</span> <a href="https://www.americanwhitewater.org/content/River/view/river-detail/1510/main">Elk River</a>
 * <span class="fail">Not Done</span> Elkhorn Creek
 * <span class="fail">Not Done</span> Fifteenmile Creek
-* <span class="suc">Done</span> Fish Creek - Not a full descent, but a good mile or so of it.
+* <span class="suc">Done</span> Fish Creek - Not a full descent, but a good mile or so of it. Update: I've done two miles of it. ~6.6 ft on the gage.
 * <span class="fail">Not Done</span> Franklin Creek
 * <span class="fail">Not Done</span> Grande Ronde River
 * <span class="fail">Not Done</span> Hood River (East Fork)
@@ -64,7 +65,7 @@ are the rivers and their status for my little project. I'll do write-ups for the
 * <span class="fail">Not Done</span> Illinois River
 * <span class="fail">Not Done</span> Imnaha River
 * <span class="fail">Not Done</span> Jenny Creek
-* <span class="fail">Not Done</span> John Day River - **Planned!**
+* <span class="suc">Done</span> John Day River - Clarno to cottonwood! Around ~7000 CFS. 3.5 days.
 * <span class="fail">Not Done</span> John Day River (North Fork)
 * <span class="fail">Not Done</span> John Day River (South Fork)
 * <span class="fail">Not Done</span> Joseph Creek
