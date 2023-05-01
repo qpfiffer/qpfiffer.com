@@ -78,7 +78,7 @@ are the rivers and their status for my little project. I'll do write-ups for the
 * <span class="fail">Not Done</span> McKenzie River
 * <span class="unsure">Partially Completed</span> Metolius River
 * <span class="fail">Not Done</span> Minam River
-* <span class="fail">Not Done</span> Molalla River
+* <span class="suc">Done</span> Molalla River - Three bears ~2500CFS? Maybe 2000? The gage is hard to read
 * <span class="fail">Not Done</span> Nestucca River
 * <span class="fail">Not Done</span> North Powder River
 * <span class="fail">Not Done</span> North Umpqua River
