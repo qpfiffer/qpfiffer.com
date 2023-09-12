@@ -1,66 +1,65 @@
 ---
-title: Tajikistan 2023
+title: Murghab/Мургаб River, Tajikistan 2023
 author: Quinlan Pfiffer
 tags: outside, adventure, packrafting
-bg-image: /static/img/kyrgyzstan_2021/header.jpg
+bg-image: /static/img/tajikistan_2023/header.jpg
 ---
 
-Planning page.
+<iframe src="https://www.gaiagps.com/public/sETPluWkXFdcXqA2xQQhFx2V/?embed=True" style='border:none; overflow-y: hidden; background-color:white; min-width: 320px; max-width:420px; width:100%; height: 420px;' scrolling='no' seamless='seamless'></iframe>
 
-# THE PLAN
+In August of 2023, for our annual vacation-adventure thing we decided to go to
+Tajikistan. Initially we'd planned to head to Baffin Island, but trying to get
+there from the Faroe Islands was non-trivial and we didn't really know how to
+deal with polar bears. We also really liked Kyrgyzstan last time we were there,
+so we were very excited to go.
 
-### To Do
-    * Get travel insurance for Faroe + Tajikistan
-    * Get river beta
+# Plan
 
-### To Get
-    * New foam sleeping pad?
-    * Smaller sleeping bag?
-    * Xero shoes?
-    * Cash
-    * Cigarettes
-    * New trail shoes
+We didn't really have any idea what we'd be doing in the country until a few
+weeks ahead of time- I'd had a bunch of rivers I wanted to do, we only really
+had packrafts and that was about it. Somehow, eventually, we were tipped off to
+the [Murghab River](https://en.wikipedia.org/wiki/Murghob). Megan was a little
+iffy about paddling anything Class IVish, and this looked relatively doable, so
+we decided to try it.
 
-## Gear
-    * Clothing
-        * Sunglasses
-        * Warm gloves
-        * Rainjacket
-        * Socks
-        * Puffy
-        * Pants
-        * Shorts
-        * Running shorts
-        * Running shirt
-        * Sun shirt
-        * 5-Panel hat
-    * Sleep System
-        * Sleeping bag
-        * Sleeping mat
-    * Packrafting Gear
-        * Boat
-        * Paddle
-        * Pogies
-        * Inflation bag
-        * Helmet
-        * PFD
-        * Throwbag
-        * Skirt
-        * Inernal drybags
-        * Lap bag
-        * Drysuit
-    * Trekking Gear
-        * Poles + Voille Straps
-        * Ultamid
-        * Ultamid Mesh Insert
-    * Misc.
-        * Passport
-        * Travel insurance info
-        * Crocs or Sandals
-        * Megan's dry-top
-        * First-aid kit
-        * Swiss-army Knife
-        * InReach
+A few russian teams have descended the river ([here is a good trip
+report](https://www.ski.ru/az/blogs/post/murgab-bartang-1990/)) but otherwise
+it's kind of unknown. A [team of
+kayakers](https://pamirs.wordpress.com/2008/10/16/its-all-about-kok-jar/) had
+also descended it, which gave us some good english beta. For the most part, we
+didn't really know what we'd be in for: Probably lots of terrible lake miles,
+some way-too-big-class-V+ that we'd have to portage, high altitudes, and a lot of
+beautiful scenery. Perfect.
 
-## Questions
-    ???
+We eventually settled on a plan to paddle the river, cross Lake Sarez to the
+Irkht Valley and hike out to the town of Bachor. What could go wrong?
+
+# A New Lake?
+
+<img src="/static/img/tajikistan_2023/the_new_lake.png"></img>
+
+I was doing some route-scoping on SentinelHub and stumbled upon a new lake
+recently formed on our route, right where all of the really difficult whitewater
+was supposed to be. Apparently an [earthquake](https://www.reuters.com/world/china-reports-magnitude-73-earthquake-near-border-with-tajikistan-2023-02-23/) 
+in February 2023 had triggered a landslide along the river, blocking it and
+damming it, not unlike Lake Sarez itself. I was able to watch via the sattelite
+imaggery as the lake slowly filled, then partially released as it broke through
+the top of the rubble.
+
+This added a new complication: Parties before us had some rather exciting and
+difficult portages along this section, and we had no idea how the landslide
+would look once we got there. Would we be able to get over it? Would the
+currents force us to stay far away? Could we come up with a plan B?
+
+We decided to go for it anyway, with a rather awful escape plan to get up and
+out of the lake if we couldn't scale the landslide. I was optimistic, Megan less
+so. We made a large note of this in our trip plan document as a possible snag.
+
+# Day 0
+
+<img src="/static/img/tajikistan_2023/day_0_0.jpg"></img>
+
+I'll skip a lot of the standard "We lived in a Land Cruiser for a week driving
+to Murghab along the Pamir Highway" stuff since this is more of a trip report
+and just get right to the day before in Murghob. We, our food, all of our gear
+and our optimism made it in-tact to 12,000 feet in the town of Murghob.
