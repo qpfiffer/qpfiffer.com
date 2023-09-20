@@ -10,13 +10,13 @@ bg-image: /static/img/tajikistan_2023/header.jpg
 In August of 2023, for our annual vacation-adventure thing we decided to go to
 Tajikistan. Initially we'd planned to head to Baffin Island, but trying to get
 there from the Faroe Islands was non-trivial and we didn't really know how to
-deal with polar bears. We also really liked Kyrgyzstan last time we were there,
+deal with polar bears. We'd also really liked Kyrgyzstan last time we were there,
 so we were very excited to go.
 
 # Plan
 
 We didn't really have any idea what we'd be doing in the country until a few
-weeks ahead of time- I'd had a bunch of rivers I wanted to do, we only really
+weeks ahead of time- I'd had a bunch of rivers I wanted to do, but we only really
 had packrafts and that was about it. Somehow, eventually, we were tipped off to
 the [Murghab River](https://en.wikipedia.org/wiki/Murghob). Megan was a little
 iffy about paddling anything Class IVish, and this looked relatively doable, so
@@ -25,13 +25,13 @@ we decided to try it.
 A few russian teams have descended the river ([here is a good trip
 report](https://www.ski.ru/az/blogs/post/murgab-bartang-1990/)) but otherwise
 it's kind of unknown. A [team of
-kayakers](https://pamirs.wordpress.com/2008/10/16/its-all-about-kok-jar/) had
+kayakers](https://pamirs.wordpress.com/2008/10/16/its-all-about-kok-jar/) have
 also descended it, which gave us some good english beta. For the most part, we
 didn't really know what we'd be in for: Probably lots of terrible lake miles,
-some way-too-big-class-V+ that we'd have to portage, high altitudes, and a lot of
+some way-too-big-class-V+ that we'd have to portage, high elevation, and a lot of
 beautiful scenery. Perfect.
 
-We eventually settled on a plan to paddle the river, cross Lake Sarez to the
+We finally settled on a plan to paddle the river, cross Lake Sarez to the
 Irkht Valley and hike out to the town of Bachor. What could go wrong?
 
 [Pamir Trips](https://pamirtrips.com/) was instrumental in helping us figure out
@@ -41,7 +41,7 @@ a lot of the logistics. Sharaf was very helpful and responsive.
 
 <img src="/static/img/tajikistan_2023/the_new_lake.png"></img>
 
-I was doing some route-scoping on SentinelHub and stumbled upon a new lake
+I was doing some route-scoping on SentinelHub ([Thanks Luc!](https://courses.thingstolucat.com/start-and-end-at-home)) and stumbled upon a new lake
 recently formed on our route, right where all of the really difficult whitewater
 was supposed to be. Apparently an [earthquake](https://www.reuters.com/world/china-reports-magnitude-73-earthquake-near-border-with-tajikistan-2023-02-23/) 
 in February 2023 had triggered a landslide along the river, blocking it and
@@ -64,22 +64,25 @@ so. We made a large note of this in our trip plan document as a possible snag.
 
 I'll skip a lot of the standard "We lived in a Land Cruiser for a week driving
 to Murghab along the Pamir Highway" stuff since this is more of a trip report
-and just get right to the day before in Murghob. We, our food, all of our gear
-and our optimism made it intact to 12,000 feet in the town of Murghob.
+and just get right to the day before we started. We, our food, all of our gear,
+and our optimism made it intact to the town of Murghab, sitting at a cool 12,000
+feet.
 
-I had some altitude sickness the day before and spent the rest of the afternoon
+I had some altitude sickness just as we got into town and spent the rest of the afternoon
 and evening in bed half asleep, but Megan managed to make some friends with a
-WHO crew that was up there and had a more entertaining evening.
+WHO crew that was up there and had a more entertaining night.
 
 I managed to crawl out of bed to chug water and stuff twelve days of food into
 my bag, and like any good adventure, it was comically heavy. Very depressing.
 Luckily we'd be on water for the first 5-6 days and it wouldn't matter so much.
 
-Somehow in the course of all this, we realized we flew out on December 5th, and
-that we'd actually have two less days than we planned to do the whole trip. So
-now we were already running late by two days. We decided to just go for it
-anyway, front-load some miles on the first day and move quick. We're pretty good
-at suffering for long chunks of time.
+Somehow in the course of all this, we realized our flight out was on the 5th, and
+that we'd actually have two less days than we planned to do the whole trip.
+It's a good omen when you're running late before you even start.
+With little option other than to move quickly,
+we decided to front-load some miles on the first day and hopefully keep our
+average mileage up. We're pretty good at suffering for long chunks of time so
+this wasn't too big a deal.
 
 # Day 1
 
@@ -98,34 +101,34 @@ quite quick, around four miles per hour, which was fantastic. We were going to
 try and go ~28ish miles that day so that we could check out the Eli Su hot springs near 
 Modiyan.
 
-The river moved quickly and so did we- lots of scenic floating, scrubby grass,
+The river moved quickly and so did we- lots of scenic floating, scrubby plant life,
 people out cutting the grass with scythes, horses, wild cows and sheep, and
-eventually scrubby trees once we lost enough elevation. M didn't like the cheese
+eventually small trees once we lost enough elevation. M didn't like the cheese
 she bought so I ended up taking it and eating a lot of it. Twenty miles went
 down pretty quickly.
 
-We stopped at one point while the sun was out to check out a graveyard, small
+We stopped at one point while the sun was out to check out a graveyard: small
 little mud buildings slowly dissolving in the harsh climate. No names or
 anything, just mounds and pits or small domes. Some locals watched us float away.
 
 As the mountains rose up around us it started to feel more remote, and we pulled
-off to camp around 2PM. 29 river miles down in not that much time. I wasn't
+off to camp around 2PM. 29 river miles down in a few hours isn't bad at all. I wasn't
 super keen on the hot springs and there wasn't a clear, short path to get there
 so M went on her own. I had some afternoon coffee and headed up the creek to see
 if it would be paddleable. Curious locals walked by and eyed our tent but nobody
 said hi.
 
 I bailed after it became impossible to continue without a substantial creek
-crossing and had a little adventure on the way back. I fought my way up a super
+crossing and had a little adventure on the way back: I fought my way up a super
 steep gully, which was very tiring at twelve thousand feet, and then came back
 down a road. It had started raining at this time so I was pretty soaked.
 
 Megan didn't get back until around 8:30, and she'd had her own adventure.
 Apparently the hot springs are VERY hot and they're basically in someone's home.
 She didn't get in more than knee high, and it was more like a sauna. She tried
-to fight her way back down the creek, but turned back for the same reason I did,
+to walk back down the creek, but turned around for the same reason I did,
 except she had another five miles back to camp. She put in a whole 13 miles on
-foot and walked back in the rain. Brutal.
+foot and walked/ran back in the rain. Brutal.
 
 We ate and went to bed around 9ish.
 
@@ -135,66 +138,67 @@ We ate and went to bed around 9ish.
 
 We woke up at six, after it rained all night. This would be a theme: Wind and
 rain in the afternoons and evenings. I hadn't drank enough water and had a
-headache, cool- I couldn't really eat so I just had some ibuprofen and drank a
-bunch of Megan's earl grey tea which was amazing. I felt like a real
+headache, cool- I couldn't really eat so I just had some ibuprofen and downed a
+bunch of Megan's earl grey tea, which was amazing. I felt like a real
 mountaineer. The sun was out too, so things were looking up.
 
-We pack and drag the boats up a little ways so we can drop the little creek we
-slept next to, it was fun. Then we managed to convince ourselves that the river
-was higher, because it was much faster and there was a little class II- at the
-start. It was definitely moving quickly, but I figured that we just burned
-through all the gradient for the day. It leveled off pretty soon afterward but
-kept moving nicely.
+We packed and dragged the boats up a little ways so we could paddle the small creek we
+slept next to, which was a good way to start the day. Then we managed to convince ourselves that the river
+was higher, because it was much faster and there were some class II- rapids at the
+put-in. It was definitely moving quickly, but I figured that we had just burned
+through all the gradient for the day. It leveled off pretty soon afterward.
 
 <img src="/static/img/tajikistan_2023/day_2_2.jpg"></img>
 *One of the side channels.*
 
 We entertained ourslves by taking small side channels and seeing if they'd get
-us around a bend faster. Usually they didn't, but they were entertaining.
+us around a bend faster. Usually they didn't.
 
-At one point we came upon a big, new yellow houses on the side of the river. We
+At one point we came upon a giant yellow house on the side of the river. We
 tried to talk to someone there but the language barrier was pretty thick. We
-couldn't figure out what the house was there for or why it was so big, it's not
-even on google maps yet. Very suspicious.
+couldn't figure out what the house was there for or why it was so big, and couldn't locate it on google maps later, either. 
+Very suspicious. Theres nothing out there so it especially stood out.
 
-At some point we pass the end of the road that had been paralleling the river
-and things suddenly feel much more remote. The mountain walls touch the water,
-but eerily there are on rapids. I kept expecting something surprising to show up
+At some point we passed the end of the road that had been paralleling the river
+and things felt much more remote. The mountain walls came down to the water,
+but there were still no rapids. I kept expecting something surprising to show up
 and grab us.
 
-At some point we hang out on a gravel bar to eat and skip rocks and look for
-interesting specimens. No fossils this time around, though.
+At some point we hung out on a gravel bar to eat and skip rocks and look for
+interesting stones. No fossils [this time around](/posts/2022-08-30-Nahanni_2022.html), though.
 
-We start passing through the landslides-of-old, and the lakes they created, and
-it gets much hotter and slower. We pass a good camp spot and decide to keep
-going into the newly formed lake. Trees start to be swallowed by the water, and
-nothing is moving anymore. It's very surreal being in this steep mountain bowl
+We started passing through the landslides-of-old, and the lakes they had created, and
+it became much hotter and slower. We skipped a good camp spot and decided to keep
+going into the newly formed lake. Trees started to be swallowed by the water, and
+nothing was moving anymore. 
+
+It's very surreal to be in a steep mountain bowl
 with nothing but rock and matcha-colored water all around you. Little did we
 know this was just an easy predecessor of things to come.
 
 <img src="/static/img/tajikistan_2023/day_2_1.jpg"></img>
 
-Towards the later afternoon we fight our way up a canyon, dragging boats and
-walking through glacial silted brush to get to a shitty campsite. We go back and
+Towards the later afternoon we fought our way up a canyon, dragging boats and
+walking through glacial silted brush to get to a shitty campsite. We went back and
 forth for quite some time about camping on a high rocky bank covered in
 rockfall, or a microscopic, wet gravel bar.
 
 After examining the gravel bar (it was wet and even smaller than we thought) we
-decide to go for the extremely sharp rockfall zone. We find the least deadly
-spot we can and, after maybe an hour, manage to carve out a small, smooth
-depression in the scree. I dubbed it Castle Quinlan. It's not bad but it's not
+decided to go for the extremely sharp rockfall camp. We found the least deadly
+spot we could and, after maybe an hour, managed to carve out a small, smooth
+depression in the scree. I dubbed it Castle Quinlan. It wasn't bad but wasn't
 great, either.
 
 <img src="/static/img/tajikistan_2023/day_2_3.jpg"></img>
 *Laying down on the only flat spot on Castle Quinlan*
 
-We eat around 5:30, get everything setup, and the rain/wind rolls in again. This
-time I drink a lot of tea before bed, hoping to stave off the headache. I read a
-bit of [Living the Best Day Ever](http://livingthebestdayever.com/) which is now
-my nightly ritual. It's very good.
+We ate around 5:30 and got everything setup just before the afternoon storm rolled in. This
+time I drank a lot of tea before bed, hoping to stave off the headache. I read a
+bit of [Living the Best Day Ever](http://livingthebestdayever.com/) which became
+a nightly ritual for the trip.
 
-Tomorrow is the big day, we have to cross our big, unknown landslide wall.
-Hopefully it doesn't have parapets and armed guards. It doesn't take long for us
+Tomorrow is the big day, where we have to cross our unknown landslide wall.
+Hopefully it doesn't have parapets and armed guards. It didn't take long for us
 to fall asleep.
 
 # Day 3
@@ -207,7 +211,7 @@ tent without the bug net insert. We heard rockfall throughout the night but it
 was mostly across the canyon, or farther upstream. We survived.
 
 When we got up and out of the tent at six, our only alternative camp site, the
-gravel bar, was under water. Good thing we moved all those rocks around instead.
+gravel bar, was underwater. Good thing we moved all those rocks around instead.
 We left camp by 8:30AM and headed off into the lake. Megan was paddling with her
 pack balanced on the bow of her boat in case we had to do some steep ascent to
 get out of the water and over the landslide.
@@ -217,7 +221,7 @@ get out of the water and over the landslide.
 
 After about 90 minutes and what we _thought_ was a lot of wind, we made it to
 the dam. We took one break about halfway through at another landslide protruding
-into the water to eat and drink before round the final corner to our unknown
+into the water to eat and drink before rounding the final corner to our unknown
 obstacle.
 
 The first thing we noticed was that everything was covered in a fine gray dust-
@@ -235,10 +239,10 @@ everything up for what was, surprisingly, an easy portage.
 *Me somewhere in the moon field*
 
 It was only about a quarter mile or so, and it wasn't even that bad. We'd both
-been expecting way worse. We blew up again at the bottom and boated out on the
+been expecting way worse. We blew up the boats again at the bottom and paddled out on the
 first real whitewater we'd seen in the whole trip. The water was coming through
 over the dam (colored green) and through it at the bottom (colored bright blue)
-and then mixing again into a blue. It was very pretty, and wildly different than
+and then mixing again into an azurazuree. It was very pretty, and wildly different than
 the dirty green from up above the dam.
 
 <img src="/static/img/tajikistan_2023/day_3_3.jpg"></img>
@@ -273,12 +277,13 @@ IVish drop that snuck up on us. A big IV around a corner had us stop for the
 evening in a big flat-ish bank with some good boulders to hide behind should the
 rockfall fairy visit in the night. It had been a very full day.
 
+<img src="/static/img/tajikistan_2023/day_3_6.jpg"></img>
+*My beautiful rock wall*
+
 Camp was almost perfect, but the wind kicked up so the one time we wanted to
 have a fire ended up being a hide-in-the-tent night. I spent the evening
 drinking coffee, reading and moving rocks around the edge of the tent to try and
 hide from the wind.
-
-<img src="/static/img/tajikistan_2023/day_3_6.jpg"></img>
 
 # Day 4
 
@@ -286,24 +291,25 @@ hide from the wind.
 
 The weather was beautiful in the morning, and it was great to watch the sun
 creep down the canyon walls. I memorized a line through the big rapid and
-decided to run it, and M found an okay put-in just afterward. I aced my line and
+decided to run it, and M found an okay put-in just downstream. I aced my line and
 we were soon on our way, leaving one of the better camp-spots. It felt good to
 work a harder rapid on a remote trip and have it turn out exactly how I expected
 it to. It would end up being the hardest rapid on the trip.
 
 From there we had around five miles of read-and-run class III rapids with some
-bigger holes, but it tapered off after the big rapid we'd camped at. The scenery
+bigger holes, but it tapered off after the one we'd camped at. The scenery
 was mostly blue water, dustland, some green grass and scrubby trees.
 
 Another landslide showed up and blocked our view of what sounded like a big
 rapid, so we ended up portaging it. This would be the last rapid before the
-[lake](https://en.wikipedia.org/wiki/Sarez_Lake), and we paused to eat for a while. After snacking for a bit, we ran the run
-out and started paddling down the lake.
+[lake](https://en.wikipedia.org/wiki/Sarez_Lake), and we paused to eat for a while. 
+After snacking for a bit, we paddled the run out and started paddling down the lake.
 
 I was optimistic that we could build a raft out of driftwood and the packrafts
 to hopefully gain some speed since there were sticks everywhere, but I'd later
-realize that there were only sticks at this end of the lake because thats where
-the wind pushed them.
+realize that they were only at this end of the lake because thats where
+the wind pushed them. There would be no other wood until our take-out, 35 miles
+later.
 
 <img src="/static/img/tajikistan_2023/day_4_1.jpg"></img>
 
@@ -311,19 +317,19 @@ We paddled for ages. The wind picked up in the afternoon and it only got way
 worse. We stopped once for a potential campspot because the going was so rough,
 and M wanted to bail for a highroute but I convinced her to keep going. After
 that the wind _really_ picked up and _I_ wanted to bail, but she convinced me to
-keep going.
+keep going instead.
 
 It's hard to overstate how bad the wind and the rain were. They absolutely
 whipped us going around corners. I could go a little faster than M so I was
-making oh, 1 mile per hour? She was somewhere under that. It was insane. We'd
+making oh, one mile per hour? She was somewhere under that. It was insane. We'd
 paddle from wall to wall along the lake, hardly moving at all, then a gust would
 hit us and we'd shelter, then we'd hide in a little eddie, then do it all over
 again. It was very slow going.
 
-Eventually we spotted land we could potentially get up onto (since the walls are
-so steep), but a beach surprised us before we even got there. We arrived on this
-fantastic beach around 7:00pm, and _immediately_ upon landing the wind stopped
-and the lake was glassy. The clouds cleared. We could see all the 6000 meter
+Eventually we spotted land we could potentially get up onto (since the walls were
+so steep everywhere), but a beach surprised us before we even got there. We arrived on this
+fantastic little oasis around 7:00pm, and _immediately_ upon landing the wind stopped,
+the lake became glassy and the clouds cleared. We could see all the 6000 meter
 peaks around us, with fresh snow on top. It was savage, and we were absolutely
 tired.
 
@@ -344,14 +350,14 @@ slower in leaving camp and didn't head out until around 7AM.
 We paddled all day. It wasn't bad at first, just a big treadmill with a minor
 headwind and clear skies, but it got bad later. Megan's boat paddles like a
 sheet of plywood, so it was much more tiring to move. We passed the time with 20
-questions, I spy, and other little games. I even came up with a little song
+questions, I spy, and other little games. I even came up with a song
 I've already forgotten.
 
 <img src="/static/img/tajikistan_2023/day_5_2.jpg"></img>
 
 We paddled and stopped a few times for snacks or Peanut Butter Tortillas. There
 weren't any great places to stop, just shallow little sand pits on the side of
-screen slopes. We tried not to linger as rocks and dirt slid down around us.
+scree slopes. We tried not to linger as rocks and dirt slid down around us.
 
 I was frustrated, Megan was in pain, and times were rough, but we made it
 through eventually. We found a weird little nook and managed to scramble up to a
@@ -367,7 +373,219 @@ It turned out to be a good spot, and we spent the evening wandering around
 looking at small rocks. Megan found a really cool little crystal, and we decided
 to pitch the tent on the ridge despite the wind picking up later. It was an
 absolute pain to haul everything up there, but we were thankful for the flat
-ground. I somehow managed to spill my dinner onto the ground, but it was still
+ground. I somehow managed to spill my dinner, but it was still
 dry so I managed to get every single dehydrated noodle back into the bag.
+Calories are calories!
 
 We were in bed by 6:15PM.
+
+# Day 6
+
+<img src="/static/img/tajikistan_2023/day_6_0.jpg"></img>
+*A petroglyph of two mountain ibexes*
+
+We slept in just a little longer, until 5 AM, but managed to leave around seven.
+While wandering around in the morning looking for my buff (which probably blew
+away) I spotted the above petroglyph- our only one of the trip. It was
+especially cool because the lake we're on has only existed for about a hundred
+years, so whoever made it was tromping around WAY up high in the mountains
+looking for dinner. Very cool to connect with someone back that far in history. There are [many more
+petroglyphs in Tajikistan](https://silkadv.com/en/content/rock-art-tajikistan)
+so it was fun to find our own.
+
+I started off the day paddling Megan's boat, which was pretty hard work, for about two
+hours and forty-five minutes. I was unhappy and sore when we finally stopped
+seven miles later to eat and trade boats.
+
+<img src="/static/img/tajikistan_2023/day_6_1.jpg"></img>
+*Yours truly suffering through the flatwater*
+
+We traded boats and immediately afterward the wind stopped- like dead quiet. It
+was fantastic. We made good time from there down to the Irkht valley and the
+second meteorlogical station of the trip. It was wild to paddle across the lake
+when it was flat, because there was no frame of reference- light bent around the
+edges of the water so you couldn't really tell if you were moving or not. Still,
+it was a welcome break from the constant assault of the wind.
+
+<img src="/static/img/tajikistan_2023/day_6_2.jpg"></img>
+*Flatwater with no wind- amazing*
+
+We arrived to our take-out early afternoon, where a dog and the one-eyed
+caretaker met us. The dog hung around but the caretaker left us alone after we
+unpacked and set up camp. There were a lot of bugs, but an easy campsite was
+also very much appreciated.
+
+We spent the evening wandering around the valley, inspecting the various
+dwellings in states of disrepair. Lots of stone houses slowly returning to stone
+piles, and mud houses dissolving into the earth. Broken glass everywhere.
+
+We both ate too much sausage and ended up giving some to the dog, which might
+have been a mistake.
+
+<img src="/static/img/tajikistan_2023/day_6_3.jpg"></img>
+*An old mud and stick house falling apart*
+
+# Day 7
+
+<img src="/static/img/tajikistan_2023/day_7_0.jpg"></img>
+*Megan with her pack and our new dog friend*
+
+We set the alarm for 5AM but snoozed for 30 seconds and got up at 6AM instead. We
+were packed and moving by 8. The bags were heavy, but not impossibly so. We
+made pretty good time for the first few miles, but slowed down when the terrain
+became worse. Lots of marshy mud, interspersed with walking through boulder
+fields. The boulder fields would become a staple for the next four days.
+
+The dog surprised us, and kept following along, even with a few river crossings. We
+fed him cheese and sausage, which he liked. Megan slipped a few cookies in there
+too. He was a little trooper.
+
+<img src="/static/img/tajikistan_2023/day_7_1.jpg"></img>
+*Megan hops a side stream*
+
+It was pretty slow going, and we stopped to drink often. I slowed down
+considerably after we punched back above 12,000 feet, but Megan just kept right
+on stomping ahead. The 400 calorie instant latte I bought cut the sting just a
+little bit, but it was still tough. We passed some very cool granite gorges with tall, slim waterfalls in
+them and lots of little side valleys. Naturally these are impossible to
+take good photos of with a phone.
+
+After ten miles of varied, hard, uphill terrain, we can't decide where to sleep 
+and eventually end up on a flat, sandy bank near a small river. It's acceptable but not awe-inspiring. 
+At least we have access to water. We're both dead-tired and
+it's not hard to fall asleep, even after drinking an evening cup of coffee.
+
+<img src="/static/img/tajikistan_2023/day_7_2.jpg"></img>
+*Our sweet boy after a long day of hiking through the heat*
+
+The dog curls up and shivers through the night without complaint.
+
+# Day 8
+
+<img src="/static/img/tajikistan_2023/day_8_0.jpg"></img>
+*The team snoozing on a rock near one of the many alpine lakes*
+
+I struggle to get out of bed, as for once my decade-old sleeping bag is nice and
+warm. The moon had been crazy bright, so I was in and out of sleep all night long.
+
+The day starts with a bang, as M crashes and burns in the first river crossing:
+we'd taken our pants off to avoid getting anything wet, and she ends up with
+some nice shin rash. Luckily theres no real damage and we patch her up and
+continue moving.
+
+The day is markedly different than the others, with some cloud cover, rain and
+even a little bit of snow. I learned my lesson back in Kyrgyzstan and brought an
+actual rain jacket this time, so I was adequately covered.
+It's nice and chilly while we move but we warm up.
+
+I'm moving a little faster than the day before, but we gain another two thousand
+feet so all my cardio progress at alitutde is moot. We pass through a sheperd
+camp, which is interesting, but nobody invites us in and we make it through
+without any angry sheepdogs chasing us. Theres a really cool feature near the
+sheperd camp where the rock cuts straight through a wall and out the other side,
+its like a gateway into the valley.
+
+It doesn't take long before we top out and we're walking through an alpine
+field, passing lakes as we hike up towards our high point. I'm moving _very_
+slowly, and the packs are exhausting. We stop and eat some tortilla + peanut
+butter, and nap for a minute in the sun. It's very nice.
+
+<img src="/static/img/tajikistan_2023/day_8_1.jpg"></img>
+
+Eventually we make it to camp for the night, around 14,500 feet. The wind comes
+and goes, with some light snow sprinkling, but it's pleasant aside from the
+trash everywhere. It kinda sucks when you work super hard to get up somewhere
+and theres just empty cans all over the place.
+
+<img src="/static/img/tajikistan_2023/day_8_2.jpg"></img>
+*Megan builds the dog a little windblock*
+
+We're both absolutely wasted, and fall asleep quickly. After my evening
+adventure coffee, of course.
+
+# Day 9
+
+<img src="/static/img/tajikistan_2023/day_9_0.jpg"></img>
+*One of the million bright blue alpine lakes we passed*
+
+It's our final day of going up, but we're largely trending down. We assumed it
+would go fast. We gave the dog more sausage, but we were starting to run low.
+The packs feel lighter, but stil very, very heavy. It feels silly to carry all
+this heavy paddling gear up so high.
+
+After passing through lower Vikhinj pass, we thought we'd be in the clear, but
+we're mostly walking on wobbly rock. The morraine that we'd pass through was
+especially difficult. It was, however, really cool to watch the river just completely disappear into
+the rock- totally gone. We would hear it echoing up sometimes through the
+rock as we wandered through the rifts and valleys of it.
+
+<img src="/static/img/tajikistan_2023/day_9_1.jpg"></img>
+*Walking along near the gorge below the morraine*
+
+I felt a lot better as we descended and was able to keep up with Megan and the
+dog (who didn't like to walk behind me because I was slow) and was infatuated
+with this class V gorge that emerged next to us. It started off okay looking but
+ended in a crazy, sieved out drop with huge boulders in it. Very cool.
+
+At some point our little spirit animal rolled in a dead cow along the trail so
+we had to give him some space, but we all made it to camp together. I don't
+think I've ever felt such a deep fatigue. At least [Sockdolager](https://sockdolagerequipment.com/)
+makes a comfortable pack so it wasn't too bad.
+
+<img src="/static/img/tajikistan_2023/day_9_2.jpg"></img>
+*Are we tired of alpine lakes yet?*
+
+Camp was a marked spot near a hot spring, so Megan was psyched. We are, again,
+totally exhausted, despite walking downhill. I eat chunks of sausage and feed
+the rest of it to the dog. We're optimistic about paddling out, but I'm not so
+sure, it looks steep.
+
+# Day 10
+
+<img src="/static/img/tajikistan_2023/day_10_0.jpg"></img>
+*The dog finds half of a marmot to eat on the trail*
+
+The final day- Megan wakes up super early to hike up to the hot springs. I hide
+in the tent for a while sipping coffee, before hiking a few miles sans-pack to
+check out our potential escape river. It looks steep, stiff and very fast so I
+make the decision not to run it. Luckily we have some of the best trail of the
+entire trip along the river, so we end up moving quickly.
+
+Megan eventually comes back down from the hot springs (which are apparently very
+cool, way high up the canyon) and we head out.
+
+<img src="/static/img/tajikistan_2023/day_10_1.jpg"></img>
+*Hiking out along the river*
+
+We spend the day eyeing rapids, walking along the trali, baking in the sun and
+stopping to eat. It's not bad, and we make pretty good time.
+
+<img src="/static/img/tajikistan_2023/day_10_2.jpg"></img>
+*Basking in a trail-side spring*
+
+We have to do a fairly serious river crossing towards the end of the day, so we
+think it's finally going to be time to say goodbye to the dog, but he ends up
+making it as well in a dramatic, disney-style moment. We're all pretty psyched
+on the last few miles into Bachor.
+
+We wander around for a little while before contacting Sharaf over at Pamir Trips
+to send us a driver, and we're invited in to stay with a family in the village.
+It's nice since there was a big group ahead of us and we weren't sure where we'd
+be able to spend the night.
+
+We eat our fill of cookies, fruit, potatoes, bread and drink more tea than you
+can imagine. The family is very nice and we have a good time before falling
+asleep at nine. Adventure completed.
+
+<img src="/static/img/tajikistan_2023/day_10_3.jpg"></img>
+*Fully zapped at the guest house*
+
+# Post-credits Scene
+
+Thanks for reading, I hope you enjoy the write-up. Thanks to Sockdolager for a
+great pack, Sharaf for running logistics, and Megan for still wanting to be
+married. It was a difficult trip, but not a hard one, and I am immensely
+proud of it. Heres to many more adventures in central asia in the future.
+
+Oh, and the dog is, as far as we know, living a happy, wild life in the town of
+Bachor. The last we saw he was making friends with a boy and some other dogs.
