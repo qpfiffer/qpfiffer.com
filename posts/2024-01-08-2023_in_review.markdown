@@ -1,0 +1,154 @@
+---
+title: 2021 In Review
+author: Quinlan Pfiffer
+bg-image: /static/img/bg-gradient.png
+bg-img-src: https://google.com/
+tags: year-end-review
+---
+
+Notables
+========
+
+### General
+
+It's been a strange year- I was sick for six weeks in the beginning and lost a
+lot of weight. It was not a Good Time. I've been off and on sick for the rest of
+the year- not ideal. In between that though there were some pretty good moments.
+The traveling continues:
+
+* Lived in San Carlos de Bariloche for the first few months of the Year
+* Lived in my car until July, paddling a bunch of whitewater
+* Lived in the Faroe Islands
+* Did a [pretty rad trip](/posts/2023-09-05-Tajikistan_2023.html) in Tajikistan
+* Lived in a comically small AirBnB in Snoqualmie pass for about a month
+* Lived in Mexico until the New Year, survived all the bad shit that happened there
+    * San Agustin Etla
+    * Jalcomulco!
+
+* M and I have been married for a year now, so that worked.
+* My spanish is much better now. Still transactionational.
+
+### Bikes
+
+* Finally got one- a Singlespeed new-gen Krampus. It's nice to have a bike again
+  waiting for me.
+
+### Running
+
+No big runs or anything this year other than a small vert race in September in
+Snoqualmie Pass. Lots of consistency though. Or trying to have lots of consistency.
+
+* The shin splints will continue until morale improves- I've been battling this
+  since my stress fracture in 2022. Giving my shins some good time off
+  currently.
+* Discovered running in sandals really works for me
+* Got back some fitness in Mexico, I ran a lot for me- the daily mile is a
+  really nice way to keep some consistency.
+
+### Adventure
+
+* [Tajikistan packrafting!](](/posts/2023-09-05-Tajikistan_2023.html)
+* Megan got me into the [daily cold dip](https://www.instagram.com/reel/Cveh_ibM_9f/) in the Faroes
+
+### Skiing
+
+* None at all! But we're in Japan now and skiing every day.
+
+### Climbing
+
+* Climbed at El Potrero Chico
+
+### Packrafting/Kayaking
+
+62 recorded days in the boat, with probably 5-6 more unrecorded. I'm pretty
+happy with that number considering how mobile we were.
+
+* St Joe Drainage
+    * My new favorite drainage- Slate Creek was a gem.
+* Lochsa Revenge (No swims!)
+* Little Salmon revenge (Didn't walk off!)
+* 3-bears on the metolious
+* Niagara on the Santiam
+* Hiked into [Canyon Creek (CA)](https://www.instagram.com/p/CtXSAAFyRL4/)
+* Paddled [Canyon Creek (WA)](https://www.instagram.com/reel/CsfaSsDAMzA/)
+* Paddled The E. Fork of the Lewis for the first time and didn't swim
+* Still can't reliably roll my packraft
+* John Day multiday with Jake
+
+### Strength/Fitness
+
+Mostly had to build back up from ground zero on this one, so no real
+break-throughs.
+
+### Books
+
+Too many audiobooks to count, which I don't, and only a handful of paper books.
+I decided not to write them down this last year, which I don't really like.
+
+_Living the Best Day Ever_ is my favorite book of all time. I return to it often.
+
+### Code
+
+I [rewrote the backend](https://github.com/qpfiffer/shithouse.tv/pull/36) for
+shithouse.tv which adds a cool, weird, custom Python <-> Lua binding. I like it.
+It was quite a lot of work, actually. Otherwise it was pretty Monday to Friday.
+[ReverseGPX](https://reversegpx.com/) continues to tick along with a few users.
+
+Regrets
+=======
+
+Goals from Last Year
+====================
+
+n/a
+
+Goals for 2024
+==============
+
+* Books
+    * Infinite Jest
+    * 2066
+    * Mao II
+    * Born to Run
+* Videography
+    * Shoot video every day
+    * Make some fun edits from Japan
+* Self
+    * New Tattoo
+    * Guitar Daily
+    * Weekly meditation
+    * Eat better - More veggies!
+    * Get resting heartrate under 50
+    * Wake up and go to bed consistently. Do the work.
+    * 20 consecutive pull-ups
+    * Cold Dips
+* Boating
+    * The Chetco/Tin Cup Creek/Illinois Triple
+    * Any one of those rivers ^^^
+    * Paddle in Ecuador, Kyrgyzstan or Zambia
+    * Live in Kernville
+* Running
+    * Fastpack something, preferably the Kalmiopsis
+    * Have a good 50k
+    * Have a good 50-miler
+    * Fix shin splints
+* Skiing
+    * Land a 180
+    * Learn to ride switch
+    * Don't get injured
+    * Do some cool spring touring
+    * Ski Yotei
+    * Visit a ghost resort
+* Relationships
+    * Monthly/Weekly check-ins with M
+    * Interact and support Mom/Dad/Cameron
+    * Hang out with close friends more often
+* Writing
+    * Write about Japan life
+    * Write about the GoPros I've been using
+
+Injuries
+========
+
+Besides being sick all the time and my chronic shin splints, I'm doing pretty
+well. Feeling pretty strong and fit.
