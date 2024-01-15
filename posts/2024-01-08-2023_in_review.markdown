@@ -1,5 +1,5 @@
 ---
-title: 2021 In Review
+title: 2023 In Review
 author: Quinlan Pfiffer
 bg-image: /static/img/bg-gradient.png
 bg-img-src: https://google.com/
