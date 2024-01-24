@@ -68,6 +68,7 @@ finish books. `(A)` denotes an audiobook.
 * The Lies of Locke Lamora - Scott Lynch
 * [Lolita](https://en.wikipedia.org/wiki/Lolita)
 * Maelstrom - Peter Watts
+* Mao II - Don Delillo
 * The Metamorphosis of Prime Intellect
 * Never Turn Back (Blackadar Biography) - Ron Watters
 * Nona the Ninth - Tamsyn Muir
