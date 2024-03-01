@@ -5,7 +5,7 @@ tags: outside, adventure, whitewater, packrafting
 bg-image: /static/img/nahanni_2022/header.jpg
 ---
 
-[Part 2.](/posts/posts/2022-08-30-Nahanni_2022.html)
+[Part 2.](/posts/2022-09-26-Nahanni_2022_pt_2.html)
 
 <iframe
 src="https://ridewithgps.com/embeds?type=trip&id=101495270&sampleGraph=true"
@@ -365,4 +365,4 @@ heavy, but that's tomorrow's problem.
 
 Next up: The cirque, fairy meadows. To be continued.
 
-[Continued over at art 2.](/posts/2022-08-30-Nahanni_2022.html)
+[Continued over at part 2.](/posts/2022-09-26-Nahanni_2022_pt_2.html)
