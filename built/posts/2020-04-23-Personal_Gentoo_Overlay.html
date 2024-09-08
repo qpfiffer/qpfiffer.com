@@ -91,12 +91,11 @@ href="https://sourcehut.org/">git hosting provider</a>.</p>
 bunch of random packages to do this, like Layman or Repoman, but I
 prefer to just change the files myself. The first thing to do is add
 your new repo to your <code>/etc/portage/repos.conf</code>:</p>
-<div class="sourceCode" id="cb4"><pre
-class="sourceCode conf"><code class="sourceCode toml"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">[qpfiffer]</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="dt">location</span> <span class="op">=</span> <span class="er">/</span><span class="dt">var</span><span class="er">/</span><span class="dt">db</span><span class="er">/</span><span class="dt">repos</span><span class="er">/</span><span class="dt">qpfiffer</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="dt">sync-type</span> <span class="op">=</span> <span class="dt">git</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="dt">sync-uri</span> <span class="op">=</span> <span class="dt">https</span><span class="er">://</span><span class="dt">git.sr.ht</span><span class="er">/~</span><span class="dt">qpfiffer</span><span class="er">/</span><span class="dt">overlay</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="dt">auto-sync</span> <span class="op">=</span> <span class="dt">yes</span></span></code></pre></div>
+<pre class="conf"><code>[qpfiffer]
+location = /var/db/repos/qpfiffer
+sync-type = git
+sync-uri = https://git.sr.ht/~qpfiffer/overlay
+auto-sync = yes</code></pre>
 <p>From there you should be able to sync it with the following
 command:</p>
 <div class="sourceCode" id="cb5"><pre
