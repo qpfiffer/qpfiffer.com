@@ -77,7 +77,7 @@ are the rivers and their status for my little project. I'll do write-ups for the
 * <span class="fail">Not Done</span> Malheur River (North Fork)
 * <span class="fail">Not Done</span> McKenzie River
 * <span class="unsure">Partially Completed</span> Metolius River
-* <span class="fail">Done</span> Minam River - Four day with a solid crew, ~350CFS
+* <span class="suc">Done</span> Minam River - Four day with a solid crew, ~350CFS
 * <span class="suc">Done</span> Molalla River - Three bears ~2500CFS? Maybe 2000? The gage is hard to read
 * <span class="fail">Not Done</span> Nestucca River
 * <span class="fail">Not Done</span> North Powder River
@@ -89,7 +89,7 @@ are the rivers and their status for my little project. I'll do write-ups for the
 * <span class="fail">Not Done</span> River Styx
 * <span class="fail">Not Done</span> Roaring River
 * <span class="fail">Not Done</span> Roaring River (South Fork)
-* <span class="fail">Done</span> Rogue River - Over labor day this year
+* <span class="suc">Done</span> Rogue River - Over labor day this year
 * <span class="fail">Not Done</span> Rogue River (Upper)
 * <span class="unsure">Partially Completed</span> Salmon River
 * <span class="suc">Done</span> Sandy River
