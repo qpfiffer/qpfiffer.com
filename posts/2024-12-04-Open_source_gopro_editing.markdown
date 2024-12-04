@@ -1,5 +1,5 @@
 ---
-title: Open Source GoProf Video Editing
+title: Open Source GoPro Video Editing
 author: Quinlan Pfiffer
 bg-image: /static/img/bg-gradient.png
 bg-img-src: https://google.com/
