@@ -11,36 +11,59 @@ Notables
 
 ### General
 
-It's been a strange year- I was sick for six weeks in the beginning and lost a
-lot of weight. It was not a Good Time. I've been off and on sick for the rest of
-the year- not ideal. In between that though there were some pretty good moments.
-The traveling continues:
-
-* Lived in San Carlos de Bariloche for the first few months of the Year
-* Lived in my car until July, paddling a bunch of whitewater
-* Lived in the Faroe Islands
-* Did a [pretty rad trip](/posts/2023-09-05-Tajikistan_2023.html) in Tajikistan
-* Lived in a comically small AirBnB in Snoqualmie pass for about a month
-* Lived in Mexico until the New Year, survived all the bad shit that happened there
-    * San Agustin Etla
-    * Jalcomulco!
-
-* M and I have been married for a year now, so that worked.
-* My spanish is much better now. Still transactionational.
+* A late-year stress fracture has gotten me into Disc Golf, Row-erging
 
 ### Bikes
 
-Last year's Krampus is now a 12-speed do-anything bike- we 
+Last year's Krampus is now a 12-speed do-anything bike- we did a two-day
+[bikepacking trip](https://www.strava.com/activities/11451175688) near our new home of Missoula and I was totally fried. I don't
+ride that much anymore.
+
+I did get the fixie out of storage and crush third at a local alleycat, so I've
+really been enjoying that.
 
 ### Running
 
+Other than a stress-fracture in October it was a good year. Ran both my races in
+sandals. I had some of the best weeks of training I've had in a few years in the
+middle there.
+
+* [Broken Arrow 46k](https://www.strava.com/activities/11715247916)
+* [Saddles 100 (50-miler)](https://www.strava.com/activities/12585263875)
+* [Didn't get the CR for this one segment](https://www.strava.com/segments/6583480?filter=overall)
+
 ### Adventure
 
+Solo Chetco was the stand-out highlight.
+
+* [The Chetco](https://www.youtube.com/watch?v=ZgCtjUbFFDw)
+* The upper Minam river was a super fun hike in
+
 ### Skiing
+
+Living and skiing in Japan, obviously. Doing a few light-duty tours in Missoula.
+
+* [Skiing Mt. Yotei](https://www.strava.com/activities/10831059844)
 
 ### Climbing
 
 ### Packrafting/Kayaking
+
+* Lots of White Salmon laps
+* [Lower V](https://www.strava.com/activities/11885534250)
+* Minam River
+* Chetco
+* Finally got on the Deadwood, which was amazing
+* Finally ran Staircase on the S. Fork Payette- it was fine.
+* Great packrafting round-up
+* Finally got a V3 Valkyrie
+* Finally got on the Rogue- it was great, very mellow
+* N. Fork Blackfoot
+* Got on [Slate Creek](https://www.strava.com/activities/11513734082) again
+* [Wild Mile](https://www.strava.com/activities/11219646001) on the Swan
+* Hiked up the middle fork of the flathead into the wilderness section
+* Also did a multiday on the middle segment with Megan and Jake
+* A couple smash n' grab laps on Meadwocamp, my favorite
 
 ### Strength/Fitness
 
@@ -70,6 +93,11 @@ All the usuals were there too: Starfish, some Void Star, Piranesi, Harrow/Gideon
 Ninth.
 
 ### Code
+
+Not much. Some [small](https://git.sr.ht/~qpfiffer/AirplaneMan) projects of
+[different kinds](https://git.sr.ht/~qpfiffer/GoPro-Browser). Random commits
+here and there. I joined the American Whitewater org to contribute a little bit
+at the end of the year, so thats' been fun.
 
 Regrets
 =======
