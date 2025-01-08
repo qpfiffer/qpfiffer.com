@@ -1,7 +1,7 @@
 ---
 title: 2024 In Review
 author: Quinlan Pfiffer
-bg-image: /static/img/bg-gradient.png
+bg-image: /static/img/2024.jpg
 bg-img-src: https://google.com/
 tags: year-end-review
 ---
@@ -41,13 +41,20 @@ Solo Chetco was the stand-out highlight.
 
 ### Skiing
 
+~50 days of skiing last year. Most of them at Rusutsu.
+
 Living and skiing in Japan, obviously. Doing a few light-duty tours in Missoula.
 
 * [Skiing Mt. Yotei](https://www.strava.com/activities/10831059844)
 
 ### Climbing
 
+Bailed off of Infinite Bliss. Thats about all the climbing I did.
+
 ### Packrafting/Kayaking
+
+~73 days in a boat, probably more. A few unrecorded laps and random wave
+sessions.
 
 * Lots of White Salmon laps
 * [Lower V](https://www.strava.com/activities/11885534250)
@@ -64,8 +71,15 @@ Living and skiing in Japan, obviously. Doing a few light-duty tours in Missoula.
 * Hiked up the middle fork of the flathead into the wilderness section
 * Also did a multiday on the middle segment with Megan and Jake
 * A couple smash n' grab laps on Meadwocamp, my favorite
+* Got both a new Ripper 2 and a Firecracker 242.
+
+Among many others. Didn't make it to Kyrgyzstan.
 
 ### Strength/Fitness
+
+Now that I live somewhere I've been able to focus a lot more on strength. I was
+able to complete my goal of 20 consecutirve pull-ups after doing a partial
+Armstrong-program in November after my stress fracture. Yee-haw.
 
 ### Books
 
@@ -101,13 +115,6 @@ at the end of the year, so thats' been fun.
 
 Regrets
 =======
-
-* Books
-* Videography
-    * Make more short films- [Rollerboating](https://www.youtube.com/watch?v=9JJtJ_tE4L4) was fun to
-      shoot and put together.
-* Running/Skiing
-    * 500k vertical feet of gain
 
 Goals from Last Year
 ====================
@@ -157,10 +164,32 @@ Goals from Last Year
 Goals for 2024
 ==============
 
+* Self
+    * Stay healthy
+    * New tattoo
+    * Stop renting
+* Books
+    * Finish 2666
+    * Read three other difficult books (No rereads!)
+* Videography
+    * Make more short films- [Rollerboating](https://www.youtube.com/watch?v=9JJtJ_tE4L4) was fun to
+      shoot and put together.
+* Paddling
+    * Tin Cup
+    * Illinois
+    * South Fork Flathead
+    * Futaleufu/Zambezi
+* Running/Skiing
+    * 500k vertical feet of gain
+    * The RUT
+    * Go for an FKT with M
+* Writing
+    * More Trip Reports, Blog Posts, Journal entries
+
 Injuries
 ========
 
 Well the stress-fracture has sucked, but it's really highlighted other things
 and let me focus on other activities. I'm still excited to come back for 2025
 and start running again. We have a hill in town, Mt. Sentinel, that is 1900 feet
-up in 1.6 miles and I love it. This will be a very-heavy year.
+up in 1.6 miles and I love it. This will be a vert-heavy year.
