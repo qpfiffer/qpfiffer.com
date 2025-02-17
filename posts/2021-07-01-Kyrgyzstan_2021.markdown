@@ -1,7 +1,7 @@
 ---
 title: Kyrgyzstan 2021 Part 1
 author: Quinlan Pfiffer
-tags: outside, adventure, bikepacking
+tags: travel, outside, adventure, bikepacking
 bg-image: /static/img/kyrgyzstan_2021/header.jpg
 ---
 

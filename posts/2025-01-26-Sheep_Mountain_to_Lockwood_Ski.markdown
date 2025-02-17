@@ -3,7 +3,7 @@ title: Skiing Sheep Mountain to Lockwood
 author: Quinlan Pfiffer
 bg-image: /static/img/sheepwood_bg.jpg
 bg-img-src: https://google.com/
-tags: Ski, Missoula
+tags: ski, missoula
 ---
 
 <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="13453174278" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>

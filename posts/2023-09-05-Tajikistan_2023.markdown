@@ -1,7 +1,7 @@
 ---
 title: Murghab/Мургаб River, Tajikistan 2023
 author: Quinlan Pfiffer
-tags: outside, adventure, packrafting
+tags: travel, outside, adventure, packrafting
 bg-image: /static/img/tajikistan_2023/header.jpg
 ---
 
