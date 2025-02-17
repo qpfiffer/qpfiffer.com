@@ -47,7 +47,7 @@ p code {
 	font-size: 10px;
 }
 .blog_container img {
-	max-height: 450px;
+	/* max-height: 450px; */
 	max-width: 100%;
 	display: block;
 	margin-left: auto;
