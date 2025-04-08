@@ -1,7 +1,7 @@
 ---
 title: Tin Cup Creek
 author: Quinlan Pfiffer
-bg-image: /static/img/car_life_bg.jpg
+bg-image: /static/img/tin_cup_bg.jpg
 bg-img-src: https://google.com/
 tags: adventure, packrafting, whitewater
 ---
