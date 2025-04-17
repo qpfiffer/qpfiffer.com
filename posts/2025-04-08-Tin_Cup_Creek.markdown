@@ -79,7 +79,7 @@ were super accurate and the descriptions were great.
 *South Bend camp*
 
 We were able to camp right at South Bend, a good ways above Green Wall, and
-scout out the start to our "hike" a little bit. We spend the evening swapping
+scout out the start to our "hike" a little bit. We spent the evening swapping
 stories and drinking a little whisky.
 
 # Day 2
