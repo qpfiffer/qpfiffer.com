@@ -6,6 +6,8 @@ bg-img-src: https://google.com/
 tags: adventure, packrafting, whitewater
 ---
 
+## Watch the video [here](https://youtu.be/auxwMHJZGo0?si=7HdJOrlTTGIuiRig)
+
 <iframe loading="lazy" src="https://caltopo.com/m/T88Q53Q" width="600" height="400"></iframe>
 
 # Background
@@ -117,15 +119,16 @@ clearish area next to a burned tree and rest. It was very slow going.
 <img loading="lazy" src="/static/img/tin_cup/day_2_2.jpg"></img>
 
 Eventually we made it to leveler, clearer ground at a sort of plateau, where I
-discovered my PFD had come off somewhere in the bushwhack. I had a sort-of good
-idea where it'd happened, so off I went back down the hill. It took me 40
+discovered my PFD had come off somewhere in the bushwhack. I didn't think it
+would be too far from the top, so off I went back down the hill. It took me 40
 minutes to find it, but I did.
 
 <img loading="lazy" src="/static/img/tin_cup/day_2_3.jpg"></img>
+*Re-cresting the lip of the plateau after rescuing my life jacket*
 
 From there it was a little easier going up until the very top of the pass, but
 not much. We were kind of wasted and I was definitely dehydrated. Lots of
-cramping. We briefly celebrated with a snack up at the very top and then started
+cramping. We briefly celebrated with a snack up at the crest of the pass and then started
 picking our way down. A small spring helped us get back on top of the
 dehydration spiral.
 
@@ -156,3 +159,63 @@ both of us near a waterfall. It didn't take us long to fall asleep.
 
 <img loading="lazy" src="/static/img/tin_cup/day_3_0.jpg"></img>
 *Tin Camp, photo cr. Jacob Cruser*
+
+We were lucky and slept a lot warmer. Jacob tried to ol' alpine
+Nalgene-full-of-hot-water trick and I guess it more or less worked out for him.
+We weren't particularly fast out of camp, but we still managed to start
+inflating boats just before 9AM.
+
+<img loading="lazy" src="/static/img/tin_cup/day_3_4.jpg"></img>
+*A nice boof mid-rapid, higher up*
+
+Our first section was definitely different than the evening before, it opened up
+and a more wood was present. We had okay-lines through some marginal rapids,
+and did a couple wood portages. There was an incredible ~5-8 foot boof that
+would have been really sweet if it hand't been for the tree stuck in it.
+
+<img loading="lazy" src="/static/img/tin_cup/day_3_2.jpg"></img>
+*Boofing a nice ledge on a higher quality rapid before the step section*
+
+At some point I had a nice pin-to-aggressive self-exit, and another random
+flip-to-combat-roll, both caused by extremely sticky rocks. We were both pretty
+cautious about rocky lines after that. Something about the geology and lack of
+algae really makes packrafts stick to rocks in there.
+
+<img loading="lazy" src="/static/img/tin_cup/day_3_3.jpg"></img>
+*Photo Credit Jacob Cruser*
+
+Around where Darling Creek comes in the rapids became a lot more bouldery and
+much steeper: We did quite a bit of portaging through here, with some nice
+gems sprinkled in.
+
+<img loading="lazy" src="/static/img/tin_cup/day_3_1.jpg"></img>
+*Jacob somewhere on the second half*
+
+I pinned again, there was more portaging, and then things tapered off to around 50FPM 
+about a mile about the confluence. We had some final portages and nicer rapids into the Chetco. 
+Both stoke and fatigue were high with another 15 miles of Chetco to go.
+
+<img loading="lazy" src="/static/img/tin_cup/confluence_2.jpg"></img>
+*The confluence: Tin Cup on the left, Chetco on the right*
+
+We were definitely fading paddling through this section: the hike had really
+taken it out of us. At one point we were scouting one of the last big drops
+below Tollman Ranch and I could not remember what path we took to get back to
+the boats. It was kind of amazing.
+
+We made it back to the car without incident, a day ahead of schedule, and
+completed the shuttle. I said goodbye to Jacob, drove through Grant's Pass to
+eat a bunch of fast food and fell asleep at a rest stop. Goal achieved.
+
+# Epilogue
+
+I wouldn't really recommend this route to anyone: the bushwhack is insane, but
+the Illinois to Chetco link-up needed to happen. I felt extremely lucky that we 
+were able to make it up. I would recommend that the
+ambitious hike in on the Kalmiopsis Rim Trail and drop
+into the headwaters. Preferably with a good amount of water in the Chetco,
+like 4k+. 
+
+There are still mysteries to be solved in there, including
+"waterfalls" of a dubious nature and quality. The Kalmiopsis Wilderness is a
+special place, and it rewards those ambitious few willing to dream a little bit.
