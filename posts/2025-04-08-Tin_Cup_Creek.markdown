@@ -169,7 +169,7 @@ inflating boats just before 9AM.
 *A nice boof mid-rapid, higher up*
 
 Our first section was definitely different than the evening before, it opened up
-and a more wood was present. We had okay-lines through some marginal rapids,
+and more wood was present. We had okay-lines through some marginal rapids,
 and did a couple wood portages. There was an incredible ~5-8 foot boof that
 would have been really sweet if it hand't been for the tree stuck in it.
 
