@@ -170,7 +170,7 @@ inflating boats just before 9AM.
 
 Our first section was definitely different than the evening before, it opened up
 and more wood was present. We had okay-lines through some marginal rapids,
-and did a couple wood portages. There was an incredible ~5-8 foot boof that
+and did a couple portages around strainers. There was an incredible ~5-8 foot boof that
 would have been really sweet if it hand't been for the tree stuck in it.
 
 <img loading="lazy" src="/static/img/tin_cup/day_3_2.jpg"></img>
