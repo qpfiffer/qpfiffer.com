@@ -91,7 +91,7 @@ stories and drinking a little whisky.
 # Day 2
 
 <img loading="lazy" src="/static/img/tin_cup/day_2_0.jpg"></img>
-*Jacob takes the opportunity to stay above the foliage*
+*Jacob takes an opporunity to stay above the foliage*
 
 Neither of us slept super well: cold and wet. Back in the cloud. We ate and
 packed up, leaving around 9.
