@@ -10,6 +10,10 @@ tags: adventure, packrafting, whitewater
 
 <iframe loading="lazy" src="https://caltopo.com/m/T88Q53Q" width="600" height="400"></iframe>
 
+Quick shout out to [Sockdolager Equipment](https://sockdolagerequipment.com/)
+for providing a pack, pogies and my personal favorite, the [tri-tip inflation
+adapter.](https://sockdolagerequipment.com/products/tri-tip-pack-a-pump-adapter)
+
 # Background
 
 Tin Cup Creek is an unpaddled tributary of the Chetco River in the Klamiopsis
