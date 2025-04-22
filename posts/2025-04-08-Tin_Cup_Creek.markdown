@@ -164,7 +164,7 @@ both of us near a waterfall. It didn't take us long to fall asleep.
 <img loading="lazy" src="/static/img/tin_cup/day_3_0.jpg"></img>
 *Tin Camp, photo cr. Jacob Cruser*
 
-We were lucky and slept a lot warmer. Jacob tried to ol' alpine
+We were lucky and slept a lot warmer. Jacob tried the ol' Alpine
 Nalgene-full-of-hot-water trick and I guess it more or less worked out for him.
 We weren't particularly fast out of camp, but we still managed to start
 inflating boats just before 9AM.
