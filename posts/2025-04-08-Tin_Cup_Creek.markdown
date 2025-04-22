@@ -16,7 +16,7 @@ adapter.](https://sockdolagerequipment.com/products/tri-tip-pack-a-pump-adapter)
 
 # Background
 
-Tin Cup Creek is an unpaddled tributary of the Chetco River in the Klamiopsis
+Tin Cup Creek is an unpaddled tributary of the Chetco River in the Kalmiopsis
 Wilderness of southern Oregon. It's access is both unmaintained and extremely
 difficult, which is why, until now, no one has gotten in there to check it out.
 
