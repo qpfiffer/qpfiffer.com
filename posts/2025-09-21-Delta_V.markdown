@@ -1,0 +1,178 @@
+---
+title: Running for me in 2025
+author: Quinlan Pfiffer
+bg-image: /static/img/rut_2025.jpg
+bg-img-src: https://google.com/
+tags: running
+---
+
+Running this year has been really good for me. It's been quite a long time since
+I've felt good pounding pavement or trails, even though I've kept trying. 
+Damaging my achilles in Kyrgyzstan back in 2022, then two stress fractures
+since then has really made it painful and difficult. I've kept doing random
+races here and there, but chronic lower leg pain was always there. Numerous PTs
+have told me that I have weak Soleus muscles (the part of your calf that engages
+when your leg is bent 90 degrees) but I've always wondered if there was something
+else I could be doing.
+
+[Last year](http://localhost:8000/posts/2025-01-02-2024_in_review.html) was a
+fun diversion into running in sandals: I really enjoyed this, but it ultimately
+ended with another stress fracture which knocked me out of running at all for
+three months. That was a tough time. I've had some light goals this year, one of
+which was just a nebulous "fix shin splints". I've taken this quite seriously,
+and I just wanted to write down what I felt really worked for me this year.
+
+For the bullet points, it's this:
+
+* Eat more
+* Listen to non-obvious symptoms
+* Run slower
+* Expand your time horizons
+* Do your strength work
+* Lean into hiking vert
+* Sleep more
+* Structure
+
+## Eat More
+
+This was a big one: It's been in fashion to do fasted running for a little
+while. Back in my mid-to-late 20s I could handle this, I would just pound a few
+cups of coffee and go screaming out the door. This no longer works. There have
+been [several studies](https://pubmed.ncbi.nlm.nih.gov/39485653/) linking low
+energy availability and an increased risk for injury rate.
+
+Now, I either run in the afternoon (after I've had a chance to eat a few times)
+or just makes sure I have a banana or something before going out in the
+morning. This segues well into...
+
+## Listen to non-obvious symptoms
+
+Previously I would go out pretty hard, quite often, with no warm-up. I started
+paying attention to how I felt after these runs, since they would totally drain
+me. I'd feel exhausted and I'd have this empty feeling: Not quite
+hunger, just a void, mostly in the pit of my stomach.
+
+Obviously this isn't sustainable, but I used to not be bothered by it. A big
+part of training this year has just been more time in zone 2, which means easy
+runs need to feel easy. If you don't feel like you could run again at that same
+pace for another hour, it was probably too hard.
+
+Theres a time and a place for The Empty Pit, but it's not that often and if you
+fuel, it doesn't happen anyway.
+
+## Run Slower
+
+Zone 2 training, or aerobic base training, takes a long, long time. Megan, my
+partner, got me into running, and I used to have a much better ability to just
+turn on the gas and charge. I can't do that so much anymore since I'm not racing
+track bikes at the velodrome.
+
+I've never had much of an aerobic base, so even though I could keep up with
+people, it cost a lot more to do so. This year I've taken a conscious effort,
+checked the ego, and just run a lot slower.
+
+I used to feel kind of shameful if I was going out for a run and it was slower
+than 8:30-per-mile pace. I've really dialed that back, and now I shoot for 10:00
+minute miles out the door. If it's an easy day and I'm feeling good, it'll
+probably ramp up naturally to around 9:00 and stay there.
+
+This has several benefits: I can run more miles in the week, and I feel great
+after every run. Running slower has let my tendons adapt much better as well,
+and I'm able to do a lot of easy days in the week.
+
+Last year it would have been unimaginable to do back-to-back days of running.
+Now I can more or less run every day, but I try to keep it to 5-6 days per week.
+
+## Expand Your Time Horizons
+
+Theres a lot of literature that goes something like this: You are training for a
+big goal, and your time before that goal is cut into blocks. Each block is
+specific to a certain part of achieving that goal (base, strength, specificity,
+whatever).
+
+This is a very important concept: You are not trying to get the most out of
+yourself _today_. You are trying to get the most out of yourself on a _certain_
+day, sometime in the future. With this in mind: if you feel terrible, it's not
+worth pushing into a potentially sick/injured state because you wanted to run a
+little faster today.
+
+I think about this a lot during the week: Is what I'm doing today impacting how
+I'm running this week? If I go too hard, will I need to take an extra rest day
+when I could have been stacking on miles? I will often times take rest days to
+stay on top of this concept: If I have a big saturday/sunday combo, then I'll
+take Friday off if I don't feel 100%.
+
+The entire training block is the most important thing. How much can I do this
+week? This month?
+
+## Do Your Strength Work
+
+A big part of running is resisting impact. The things that do this, specific to
+the sport, are muscles, tendons and a bit of bone. Lower leg injuries have
+plagued me a lot the last few years, and usually it happens like this: We feel
+good running, so we run more, then our body can't adapt enough, and tendons take
+on extra load because the muscles are weak. Tendons with extra load pull on the
+bones, and the bones get injured.
+
+I'm not really sure if this is 100% correct, but it's how I think about it:
+Injuries are the results of cascading, systemic failure.
+
+An important part of the chain is strength: You need to lift heavy and target
+the things that keep you from getting hurt. One of the things I've focused on
+this year is
+soleus raises (seated calf raises) because I can target the achilles tendon and
+my weak calf muscles. This helped a _ton_ in the early season when I was
+starting to ramp up mileage. I also squat and deadlift a bit, which helps in
+general.
+
+## Lean Into Hiking Vert
+
+We have a hill here, Mt Sentinel. To reach it's summit along the steep NW ridge
+is a 1.6 mile trail with 1900 feet of vertical gain. It is probably my favorite
+thing in Missoula. I'm out there pretty often. It's broken up into two sections: The
+bottom steep part and the upper slightly-less-steep part.
+
+You can't really run the bottom part of the NW ridge (although some badasses
+can, I think) so it is great to work on consistent, targeted, steep efforts. I
+go out there and look for a certain heartrate and climb like I can hear a
+metronome. I keep my heels raised so only my forefoot is contacting the trail.
+
+There are a bunch of studies [out there](https://pmc.ncbi.nlm.nih.gov/articles/PMC2278867/) to
+suggest that tendons heal and gain strength through load, but it has to be
+prolonged. Isometric loading of tendons with a good amount of weight has been
+shown to do both. Hiking uphill in this way targets your tendons isometrically
+because your heels are raised. It's a great way to build strength all through
+your legs while also helping lagging calves.
+
+## Sleep More
+
+I've started sleeping in a bit: If I feel like I need it, I do it. Oftentimes I
+don't need it. Sometimes I really do. I just let my body do it's thing,
+sometimes it's 7 hours sometimes it's closer to 9 a night.
+
+Sleep is recovery and recovery is the hardest part of running.
+
+## Structure
+
+This evolves, but my weekly training more or less goes like this:
+
+```
+Monday: Off
+Tuesday: Some kind of targeted workout: Speed, power, VO2 training.
+Wednesday: Easy run
+Thursday: Easy run or another workout
+Friday: Off or Easy
+Saturday: Long run
+Sunday: Off or Easy
+```
+
+This has a good cadence, and I can vary it based on when my next race is or what
+I'm trying to do. It's also pretty sustainable indefinitely. If/when I get
+smarter and start upping the mileage to 50+ pretty regularly, I'll start working
+in deload weeks. Until this, I like this a lot and I can do a lot with it.
+
+---
+
+I mostly wanted to write this down for myself, in case I need to stop running
+and start it over again. It's brought a lot into my life this year already and
+I'm pretty excited every time I go out there door.
